@@ -5,6 +5,8 @@ import {
   set_sidebar
 } from "../utils/auto-sidebar.mjs"; // 改成自己的路径
 
+import markdownItMark from 'markdown-it-mark'
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // 网页图标
@@ -16,11 +18,23 @@ export default defineConfig({
   ],
   title: "小鹏的Blogs",
   description: "A VitePress Site",
+
+  markdown: {
+    // 扩展 markdown-it 配置
+    config: (md) => {
+      md.use(markdownItMark)
+    },
+
+    // 允许 HTML 标签（防御性配置）
+    html: true
+  },
+
+  // 主题配置
   themeConfig: {
     // 侧边栏-目录设置
     outlineTitle: '目录',
     //outline: 'deep',
-    outline: [2, 6],
+    outline: [2, 3],
     // 左上角logo
     logo: '/blog-logo.png',
     // https://vitepress.dev/reference/default-theme-config
@@ -102,6 +116,7 @@ export default defineConfig({
       icon: 'github',
       link: 'https://github.com/vuejs/vitepress'
     }],
+    
     // 底部配置
     footer: {
       message: 'Released under the MIT License.',

@@ -178,3 +178,13 @@
 }
 
 */
+
+/* 高亮样式 */
+mark {
+  background: linear-gradient(to right, #ffec99 0%, #ffd43b 100%);
+  padding: 0.15em 0.3em;
+  border-radius: 3px;
+  box-decoration-break: clone; /* 解决换行断开问题 */
+  -webkit-box-decoration-break: clone;
+}
+

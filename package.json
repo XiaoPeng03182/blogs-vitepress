@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "markdown-it-mark": "^4.0.0",
     "vitepress": "^1.6.3"
   },
   "scripts": {
