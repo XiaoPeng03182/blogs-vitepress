@@ -23,21 +23,37 @@ export default defineConfig({
 
   lastUpdated: true, //首次配置不会立即生效，需git提交后爬取时间戳
 
-  // markdown-it 插件
+  // markdown 配置
   markdown: {
     // 扩展 markdown-it 配置
     config: (md) => {
       md.use(markdownItMark)
+      md.renderer.rules.heading_close = (tokens, idx, options, env, slf) => {
+        let htmlResult = slf.renderToken(tokens, idx, options);
+        if (tokens[idx].tag === 'h1') htmlResult += `<ArticleMetadata />`; 
+        return htmlResult;
+    }
     },
 
+    
     // 允许 HTML 标签（防御性配置）
-    html: true
+    html: true,
+    image: {
+      // 开启图片懒加载
+      lazyLoading: true
+    },
   },
 
   // 主题配置
   themeConfig: {
-     //上次更新时间 //
-     lastUpdated: {
+    //自定义上下页名 //
+    docFooter: {
+      prev: '上一篇',
+      next: '下一篇',
+    },
+
+    //上次更新时间 
+    lastUpdated: {
       text: '最后更新于',
       formatOptions: {
         dateStyle: 'short', // 可选值full、long、medium、short
@@ -45,13 +61,13 @@ export default defineConfig({
       },
     },
     //返回顶部文字修改
-    returnToTopLabel:'返回顶部',
+    returnToTopLabel: '返回顶部',
     // 侧边栏-目录设置
     outlineTitle: '目录',
     //outline: 'deep',
     //outline: [2, 3],
-    outline: { 
-      level: [2,4], // 显示2-4级标题
+    outline: {
+      level: [2, 4], // 显示2-4级标题
       // level: 'deep', // 显示2-6级标题
       //label: '当前页大纲' // 文字显示
     },
