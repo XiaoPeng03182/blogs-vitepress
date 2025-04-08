@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "XiaoPeng的博客"
-  text: "一个记录学习的博客"
+  name: "XiaoPeng的Notes"
+  text: "一个记录学习的笔记"
   tagline: Life is coding, I will debug it.
   image:
     src: /coding-background.png

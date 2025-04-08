@@ -7,6 +7,10 @@ import {
 
 import markdownItMark from 'markdown-it-mark'
 
+import {
+  nav
+} from './myconfigs'
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // 语言
@@ -18,24 +22,34 @@ export default defineConfig({
       href: '/blog-logo.png'
     }]
   ],
-  title: "小鹏的Blogs",
+  title: "小鹏的Notes",
   description: "A VitePress Site",
 
   lastUpdated: true, //首次配置不会立即生效，需git提交后爬取时间戳
+
+  // vite: {
+  //   vue: {
+  //     template: {
+  //       compilerOptions: {
+  //         whitespace: 'preserve'  // 更宽松的解析
+  //       }
+  //     }
+  //   }
+  // },
 
   // markdown 配置
   markdown: {
     // 扩展 markdown-it 配置
     config: (md) => {
+      // md.set({ breaks: true })
       md.use(markdownItMark)
       md.renderer.rules.heading_close = (tokens, idx, options, env, slf) => {
         let htmlResult = slf.renderToken(tokens, idx, options);
-        if (tokens[idx].tag === 'h1') htmlResult += `<ArticleMetadata />`; 
+        if (tokens[idx].tag === 'h1') htmlResult += `<ArticleMetadata />`;
         return htmlResult;
-    }
+      }
     },
 
-    
     // 允许 HTML 标签（防御性配置）
     html: true,
     image: {
@@ -74,13 +88,14 @@ export default defineConfig({
     // 左上角logo
     logo: '/blog-logo.png',
     // https://vitepress.dev/reference/default-theme-config
+
     nav: [{
         text: 'Home',
         link: '/'
       },
       {
-        text: 'Examples',
-        link: '/markdown-examples'
+        text: '笔记汇总',
+        link: '/api-examples'
       },
       {
         text: 'Java基础学习',
@@ -94,7 +109,6 @@ export default defineConfig({
           },
         ]
       },
-
       {
         text: '中间件',
         items: [{
@@ -103,23 +117,12 @@ export default defineConfig({
         }, ]
       },
       {
-        text: '示例文档',
-        collapsed: false, // true默认展开,false:折叠
-        items: [{
-          text: 'api-examples',
-          link: '/backend/example/api-examples.md'
-        }, {
-          text: 'markdown-examples',
-          link: '/backend/example/markdown-examples.md'
-        }, ]
-      },
-      {
         text: 'Linux学习',
         link: '/linux-learning/Linux-Learning-Local.md'
       }
     ],
 
-    // sidebar: [
+
     //   {
     //     text: 'Examples',
     //     items: [
@@ -129,26 +132,99 @@ export default defineConfig({
     //   }
     // ],
     // 侧边栏-自动生成目录
-    sidebar: {
-      "/backend/rabbitmq": set_sidebar("/backend/rabbitmq"),
-      "/backend/example": set_sidebar("/backend/example"),
+    // sidebar: {
+    //   "/backend/rabbitmq": set_sidebar("/backend/rabbitmq"),
+    //   "/backend/example": set_sidebar("/backend/example"),
+    //   "/notes": set_sidebar("/"),
+    // },
+    sidebar: [{
+      text: '介绍',
+      collapsed: false, // true默认展开,false:折叠
+      items: [{
+        text: 'Markdown Examples',
+        link: '/markdown-examples'
+      }]
+    }, {
+      text: 'Java基础学习',
+      collapsed: false, // true默认展开,false:折叠
+      items: [{
+          text: 'Java基础知识',
+          link: '/java-base/Java-Learning-Local.md'
+        }, {
+          text: 'Java集合',
+          link: '/java-base/集合/集合-Local.md'
+        },
+        {
+          text: 'IO流',
+          link: '/java-base/IO/IO流-Local.md'
+        },
+        {
+          text: '多线程',
+          link: '/java-base/多线程/多线程-Local.md'
+        },
+        {
+          text: 'File',
+          link: '/java-base/File/File-Local.md'
+        }, {
+          text: '异常',
+          link: '/java-base/异常/异常-Local.md'
+        },
+        {
+          text: '网络编程',
+          link: '/java-base/网络编程/网络编程-Local.md'
+        },
+        {
+          text: '注解',
+          link: '/java-base/注解/注解-Local.md'
+        },
+        {
+          text: 'Stream流',
+          link: '/java-base/Stream/Stream流-Local.md'
+        },
+        {
+          text: 'Log日志',
+          link: '/java-base/log/Log日志-Local.md'
+        },
+        {
+          text: 'XML',
+          link: '/java-base/Xml/XML-Local.md'
+        },
+        {
+          text: '反射和动态代理',
+          link: '/java-base/反射和动态代理/反射和动态代理-Local.md'
+        },
+        {
+          text: '方法引用',
+          link: '/java-base/方法引用/方法引用-Local.md'
+        },
+        {
+          text: '单元测试',
+          link: '/java-base/单元测试/单元测试-Local.md'
+        },
+        {
+          text: '类加载器',
+          link: '/java-base/类加载器/类加载器-Local.md'
+        },
+      ]
     },
-    // {
-    //   text: 'Examples',
-    //   items: [{
-    //       text: 'Markdown Examples',
-    //       link: '/markdown-examples'
-    //     },
-    //     {
-    //       text: 'Runtime API Examples',
-    //       link: '/api-examples'
-    //     }
-    //   ]
-    // }
-    // ],
+    {
+      text: 'Spring Cloud 微服务',
+      collapsed: false, // true默认展开,false:折叠
+      items: [{
+          text: 'SpringCloud学习',
+          link: '/Spring-Cloud/微服务SpringCloud-Local.md'
+        }, {
+          text: 'Java集合',
+          link: '/java-base/集合/集合-Local.md'
+        },
+      ]
+    }
+  ],
+
     // sidebar: false, // 关闭左侧侧边栏
     // aside: "left", // 设置右侧侧边栏(目录)在左侧显示
 
+    // 社交链接
     socialLinks: [{
         icon: 'github',
         link: 'https://github.com/vuejs/vitepress'
