@@ -61,6 +61,16 @@ export default defineConfig({
           text: 'markdown-examples',
           link: '/backend/example/markdown-examples.md'
         }, ]
+      },
+      {
+        text: '示例文档2',
+        items: [{
+          text: 'api-examples',
+          link: '/backend/example/api-examples.md'
+        }, {
+          text: 'markdown-examples',
+          link: '/backend/example/markdown-examples.md'
+        }, ]
       }
     ],
 
