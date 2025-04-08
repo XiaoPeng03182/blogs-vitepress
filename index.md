@@ -9,6 +9,7 @@ hero:
   image:
     src: /coding-background.png
     alt: 背景图片
+    
   actions:
     - theme: brand
       text: Markdown示例
@@ -25,3 +26,6 @@ features:
   - title: Feature C
     details: 特征C的描述
 
+---
+
+<confetti />

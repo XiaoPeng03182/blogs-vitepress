@@ -19,6 +19,9 @@ import {
   useRoute
 } from 'vitepress';
 
+import confetti from "./components/confetti.vue"
+
+
 // 彩虹背景动画样式
 let homePageStyle
 
@@ -60,6 +63,7 @@ export default {
     // 注册全局组件
     app.component('update', update)
     app.component('ArticleMetadata', ArticleMetadata)
+    app.component('confetti' , confetti)
 
     // 彩虹背景动画样式
     if (typeof window !== 'undefined') {
