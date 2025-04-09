@@ -9,7 +9,9 @@ import markdownItMark from 'markdown-it-mark'
 
 import {
   nav
-} from './myconfigs'
+} from './myconfigs/index.ts'
+
+import { iconMap } from './theme/utils/iconMap.ts'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -138,88 +140,87 @@ export default defineConfig({
     //   "/notes": set_sidebar("/"),
     // },
     sidebar: [{
-      text: '介绍',
-      collapsed: false, // true默认展开,false:折叠
-      items: [{
-        text: 'Markdown Examples',
-        link: '/markdown-examples'
-      }]
-    }, {
-      text: 'Java基础学习',
-      collapsed: false, // true默认展开,false:折叠
-      items: [{
-          text: 'Java基础知识',
-          link: '/java-base/Java-Learning-Local.md'
-        }, {
-          text: 'Java集合',
-          link: '/java-base/集合/集合-Local.md'
-        },
-        {
-          text: 'IO流',
-          link: '/java-base/IO/IO流-Local.md'
-        },
-        {
-          text: '多线程',
-          link: '/java-base/多线程/多线程-Local.md'
-        },
-        {
-          text: 'File',
-          link: '/java-base/File/File-Local.md'
-        }, {
-          text: '异常',
-          link: '/java-base/异常/异常-Local.md'
-        },
-        {
-          text: '网络编程',
-          link: '/java-base/网络编程/网络编程-Local.md'
-        },
-        {
-          text: '注解',
-          link: '/java-base/注解/注解-Local.md'
-        },
-        {
-          text: 'Stream流',
-          link: '/java-base/Stream/Stream流-Local.md'
-        },
-        {
-          text: 'Log日志',
-          link: '/java-base/log/Log日志-Local.md'
-        },
-        {
-          text: 'XML',
-          link: '/java-base/Xml/XML-Local.md'
-        },
-        {
-          text: '反射和动态代理',
-          link: '/java-base/反射和动态代理/反射和动态代理-Local.md'
-        },
-        {
-          text: '方法引用',
-          link: '/java-base/方法引用/方法引用-Local.md'
-        },
-        {
-          text: '单元测试',
-          link: '/java-base/单元测试/单元测试-Local.md'
-        },
-        {
-          text: '类加载器',
-          link: '/java-base/类加载器/类加载器-Local.md'
-        },
-      ]
-    },
-    {
-      text: 'Spring Cloud 微服务',
-      collapsed: false, // true默认展开,false:折叠
-      items: [{
+        text: '介绍',
+        collapsed: false, // true默认展开,false:折叠
+        items: [{
+          text: 'Markdown Examples',
+          link: '/markdown-examples'
+        }]
+      }, {
+        text: `${iconMap.java} Java基础学习`,
+        collapsed: false, // true默认展开,false:折叠
+        items: [{
+            text:  `${iconMap.java_base} Java基础知识`,
+            link: '/java-base/Java-Learning-Local.md'
+          }, {
+            text: `${iconMap.collection} Java集合`,
+            link: '/java-base/集合/集合-Local.md'
+          },
+          {
+            text: `${iconMap.io_stream} IO流`,
+            link: '/java-base/IO/IO流-Local.md'
+          },
+          {
+            text: `${iconMap.thread} 多线程`,
+            link: '/java-base/多线程/多线程-Local.md'
+          },
+          {
+            text: `${iconMap.file} File文件`,
+            link: '/java-base/File/File-Local.md'
+          }, {
+            text: `${iconMap.exception} 异常`,
+            link: '/java-base/异常/异常-Local.md'
+          },
+          {
+            text: `${iconMap.network_code} 网络编程`,
+            link: '/java-base/网络编程/网络编程-Local.md'
+          },
+          {
+            text: `${iconMap.note} 注解`,
+            link: '/java-base/注解/注解-Local.md'
+          },
+          {
+            text: `${iconMap.stream} Stream流`,
+            link: '/java-base/Stream/Stream流-Local.md'
+          },
+          {
+            text: `${iconMap.log} log日志`,
+            link: '/java-base/log/Log日志-Local.md'
+          },
+          {
+            text: `${iconMap.xml} XML`,
+            link: '/java-base/Xml/XML-Local.md'
+          },
+          {
+            text: `${iconMap.reflection} 反射和动态代理`,
+            link: '/java-base/反射和动态代理/反射和动态代理-Local.md'
+          },
+          {
+            text: `${iconMap.method_reference} 方法引用`,
+            link: '/java-base/方法引用/方法引用-Local.md'
+          },
+          {
+            text: `${iconMap.unit_test} 单元测试`,
+            link: '/java-base/单元测试/单元测试-Local.md'
+          },
+          {
+            text: `${iconMap.class_loader} 类加载器`,
+            link: '/java-base/类加载器/类加载器-Local.md'
+          },
+        ]
+      },
+      {
+        text: 'Spring Cloud 微服务',
+        collapsed: false, // true默认展开,false:折叠
+        items: [{
           text: 'SpringCloud学习',
           link: '/Spring-Cloud/微服务SpringCloud-Local.md'
         }, {
-          text: 'Java集合',
-          link: '/java-base/集合/集合-Local.md'
-        },
-      ]
-    }
-  ],
+          text: 'RabbitMQ',
+          link: '/backend/rabbitmq/MQ-Local.md'
+        }, ]
+      }
+    ],
 
     // sidebar: false, // 关闭左侧侧边栏
     // aside: "left", // 设置右侧侧边栏(目录)在左侧显示
