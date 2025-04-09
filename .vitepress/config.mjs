@@ -11,7 +11,9 @@ import {
   nav
 } from './myconfigs/index.ts'
 
-import { iconMap } from './theme/utils/iconMap.ts'
+import {
+  iconMap
+} from './theme/utils/iconMap.ts'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -24,6 +26,7 @@ export default defineConfig({
       href: '/blog-logo.png'
     }]
   ],
+
   title: "小鹏的Notes",
   description: "A VitePress Site",
 
@@ -141,83 +144,153 @@ export default defineConfig({
     // },
     sidebar: [{
         text: '介绍',
-        collapsed: false, // true默认展开,false:折叠
+        collapsed: false, // true默认折叠,false:展开
         items: [{
           text: 'Markdown Examples',
           link: '/markdown-examples'
         }]
       }, {
         text: `${iconMap.java} Java基础学习`,
-        collapsed: false, // true默认展开,false:折叠
+        collapsed: true, // true默认折叠,false:展开
         items: [{
-            text:  `${iconMap.java_base} Java基础知识`,
-            link: '/java-base/Java-Learning-Local.md'
+            text: `${iconMap.java_base} Java基础知识`,
+            link: '/Java基础/Java-Learning-Local.md'
           }, {
             text: `${iconMap.collection} Java集合`,
-            link: '/java-base/集合/集合-Local.md'
+            link: '/Java基础/集合/集合-Local.md'
           },
           {
             text: `${iconMap.io_stream} IO流`,
-            link: '/java-base/IO/IO流-Local.md'
+            link: '/Java基础/IO/IO流-Local.md'
           },
           {
             text: `${iconMap.thread} 多线程`,
-            link: '/java-base/多线程/多线程-Local.md'
+            link: '/Java基础/多线程/多线程-Local.md'
           },
           {
             text: `${iconMap.file} File文件`,
-            link: '/java-base/File/File-Local.md'
+            link: '/Java基础/File/File-Local.md'
           }, {
             text: `${iconMap.exception} 异常`,
-            link: '/java-base/异常/异常-Local.md'
+            link: '/Java基础/异常/异常-Local.md'
           },
           {
             text: `${iconMap.network_code} 网络编程`,
-            link: '/java-base/网络编程/网络编程-Local.md'
+            link: '/Java基础/网络编程/网络编程-Local.md'
           },
           {
             text: `${iconMap.note} 注解`,
-            link: '/java-base/注解/注解-Local.md'
+            link: '/Java基础/注解/注解-Local.md'
           },
           {
             text: `${iconMap.stream} Stream流`,
-            link: '/java-base/Stream/Stream流-Local.md'
+            link: '/Java基础/Stream/Stream流-Local.md'
           },
           {
             text: `${iconMap.log} log日志`,
-            link: '/java-base/log/Log日志-Local.md'
+            link: '/Java基础/log/Log日志-Local.md'
           },
           {
             text: `${iconMap.xml} XML`,
-            link: '/java-base/Xml/XML-Local.md'
+            link: '/Java基础/Xml/XML-Local.md'
           },
           {
             text: `${iconMap.reflection} 反射和动态代理`,
-            link: '/java-base/反射和动态代理/反射和动态代理-Local.md'
+            link: '/Java基础/反射和动态代理/反射和动态代理-Local.md'
           },
           {
             text: `${iconMap.method_reference} 方法引用`,
-            link: '/java-base/方法引用/方法引用-Local.md'
+            link: '/Java基础/方法引用/方法引用-Local.md'
           },
           {
             text: `${iconMap.unit_test} 单元测试`,
-            link: '/java-base/单元测试/单元测试-Local.md'
+            link: '/Java基础/单元测试/单元测试-Local.md'
           },
           {
             text: `${iconMap.class_loader} 类加载器`,
-            link: '/java-base/类加载器/类加载器-Local.md'
+            link: '/Java基础/类加载器/类加载器-Local.md'
           },
         ]
       },
       {
-        text: 'Spring Cloud 微服务',
-        collapsed: false, // true默认展开,false:折叠
+        text: '微服务',
+        collapsed: true, // true默认折叠,false:展开
         items: [{
           text: 'SpringCloud学习',
-          link: '/Spring-Cloud/微服务SpringCloud-Local.md'
+          link: '/微服务/SpringCLoud/微服务SpringCloud-Local.md'
         }, {
           text: 'RabbitMQ',
-          link: '/backend/rabbitmq/MQ-Local.md'
+          link: '/微服务/RabbitMQ/MQ-Local.md'
+        }, {
+          text: 'Nacos源码分析',
+          link: '/微服务/Nacos源码分析/Nacos源码分析-Local.md'
+        }, {
+          text: 'Sentinel源码分析',
+          link: '/微服务/Sentinel源码分析/Sentinel源码分析-Local.md'
+        }, ]
+      },
+      {
+        text: 'Linux学习',
+        collapsed: true, // true默认折叠,false:展开
+        items: [{
+          text: 'Linux学习',
+          link: '/Linux学习/Linux-Learning-Local.md'
+        }]
+      },
+      {
+        text: 'Git学习',
+        collapsed: true, // true默认折叠,false:展开
+        items: [{
+          text: 'Git学习',
+          link: '/Git学习笔记/Git-Learning-Local.md'
+        }]
+      },
+      {
+        text: 'Docker学习',
+        collapsed: true, // true默认折叠,false:展开
+        items: [{
+          text: 'Docker学习',
+          link: '/Docker学习/Docker-Learning-Local.md'
+        }]
+      },
+      {
+        text: '中间件',
+        collapsed: true, // true默认折叠,false:展开
+        items: [{
+          text: 'ElasticSearch',
+          link: '/中间件/ElasticSearch/Elasticsearch-Local.md'
+        }, {
+          text: 'RabbitMQ',
+          link: '/微服务/RabbitMQ/MQ-Local.md'
+        }]
+      },
+      {
+        text: '数据库学习',
+        collapsed: true, // true默认折叠,false:展开
+        items: [{
+          text: 'Mysql学习',
+          link: '/404.md'
+        }, {
+          text: '中间件学习',
+          collapsed: true, // true默认折叠,false:展开
+          items: [{
+            text: 'MybatisPlus学习',
+            link: '/数据库学习/中间件/MybatisPlus/MybatisPlus-Learning-Local.md'
+          }, {
+            text: '待续...',
+            link: '/404.md'
+          }]
+        }]
+      },
+      {
+        text: '前端学习',
+        collapsed: true, // true默认折叠,false:展开
+        items: [{
+          text: 'Vue学习',
+          link: '/前端学习/Vue/Vue-进阶学习-Local.md'
+        }, {
+          text: 'HTML+CSS+移动端',
+          link: '/前端学习/Html+Css+移动Web/HTML+CSS+移动端web-Learning-Local.md'
         }, ]
       }
     ],
