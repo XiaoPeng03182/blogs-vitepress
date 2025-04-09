@@ -213,24 +213,24 @@ export default defineConfig({
         ]
       },
       {
-        text: '微服务',
+        text: `${iconMap.microservice} 微服务`,
         collapsed: true, // true默认折叠,false:展开
         items: [{
-          text: 'SpringCloud学习',
+          text: `${iconMap.spring_cloud} SpringCloud学习`,
           link: '/微服务/SpringCLoud/微服务SpringCloud-Local.md'
         }, {
-          text: 'RabbitMQ',
+          text: `${iconMap.rabbit_mq} RabbitMQ`,
           link: '/微服务/RabbitMQ/MQ-Local.md'
         }, {
-          text: 'Nacos源码分析',
+          text: `${iconMap.nacos} Nacos源码分析`,
           link: '/微服务/Nacos源码分析/Nacos源码分析-Local.md'
         }, {
-          text: 'Sentinel源码分析',
+          text: `${iconMap.sentinel} Sentinel源码分析`,
           link: '/微服务/Sentinel源码分析/Sentinel源码分析-Local.md'
         }, ]
       },
       {
-        text: 'Linux学习',
+        text: `${iconMap.linux} Linux学习`,
         collapsed: true, // true默认折叠,false:展开
         items: [{
           text: 'Linux学习',
@@ -238,7 +238,7 @@ export default defineConfig({
         }]
       },
       {
-        text: 'Git学习',
+        text: `${iconMap.git} Git学习`,
         collapsed: true, // true默认折叠,false:展开
         items: [{
           text: 'Git学习',
@@ -246,7 +246,7 @@ export default defineConfig({
         }]
       },
       {
-        text: 'Docker学习',
+        text: `${iconMap.docker} Docker学习`,
         collapsed: true, // true默认折叠,false:展开
         items: [{
           text: 'Docker学习',
@@ -254,13 +254,13 @@ export default defineConfig({
         }]
       },
       {
-        text: '中间件',
+        text: `${iconMap.middleware} 中间件`,
         collapsed: true, // true默认折叠,false:展开
         items: [{
-          text: 'ElasticSearch',
+          text: `${iconMap.elasticsearch} ElasticSearch`,
           link: '/中间件/ElasticSearch/Elasticsearch-Local.md'
         }, {
-          text: 'RabbitMQ',
+          text: `${iconMap.rabbit_mq} RabbitMQ`,
           link: '/微服务/RabbitMQ/MQ-Local.md'
         }]
       },
@@ -268,13 +268,13 @@ export default defineConfig({
         text: '数据库学习',
         collapsed: true, // true默认折叠,false:展开
         items: [{
-          text: 'Mysql学习',
+          text: `${iconMap.mysql} Mysql学习`,
           link: '/404.md'
         }, {
-          text: '中间件学习',
+          text: `${iconMap.middleware} 中间件学习`,
           collapsed: true, // true默认折叠,false:展开
           items: [{
-            text: 'MybatisPlus学习',
+            text: `${iconMap.mybatis_plus} MybatisPlus学习`,
             link: '/数据库学习/中间件/MybatisPlus/MybatisPlus-Learning-Local.md'
           }, {
             text: '待续...',
@@ -283,13 +283,13 @@ export default defineConfig({
         }]
       },
       {
-        text: '前端学习',
+        text: `${iconMap.frontend} 前端学习`,
         collapsed: true, // true默认折叠,false:展开
         items: [{
-          text: 'Vue学习',
+          text: `${iconMap.vue} Vue学习`,
           link: '/前端学习/Vue/Vue-进阶学习-Local.md'
         }, {
-          text: 'HTML+CSS+移动端',
+          text: `${iconMap.html}${iconMap.css} HTML+CSS+移动端`,
           link: '/前端学习/Html+Css+移动Web/HTML+CSS+移动端web-Learning-Local.md'
         }, ]
       }
