@@ -1,36 +1,35 @@
 <script setup lang="ts">
-import { onMounted, onBeforeUnmount } from 'vue'
+import { onMounted, onBeforeUnmount, ref } from 'vue'
 import confetti from 'canvas-confetti'
 import { inBrowser } from 'vitepress'
 
-// 纸屑效果（只触发一次）
-const triggerConfetti = () => {
-  confetti({
-    particleCount: 100,
-    spread: 170,
-    origin: { y: 0.6 }
-  })
-}
+// 配置参数
+const props = withDefaults(defineProps<{
+  loopSnow?: boolean      // 是否循环播放
+  loopDuration?: number   // 循环持续时间(ms)
+}>(), {
+  loopSnow: true,
+  loopDuration: 300000    // 默认5分钟
+})
 
-// 雪花动画控制
-let snowAnimationFrame: number | null = null
-let stopTimer: number | null = null
+// 动画控制状态
+const snowAnimationFrame = ref<number | null>(null)
+const stopTimer = ref<number | null>(null)
 let skew = 1
 
 const randomInRange = (min: number, max: number) => {
   return Math.random() * (max - min) + min
 }
 
-// 启动雪花循环（持续1分钟）
+// 启动雪花动画
 const startSnow = () => {
   let lastSnowTime = 0
-  const snowInterval = 150 // 每1.5秒生成一个雪花（每分钟约40个）
+  const snowInterval = 60 // 雪花生成间隔(ms)
 
   const frame = () => {
     const now = performance.now()
     skew = Math.max(0.8, skew - 0.001)
     
-    // 控制生成间隔
     if (now - lastSnowTime >= snowInterval) {
       confetti({
         particleCount: 1,
@@ -49,32 +48,34 @@ const startSnow = () => {
       lastSnowTime = now
     }
 
-    snowAnimationFrame = requestAnimationFrame(frame)
+    snowAnimationFrame.value = requestAnimationFrame(frame)
   }
 
-  snowAnimationFrame = requestAnimationFrame(frame)
+  snowAnimationFrame.value = requestAnimationFrame(frame)
 
-  // 设置1分钟后自动停止
-  stopTimer = window.setTimeout(() => {
-    stopSnow()
-  }, 300000)
+  // 配置循环逻辑
+  if (props.loopSnow) {
+    stopTimer.value = window.setTimeout(() => {
+      stopSnow()
+      if (props.loopSnow) startSnow() // 循环重启
+    }, props.loopDuration)
+  }
 }
 
-// 停止雪花循环
+// 停止动画
 const stopSnow = () => {
-  if (snowAnimationFrame) {
-    cancelAnimationFrame(snowAnimationFrame)
-    snowAnimationFrame = null
+  if (snowAnimationFrame.value) {
+    cancelAnimationFrame(snowAnimationFrame.value)
+    snowAnimationFrame.value = null
   }
-  if (stopTimer) {
-    clearTimeout(stopTimer)
-    stopTimer = null
+  if (stopTimer.value) {
+    clearTimeout(stopTimer.value)
+    stopTimer.value = null
   }
 }
 
 onMounted(() => {
   if (inBrowser) {
-    triggerConfetti()
     startSnow()
   }
 })

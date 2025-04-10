@@ -1,4 +1,3 @@
-/* 彩虹背景动画 */
 /* 彩虹动画 */
 @keyframes rainbow {
     0% {
@@ -411,8 +410,9 @@
 :root {
     --rainbow-prev: #009ff7;
     --rainbow-next: #c76dd1;
-    /* animation: rainbow 8s linear infinite; */
+    animation: rainbow 8s linear infinite;
 }
+
 
 :root {
     /* hero标题渐变色 */

@@ -22,12 +22,46 @@ import {
 import confetti from "./components/confetti.vue"
 
 
+import MyLayout from './components/MyLayout.vue'
+
+import { inBrowser } from "vitepress";
+import busuanzi from "busuanzi.pure.js";
+import DataPanel from "./components/DataPanel.vue";
+
+// import {
+//   NolebaseHighlightTargetedHeading
+// } from '@nolebase/vitepress-plugin-highlight-targeted-heading'
+// import {
+//   NolebaseEnhancedReadabilitiesPlugin,
+//   NolebaseEnhancedReadabilitiesMenu,
+//   NolebaseEnhancedReadabilitiesScreenMenu
+// } from '@nolebase/vitepress-plugin-enhanced-readabilities'
+
+import './custom.css'
+
+import TocAutoScroll from './components/TocAutoScroll.vue'
+
+
+// .vitepress/theme/index.js
+import InteractiveSeparator from './components/InteractiveSeparator.vue'
+
+
 // 彩虹背景动画样式
 let homePageStyle
 
 /** @type {import('vitepress').Theme} */
 export default {
   extends: DefaultTheme,
+
+
+  //添加自定义布局组件
+  Layout: () => {
+    return h(MyLayout, null, {
+      // https://vitepress.dev/guide/extending-default-theme#layout-slots
+      'aside-outline-before': () => h(TocAutoScroll)
+    })
+    // return h(MyLayout) 
+  },
 
   setup() {
     const route = useRoute()
@@ -48,12 +82,18 @@ export default {
     )
   },
 
+  enhance({
+    app
+  }) {
+    // 注册高亮插件
+    // app.use(NolebaseHighlightTargetedHeading)
 
-  Layout: () => {
-    return h(DefaultTheme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
-    })
+    // 注册增强可读性插件
+    // app.use(NolebaseEnhancedReadabilitiesPlugin)
+    // app.use(NolebaseEnhancedReadabilitiesMenu)
+    // app.use(NolebaseEnhancedReadabilitiesScreenMenu)
   },
+
 
   enhanceApp({
     app,
@@ -63,8 +103,20 @@ export default {
     // 注册全局组件
     app.component('update', update)
     app.component('ArticleMetadata', ArticleMetadata)
-    app.component('confetti' , confetti)
+    app.component('confetti', confetti)
 
+    app.component('TocAutoScroll', TocAutoScroll)
+    app.component('InteractiveSeparator', InteractiveSeparator)
+
+    app.component("DataPanel", DataPanel);//注册全局组件
+
+    // 统计访问量
+    if (inBrowser) {
+      router.onAfterRouteChanged = () => {
+        busuanzi.fetch()
+      }
+    }
+    
     // 彩虹背景动画样式
     if (typeof window !== 'undefined') {
       watch(

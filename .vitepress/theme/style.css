@@ -43,13 +43,12 @@
  *   in custom container, badges, etc.
  * -------------------------------------------------------------------------- */
 
- /* style/index.css */
+/* style/index.css */
 @import './mystyle/blur.css';
 @import './mystyle/hidden.css';
 @import './mystyle/link.css';
 @import './mystyle/vp-code.css';
 @import './mystyle/vp-code-group.css';
-@import './mystyle/rainbow.css';
 @import './mystyle/var.css';
 
 :root {
@@ -101,17 +100,13 @@
 
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(
-    120deg,
-    #bd34fe 30%,
-    #41d1ff
-  );
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg,
+      #bd34fe 30%,
+      #41d1ff);
 
-  --vp-home-hero-image-background-image: linear-gradient(
-    -45deg,
-    #bd34fe 50%,
-    #47caff 50%
-  );
+  --vp-home-hero-image-background-image: linear-gradient(-45deg,
+      #bd34fe 50%,
+      #47caff 50%);
   --vp-home-hero-image-filter: blur(44px);
 }
 
@@ -142,23 +137,24 @@
  * Component: Algolia
  * -------------------------------------------------------------------------- */
 
-/**
-.DocSearch {
+* .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
-// 自定义侧边栏在最左边，右边撑满宽度
-.VPDoc .container {
+自定义侧边栏在最左边，右边撑满宽度 .VPDoc .container {
   margin: 0 !important;
 }
+
 @media (min-width: 960px) {
   .VPDoc:not(.has-sidebar) .content {
     max-width: 1552px !important;
   }
 }
+
 .VPDoc.has-aside .content-container {
   max-width: 1488px !important;
 }
+
 @media (min-width: 960px) {
   .VPDoc:not(.has-sidebar) .container {
     display: flex;
@@ -166,13 +162,11 @@
     max-width: 1562px !important;
   }
 }
+
 .aside-container {
   position: fixed;
   top: 0;
-  padding-top: calc(
-    var(--vp-nav-height) + var(--vp-layout-top-height, 0px) +
-      var(--vp-doc-top-height, 0px) + 10px
-  ) !important;
+  padding-top: calc(var(--vp-nav-height) + var(--vp-layout-top-height, 0px) + var(--vp-doc-top-height, 0px) + 10px) !important;
   width: 224px;
   height: 100vh;
   overflow-x: hidden;
@@ -186,15 +180,167 @@
   border: none;
 }
 
-*/
 
-
-/* 高亮样式 */
+/* 自定义md文件中的高亮样式 */
 mark {
   background: linear-gradient(to right, #ffec99 0%, #ffd43b 100%);
   padding: 0.15em 0.3em;
   border-radius: 3px;
-  box-decoration-break: clone; /* 解决换行断开问题 */
+  box-decoration-break: clone;
+  /* 解决换行断开问题 */
   -webkit-box-decoration-break: clone;
 }
+
+
+/* 自定义右侧md文件目录宽度 */
+:root {
+  --vp-aside-width: 450px;
+  /* 自定义宽度变量 */
+}
+
+/* 主容器层级 */
+@media (min-width: 960px) {
+
+  /* 侧边栏容器 */
+  .vp-aside {
+    width: var(--vp-aside-width) !important;
+    max-width: var(--vp-aside-width) !important;
+  }
+
+  /* 内容容器 */
+  .VPDoc.has-aside .container {
+    grid-template-columns:
+      minmax(0, 1fr) var(--vp-aside-width);
+  }
+
+  /* 嵌套容器适配 */
+  .aside-container,
+  .aside-content,
+  .VPDocAside {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* 内容区域 */
+  .VPDocAsideOutline .content {
+    width: calc(var(--vp-aside-width) - 32px) !important;
+    /* 减去两侧padding */
+  }
+
+  /* 边框调整 */
+  .content[data-v-778bae50] {
+    border-left-width: 2px;
+    /* 加粗分割线 */
+    padding-left: 24px;
+    /* 增加缩进 */
+  }
+}
+
+/* 移动端隐藏 */
+@media (max-width: 959px) {
+  .vp-aside {
+    display: none;
+  }
+}
+
+/* 自定义右侧md文件目录宽度 */
+
+
+
+/* 自定义主界面-功能卡片特效 */
+/* .vitepress/theme/custom.css */
+
+/* 功能卡片增强 */
+.VPFeatures .VPFeature {
+  /* 形状优化 */
+  border-radius: 16px !important;
+  /* 增大圆角 */
+  overflow: hidden;
+  /* 确保内部元素圆角生效 */
+
+  /* 主题适配背景 */
+  background: rgba(var(--vp-c-bg-soft-rgb), 0.9) !important;
+  border: 1px solid var(--vp-c-divider);
+
+  /* 动态阴影 */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* 深色模式适配 */
+.dark .VPFeatures .VPFeature {
+  background: rgba(var(--vp-c-bg-soft-rgb), 0.95) !important;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+}
+
+.VPFeatures .VPFeature:hover {
+  transform:
+    translateY(-6px) rotateZ(1.5deg) scale(1.02);
+  /* 新增缩放效果 */
+  box-shadow:
+    0 12px 32px -8px rgba(0, 0, 0, 0.2),
+    0 0 0 1px var(--vp-c-brand-light);
+  /* 品牌色描边 */
+}
+
+/* 卡片渐变层优化 */
+.VPFeatures .VPFeature::before {
+  opacity: 0.15;
+  background: linear-gradient(135deg,
+      var(--vp-c-brand) 0%,
+      var(--vp-c-brand-light) 100%);
+  mix-blend-mode: overlay;
+  /* 混合模式增强质感 */
+}
+
+/* 文字对比度保障 */
+.VPFeature .title,
+.VPFeature .details {
+  color: var(--vp-c-text-1) !important;
+  position: relative;
+  z-index: 2;
+}
+
+/* ================= 按钮动效增强 ================= */
+.VPButton {
+  /* 形状优化 */
+  border-radius: 8px !important;
+  border: 1px solid transparent;
+  
+  /* 延长过渡时间 */
+  transition: 
+    transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.4s ease,
+    background-position 0.4s ease !important;
+  
+  /* 渐变背景 */
+  background-image: linear-gradient(
+    to right,
+    var(--vp-c-brand) 0%,
+    var(--vp-c-brand-light) 50%,
+    var(--vp-c-brand) 100%
+  );
+  background-size: 200% auto;
+}
+
+.VPButton:hover {
+  transform: translateY(-2px) scale(1.03); /* 减小缩放幅度 */
+  box-shadow: 
+    0 6px 20px -4px rgba(var(--vp-c-brand-rgb), 0.4),
+    0 0 0 1px var(--vp-c-brand-light);
+  background-position: right center;
+}
+
+/* 光效延迟优化 */
+.VPButton::after {
+  transition: opacity 0.3s 0.1s ease !important;
+}
+
+/* 文字反色保护 */
+.VPButton .text {
+  color: var(--vp-c-white) !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* 自定义主界面-功能卡片特效 */
 

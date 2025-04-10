@@ -44,6 +44,13 @@ export default defineConfig({
 
   // markdown 配置
   markdown: {
+    // 启用大纲
+    toc: {
+      level: [1, 3]
+    },
+    // headers: {
+    //   level: [2, 3, 4, 5, 6] // 确保所有级别标题都被解析
+    // },
     // 扩展 markdown-it 配置
     config: (md) => {
       // md.set({ breaks: true })
@@ -95,36 +102,39 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
 
     nav: [{
-        text: 'Home',
+        text: `${iconMap.home}首页`,
         link: '/'
       },
       {
-        text: '笔记汇总',
+        text: `${iconMap.notes} 笔记汇总`,
         link: '/api-examples'
       },
       {
-        text: 'Java基础学习',
+        text: `${iconMap.funny} Funny Web`,
         items: [{
-            text: 'Java集合',
-            link: '/java/collection'
+            text: '📱 3D翻盖手机',
+            link: 'https://chaz.fun/phone/n93i/'
           },
           {
-            text: 'IO流',
-            link: '/java/IO'
+            text: '🎬 Siena Film',
+            link: 'https://www.siena.film/'
+          },
+          {
+            text: '✨ 设计动效',
+            link: 'https://www.jiejoe.com/home'
+          },
+          // 新增推荐：在线游戏类
+          {
+            text: '🎲 疯狂 3D 游戏库',
+            link: 'https://www.crazygames.com/',
+            desc: '免费 3D 游戏合集，含射击/竞速/解谜等类型'
           },
         ]
       },
       {
-        text: '中间件',
-        items: [{
-          text: 'RabbitMQ',
-          link: '/backend/rabbitmq/MQ-Local.md'
-        }, ]
+        text: `${iconMap.github_16} Github仓库`,
+        link: 'https://github.com/XiaoPeng03182/blogs-vitepress'
       },
-      {
-        text: 'Linux学习',
-        link: '/linux-learning/Linux-Learning-Local.md'
-      }
     ],
 
 
@@ -143,11 +153,14 @@ export default defineConfig({
     //   "/notes": set_sidebar("/"),
     // },
     sidebar: [{
-        text: '介绍',
-        collapsed: false, // true默认折叠,false:展开
+        text: '自我介绍',
+        collapsed: true, // true默认折叠,false:展开
         items: [{
-          text: 'Markdown Examples',
-          link: '/markdown-examples'
+          text: '👨「代码炼金术士」',
+          link: '/自我介绍/self-introduction-2.md'
+        }, {
+          text: '🌍「诗的浪漫极客」',
+          link: '/自我介绍/self-introduction.md'
         }]
       }, {
         text: `${iconMap.java} Java基础学习`,
@@ -211,6 +224,17 @@ export default defineConfig({
             link: '/Java基础/类加载器/类加载器-Local.md'
           },
         ]
+      },
+      {
+        text: `${iconMap.back_end} Java后端`,
+        collapsed: true, // true默认折叠,false:展开
+        items: [{
+          text: `${iconMap.springboot} JavaWeb SpringBoot 学习`,
+          link: '/Java后端/JavaWeb学习/Web-Learning-Local.md'
+        }, {
+          text: `${iconMap.sky_take_out} 苍穹外卖`,
+          link: '/Java后端/苍穹外卖/Project-TakeOut-Local.md'
+        }]
       },
       {
         text: `${iconMap.microservice} 微服务`,
@@ -300,25 +324,31 @@ export default defineConfig({
 
     // 社交链接
     socialLinks: [{
-        icon: 'github',
-        link: 'https://github.com/vuejs/vitepress'
+        icon: {
+          svg: iconMap.github
+        },
+        link: 'https://github.com/XiaoPeng03182'
       },
       {
         icon: {
-          svg: '<svg t="1703483542872" class="icon" viewBox="0 0 1309 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6274" width="200" height="200"><path d="M1147.26896 912.681417l34.90165 111.318583-127.165111-66.823891a604.787313 604.787313 0 0 1-139.082747 22.263717c-220.607239 0-394.296969-144.615936-394.296969-322.758409s173.526026-322.889372 394.296969-322.889372C1124.219465 333.661082 1309.630388 478.669907 1309.630388 656.550454c0 100.284947-69.344929 189.143369-162.361428 256.130963zM788.070086 511.869037a49.11114 49.11114 0 0 0-46.360916 44.494692 48.783732 48.783732 0 0 0 46.360916 44.494693 52.090549 52.090549 0 0 0 57.983885-44.494693 52.385216 52.385216 0 0 0-57.983885-44.494692z m254.985036 0a48.881954 48.881954 0 0 0-46.09899 44.494692 48.620028 48.620028 0 0 0 46.09899 44.494693 52.385216 52.385216 0 0 0 57.983886-44.494693 52.58166 52.58166 0 0 0-57.951145-44.494692z m-550.568615 150.018161a318.567592 318.567592 0 0 0 14.307712 93.212943c-14.307712 1.080445-28.746387 1.768001-43.283284 1.768001a827.293516 827.293516 0 0 1-162.394168-22.296458l-162.001279 77.955749 46.328175-133.811485C69.410411 600.858422 0 500.507993 0 378.38496 0 166.683208 208.689602 0 463.510935 0c227.908428 0 427.594322 133.18941 467.701752 312.379588a427.463358 427.463358 0 0 0-44.625655-2.619261c-220.24709 0-394.100524 157.74498-394.100525 352.126871zM312.90344 189.143369a64.270111 64.270111 0 0 0-69.803299 55.659291 64.532037 64.532037 0 0 0 69.803299 55.659292 53.694846 53.694846 0 0 0 57.852923-55.659292 53.465661 53.465661 0 0 0-57.852923-55.659291z m324.428188 0a64.040926 64.040926 0 0 0-69.574114 55.659291 64.302852 64.302852 0 0 0 69.574114 55.659292 53.694846 53.694846 0 0 0 57.951145-55.659292 53.465661 53.465661 0 0 0-57.951145-55.659291z" p-id="6275"></path></svg>'
+          svg: iconMap.wechat_with_color,
         },
-        link: 'https://weixin.qq.com/'
+        // link: 'https://weixin.qq.com/'
+        // link: '/微信信息展示/index'
+        link: '/wechat-info/index.html'
       },
       {
-        icon: 'discord',
-        link: 'https://chat.vitejs.dev/'
+        icon: {
+          svg: iconMap.gitee
+        },
+        link: 'https://gitee.com/xiaopeng03/projects'
       }
     ],
 
     // 底部配置
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2023-2024 备案号：<a href="https://beian.miit.gov.cn/" target="_blank">京****号</a>',
+      copyright: 'Copyright © 渝ICP备2025054279号：<a href="https://beian.miit.gov.cn/" target="_blank">京****号</a>',
       // 自动更新时间
       // copyright: `Copyright © 2023-${new Date().getFullYear()} 备案号：<a href="https://beian.miit.gov.cn/" target="_blank">京****号</a>`, 
     },

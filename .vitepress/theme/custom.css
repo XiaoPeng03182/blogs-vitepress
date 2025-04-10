@@ -1,0 +1,100 @@
+/* 目录容器 */
+.VPDocAsideOutline {
+  max-height: calc(100vh - var(--vp-nav-height) - 64px);
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+/* 所有级别目录项 */
+.VPDocAsideOutline .outline-item {
+  position: relative;
+  margin: 2px 0;
+  transition: all 0.2s ease;
+}
+
+/* 目录链接 */
+.VPDocAsideOutline .outline-link {
+  display: block;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: var(--vp-c-text-2);
+  font-size: 14px;
+  line-height: 1.4;
+  transition: all 0.2s;
+}
+
+/* 当前高亮目录项 */
+.VPDocAsideOutline .outline-link.active {
+  background-color: var(--vp-c-brand-light);
+  color: var(--vp-c-brand);
+  font-weight: 600;
+}
+
+/* 折叠/展开指示器 */
+.VPDocAsideOutline .outline-item[data-has-children]::before {
+  content: '▶';
+  position: absolute;
+  left: -12px;
+  top: 8px;
+  font-size: 10px;
+  color: var(--vp-c-text-3);
+  transition: transform 0.2s;
+}
+
+.VPDocAsideOutline .outline-item[data-expanded="true"]::before {
+  transform: rotate(90deg);
+}
+
+/* 子目录缩进 */
+.VPDocAsideOutline .outline-item .outline-item {
+  padding-left: 16px;
+}
+
+/* 不同级别样式 */
+.VPDocAsideOutline .outline-item.depth-2 {
+  padding-left: 0;
+}
+
+.VPDocAsideOutline .outline-item.depth-3 {
+  padding-left: 16px;
+}
+
+.VPDocAsideOutline .outline-item.depth-4 {
+  padding-left: 32px;
+}
+
+.VPDocAsideOutline .outline-item.depth-5 {
+  padding-left: 48px;
+}
+
+.VPDocAsideOutline .outline-item.depth-6 {
+  padding-left: 64px;
+}
+
+/* 滚动条样式 */
+.VPDocAsideOutline::-webkit-scrollbar {
+  width: 6px;
+}
+
+.VPDocAsideOutline::-webkit-scrollbar-thumb {
+  background-color: var(--vp-c-divider);
+  border-radius: 3px;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .VPDocAsideOutline {
+    display: none;
+  }
+}
+
+/* @keyframes rainbow {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  100% {
+    filter: hue-rotate(360deg);
+  }
+} */
+
