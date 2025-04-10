@@ -107,7 +107,7 @@ export default defineConfig({
       },
       {
         text: `${iconMap.notes} 笔记汇总`,
-        link: '/api-examples'
+        link: '/自我介绍/self-introduction.md'
       },
       {
         text: `${iconMap.funny} Funny Web`,
