@@ -217,7 +217,7 @@ export default defineConfig({
         collapsed: true, // true默认折叠,false:展开
         items: [{
           text: `${iconMap.spring_cloud} SpringCloud学习`,
-          link: '/微服务/SpringCLoud/微服务SpringCloud-Local.md'
+          link: '/微服务/SpringCloud/微服务SpringCloud-Local.md'
         }, {
           text: `${iconMap.rabbit_mq} RabbitMQ`,
           link: '/微服务/RabbitMQ/MQ-Local.md'
