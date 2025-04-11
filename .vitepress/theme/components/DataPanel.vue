@@ -19,38 +19,46 @@
 </template>
 
 <style scoped>
+/* 白天模式 */
 .panel {
     margin-top: 100px;
-    margin-bottom: 8px;
-    background-color: white;
+    margin-bottom: 100px;
 }
 
 .container {
-    background-color: white;
     border-radius: 8px;
     width: 100%;
     min-height: 32px;
     max-width: 1152px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 8px;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05)
+    margin: 0 auto;
+    box-shadow: 0 5px 15px rgba(82, 79, 79, 0.1);
 }
 
-.grid {
-    font-weight: 500;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 12px;
-    padding-right: 12px;
-    justify-items: center;
-    align-items: center;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    display: grid;
+/* 夜间模式适配 */
+:deep([data-theme="dark"]) .container {
+    background: #1a1a1a; /* Vitepress 暗色背景 */
+    border: 1px solid #333; /* 深色边框 */
+    box-shadow: 0 1px 2px rgba(255, 255, 255, 0.05);
 }
+
 
 .text {
     font-size: 0.875rem;
     line-height: 1.25rem;
+    color: inherit; /* 继承文字颜色 */
+}
+
+/* 全局文字颜色适配 */
+:deep([data-theme="dark"]) .text {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.grid {
+    font-weight: 500;
+    padding: 12px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-items: center;
+    justify-items: center;
 }
 </style>
