@@ -143,6 +143,34 @@ export default defineConfig({
         text: `${iconMap.shoushuo} 说说`,
         link: 'https://wordpress.xiaopeng.online/碎碎念/'
       },
+      {
+        text: `${iconMap.tools} 工具`,
+        items: [{
+            text: `${iconMap.tool_snipaste} 电脑截屏工具Snipaste`,
+            link: 'https://www.ilanzou.com/s/ghc0BURP'
+          },
+          {
+            text: `${iconMap.tool_pdf} PDF工具`,
+            link: 'https://www.ilovepdf.com/zh-cn'
+          },
+          {
+            text: `${iconMap.tool_images} 编辑图片`,
+            link: 'https://www.iloveimg.com/zh-cn'
+          },
+          {
+            text: `${iconMap.tool_ip} ip解析`,
+            link: 'https://zh-hans.ipshu.com/'
+          },
+          {
+            text: `${iconMap.tool_screen} 电脑屏幕检测`,
+            link: 'https://screen.bmcx.com/#welcome'
+          },
+          {
+            text: `${iconMap.tool_format_conversion} 文件格式转换`,
+            link: 'https://www.alltoall.net/'
+          },
+        ]
+      },
     ],
 
 
@@ -350,7 +378,7 @@ export default defineConfig({
           svg: iconMap.gitee
         },
         link: 'https://gitee.com/xiaopeng03/projects'
-      }, 
+      },
       // {
       //   icon: {
       //     svg: iconMap.email
