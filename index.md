@@ -15,7 +15,7 @@ hero:
       text: 📖笔记汇总
       link: /自我介绍/self-introduction.md
     - theme: alt
-      text: 👨自我介绍
+      text: 🧑‍💻自我介绍
       link: /自我介绍/self-introduction-2.md
 
 features:
@@ -70,12 +70,13 @@ features:
     linkText: 工具网址导航
 ---
 
-<confetti />
 
+<confetti />
 
 <DataPanel />
 
 <InteractiveSeparator />
+
 
 ## 🎪 代码马戏团 —— 欢迎来到我的技术游乐园
 

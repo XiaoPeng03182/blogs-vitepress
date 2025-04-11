@@ -3,6 +3,16 @@ import { onMounted, onBeforeUnmount, ref } from 'vue'
 import confetti from 'canvas-confetti'
 import { inBrowser } from 'vitepress'
 
+if (inBrowser) {
+
+/* 纸屑 */
+confetti({
+    particleCount: 100,
+    spread: 170,
+    origin: { y: 0.6 },
+})
+}
+
 // 配置参数
 const props = withDefaults(defineProps<{
   loopSnow?: boolean      // 是否循环播放

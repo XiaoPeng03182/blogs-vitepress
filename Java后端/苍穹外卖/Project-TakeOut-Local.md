@@ -4177,8 +4177,8 @@ application-dev.yml
 sky:
   alioss:
     endpoint: oss-cn-hangzhou.aliyuncs.com
-    access-key-id: LTAI5tPeFLzsPPT8gG3LPW64
-    access-key-secret: U6k1brOZ8gaOIXv3nXbulGTUzy6Pd7
+    access-key-id: xxx
+    access-key-secret: xxx
     bucket-name: sky-take-out
 ```
 

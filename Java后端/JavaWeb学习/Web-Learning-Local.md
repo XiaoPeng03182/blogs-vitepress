@@ -2675,8 +2675,8 @@ public class AliOSSUtils {
     // Endpoint以华东1（杭州）为例，其它Region请按实际情况填写。
     String endpoint = "https://oss-cn-chengdu.aliyuncs.com";
     // 阿里云账号AccessKey拥有所有API的访问权限，风险很高。强烈建议您创建并使用RAM用户进行API访问或日常运维，请登录RAM控制台创建RAM用户。
-    String accessKeyId = "LTAI5tH2N5MkrjPKxuemv8Sd";
-    String accessKeySecret = "4kr7BLZBAopplxYS4lnXux6Kt6surm";
+    String accessKeyId = "xxx";
+    String accessKeySecret = "xxx";
     // 填写Bucket名称，例如examplebucket。
     String bucketName = "springboot-web-tlias-test1";
 
@@ -2782,7 +2782,7 @@ spring.servlet.multipart.max-request-size=100MB
 
 #阿里云OSS配置
 aliyun.oss.endpoint = https://oss-cn-chengdu.aliyuncs.com
-aliyun.oss.accessKeyId = LTAI5tH2N5MkrjPKxuemv8Sd
+aliyun.oss.accessKeyId = xxx
 aliyun.oss.accessKeySecret = 4kr7BLZBAopplxYS4lnXux6Kt6surm
 aliyun.oss.bucketName = springboot-web-tlias-test1
 
@@ -2815,7 +2815,7 @@ public class AliOSSUtils {
 /*    // Endpoint以华东1（杭州）为例，其它Region请按实际情况填写。
     String endpoint = "https://oss-cn-chengdu.aliyuncs.com";
     // 阿里云账号AccessKey拥有所有API的访问权限，风险很高。强烈建议您创建并使用RAM用户进行API访问或日常运维，请登录RAM控制台创建RAM用户。
-    String accessKeyId = "LTAI5tH2N5MkrjPKxuemv8Sd";
+    String accessKeyId = "xx";
     String accessKeySecret = "4kr7BLZBAopplxYS4lnXux6Kt6surm";
     // 填写Bucket名称，例如examplebucket。
     String bucketName = "springboot-web-tlias-test1";*/
@@ -2931,8 +2931,8 @@ spring.servlet.multipart.max-request-size=100MB
 
 #阿里云OSS配置
 aliyun.oss.endpoint = https://oss-cn-chengdu.aliyuncs.com
-aliyun.oss.accessKeyId = LTAI5tH2N5MkrjPKxuemv8Sd
-aliyun.oss.accessKeySecret = 4kr7BLZBAopplxYS4lnXux6Kt6surm
+aliyun.oss.accessKeyId = xxx
+aliyun.oss.accessKeySecret = xxx
 aliyun.oss.bucketName = springboot-web-tlias-test1
 
 ```
@@ -3034,7 +3034,7 @@ public class AliOSSUtils {
 /*    // Endpoint以华东1（杭州）为例，其它Region请按实际情况填写。
     String endpoint = "https://oss-cn-chengdu.aliyuncs.com";
     // 阿里云账号AccessKey拥有所有API的访问权限，风险很高。强烈建议您创建并使用RAM用户进行API访问或日常运维，请登录RAM控制台创建RAM用户。
-    String accessKeyId = "LTAI5tH2N5MkrjPKxuemv8Sd";
+    String accessKeyId = "xxx";
     String accessKeySecret = "4kr7BLZBAopplxYS4lnXux6Kt6surm";
     // 填写Bucket名称，例如examplebucket。
     String bucketName = "springboot-web-tlias-test1";*/
@@ -6632,7 +6632,7 @@ public class AliOSSUtils {
 /*    // Endpoint以华东1（杭州）为例，其它Region请按实际情况填写。
     String endpoint = "https://oss-cn-chengdu.aliyuncs.com";
     // 阿里云账号AccessKey拥有所有API的访问权限，风险很高。强烈建议您创建并使用RAM用户进行API访问或日常运维，请登录RAM控制台创建RAM用户。
-    String accessKeyId = "LTAI5tH2N5MkrjPKxuemv8Sd";
+    String accessKeyId = "xxx";
     String accessKeySecret = "4kr7BLZBAopplxYS4lnXux6Kt6surm";
     // 填写Bucket名称，例如examplebucket。
     String bucketName = "springboot-web-tlias-test1";*/
@@ -7097,8 +7097,8 @@ public class AliOSSUtils {
 aliyun:
   oss:
     endpoint: https://oss-cn-chengdu.aliyuncs.com
-    accessKeyId: LTAI5tH2N5MkrjPKxuemv8Sd
-    accessKeySecret: 4kr7BLZBAopplxYS4lnXux6Kt6surm
+    accessKeyId: xxxx
+    accessKeySecret: xxx
     bucketName: springboot-web-tlias-test1
 ```
 

@@ -135,6 +135,14 @@ export default defineConfig({
         text: `${iconMap.github_16} Github仓库`,
         link: 'https://github.com/XiaoPeng03182/blogs-vitepress'
       },
+      {
+        text: `${iconMap.message_boards} 留言板`,
+        link: 'https://wordpress.xiaopeng.online/留言板/'
+      },
+      {
+        text: `${iconMap.shoushuo} 说说`,
+        link: 'https://wordpress.xiaopeng.online/碎碎念/'
+      },
     ],
 
 
@@ -342,7 +350,13 @@ export default defineConfig({
           svg: iconMap.gitee
         },
         link: 'https://gitee.com/xiaopeng03/projects'
-      }
+      }, 
+      // {
+      //   icon: {
+      //     svg: iconMap.email
+      //   },
+      //   link: 'qq:2872259389@qq.com'
+      // }
     ],
 
     // 底部配置
