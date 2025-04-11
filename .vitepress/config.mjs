@@ -362,7 +362,7 @@ export default defineConfig({
     // 底部配置
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 渝ICP备2025054279号：<a href="https://beian.miit.gov.cn/" target="_blank">京****号</a>',
+      copyright: 'Copyright © 2025 <a href="https://beian.miit.gov.cn/" target="_blank">渝ICP备2025054279号</a>',
       // 自动更新时间
       // copyright: `Copyright © 2023-${new Date().getFullYear()} 备案号：<a href="https://beian.miit.gov.cn/" target="_blank">京****号</a>`, 
     },
