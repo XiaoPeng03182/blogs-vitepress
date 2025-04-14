@@ -32,6 +32,7 @@ export default defineConfig({
 
   lastUpdated: true, //首次配置不会立即生效，需git提交后爬取时间戳
 
+
   // vite: {
   //   vue: {
   //     template: {
@@ -77,6 +78,9 @@ export default defineConfig({
       prev: '上一篇',
       next: '下一篇',
     },
+
+    //手机端深浅模式文字修改 //
+    darkModeSwitchLabel: '深浅模式',
 
     //上次更新时间 
     lastUpdated: {
@@ -147,7 +151,7 @@ export default defineConfig({
         text: `${iconMap.tools} 工具`,
         items: [{
             text: `${iconMap.tool_snipaste} 电脑截屏工具Snipaste`,
-            link: 'https://www.ilanzou.com/s/ghc0BURP'
+            link: 'https://wwsd.lanzouw.com/iupCX2tlx0ta'
           },
           {
             text: `${iconMap.tool_pdf} PDF工具`,
