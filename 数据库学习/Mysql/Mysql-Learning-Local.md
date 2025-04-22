@@ -1,6 +1,6 @@
 # MySql-Learning
 
-![image-20250412144000663](Mysql-Learning-Local.assets/image-20250412144000663.png)
+![image-20250412144000663](./Mysql-Learning-Local.assets/image-20250412144000663.png)
 
 
 
@@ -20,17 +20,18 @@
 | 数据库管理系统 | 操纵和管理数据库的大型软件                                   | DataBase Management System (DBMS) |
 | SQL            | 操作关系型数据库的编程语言，定义了一套操作关系型数据库统一**标准** | Structured Query Language (SQL)   |
 
-![image-20250412160500512](Mysql-Learning-Local.assets/image-20250412160500512.png)
+![image-20250412160500512](./Mysql-Learning-Local.assets/image-20250412160500512.png)
 
 而目前主流的关系型数据库管理系统的市场占有率排名如下：
 
-![image-20250412160622957](Mysql-Learning-Local.assets/image-20250412160622957.png)
+![image-20250412160622957](./Mysql-Learning-Local.assets/image-20250412160622957.png)
 
 - **Oracle**：大型的收费数据库，Oracle公司产品，价格昂贵。
 - **MySQL**：开源免费的中小型数据库，后来Sun公司收购了MySQL，而Oracle又收购了Sun公司。目前Oracle推出了收费版本的MySQL，也提供了免费的社区版本。
 - **SQL Server**：Microsoft 公司推出的收费的中型数据库，C#、.net等语言常用。
 
-- **PostgreSQL**：开源免费的中小型数据库。 ![ref1](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAySURBVBhXYwCB3NrureY+8b9u3H2sBxcw9oz9D8NgQZAKDEGQFpiAXXD6B7AgJmBgAABrvx5BwHOhSwAAAABJRU5ErkJggg==) DB2：IBM公司的大型收费数据库产品。
+- **PostgreSQL**：开源免费的中小型数据库。 
+- DB2：IBM公司的大型收费数据库产品。
 
 - SQLLite：嵌入式的微型数据库。Android内置的数据库采用的就是该数据库。
 
@@ -39,7 +40,7 @@
 
 而不论我们使用的是上面的哪一个关系型数据库，最终在操作时，都是使用SQL语言来进行统一操作，因为我们前面讲到SQL语言，是操作关系型数据库的 **统一标准** 。所以即使我们现在学习的是MySQL，假如我们以后到了公司，使用的是别的关系型数据库，如：Oracle、DB2、SQLServer，也完全不用担心，因为操作的方式都是一致的。
 
-![image-20250412160637812](Mysql-Learning-Local.assets/image-20250412160637812.png)
+![image-20250412160637812](./Mysql-Learning-Local.assets/image-20250412160637812.png)
 
 
 
@@ -49,7 +50,7 @@
 
 ### **（1）版本**
 
-![image-20250412160845195](Mysql-Learning-Local.assets/image-20250412160845195.png)
+![image-20250412160845195](./Mysql-Learning-Local.assets/image-20250412160845195.png)
 
 官方： [**https://www.mysql.com/**](https://www.mysql.com/)
 
@@ -64,65 +65,65 @@ MySQL官方提供了两种不同的版本：
 
 ### （2）**下载**
 
-![image-20250412161603273](Mysql-Learning-Local.assets/image-20250412161603273.png)
+![image-20250412161603273](./Mysql-Learning-Local.assets/image-20250412161603273.png)
 
 选择社区版本：https://dev.mysql.com/downloads/
 
-![image-20250412161451219](Mysql-Learning-Local.assets/image-20250412161451219.png)
+![image-20250412161451219](./Mysql-Learning-Local.assets/image-20250412161451219.png)
 
-![image-20250412161246917](Mysql-Learning-Local.assets/image-20250412161246917.png)
+![image-20250412161246917](./Mysql-Learning-Local.assets/image-20250412161246917.png)
 
 
 
 下载地址： [**https://downloads.mysql.com/archives/installer/**](https://downloads.mysql.com/archives/installer/)
 
-![image-20250412161521964](Mysql-Learning-Local.assets/image-20250412161521964.png)
+![image-20250412161521964](./Mysql-Learning-Local.assets/image-20250412161521964.png)
 
 
 
 也可以使用课程资料中提供的MySQL的安装包：
 
-![image-20250412161625270](Mysql-Learning-Local.assets/image-20250412161625270.png)
+![image-20250412161625270](./Mysql-Learning-Local.assets/image-20250412161625270.png)
 
 
 
 ### （3）安装
 
-**1). 双击官方下来的安装包文件**
+**1) 双击官方下来的安装包文件**
 
-![image-20210916184347938](Mysql-Learning-Local.assets/image-20210916184347938.png) 
+![image-20210916184347938](./Mysql-Learning-Local.assets/image-20210916184347938.png) 
 
 
 
-**2). 根据安装提示进行安装**
+**2) 根据安装提示进行安装**
 
-![image-20210916184532212](Mysql-Learning-Local.assets/image-20210916184532212.png) 
+![image-20210916184532212](./Mysql-Learning-Local.assets/image-20210916184532212.png) 
 
-![image-20210916184603712](Mysql-Learning-Local.assets/image-20210916184603712.png) 
+![image-20210916184603712](./Mysql-Learning-Local.assets/image-20210916184603712.png) 
 
-![image-20210916184634094](Mysql-Learning-Local.assets/image-20210916184634094.png) 
+![image-20210916184634094](./Mysql-Learning-Local.assets/image-20210916184634094.png) 
 
 
 
 安装MySQL的相关组件，这个过程可能需要耗时几分钟，耐心等待。
 
-![image-20210916184700031](Mysql-Learning-Local.assets/image-20210916184700031.png) 
+![image-20210916184700031](./Mysql-Learning-Local.assets/image-20210916184700031.png) 
 
-![image-20210916184709776](Mysql-Learning-Local.assets/image-20210916184709776.png) 
+![image-20210916184709776](./Mysql-Learning-Local.assets/image-20210916184709776.png) 
 
-![image-20210916184743524](Mysql-Learning-Local.assets/image-20210916184743524.png) 
+![image-20210916184743524](./Mysql-Learning-Local.assets/image-20210916184743524.png) 
 
-![image-20210916184759021](Mysql-Learning-Local.assets/image-20210916184759021.png) 
+![image-20210916184759021](./Mysql-Learning-Local.assets/image-20210916184759021.png) 
 
 
 
 ==输入MySQL中root用户的密码,一定记得记住该密码==
 
-![image-20210916184814656](Mysql-Learning-Local.assets/image-20210916184814656.png) 
+![image-20210916184814656](./Mysql-Learning-Local.assets/image-20210916184814656.png) 
 
-![image-20210916184832159](Mysql-Learning-Local.assets/image-20210916184832159.png) 
+![image-20210916184832159](./Mysql-Learning-Local.assets/image-20210916184832159.png) 
 
-![image-20210916184851013](Mysql-Learning-Local.assets/image-20210916184851013.png) 
+![image-20210916184851013](./Mysql-Learning-Local.assets/image-20210916184851013.png) 
 
 
 
@@ -134,25 +135,25 @@ MySQL官方提供了两种不同的版本：
 
 1). 在此电脑上，右键选择属性
 
-![image-20210918161550977](Mysql-Learning-Local.assets/image-20210918161550977.png) 
+![image-20210918161550977](./Mysql-Learning-Local.assets/image-20210918161550977.png) 
 
 
 
 2). 点击左侧的 "高级系统设置"，选择环境变量
 
-![image-20210918161646433](Mysql-Learning-Local.assets/image-20210918161646433.png) 
+![image-20210918161646433](./Mysql-Learning-Local.assets/image-20210918161646433.png) 
 
 
 
 3). 找到 Path 系统变量, 点击 "编辑"
 
-![image-20210918161803544](Mysql-Learning-Local.assets/image-20210918161803544.png) 
+![image-20210918161803544](./Mysql-Learning-Local.assets/image-20210918161803544.png) 
 
 
 
 4). 选择 "新建" , 将MySQL Server的安装目录下的bin目录添加到环境变量
 
-![image-20210918161954696](Mysql-Learning-Local.assets/image-20210918161954696.png) 
+![image-20210918161954696](./Mysql-Learning-Local.assets/image-20210918161954696.png) 
 
 
 
@@ -164,9 +165,9 @@ MySQL官方提供了两种不同的版本：
 
 win+R 打开运行，输入 services.msc 点击 "确定" 调出系统服务。
 
-![image-20220209203115052](Mysql-Learning-Local.assets/image-20220209203115052.png) 
+![image-20220209203115052](./Mysql-Learning-Local.assets/image-20220209203115052.png) 
 
-![image-20220209203253220](Mysql-Learning-Local.assets/image-20220209203253220.png) 
+![image-20220209203253220](./Mysql-Learning-Local.assets/image-20220209203253220.png) 
 
 
 
@@ -176,15 +177,15 @@ win+R 打开运行，输入 services.msc 点击 "确定" 调出系统服务。
 
 打开控制面板 ---> 卸载程序 ---> 卸载MySQL相关所有组件
 
-![image-20220209203345746](Mysql-Learning-Local.assets/image-20220209203345746.png) 
+![image-20220209203345746](./Mysql-Learning-Local.assets/image-20220209203345746.png) 
 
-![image-20220209203431405](Mysql-Learning-Local.assets/image-20220209203431405.png) 
+![image-20220209203431405](./Mysql-Learning-Local.assets/image-20220209203431405.png) 
 
 
 
 ##### 3. 删除MySQL安装目录
 
-![image-20220209205157019](Mysql-Learning-Local.assets/image-20220209205157019.png) 
+![image-20220209205157019](./Mysql-Learning-Local.assets/image-20220209205157019.png) 
 
 
 
@@ -194,7 +195,7 @@ win+R 打开运行，输入 services.msc 点击 "确定" 调出系统服务。
 
 数据存放目录是在 C:\ProgramData\MySQL，直接将该文件夹删除。
 
-![image-20220209205401563](Mysql-Learning-Local.assets/image-20220209205401563.png) 
+![image-20220209205401563](./Mysql-Learning-Local.assets/image-20220209205401563.png) 
 
 
 
@@ -223,7 +224,7 @@ MySQL安装完成之后，在系统启动时，会自动启动MySQL服务，我�
 1. net start mysql80
 2. net stop mysql80
 
-![image-20250412161955799](Mysql-Learning-Local.assets/image-20250412161955799.png)
+![image-20250412161955799](./Mysql-Learning-Local.assets/image-20250412161955799.png)
 
 ```bash
 net start mysql80
@@ -231,13 +232,13 @@ net start mysql80
 net stop mysql80
 ```
 
-![image-20250412162155828](Mysql-Learning-Local.assets/image-20250412162155828.png)
+![image-20250412162155828](./Mysql-Learning-Local.assets/image-20250412162155828.png)
 
 > 注意 ： 上述的 mysql80 是我们在安装MySQL时，默认指定的mysql的系统服务名，不是固
 >
 > 定的，如果未改动，默认就是mysql80。
 >
-> ![image-20250412162539973](Mysql-Learning-Local.assets/image-20250412162539973.png)
+> ![image-20250412162539973](./Mysql-Learning-Local.assets/image-20250412162539973.png)
 
 
 
@@ -245,13 +246,13 @@ net stop mysql80
 
 #### ① 方式一：使用MySQL提供的==客户端命令行工具==
 
-![image-20250412162840628](Mysql-Learning-Local.assets/image-20250412162840628.png)
+![image-20250412162840628](./Mysql-Learning-Local.assets/image-20250412162840628.png)
 
 
 
 #### ② 方式二：使用==系统自带的命令行工具==执行指令
 
-![image-20250412164104594](Mysql-Learning-Local.assets/image-20250412164104594.png)
+![image-20250412164104594](./Mysql-Learning-Local.assets/image-20250412164104594.png)
 
 ```bash
 mysql [-h 127.0.0.1] [-P 3306] -u root -p
@@ -266,7 +267,7 @@ mysql [-h 127.0.0.1] [-P 3306] -u root -p
 
 连接本地的MySQL，则无需指定这两个参数
 
-![image-20250412162719092](Mysql-Learning-Local.assets/image-20250412162719092.png)
+![image-20250412162719092](./Mysql-Learning-Local.assets/image-20250412162719092.png)
 
 > ==注意==： 使用这种方式进行连接时，需要安装完毕后==配置PATH环境变量==。
 
@@ -282,7 +283,7 @@ mysql [-h 127.0.0.1] [-P 3306] -u root -p
 
 而所谓二维表，指的是由行和列组成的表，如下图（就类似于Excel表格数据，有表头、有列、有行，还可以通过一列关联另外一个表格中的某一列数据）。我们之前提到的MySQL、Oracle、DB2、SQLServer这些都是属于关系型数据库，里面都是基于二维表存储数据的。简单说，基于二维表存储数据的数据库就成为关系型数据库，不是基于二维表存储数据的数据库，就是非关系型数据库。
 
-![image-20250412163019353](Mysql-Learning-Local.assets/image-20250412163019353.png)
+![image-20250412163019353](./Mysql-Learning-Local.assets/image-20250412163019353.png)
 
 ==特点==：
 
@@ -296,7 +297,7 @@ mysql [-h 127.0.0.1] [-P 3306] -u root -p
 
 MySQL是关系型数据库，是基于**二维表进行数据存储**的，具体的结构图下:
 
-![image-20250412163050614](Mysql-Learning-Local.assets/image-20250412163050614.png)
+![image-20250412163050614](./Mysql-Learning-Local.assets/image-20250412163050614.png)
 
 -    我们可以通过**MySQL客户端连接数据库管理系统DBMS**，然后**通过DBMS操作数据库**。
 -    可以使用SQL语句，通过数据库管理系统操作数据库，以及操作数据库中的表结构及数据。
@@ -306,11 +307,11 @@ MySQL是关系型数据库，是基于**二维表进行数据存储**的，具�
 
 ### （9）小结
 
-![image-20250412164857602](Mysql-Learning-Local.assets/image-20250412164857602.png)
+![image-20250412164857602](./Mysql-Learning-Local.assets/image-20250412164857602.png)
 
 # 2、🌟 ==SQL==
 
-![image-20250412164929549](Mysql-Learning-Local.assets/image-20250412164929549.png)
+![image-20250412164929549](./Mysql-Learning-Local.assets/image-20250412164929549.png)
 
 > 全称 ==Structured Query Language==，**结构化查询语言**。操作关系型数据库的编程语言，定义了一套操作关系型数据库统一**标准** 。
 
@@ -329,7 +330,7 @@ MySQL是关系型数据库，是基于**二维表进行数据存储**的，具�
 
 ## 2.2 SQL==分类==
 
-![image-20250412165349554](Mysql-Learning-Local.assets/image-20250412165349554.png)
+![image-20250412165349554](./Mysql-Learning-Local.assets/image-20250412165349554.png)
 
 SQL语句，根据其功能，主要分为四类：DDL、DML、DQL、DCL。
 
@@ -348,7 +349,7 @@ Data Definition Language，**数据定义语言**，用来定义数据库对象(
 
 ### （1）数据库操作
 
-![image-20250412165757574](Mysql-Learning-Local.assets/image-20250412165757574.png)
+![image-20250412165757574](./Mysql-Learning-Local.assets/image-20250412165757574.png)
 
 #### ①**查询所有数据库**
 
@@ -381,12 +382,12 @@ create database [ if not exists ] 数据库名 [ default charset 字符集 ] [ c
 create database itcast;
 ```
 
-![image-20250412170117792](Mysql-Learning-Local.assets/image-20250412170117792.png)
+![image-20250412170117792](./Mysql-Learning-Local.assets/image-20250412170117792.png)
 
 
 在同一个数据库服务器中，**不能创建两个名称相同的数据库，否则将会报错**。
 
-![image-20250412170138354](Mysql-Learning-Local.assets/image-20250412170138354.png)
+![image-20250412170138354](./Mysql-Learning-Local.assets/image-20250412170138354.png)
 
 可以通过**if not exists** 参数来解决这个问题，数据库不存在, 则创建该数据库，如果存在，则不创建。
 
@@ -394,7 +395,7 @@ create database itcast;
 create database if not extists itcast;
 ```
 
-![image-20250412170235188](Mysql-Learning-Local.assets/image-20250412170235188.png)
+![image-20250412170235188](./Mysql-Learning-Local.assets/image-20250412170235188.png)
 
 
 
@@ -404,7 +405,7 @@ create database if not extists itcast;
 create database itheima default charset utf8mb4;
 ```
 
-![image-20250412170303210](Mysql-Learning-Local.assets/image-20250412170303210.png)
+![image-20250412170303210](./Mysql-Learning-Local.assets/image-20250412170303210.png)
 
 
 
@@ -416,7 +417,7 @@ drop database [ if exists ] 数据库名 ;
 
 如果删除一个不存在的数据库，将会报错。此时，可以加上参数 if exists ，如果数据库存在，再执行删除，否则不执行删除。
 
-![image-20250412170342138](Mysql-Learning-Local.assets/image-20250412170342138.png)
+![image-20250412170342138](./Mysql-Learning-Local.assets/image-20250412170342138.png)
 
 
 
@@ -452,7 +453,7 @@ use sys;
 show tables;
 ```
 
-![image-20250412172133340](Mysql-Learning-Local.assets/image-20250412172133340.png)
+![image-20250412172133340](./Mysql-Learning-Local.assets/image-20250412172133340.png)
 
 ##### 2）==查看指定表结构==-desc
 
@@ -462,7 +463,7 @@ desc 表名 ;
 
 通过这条指令，我们可以查看到指定**表的字段，字段的类型、是否可以为NULL，是否存在默认值**等信息。
 
-![image-20250412172138510](Mysql-Learning-Local.assets/image-20250412172138510.png)
+![image-20250412172138510](./Mysql-Learning-Local.assets/image-20250412172138510.png)
 
 ##### 3）查询指定表的==建表语句==-show create table
 
@@ -472,7 +473,7 @@ show create table 表名 ;
 
 通过这条指令，主要是用来**查看建表语句**的，而有部分参数我们在创建表的时候，并未指定也会查询到，因为这部分是**数据库的默认值**，如：==存储引擎、字符集==等。
 
-![image-20250412172725663](Mysql-Learning-Local.assets/image-20250412172725663.png)
+![image-20250412172725663](./Mysql-Learning-Local.assets/image-20250412172725663.png)
 
 ##### 4）==创建表结构==-create table
 
@@ -486,11 +487,11 @@ CREATE TABLE 表名(
 ) [ COMMENT 表注释 ] ;
 ```
 
-![image-20250412171803304](Mysql-Learning-Local.assets/image-20250412171803304.png)
+![image-20250412171803304](./Mysql-Learning-Local.assets/image-20250412171803304.png)
 
 比如，我们创建一张表 tb_user ，对应的结构如下，那么建表语句为：
 
-![image-20250412171954943](Mysql-Learning-Local.assets/image-20250412171954943.png)
+![image-20250412171954943](./Mysql-Learning-Local.assets/image-20250412171954943.png)
 
 ```sql
 create table tb_user(
@@ -501,7 +502,7 @@ create table tb_user(
 ) comment '用户表';
 ```
 
-![image-20250412172528974](Mysql-Learning-Local.assets/image-20250412172528974.png)
+![image-20250412172528974](./Mysql-Learning-Local.assets/image-20250412172528974.png)
 
 
 
@@ -511,7 +512,7 @@ create table tb_user(
 
 ##### 1）数值类型
 
-![image-20250412172348715](Mysql-Learning-Local.assets/image-20250412172348715.png)
+![image-20250412172348715](./Mysql-Learning-Local.assets/image-20250412172348715.png)
 
 
 
@@ -540,7 +541,7 @@ create table tb_user(
 
 ##### 2）字符串类型
 
-![image-20250412173804976](Mysql-Learning-Local.assets/image-20250412173804976.png)
+![image-20250412173804976](./Mysql-Learning-Local.assets/image-20250412173804976.png)
 
 | 类型       | 大小                  | 描述                            |
 | ---------- | --------------------- | ------------------------------- |
@@ -570,7 +571,7 @@ char 与 varchar 都可以描述字符串，**char是定长字符串**，指定�
 
 ##### 3）日期类型
 
-![image-20250412174118563](Mysql-Learning-Local.assets/image-20250412174118563.png)
+![image-20250412174118563](./Mysql-Learning-Local.assets/image-20250412174118563.png)
 
 | 类型      | 大小 | 范围                                       | 格式                | 描述                     |
 | --------- | ---- | ------------------------------------------ | ------------------- | ------------------------ |
@@ -587,11 +588,11 @@ char 与 varchar 都可以描述字符串，**char是定长字符串**，指定�
 
 #### ③表操作-案例
 
-![image-20250412174708771](Mysql-Learning-Local.assets/image-20250412174708771.png)
+![image-20250412174708771](./Mysql-Learning-Local.assets/image-20250412174708771.png)
 
 对应的建表语句如下:
 
-![image-20250412175024881](Mysql-Learning-Local.assets/image-20250412175024881.png)
+![image-20250412175024881](./Mysql-Learning-Local.assets/image-20250412175024881.png)
 
 ```sql
 create table emp(
@@ -607,7 +608,7 @@ create table emp(
 
 SQL语句编写完毕之后，就可以在MySQL的命令行中执行SQL，然后也可以通过 **desc 指令查询表结构信息：**
 
-![image-20250412174858556](Mysql-Learning-Local.assets/image-20250412174858556.png)
+![image-20250412174858556](./Mysql-Learning-Local.assets/image-20250412174858556.png)
 
 表结构创建好了，里面的name字段是varchar类型，最大长度为10，也就意味着如果超过10将会报错，如果我们想修改这个字段的类型 或 修改字段的长度该如何操作呢？接下来再来讲解**DDL语句**中，如何操作表字段。
 
@@ -617,7 +618,7 @@ SQL语句编写完毕之后，就可以在MySQL的命令行中执行SQL，然后
 
 ##### 1）添加字段-add
 
-![image-20250412180141970](Mysql-Learning-Local.assets/image-20250412180141970.png)
+![image-20250412180141970](./Mysql-Learning-Local.assets/image-20250412180141970.png)
 
 ```sql
 ALTER TABLE 表名 ADD 字段名 类型 (长度) [ COMMENT 注释 ] [ 约束 ];
@@ -635,7 +636,7 @@ ALTER TABLE emp ADD nickname varchar(20) COMMENT '昵称';
 
 ##### 2）修改数据类型-modify
 
-![image-20250412180327532](Mysql-Learning-Local.assets/image-20250412180327532.png)
+![image-20250412180327532](./Mysql-Learning-Local.assets/image-20250412180327532.png)
 
 ```sql
 ALTER TABLE 表名 MODIFY 字段名 新数据类型 (长度);
@@ -661,7 +662,7 @@ ALTER TABLE emp CHANGE nickname username varchar(30) COMMENT '昵称';
 
 ##### 4）删除字段-drop
 
-![image-20250412180404849](Mysql-Learning-Local.assets/image-20250412180404849.png)
+![image-20250412180404849](./Mysql-Learning-Local.assets/image-20250412180404849.png)
 
 ```sql
 ALTER TABLE 表名 DROP 字段名;
@@ -679,7 +680,7 @@ ALTER TABLE emp DROP username;
 
 ##### 5）修改表名-rename  to
 
-![image-20250412180437733](Mysql-Learning-Local.assets/image-20250412180437733.png)
+![image-20250412180437733](./Mysql-Learning-Local.assets/image-20250412180437733.png)
 
 ```sql
 ALTER TABLE 表名 RENAME TO 新表名;
@@ -697,7 +698,7 @@ ALTER TABLE emp RENAME TO employee;
 
 #### ⑤表操作删除-drop table
 
-![image-20250412181043667](Mysql-Learning-Local.assets/image-20250412181043667.png)
+![image-20250412181043667](./Mysql-Learning-Local.assets/image-20250412181043667.png)
 
 ##### 1）删除表-drop
 
@@ -735,7 +736,7 @@ TRUNCATE TABLE 表名;
 
 ### （3）小结
 
-![image-20250412190200058](Mysql-Learning-Local.assets/image-20250412190200058.png)
+![image-20250412190200058](./Mysql-Learning-Local.assets/image-20250412190200058.png)
 
 
 
@@ -753,7 +754,7 @@ TRUNCATE TABLE 表名;
 
 mysql主流的图形化界面工具，有以下几种：
 
-![image-20250412190353228](Mysql-Learning-Local.assets/image-20250412190353228.png)
+![image-20250412190353228](./Mysql-Learning-Local.assets/image-20250412190353228.png)
 
 而本次课程中，选择最后一种DataGrip，这种图形化界面工具，功能更加强大，界面提示更加友好，
 
@@ -765,23 +766,23 @@ mysql主流的图形化界面工具，有以下几种：
 
 #### ①找到资料中准备好的安装包，双击开始安装
 
-![image-20250412191057103](Mysql-Learning-Local.assets/image-20250412191057103.png)
+![image-20250412191057103](./Mysql-Learning-Local.assets/image-20250412191057103.png)
 
 #### ②点击next，一步一步的完成安装
 
-![image-20250412191102737](Mysql-Learning-Local.assets/image-20250412191102737.png)
+![image-20250412191102737](./Mysql-Learning-Local.assets/image-20250412191102737.png)
 
 选择DataGrip的安装目录，然后选择下一步
 
-![image-20250412191115366](Mysql-Learning-Local.assets/image-20250412191115366.png)
+![image-20250412191115366](./Mysql-Learning-Local.assets/image-20250412191115366.png)
 
-![image-20250412191125499](Mysql-Learning-Local.assets/image-20250412191125499.png)
+![image-20250412191125499](./Mysql-Learning-Local.assets/image-20250412191125499.png)
 
 下一步，执行安装
 
-![image-20250412191132385](Mysql-Learning-Local.assets/image-20250412191132385.png)
+![image-20250412191132385](./Mysql-Learning-Local.assets/image-20250412191132385.png)
 
-![image-20250412191142390](Mysql-Learning-Local.assets/image-20250412191142390.png)
+![image-20250412191142390](./Mysql-Learning-Local.assets/image-20250412191142390.png)
 
 ### （2）使用
 
@@ -789,11 +790,11 @@ mysql主流的图形化界面工具，有以下几种：
 
 参考图示, 一步步操作即可
 
-![image-20250412191149805](Mysql-Learning-Local.assets/image-20250412191149805.png)
+![image-20250412191149805](./Mysql-Learning-Local.assets/image-20250412191149805.png)
 
 配置以及驱动jar包下载完毕之后，就可以点击 "Test Connection" 就可以测试，是否可以连接MySQL，如果出现 "Successed"，就表名连接成功了 。
 
-![image-20250412191202311](Mysql-Learning-Local.assets/image-20250412191202311.png)
+![image-20250412191202311](./Mysql-Learning-Local.assets/image-20250412191202311.png)
 
 
 
@@ -801,13 +802,13 @@ mysql主流的图形化界面工具，有以下几种：
 
 连接上了MySQL服务之后，并未展示出所有的数据库，此时，我们需要设置，展示所有的数据库，具体操作如下：
 
-![image-20250412191215187](Mysql-Learning-Local.assets/image-20250412191215187.png)
+![image-20250412191215187](./Mysql-Learning-Local.assets/image-20250412191215187.png)
 
 
 
 #### ③创建数据库
 
-![image-20250412191222201](Mysql-Learning-Local.assets/image-20250412191222201.png)
+![image-20250412191222201](./Mysql-Learning-Local.assets/image-20250412191222201.png)
 
 
 
@@ -825,17 +826,17 @@ mysql主流的图形化界面工具，有以下几种：
 
 在指定的数据库上面右键，选择new --> Table
 
-![image-20250412191252606](Mysql-Learning-Local.assets/image-20250412191252606.png)
+![image-20250412191252606](./Mysql-Learning-Local.assets/image-20250412191252606.png)
 
-![image-20250412191259671](Mysql-Learning-Local.assets/image-20250412191259671.png)
+![image-20250412191259671](./Mysql-Learning-Local.assets/image-20250412191259671.png)
 
 #### ⑤修改表结构
 
 在需要修改的表上，右键选择 "Modify Table..."
 
-![image-20250412191309681](Mysql-Learning-Local.assets/image-20250412191309681.png)
+![image-20250412191309681](./Mysql-Learning-Local.assets/image-20250412191309681.png)
 
-![image-20250412191318159](Mysql-Learning-Local.assets/image-20250412191318159.png)
+![image-20250412191318159](./Mysql-Learning-Local.assets/image-20250412191318159.png)
 
 如果想增加字段，直接点击+号，录入字段信息，然后点击Execute即可。
 
@@ -851,11 +852,11 @@ mysql主流的图形化界面工具，有以下几种：
 
 在指定的数据库上，右键，选择 New --> Query Console
 
-![image-20250412191330254](Mysql-Learning-Local.assets/image-20250412191330254.png)
+![image-20250412191330254](./Mysql-Learning-Local.assets/image-20250412191330254.png)
 
 然后就可以在打开的Query Console控制台，并在控制台中编写SQL，执行SQL。
 
-![image-20250412191336167](Mysql-Learning-Local.assets/image-20250412191336167.png)
+![image-20250412191336167](./Mysql-Learning-Local.assets/image-20250412191336167.png)
 
 
 
@@ -871,7 +872,7 @@ DML英文全称是**Data Manipulation Language(==数据操作语言==)**，用�
 
 ### （1）添加数据-insert
 
-![image-20250412210251794](Mysql-Learning-Local.assets/image-20250412210251794.png)
+![image-20250412210251794](./Mysql-Learning-Local.assets/image-20250412210251794.png)
 
 #### ①给指定字段添加数据
 
@@ -893,7 +894,7 @@ values(1,'1','Itcast','男',10,'123456789012345678','2000-01-01');
 
 在左侧的表名上双击，就可以查看这张表的数据。
 
-![image-20250412205602957](Mysql-Learning-Local.assets/image-20250412205602957.png)
+![image-20250412205602957](./Mysql-Learning-Local.assets/image-20250412205602957.png)
 
 **B. 方式二**
 
@@ -914,13 +915,13 @@ values(1,'1','Itcast','男',-1,'123456789012345678','2000-01-01');
 
 执行上述的SQL语句时，报错了，具体的错误信息如下：
 
-![image-20250412205610876](Mysql-Learning-Local.assets/image-20250412205610876.png)
+![image-20250412205610876](./Mysql-Learning-Local.assets/image-20250412205610876.png)
 
 因为 employee 表的**age字段类型为 tinyint**，而且还是**无符号的 unsigned** ，所以**取值只能在**
 
 **0-255 之间**。
 
-![image-20250412205632479](Mysql-Learning-Local.assets/image-20250412205632479.png)
+![image-20250412205632479](./Mysql-Learning-Local.assets/image-20250412205632479.png)
 
 
 
@@ -969,7 +970,7 @@ insert into employee values(3,'3','韦一笑','男',38,'123456789012345670','200
 
 ### （2）修改数据-update
 
-![image-20250412212450098](Mysql-Learning-Local.assets/image-20250412212450098.png)
+![image-20250412212450098](./Mysql-Learning-Local.assets/image-20250412212450098.png)
 
 修改数据的具体语法为:
 
@@ -1049,7 +1050,7 @@ delete from employee;
 
 ### （4）小结
 
-![image-20250412212831041](Mysql-Learning-Local.assets/image-20250412212831041.png)
+![image-20250412212831041](./Mysql-Learning-Local.assets/image-20250412212831041.png)
 
 
 
@@ -1063,7 +1064,7 @@ DQL英文全称是**Data Query Language(数据查询语言)**，数据查询语�
 
 在一个正常的业务系统中，**查询操作的频次是要远高于增删改的**，当我们去访问企业官网、电商网站，在这些网站中我们所看到的数据，实际都是需要从数据库中查询并展示的。而且在查询的过程中，可能还会涉及到条件、排序、分页等操作。
 
-![image-20250412213429594](Mysql-Learning-Local.assets/image-20250412213429594.png)
+![image-20250412213429594](./Mysql-Learning-Local.assets/image-20250412213429594.png)
 
 那么，本小节我们主要学习的就是如何进行数据的查询操作。 我们先来完成如下数据准备工作:
 
@@ -1132,7 +1133,7 @@ VALUES (16, '00016', '周芷若', '女', 18, null, '北京', '2012-06-01');
 
 DQL 查询语句，语法结构如下：
 
-![image-20250412214157217](Mysql-Learning-Local.assets/image-20250412214157217.png)
+![image-20250412214157217](./Mysql-Learning-Local.assets/image-20250412214157217.png)
 
 ```sql
 SELECT
@@ -1164,7 +1165,7 @@ LIMIT
 
 ### （2）基础查询
 
-![image-20250412214245020](Mysql-Learning-Local.assets/image-20250412214245020.png)
+![image-20250412214245020](./Mysql-Learning-Local.assets/image-20250412214245020.png)
 
 在基本查询的DQL语句中，不带任何的查询条件，查询的语法如下：
 
@@ -1230,7 +1231,7 @@ select distinct workaddress '工作地址' from emp;
 
 ### （3）==条件查询==-where
 
-![image-20250412215547181](Mysql-Learning-Local.assets/image-20250412215547181.png)
+![image-20250412215547181](./Mysql-Learning-Local.assets/image-20250412215547181.png)
 
 #### ①语法
 
@@ -1242,7 +1243,7 @@ SELECT 字段列表 FROM 表名 WHERE 条件列表 ;
 
 常用的比较运算符如下:
 
-![image-20250412215017001](Mysql-Learning-Local.assets/image-20250412215017001.png)
+![image-20250412215017001](./Mysql-Learning-Local.assets/image-20250412215017001.png)
 
 | **比较运算符**      | **功能**                                 |
 | :------------------ | :--------------------------------------- |
@@ -1259,7 +1260,7 @@ SELECT 字段列表 FROM 表名 WHERE 条件列表 ;
 
 常用的逻辑运算符如下:
 
-![image-20250412215039264](Mysql-Learning-Local.assets/image-20250412215039264.png)
+![image-20250412215039264](./Mysql-Learning-Local.assets/image-20250412215039264.png)
 
 | **逻辑运算符** | **功能**                   |
 | :------------- | :------------------------- |
@@ -1349,7 +1350,7 @@ select * from emp where idcard like '_________________X';
 
 ### （4）聚合查询-count() ...
 
-![image-20250412220717985](Mysql-Learning-Local.assets/image-20250412220717985.png)
+![image-20250412220717985](./Mysql-Learning-Local.assets/image-20250412220717985.png)
 
 #### ①介绍
 
@@ -1357,7 +1358,7 @@ select * from emp where idcard like '_________________X';
 
 #### ②常见的聚合函数
 
-![image-20250412220045037](Mysql-Learning-Local.assets/image-20250412220045037.png)
+![image-20250412220045037](./Mysql-Learning-Local.assets/image-20250412220045037.png)
 
 | **函数** | **功能** |
 | :------- | :------- |
@@ -1429,7 +1430,7 @@ select sum(age) from emp where workaddress = '西安';
 
 ### （5）分组查询-group by
 
-![image-20250412223722231](Mysql-Learning-Local.assets/image-20250412223722231.png)
+![image-20250412223722231](./Mysql-Learning-Local.assets/image-20250412223722231.png)
 
 #### ①语法
 
@@ -1480,7 +1481,7 @@ select workaddress, gender, count(*) as '数量' from emp group by gender,workad
 
 ### （6）排序查询-order by
 
-![image-20250412223958433](Mysql-Learning-Local.assets/image-20250412223958433.png)
+![image-20250412223958433](./Mysql-Learning-Local.assets/image-20250412223958433.png)
 
 排序在日常开发中是非常常见的一个操作，有升序排序，也有降序排序。
 
@@ -1531,7 +1532,7 @@ select * from emp order by age asc , entrydate desc;
 
 ### （7）分页查询-limit
 
-![image-20250412224125738](Mysql-Learning-Local.assets/image-20250412224125738.png)
+![image-20250412224125738](./Mysql-Learning-Local.assets/image-20250412224125738.png)
 
 分页操作在业务系统开发时，也是非常常见的一个功能，我们在网站中看到的各种各样的**分页**条，后台
 
@@ -1568,7 +1569,7 @@ select * from emp limit 10,10;
 
 ### （8）案例
 
-![image-20250412224227434](Mysql-Learning-Local.assets/image-20250412224227434.png)
+![image-20250412224227434](./Mysql-Learning-Local.assets/image-20250412224227434.png)
 
 #### ①查询年龄为20,21,22,23岁的员工信息。
 
@@ -1608,7 +1609,7 @@ entrydate asc limit 5 ;
 
 在讲解DQL语句的具体语法之前，我们已经讲解了DQL语句的完整语法，及**编写顺序**，接下来，我们要来说明的是DQL语句在执行时的**执行顺序**，也就是先执行那一部分，后执行那一部分。
 
-![image-20250412223251443](Mysql-Learning-Local.assets/image-20250412223251443.png)
+![image-20250412223251443](./Mysql-Learning-Local.assets/image-20250412223251443.png)
 
 验证：
 
@@ -1638,7 +1639,7 @@ select e.name ename , e.age eage from emp e where eage > 15 order by age asc;
 
 执行上述SQL报错了:
 
-![image-20250412223259127](Mysql-Learning-Local.assets/image-20250412223259127.png)
+![image-20250412223259127](./Mysql-Learning-Local.assets/image-20250412223259127.png)
 
 由此我们可以得出结论: **from 先执行，然后执行 where ， 再执行select** 。
 
@@ -1662,7 +1663,7 @@ select e.name ename , e.age eage from emp e where e.age > 15 order by eage asc;
 
 ### （10）总结
 
-![image-20250412225219416](Mysql-Learning-Local.assets/image-20250412225219416.png)
+![image-20250412225219416](./Mysql-Learning-Local.assets/image-20250412225219416.png)
 
 
 
@@ -1672,11 +1673,11 @@ select e.name ename , e.age eage from emp e where e.age > 15 order by eage asc;
 
 DCL英文全称是**Data Control Language**(数据控制语言)，用来管理**数据库用户、控制数据库的访问权限。**
 
-![image-20250412225320581](Mysql-Learning-Local.assets/image-20250412225320581.png)
+![image-20250412225320581](./Mysql-Learning-Local.assets/image-20250412225320581.png)
 
 ### （1）管理用户-user表
 
-![image-20250412231042396](Mysql-Learning-Local.assets/image-20250412231042396.png)
+![image-20250412231042396](./Mysql-Learning-Local.assets/image-20250412231042396.png)
 
 #### ①查询用户
 
@@ -1686,7 +1687,7 @@ select * from mysql.user;
 
 查询的结果如下:
 
-![image-20250412225952730](Mysql-Learning-Local.assets/image-20250412225952730.png)
+![image-20250412225952730](./Mysql-Learning-Local.assets/image-20250412225952730.png)
 
 其中 Host代表**当前用户访问的主机,** 如果**==为localhost, 仅代表只能够在当前本机访问==**，是不可以远程访问的。 User代表的是**访问该数据库的用户名**。在MySQL中需要通过**Host和User来唯一标识一个用户**。
 
@@ -1749,15 +1750,15 @@ drop user 'itcast'@'localhost';
 
 MySQL中定义了很多种权限，但是常用的就以下几种：
 
-![image-20250412231209734](Mysql-Learning-Local.assets/image-20250412231209734.png)
+![image-20250412231209734](./Mysql-Learning-Local.assets/image-20250412231209734.png)
 
 上述只是简单罗列了常见的几种权限描述，其他权限描述及含义，可以直接参考[**官方文档**](https://dev.mysql.com/doc/refman/8.0/en/privileges-provided.html)。
 
 
 
-![image-20250412231719322](Mysql-Learning-Local.assets/image-20250412231719322.png)
+![image-20250412231719322](./Mysql-Learning-Local.assets/image-20250412231719322.png)
 
-![image-20250412225931680](Mysql-Learning-Local.assets/image-20250412225931680.png)
+![image-20250412225931680](./Mysql-Learning-Local.assets/image-20250412225931680.png)
 
 
 
@@ -1807,7 +1808,7 @@ A. 查询 'heima'@'%' 用户的权限
 show grants for 'heima'@'%'; 
 ```
 
-![image-20250412231454380](Mysql-Learning-Local.assets/image-20250412231454380.png)
+![image-20250412231454380](./Mysql-Learning-Local.assets/image-20250412231454380.png)
 
 B. 授予 'heima'@'%' 用户**itcast数据库所有表的所有操作**权限
 
@@ -1815,7 +1816,7 @@ B. 授予 'heima'@'%' 用户**itcast数据库所有表的所有操作**权限
 grant all on itcast.* to 'heima'@'%'; 
 ```
 
-![image-20250412231532469](Mysql-Learning-Local.assets/image-20250412231532469.png)
+![image-20250412231532469](./Mysql-Learning-Local.assets/image-20250412231532469.png)
 
 C. 授予 'heima'@'%' 用户==所有数据库所有表的所有操作==权限
 
@@ -1829,13 +1830,13 @@ D. 撤销 'heima'@'%' 用户的itcast数据库的所有权限
 revoke all on itcast.* from 'heima'@'%';
 ```
 
-![image-20250412231619224](Mysql-Learning-Local.assets/image-20250412231619224.png)
+![image-20250412231619224](./Mysql-Learning-Local.assets/image-20250412231619224.png)
 
 
 
 ### （3）小结
 
-![image-20250413153608736](Mysql-Learning-Local.assets/image-20250413153608736.png)
+![image-20250413153608736](./Mysql-Learning-Local.assets/image-20250413153608736.png)
 
 
 
@@ -1845,7 +1846,7 @@ revoke all on itcast.* from 'heima'@'%';
 
 我们先来看两个场景：
 
-![image-20250413153934435](Mysql-Learning-Local.assets/image-20250413153934435.png)
+![image-20250413153934435](./Mysql-Learning-Local.assets/image-20250413153934435.png)
 
 
 
@@ -1866,9 +1867,9 @@ MySQL中的函数主要分为以下四类： **字符串函数、数值函数、
 
 MySQL中内置了很多字符串函数，常用的几个如下：
 
-![image-20250413161340185](Mysql-Learning-Local.assets/image-20250413161340185.png)
+![image-20250413161340185](./Mysql-Learning-Local.assets/image-20250413161340185.png)
 
-![image-20250413154723587](Mysql-Learning-Local.assets/image-20250413154723587.png)
+![image-20250413154723587](./Mysql-Learning-Local.assets/image-20250413154723587.png)
 
 | **函数**                 | **功能**                                                  |
 | :----------------------- | :-------------------------------------------------------- |
@@ -1932,7 +1933,7 @@ select substring('Hello MySQL',1,5);
 
 由于业务需求变更，企业员工的工号，统一为5位数，目前不足5位数的全部在前面补0。比如： 1号员工的工号应该为00001。
 
-![image-20250413161559888](Mysql-Learning-Local.assets/image-20250413161559888.png)
+![image-20250413161559888](./Mysql-Learning-Local.assets/image-20250413161559888.png)
 
 ```sql
 update emp set workno = lpad(workno, 5, '0');
@@ -1940,7 +1941,7 @@ update emp set workno = lpad(workno, 5, '0');
 
 处理完毕后, 具体的数据为:
 
-![image-20250413161610571](Mysql-Learning-Local.assets/image-20250413161610571.png)
+![image-20250413161610571](./Mysql-Learning-Local.assets/image-20250413161610571.png)
 
 
 
@@ -1950,9 +1951,9 @@ update emp set workno = lpad(workno, 5, '0');
 
 常见的数值函数如下：
 
-![image-20250413162032863](Mysql-Learning-Local.assets/image-20250413162032863.png)
+![image-20250413162032863](./Mysql-Learning-Local.assets/image-20250413162032863.png)
 
-![image-20250413155146707](Mysql-Learning-Local.assets/image-20250413155146707.png)
+![image-20250413155146707](./Mysql-Learning-Local.assets/image-20250413155146707.png)
 
 | **函数**   | **功能**                           |
 | :--------- | :--------------------------------- |
@@ -2013,11 +2014,11 @@ select lpad(round(rand()*1000000 , 0), 6, '0');
 
 ### （1）常见日期函数
 
-![image-20250413162454158](Mysql-Learning-Local.assets/image-20250413162454158.png)
+![image-20250413162454158](./Mysql-Learning-Local.assets/image-20250413162454158.png)
 
 常见的日期函数如下：
 
-![image-20250413155949307](Mysql-Learning-Local.assets/image-20250413155949307.png)
+![image-20250413155949307](./Mysql-Learning-Local.assets/image-20250413155949307.png)
 
 | **函数**                           | **功能**                                          |
 | :--------------------------------- | :------------------------------------------------ |
@@ -2089,7 +2090,7 @@ select name, datediff(curdate(), entrydate) as 'entrydays' from emp order by ent
 
 ### （1）常见流程函数
 
-![image-20250413160625835](Mysql-Learning-Local.assets/image-20250413160625835.png)
+![image-20250413160625835](./Mysql-Learning-Local.assets/image-20250413160625835.png)
 
 | **函数**                                                     | **功能**                                                     |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
@@ -2134,7 +2135,7 @@ from emp;
 
 ### （3）案例
 
-![image-20250413163559587](Mysql-Learning-Local.assets/image-20250413163559587.png)
+![image-20250413163559587](./Mysql-Learning-Local.assets/image-20250413163559587.png)
 
 ```sql
 create table score(
@@ -2166,7 +2167,7 @@ from score;
 
 ## 3.5 小结
 
-![image-20250413163950502](Mysql-Learning-Local.assets/image-20250413163950502.png)
+![image-20250413163950502](./Mysql-Learning-Local.assets/image-20250413163950502.png)
 
 
 
@@ -2174,7 +2175,7 @@ from score;
 >
 > 思考一下需要用到什么样的函数来实现?
 >
-> ![image-20250413164019815](Mysql-Learning-Local.assets/image-20250413164019815.png)
+> ![image-20250413164019815](./Mysql-Learning-Local.assets/image-20250413164019815.png)
 >
 > - 数据库中，存储的是入职日期，如 2000-01-01，如何快速计算出入职天数呢？ -------->
 >   - 答案: datediff
@@ -2189,7 +2190,7 @@ from score;
 
 ## 4.1 概述
 
-![image-20250413170414599](Mysql-Learning-Local.assets/image-20250413170414599.png)
+![image-20250413170414599](./Mysql-Learning-Local.assets/image-20250413170414599.png)
 
 ### （1）概念
 
@@ -2201,7 +2202,7 @@ from score;
 
 ### （3）分类
 
-![image-20250413164315127](Mysql-Learning-Local.assets/image-20250413164315127.png)
+![image-20250413164315127](./Mysql-Learning-Local.assets/image-20250413164315127.png)
 
 > ==注意==：约束是**作用于表中字段上的**，可以在**创建表/修改表的时候添加约束**。
 
@@ -2213,7 +2214,7 @@ from score;
 
 案例需求： 根据需求，完成表结构的创建。需求如下：
 
-![image-20250413170815405](Mysql-Learning-Local.assets/image-20250413170815405.png)
+![image-20250413170815405](./Mysql-Learning-Local.assets/image-20250413170815405.png)
 
 | **字段名**         | **字段含义** | **字段类型** | **约束条件**              | **约束关键字**              |
 | :----------------- | :----------- | :----------- | :------------------------ | :-------------------------- |
@@ -2260,7 +2261,7 @@ insert into tb_user(name,age,gender) values ('Tom5',120,'男');
 
 上面，我们是通过编写SQL语句的形式来完成约束的指定，那加入我们是**通过图形化界面**来创建表结构时，又该如何来指定约束呢？ 只需要在创建表的时候，根据我们的需要选择对应的约束即可。
 
-![image-20250413164714811](Mysql-Learning-Local.assets/image-20250413164714811.png)
+![image-20250413164714811](./Mysql-Learning-Local.assets/image-20250413164714811.png)
 
 
 
@@ -2270,13 +2271,13 @@ insert into tb_user(name,age,gender) values ('Tom5',120,'男');
 
 ### （1）介绍
 
-![image-20250413171424550](Mysql-Learning-Local.assets/image-20250413171424550.png)
+![image-20250413171424550](./Mysql-Learning-Local.assets/image-20250413171424550.png)
 
 外键：用来让两张表的**数据之间建立连接**，从而**保证数据的一致性和完整性**。
 
 我们来看一个例子：
 
-![image-20250413164856886](Mysql-Learning-Local.assets/image-20250413164856886.png)
+![image-20250413164856886](./Mysql-Learning-Local.assets/image-20250413164856886.png)
 
 左侧的emp表是员工表，里面存储员工的基本信息，包含员工的ID、姓名、年龄、职位、薪资、入职日期、上级主管ID、部门ID，在员工的信息中存储的是部门的ID dept_id，而这个部门的ID是关联的部门表dept的主键id，那emp表的dept_id就是外键,关联的是另一张表的主键。
 
@@ -2317,11 +2318,11 @@ INSERT INTO emp (id, name, age, job,salary, entrydate, managerid, dept_id) VALUE
 (6, '小昭', 19, '程序员鼓励师',6600, '2004-10-12', 2,1);
 ```
 
-![image-20250413164906268](Mysql-Learning-Local.assets/image-20250413164906268.png)
+![image-20250413164906268](./Mysql-Learning-Local.assets/image-20250413164906268.png)
 
 接下来，我们可以做一个测试，删除id为1的部门信息。
 
-![image-20250413164913369](Mysql-Learning-Local.assets/image-20250413164913369.png)
+![image-20250413164913369](./Mysql-Learning-Local.assets/image-20250413164913369.png)
 
 结果，我们看到删除成功，而删除成功之后，部门表不存在id为1的部门，而在emp表中还有很多的员工，关联的为id为1的部门，此时就出现了数据的不完整性。 而要想解决这个问题就得通过数据库的外键约束。
 
@@ -2329,7 +2330,7 @@ INSERT INTO emp (id, name, age, job,salary, entrydate, managerid, dept_id) VALUE
 
 ### （2）语法
 
-![image-20250413171938322](Mysql-Learning-Local.assets/image-20250413171938322.png)
+![image-20250413171938322](./Mysql-Learning-Local.assets/image-20250413171938322.png)
 
 #### ①添加外键
 
@@ -2352,11 +2353,11 @@ REFERENCES 主表 (主表列名) ;
 alter table emp add constraint fk_emp_dept_id foreign key (dept_id) references dept(id);
 ```
 
-![image-20250413170144205](Mysql-Learning-Local.assets/image-20250413170144205.png)
+![image-20250413170144205](./Mysql-Learning-Local.assets/image-20250413170144205.png)
 
 添加了外键约束之后，我们再到dept表(父表)删除id为1的记录，然后看一下会发生什么现象。 此时将会报错，不能删除或更新父表记录，因为存在外键约束。
 
-![image-20250413171910459](Mysql-Learning-Local.assets/image-20250413171910459.png)
+![image-20250413171910459](./Mysql-Learning-Local.assets/image-20250413171910459.png)
 
 
 
@@ -2380,7 +2381,7 @@ alter table emp drop foreign key fk_emp_dept_id;
 
 添加了外键之后，再删除父表数据时产生的约束行为，我们就称为删除/更新行为。具体的删除/更新行为有以下几种:
 
-![image-20250413172446330](Mysql-Learning-Local.assets/image-20250413172446330.png)
+![image-20250413172446330](./Mysql-Learning-Local.assets/image-20250413172446330.png)
 
 | **行为**    | **说明**                                                     |
 | :---------- | :----------------------------------------------------------- |
@@ -2410,7 +2411,7 @@ dept(id) on update cascade on delete cascade ;
 
 A. 修改父表id为1的记录，将id修改为6
 
-![image-20250413170210360](Mysql-Learning-Local.assets/image-20250413170210360.png)
+![image-20250413170210360](./Mysql-Learning-Local.assets/image-20250413170210360.png)
 
 我们发现，原来在子表中dept_id值为1的记录，现在也变为6了，这就是**cascade级联**的效果。
 
@@ -2420,7 +2421,7 @@ A. 修改父表id为1的记录，将id修改为6
 
 B. 删除父表id为6的记录
 
-![image-20250413170221536](Mysql-Learning-Local.assets/image-20250413170221536.png)
+![image-20250413170221536](./Mysql-Learning-Local.assets/image-20250413170221536.png)
 
 我们发现，**父表的数据删除成功**了，但是**子表**中关联的记录**也被级联删除**了。
 
@@ -2437,11 +2438,11 @@ dept(id) on update cascade on delete cascade ;
 
 接下来，我们删除id为1的数据，看看会发生什么样的现象。
 
-![image-20250413170236345](Mysql-Learning-Local.assets/image-20250413170236345.png)
+![image-20250413170236345](./Mysql-Learning-Local.assets/image-20250413170236345.png)
 
 我们发现父表的记录是可以正常的删除的，父表的数据删除之后，再打开子表 emp，我们发现子表emp的dept_id字段，原来dept_id为1的数据，现在都被置为NULL了。
 
-![image-20250413170250541](Mysql-Learning-Local.assets/image-20250413170250541.png)
+![image-20250413170250541](./Mysql-Learning-Local.assets/image-20250413170250541.png)
 
 这就是SET NULL这种删除/更新行为的效果。
 
@@ -2449,7 +2450,7 @@ dept(id) on update cascade on delete cascade ;
 
 ## 4.4 小结
 
-![image-20250413172626513](Mysql-Learning-Local.assets/image-20250413172626513.png)
+![image-20250413172626513](./Mysql-Learning-Local.assets/image-20250413172626513.png)
 
 
 
@@ -2473,7 +2474,7 @@ dept(id) on update cascade on delete cascade ;
 - 关系: 一个部门对应多个员工，一个员工对应一个部门
 - 实现: 在**多的一方建立外键**，指向一的一方的主键
 
-![image-20250413173632554](Mysql-Learning-Local.assets/image-20250413173632554.png)
+![image-20250413173632554](./Mysql-Learning-Local.assets/image-20250413173632554.png)
 
 
 
@@ -2485,7 +2486,7 @@ dept(id) on update cascade on delete cascade ;
 
 - 实现: **建立第三张中间表**，**==中间表至少包含两个外键，分别关联两方主键==**
 
-  ![image-20250413173638483](Mysql-Learning-Local.assets/image-20250413173638483.png)
+  ![image-20250413173638483](./Mysql-Learning-Local.assets/image-20250413173638483.png)
 
 对应的SQL脚本:
 
@@ -2533,7 +2534,7 @@ insert into student_course values
 - 关系: 一对一关系，**多用于==单表拆分==，将一张表的基础字段放在一张表中，其他详情字段放在另一张表中，以提升操作效率**
 - 实现: **在任意一方加入外键，关联另外一方的主键**，并且**==设置外键为唯一的(UNIQUE)==**
 
-![image-20250413173657507](Mysql-Learning-Local.assets/image-20250413173657507.png)
+![image-20250413173657507](./Mysql-Learning-Local.assets/image-20250413173657507.png)
 
 对应的SQL脚本:
 
@@ -2633,7 +2634,7 @@ dept表共6条记录，emp表共17条记录。
 
 ### （2）概述
 
-![image-20250413203539493](Mysql-Learning-Local.assets/image-20250413203539493.png)
+![image-20250413203539493](./Mysql-Learning-Local.assets/image-20250413203539493.png)
 
 多表查询就是指从多张表中查询数据。
 
@@ -2641,7 +2642,7 @@ dept表共6条记录，emp表共17条记录。
 
 那么我们要执行多表查询，就只需要**使用逗号分隔多张表**即可，如： select * from emp , dept; 具体的执行结果如下:
 
-![image-20250413174215467](Mysql-Learning-Local.assets/image-20250413174215467.png)
+![image-20250413174215467](./Mysql-Learning-Local.assets/image-20250413174215467.png)
 
 此时,我们看到查询结果中包含了大量的结果集，总共102条记录，而这其实就是员工表emp所有的记录(17) 与 部门表dept所有记录(6) 的所有组合情况，这种现象称之为笛卡尔积。接下来，就来简单
 
@@ -2649,19 +2650,19 @@ dept表共6条记录，emp表共17条记录。
 
 **==笛卡尔积==:** 笛卡尔乘积是指在数学中，**两个集合A集合 和 B集合的所有组合情况**。
 
-![image-20250413174221208](Mysql-Learning-Local.assets/image-20250413174221208.png)
+![image-20250413174221208](./Mysql-Learning-Local.assets/image-20250413174221208.png)
 
 而在多表查询中，我们是**需要==消除无效的笛卡尔积==**的，**只保留两张表关联部分的数据**。
 
-![image-20250413174227176](Mysql-Learning-Local.assets/image-20250413174227176.png)
+![image-20250413174227176](./Mysql-Learning-Local.assets/image-20250413174227176.png)
 
-![image-20250413174232832](Mysql-Learning-Local.assets/image-20250413174232832.png)
+![image-20250413174232832](./Mysql-Learning-Local.assets/image-20250413174232832.png)
 
 在SQL语句中，如何来去除无效的笛卡尔积呢？ 我们可以给多表查询加上连接查询的条件即可。
 
 select * from emp , dept **where** emp.dept_id = dept.id;
 
-![image-20250413174252000](Mysql-Learning-Local.assets/image-20250413174252000.png)
+![image-20250413174252000](./Mysql-Learning-Local.assets/image-20250413174252000.png)
 
 而由于id为17的员工，没有dept_id字段值，所以在多表查询时，根据连接查询的条件并没有查询
 
@@ -2671,7 +2672,7 @@ select * from emp , dept **where** emp.dept_id = dept.id;
 
 ### （3）分类
 
-![image-20250413203659368](Mysql-Learning-Local.assets/image-20250413203659368.png)
+![image-20250413203659368](./Mysql-Learning-Local.assets/image-20250413203659368.png)
 
 - 连接查询
   - 内连接：相当于查询A、B**交集部分数据**
@@ -2681,7 +2682,7 @@ select * from emp , dept **where** emp.dept_id = dept.id;
   - 自连接：当前表与自身的连接查询，自连接必须使用表别名
 - 子查询
 
-![image-20250413174259506](Mysql-Learning-Local.assets/image-20250413174259506.png)
+![image-20250413174259506](./Mysql-Learning-Local.assets/image-20250413174259506.png)
 
 
 
@@ -2689,9 +2690,9 @@ select * from emp , dept **where** emp.dept_id = dept.id;
 
 ## 5.3 🌟内连接
 
-![image-20250413204152514](Mysql-Learning-Local.assets/image-20250413204152514.png)
+![image-20250413204152514](./Mysql-Learning-Local.assets/image-20250413204152514.png)
 
-![image-20250413174343726](Mysql-Learning-Local.assets/image-20250413174343726.png)
+![image-20250413174343726](./Mysql-Learning-Local.assets/image-20250413174343726.png)
 
 **内连接查询的是==两张表交集部分==的数据。(也就是绿色部分的数据)**
 
@@ -2759,9 +2760,9 @@ select e.name, d.name from emp e join dept d on e.dept_id = d.id;
 
 ## 5.4 🌟外连接
 
-![image-20250413204255225](Mysql-Learning-Local.assets/image-20250413204255225.png)
+![image-20250413204255225](./Mysql-Learning-Local.assets/image-20250413204255225.png)
 
-![image-20250413193707265](Mysql-Learning-Local.assets/image-20250413193707265.png)
+![image-20250413193707265](./Mysql-Learning-Local.assets/image-20250413193707265.png)
 
 外连接分为两种，分别是：**左外连接 和 右外连接**。具体的语法结构为：
 
@@ -2866,7 +2867,7 @@ b.id;
 
 ### （2）联合查询-union/union all
 
-![image-20250413205030176](Mysql-Learning-Local.assets/image-20250413205030176.png)
+![image-20250413205030176](./Mysql-Learning-Local.assets/image-20250413205030176.png)
 
 #### ①概念
 
@@ -2895,7 +2896,7 @@ union all
 select * from emp where age > 50;
 ```
 
-![image-20250413195741993](Mysql-Learning-Local.assets/image-20250413195741993.png)
+![image-20250413195741993](./Mysql-Learning-Local.assets/image-20250413195741993.png)
 
 union all查询出来的结果，**仅仅进行简单的合并，并未去重**。
 
@@ -2907,7 +2908,7 @@ union
 select * from emp where age > 50;
 ```
 
-![image-20250413195749836](Mysql-Learning-Local.assets/image-20250413195749836.png)
+![image-20250413195749836](./Mysql-Learning-Local.assets/image-20250413195749836.png)
 
 union 联合查询，**会对查询出来的结果进行去重处理**。
 
@@ -2919,7 +2920,7 @@ union 联合查询，**会对查询出来的结果进行去重处理**。
 >
 > 错。如：
 >
-> ![image-20250413195820215](Mysql-Learning-Local.assets/image-20250413195820215.png)
+> ![image-20250413195820215](./Mysql-Learning-Local.assets/image-20250413195820215.png)
 
 
 
@@ -2929,7 +2930,7 @@ union 联合查询，**会对查询出来的结果进行去重处理**。
 
 ### （1）概述
 
-![image-20250413205152781](Mysql-Learning-Local.assets/image-20250413205152781.png)
+![image-20250413205152781](./Mysql-Learning-Local.assets/image-20250413205152781.png)
 
 #### ①概念
 
@@ -3008,7 +3009,7 @@ select * from emp where entrydate > (select entrydate from emp where name = '方
 
 ### （3）列子查询
 
-![image-20250413205828834](Mysql-Learning-Local.assets/image-20250413205828834.png)
+![image-20250413205828834](./Mysql-Learning-Local.assets/image-20250413205828834.png)
 
 #### ①概念
 
@@ -3016,7 +3017,7 @@ select * from emp where entrydate > (select entrydate from emp where name = '方
 
 常用的操作符：**IN** 、NOT IN 、 **ANY** 、**SOME** 、 **ALL**
 
-![image-20250413200544852](Mysql-Learning-Local.assets/image-20250413200544852.png)
+![image-20250413200544852](./Mysql-Learning-Local.assets/image-20250413200544852.png)
 
 
 
@@ -3163,7 +3164,7 @@ join dept d on e.dept_id = d.id ;
 
 ## 5.7 多表查询案例
 
-![image-20250413210333565](Mysql-Learning-Local.assets/image-20250413210333565.png)
+![image-20250413210333565](./Mysql-Learning-Local.assets/image-20250413210333565.png)
 
 **数据环境准备:**
 
@@ -3365,7 +3366,7 @@ s.id = sc.studentid and sc.courseid = c.id ;
 
 ## 5.8 小结
 
-![image-20250413211807941](Mysql-Learning-Local.assets/image-20250413211807941.png)
+![image-20250413211807941](./Mysql-Learning-Local.assets/image-20250413211807941.png)
 
 
 
@@ -3373,7 +3374,7 @@ s.id = sc.studentid and sc.courseid = c.id ;
 
 ## **6.1** 事务简介
 
-![image-20250413212026301](Mysql-Learning-Local.assets/image-20250413212026301.png)
+![image-20250413212026301](./Mysql-Learning-Local.assets/image-20250413212026301.png)
 
 
 
@@ -3381,7 +3382,7 @@ s.id = sc.studentid and sc.courseid = c.id ;
 
 就比如: 张三给李四转账1000块钱，张三银行账户的钱减少1000，而李四银行账户的钱要增加1000。 这一组操作就必须在一个事务的范围内，要么都成功，要么都失败。
 
-![image-20250413212419744](Mysql-Learning-Local.assets/image-20250413212419744.png)
+![image-20250413212419744](./Mysql-Learning-Local.assets/image-20250413212419744.png)
 
 - **正常情况:** 转账这个操作, 需要分为以下这么三步来完成 , 三步完成之后, 张三减少1000, 而李四
 
@@ -3391,13 +3392,13 @@ s.id = sc.studentid and sc.courseid = c.id ;
 
   三减少1000块钱, 而李四的金额没变, 这样就造成了数据的不一致, 就出现问题了。
 
-![image-20250413212456954](Mysql-Learning-Local.assets/image-20250413212456954.png)
+![image-20250413212456954](./Mysql-Learning-Local.assets/image-20250413212456954.png)
 
 
 
 为了解决上述的问题，就需要通过数据的事务来完成，我们只需要在业务逻辑执行之前开启事务，执行完毕后提交事务。**如果执行过程中报错，则回滚事务，把数据恢复到事务开始之前的状态。**
 
-![image-20250413212507090](Mysql-Learning-Local.assets/image-20250413212507090.png)
+![image-20250413212507090](./Mysql-Learning-Local.assets/image-20250413212507090.png)
 
 > **注意：**  ==默认MySQL的事务是自动提交的==，也就是说，当执行完一条DML语句时，MySQL会立即隐
 >
@@ -3436,7 +3437,7 @@ update account set money = money + 1000 where name = '李四';
 
 测试完毕之后检查数据的状态, 可以看到数据操作前后是一致的。
 
-![image-20250413213109632](Mysql-Learning-Local.assets/image-20250413213109632.png)
+![image-20250413213109632](./Mysql-Learning-Local.assets/image-20250413213109632.png)
 
 #### ②测试异常情况
 
@@ -3452,7 +3453,7 @@ update account set money = money + 1000 where name = '李四';
 
 我们把数据都恢复到2000， 然后再次一次性执行上述的SQL语句(出错了.... 这句话不符合SQL语法,执行就会报错)，检查最终的数据情况, 发现数据在**操作前后不一致**了。
 
-![image-20250413213118191](Mysql-Learning-Local.assets/image-20250413213118191.png)
+![image-20250413213118191](./Mysql-Learning-Local.assets/image-20250413213118191.png)
 
 ### （2）控制事务一
 
@@ -3482,7 +3483,7 @@ ROLLBACK;
 
 ### （3）==控制事务二==
 
-![image-20250413214949654](Mysql-Learning-Local.assets/image-20250413214949654.png)
+![image-20250413214949654](./Mysql-Learning-Local.assets/image-20250413214949654.png)
 
 #### ①开启事务
 
@@ -3523,7 +3524,7 @@ commit;
 
 ## 6.3 🌟 ==事务四大特性==-ACID
 
-![image-20250413215458731](Mysql-Learning-Local.assets/image-20250413215458731.png)
+![image-20250413215458731](./Mysql-Learning-Local.assets/image-20250413215458731.png)
 
 - 原子性（Atomicity）：事务是**不可分割的最小操作单元，要么全部成功，要么全部失败**。
 - 一致性（Consistency）：事务完成时，必须使**所有的数据都保持一致状态**。
@@ -3532,7 +3533,7 @@ commit;
 
 上述就是事务的四大特性，简称ACID。
 
-![image-20250413213602494](Mysql-Learning-Local.assets/image-20250413213602494.png)
+![image-20250413213602494](./Mysql-Learning-Local.assets/image-20250413213602494.png)
 
 
 
@@ -3540,7 +3541,7 @@ commit;
 
 ## 6.4 🌟 ==并发事务问题==
 
-![image-20250413215607439](Mysql-Learning-Local.assets/image-20250413215607439.png)
+![image-20250413215607439](./Mysql-Learning-Local.assets/image-20250413215607439.png)
 
 1. **脏读(Dirty Read)**：一个事务读取了另一个未提交事务修改过的数据
 2. **不可重复读(Non-repeatable Read)**：一个事务内多次读取同一数据，但由于其他事务的修改，导致前后读取的结果不一致
@@ -3552,7 +3553,7 @@ commit;
 
 **赃读：一个事务==读到==另外一个事务==还没有提交的数据==。**
 
-![image-20250413213615342](Mysql-Learning-Local.assets/image-20250413213615342.png)
+![image-20250413213615342](./Mysql-Learning-Local.assets/image-20250413213615342.png)
 
 比如B**读取到了A未提交的数据**。
 
@@ -3577,7 +3578,7 @@ commit;
 
 **不可重复读：一个事务==先后读取同一条记录==，但==两次读取的数据不同==，称之为不可重复读。**
 
-![image-20250413213712438](Mysql-Learning-Local.assets/image-20250413213712438.png)
+![image-20250413213712438](./Mysql-Learning-Local.assets/image-20250413213712438.png)
 
 事务A两次读取同一条记录，但是**读取到的数据却是不一样**的。
 
@@ -3602,7 +3603,7 @@ commit;
 
 **幻读：一个事务==按照条件查询数据==时，==没有对应的数据行==，但是==在插入数据时，又发现这行数据已经存在==，*好像出现了 "幻影"*。**
 
-![image-20250413213733729](Mysql-Learning-Local.assets/image-20250413213733729.png)
+![image-20250413213733729](./Mysql-Learning-Local.assets/image-20250413213733729.png)
 
 
 
@@ -3654,11 +3655,11 @@ MySQL的InnoDB在"可重复读"级别下通过MVCC机制也能防止幻读。
    1. MySQL的**InnoDB在"可重复读"级别**下通过**==MVCC机制==**也能**==防止幻读==**。
 4. **串行化(Serializable)**：防止所有问题(但性能最差)
 
-![image-20250413213825473](Mysql-Learning-Local.assets/image-20250413213825473.png)
+![image-20250413213825473](./Mysql-Learning-Local.assets/image-20250413213825473.png)
 
 
 
-![image-20250413220153001](Mysql-Learning-Local.assets/image-20250413220153001.png)
+![image-20250413220153001](./Mysql-Learning-Local.assets/image-20250413220153001.png)
 
 ### （2）查看事务隔离级别
 
@@ -3683,7 +3684,7 @@ READ COMMITTED | REPEATABLE READ | SERIALIZABLE }
 
 ## 6.6 小结
 
-![image-20250413221043040](Mysql-Learning-Local.assets/image-20250413221043040.png)
+![image-20250413221043040](./Mysql-Learning-Local.assets/image-20250413221043040.png)
 
 
 
@@ -3693,13 +3694,15 @@ READ COMMITTED | REPEATABLE READ | SERIALIZABLE }
 
 # 二、高级篇
 
+![image-20250420144657400](./Mysql-Learning-Local.assets/image-20250420144657400.png)
+
 # 1、🌟存储引擎
 
 ## 1.1 MySQL体系结构
 
-![image-20250413230423557](Mysql-Learning-Local.assets/image-20250413230423557.png)
+![image-20250413230423557](./Mysql-Learning-Local.assets/image-20250413230423557.png)
 
-![image-20250413224407264](Mysql-Learning-Local.assets/image-20250413224407264.png)
+![image-20250413224407264](./Mysql-Learning-Local.assets/image-20250413224407264.png)
 
 ### （1）连接层
 
@@ -3733,11 +3736,11 @@ READ COMMITTED | REPEATABLE READ | SERIALIZABLE }
 
 ## 1.2 ==存储引擎==介绍
 
-![image-20250413230608224](Mysql-Learning-Local.assets/image-20250413230608224.png)
+![image-20250413230608224](./Mysql-Learning-Local.assets/image-20250413230608224.png)
 
 ### （1）概念
 
-![image-20250413224344442](Mysql-Learning-Local.assets/image-20250413224344442.png)
+![image-20250413224344442](./Mysql-Learning-Local.assets/image-20250413224344442.png)
 
 大家可能没有听说过存储引擎，但是一定听过引擎这个词，引擎就是发动机，是一个机器的核心组件。比如，对于舰载机、直升机、火箭来说，他们都有各自的引擎，是他们最为核心的组件。而我们在选择引擎的时候，需要在合适的场景，选择合适的存储引擎，就像在直升机上，我们不能选择舰载机的引擎一样。
 
@@ -3763,7 +3766,7 @@ CREATE TABLE 表名(
 show engines;
 ```
 
-![image-20250413225129981](Mysql-Learning-Local.assets/image-20250413225129981.png)
+![image-20250413225129981](./Mysql-Learning-Local.assets/image-20250413225129981.png)
 
 ### （4）示例演示
 
@@ -3773,7 +3776,7 @@ show engines;
 show create table account; 
 ```
 
-![image-20250413225027030](Mysql-Learning-Local.assets/image-20250413225027030.png)
+![image-20250413225027030](./Mysql-Learning-Local.assets/image-20250413225027030.png)
 
 我们可以看到，创建表时，即使我们没有指定存储引擎，数据库也会**自动选择默认的存储引擎**。
 
@@ -3785,7 +3788,7 @@ show create table account;
 show engines ; 
 ```
 
-![image-20250413225129981](Mysql-Learning-Local.assets/image-20250413225129981.png)
+![image-20250413225129981](./Mysql-Learning-Local.assets/image-20250413225129981.png)
 
 #### C. 创建表 my_myisam , 并指定MyISAM存储引擎
 
@@ -3813,7 +3816,7 @@ create table my_memory(
 
 ### （1）🌟 ==InnoDB==
 
-![image-20250413231002320](Mysql-Learning-Local.assets/image-20250413231002320.png)
+![image-20250413231002320](./Mysql-Learning-Local.assets/image-20250413231002320.png)
 
 #### ①介绍
 
@@ -3839,11 +3842,11 @@ xxx.ibd：xxx代表的是表名，innoDB引擎的每张表都会对应这样一�
 show variables like 'innodb_file_per_table';
 ```
 
-![image-20250413230158517](Mysql-Learning-Local.assets/image-20250413230158517.png)
+![image-20250413230158517](./Mysql-Learning-Local.assets/image-20250413230158517.png)
 
 如果**该参数开启**，代表对于InnoDB引擎的表，**每一张表都对应一个ibd文件**。 我们直接打开MySQL的数据存放目录： C:\ProgramData\MySQL\MySQL Server 8.0\Data ， 这个目录下有很多文件夹，**不同的文件夹代表不同的数据库**，我们直接打开itcast文件夹。
 
-![image-20250413230347011](Mysql-Learning-Local.assets/image-20250413230347011.png)
+![image-20250413230347011](./Mysql-Learning-Local.assets/image-20250413230347011.png)
 
 可以看到里面有很多的ibd文件，每一个ibd文件就对应一张表，比如：我们有一张表 account，就有这样的一个account.ibd文件，而在这个ibd文件中不仅存放表结构、数据，还会存放该表对应的索引信息。 而该文件是基于二进制存储的，不能直接基于记事本打开，我们可以使用**mysql提供的一个指令 ibd2sdi** ，通过该指令就可以**从ibd文件中提取sdi信息**，而**sdi数据字典信息中就包含该表的表结构**。
 
@@ -3851,13 +3854,13 @@ show variables like 'innodb_file_per_table';
 idb2sdi account.ibd #返回一个JSON数据
 ```
 
-![image-20250413230330296](Mysql-Learning-Local.assets/image-20250413230330296.png)
+![image-20250413230330296](./Mysql-Learning-Local.assets/image-20250413230330296.png)
 
 
 
 #### ④逻辑存储结构
 
-![image-20250413231202493](Mysql-Learning-Local.assets/image-20250413231202493.png)
+![image-20250413231202493](./Mysql-Learning-Local.assets/image-20250413231202493.png)
 
 
 
@@ -3873,7 +3876,7 @@ idb2sdi account.ibd #返回一个JSON数据
 
 ### （2）MyISAM
 
-![image-20250413231612947](Mysql-Learning-Local.assets/image-20250413231612947.png)
+![image-20250413231612947](./Mysql-Learning-Local.assets/image-20250413231612947.png)
 
 #### ①介绍
 
@@ -3891,13 +3894,13 @@ MyISAM是MySQL早期的默认存储引擎。
 - xxx.MYD: 存储**数据**
 - xxx.MYI: 存储**索引**
 
- ![image-20250413230502451](Mysql-Learning-Local.assets/image-20250413230502451.png)
+ ![image-20250413230502451](./Mysql-Learning-Local.assets/image-20250413230502451.png)
 
 
 
 ### （3）Memory
 
-![image-20250413231655565](Mysql-Learning-Local.assets/image-20250413231655565.png)
+![image-20250413231655565](./Mysql-Learning-Local.assets/image-20250413231655565.png)
 
 #### ①介绍
 
@@ -3916,9 +3919,9 @@ xxx.sdi：**存储表结构信息**
 
 ### （4）==区别及特点==
 
-![image-20250413231743167](Mysql-Learning-Local.assets/image-20250413231743167.png)
+![image-20250413231743167](./Mysql-Learning-Local.assets/image-20250413231743167.png)
 
-![image-20250413225914459](Mysql-Learning-Local.assets/image-20250413225914459.png)
+![image-20250413225914459](./Mysql-Learning-Local.assets/image-20250413225914459.png)
 
 
 
@@ -3942,7 +3945,7 @@ xxx.sdi：**存储表结构信息**
 
 ## 1.4 存储引擎选择
 
-![image-20250413231918750](Mysql-Learning-Local.assets/image-20250413231918750.png)
+![image-20250413231918750](./Mysql-Learning-Local.assets/image-20250413231918750.png)
 
 在选择存储引擎时，应该根据应用系统的特点选择合适的存储引擎。对于复杂的应用系统，还可以根据实际情况选择多种存储引擎进行组合。
 
@@ -3954,7 +3957,7 @@ xxx.sdi：**存储表结构信息**
 
 ## 1.5 小结
 
-![image-20250413232209058](Mysql-Learning-Local.assets/image-20250413232209058.png)
+![image-20250413232209058](./Mysql-Learning-Local.assets/image-20250413232209058.png)
 
 # 2、🚀 ==索引==
 
@@ -3964,7 +3967,7 @@ xxx.sdi：**存储表结构信息**
 
 索引（index）是帮助**MySQL==高效获取数据的数据结构(有序)==**。在数据之外，数据库系统还维护着满足特定查找算法的数据结构，这些数据结构以某种方式**引用（指向）数据**， 这样就可以在这些数据结构上实现高级查找算法，这种数据结构就是索引。
 
-![image-20250415115112093](Mysql-Learning-Local.assets/image-20250415115112093.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415115112093.png" alt="image-20250415115112093" style="zoom:80%;" />
 
 一提到数据结构，大家都会有所担心，担心自己不能理解，跟不上节奏。不过在这里大家完全不用担心，我们后面在讲解时，会详细介绍。
 
@@ -3972,17 +3975,17 @@ xxx.sdi：**存储表结构信息**
 
 ### （2）演示
 
-![image-20250415134956149](Mysql-Learning-Local.assets/image-20250415134956149.png)
+![image-20250415134956149](./Mysql-Learning-Local.assets/image-20250415134956149.png)
 
 表结构及其数据如下：
 
-![image-20250415115133799](Mysql-Learning-Local.assets/image-20250415115133799.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415115133799.png" alt="image-20250415115133799" style="zoom:50%;" />
 
 假如我们要执行的SQL语句为 ： select * from user where age = 45;
 
 #### ①无索引情况
 
-![image-20250415115300649](Mysql-Learning-Local.assets/image-20250415115300649.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415115300649.png" alt="image-20250415115300649" style="zoom: 50%;" />
 
 在无索引情况下，就需要从**第一行开始扫描，一直扫描到最后一行（不一定保证表里面只有一个age=45**），我们称之为 **全表扫描**，性能很低。
 
@@ -3992,7 +3995,7 @@ xxx.sdi：**存储表结构信息**
 
 如果我们针对于这张表建立了索引，假设**索引结构就是二叉树**，那么也就意味着，会对age这个字段建立一个二叉树的索引结构。
 
-![image-20250415115406576](Mysql-Learning-Local.assets/image-20250415115406576.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415115406576.png" alt="image-20250415115406576" style="zoom:67%;" />
 
 此时我们在进行查询时，只需要**扫描三次**就可以找到数据了，极大的提高的查询的效率。
 
@@ -4006,9 +4009,9 @@ xxx.sdi：**存储表结构信息**
 
 ### （3）优缺点
 
-![image-20250415135103536](Mysql-Learning-Local.assets/image-20250415135103536.png)
+![image-20250415135103536](./Mysql-Learning-Local.assets/image-20250415135103536.png)
 
-![image-20250415131532366](Mysql-Learning-Local.assets/image-20250415131532366.png)
+![image-20250415131532366](./Mysql-Learning-Local.assets/image-20250415131532366.png)
 
 
 
@@ -4016,17 +4019,17 @@ xxx.sdi：**存储表结构信息**
 
 ### （1）概述
 
-![image-20250415135623947](Mysql-Learning-Local.assets/image-20250415135623947.png)
+![image-20250415135623947](./Mysql-Learning-Local.assets/image-20250415135623947.png)
 
 MySQL的索引是在**==存储引擎层==**实现的，不同的存储引擎有不同的索引结构，主要包含以下几种：
 
-![image-20250415131610490](Mysql-Learning-Local.assets/image-20250415131610490.png)
+![image-20250415131610490](./Mysql-Learning-Local.assets/image-20250415131610490.png)
 
 上述是MySQL中所支持的所有的索引结构，接下来，我们再来看看**不同的存储引擎**对于索引结构的支持情况。
 
-![image-20250415135735449](Mysql-Learning-Local.assets/image-20250415135735449.png)
+![image-20250415135735449](./Mysql-Learning-Local.assets/image-20250415135735449.png)
 
-![image-20250415132239125](Mysql-Learning-Local.assets/image-20250415132239125.png)
+![image-20250415132239125](./Mysql-Learning-Local.assets/image-20250415132239125.png)
 
 
 
@@ -4036,17 +4039,17 @@ MySQL的索引是在**==存储引擎层==**实现的，不同的存储引擎有�
 
 ### （2）二叉树
 
-![image-20250415135912054](Mysql-Learning-Local.assets/image-20250415135912054.png)
+![image-20250415135912054](./Mysql-Learning-Local.assets/image-20250415135912054.png)
 
 #### ①二叉树
 
 假如说MySQL的索引结构采用二叉树的数据结构，比较理想的结构如下：
 
-![image-20250415132336631](Mysql-Learning-Local.assets/image-20250415132336631.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415132336631.png" alt="image-20250415132336631" style="zoom:67%;" />
 
 如果**主键是顺序插入**的，则**会形成一个单向链表**，结构如下：
 
-![image-20250415132405730](Mysql-Learning-Local.assets/image-20250415132405730.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415132405730.png" alt="image-20250415132405730" style="zoom:50%;" />
 
 所以，如果选择二叉树作为索引结构，会存在以下**缺点**：
 
@@ -4059,7 +4062,7 @@ MySQL的索引是在**==存储引擎层==**实现的，不同的存储引擎有�
 
 此时大家可能会想到，我们可以选择红黑树，**红黑树是一颗自平衡二叉树**，那这样即使是顺序插入数据，最终形成的数据结构也是一颗**平衡的二叉树**,结构如下:
 
-![image-20250415132454455](Mysql-Learning-Local.assets/image-20250415132454455.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415132454455.png" alt="image-20250415132454455" style="zoom:50%;" />
 
 但是，即使如此，由于**红黑树也是一颗二叉树**，所以也会存在一个**缺点**：
 
@@ -4073,13 +4076,13 @@ MySQL的索引是在**==存储引擎层==**实现的，不同的存储引擎有�
 
 #### ①概念
 
-![image-20250415140303752](Mysql-Learning-Local.assets/image-20250415140303752.png)
+![image-20250415140303752](./Mysql-Learning-Local.assets/image-20250415140303752.png)
 
 B-Tree，B树是一种**多叉路衡查找树**，相对于二叉树，B树**每个节点可以有多个分支，即多叉**。以一颗最大度数（max-degree）为5(5阶)的b-tree为例，那这个B树**每个节点最多存储4个key，5个指针**
 
-- **指针会比key多一个**，原因是如下图的20 30 62 89 对应四个key，而这四个key可以将范围划分成五份，比如`<20, 	20-30 ,	30-62,	 62-89,	 >`89 ，所以4个key对应5个指针。
+- **指针会比key多一个**，原因是如下图的20 30 62 89 对应四个key，而这四个key可以将范围划分成五份，比如<20, 	20-30 ,	30-62,	 62-89,	 >89 ，所以4个key对应5个指针。
 
-![image-20250415132655910](Mysql-Learning-Local.assets/image-20250415132655910.png)
+![image-20250415132655910](./Mysql-Learning-Local.assets/image-20250415132655910.png)
 
 
 
@@ -4091,11 +4094,11 @@ B-Tree，B树是一种**多叉路衡查找树**，相对于二叉树，B树**每
 
 **https://www.cs.usfca.edu/~galles/visualization/BTree.html**
 
-![image-20250415132903372](Mysql-Learning-Local.assets/image-20250415132903372.png)
+![image-20250415132903372](./Mysql-Learning-Local.assets/image-20250415132903372.png)
 
 插入一组数据： 100 65 169 368 900 556 780 35 215 1200 234 888 158 90 1000 88 120 268 250 。然后观察一些数据插入过程中，节点的变化情况。
 
-![image-20250415132920258](Mysql-Learning-Local.assets/image-20250415132920258.png)
+![image-20250415132920258](./Mysql-Learning-Local.assets/image-20250415132920258.png)
 
 #### ②特点
 
@@ -4103,9 +4106,9 @@ B-Tree，B树是一种**多叉路衡查找树**，相对于二叉树，B树**每
 
 - 一旦节点存储的**key数量到达5**，就会**==裂变==，==中间元素向上分裂==**。
 
-  ![image-20250415140512702](Mysql-Learning-Local.assets/image-20250415140512702.png)
+  <img src="./Mysql-Learning-Local.assets/image-20250415140512702.png" alt="image-20250415140512702" style="zoom:67%;" />
 
-  ![image-20250415140813682](Mysql-Learning-Local.assets/image-20250415140813682.png)
+  ![image-20250415140813682](./Mysql-Learning-Local.assets/image-20250415140813682.png)
 
   
 
@@ -4117,21 +4120,21 @@ B-Tree，B树是一种**多叉路衡查找树**，相对于二叉树，B树**每
 
 #### ③过程演示
 
-![image-20250415140512702](Mysql-Learning-Local.assets/image-20250415140512702.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415140512702.png" alt="image-20250415140512702" style="zoom:67%;" />
 
-![image-20250415140813682](Mysql-Learning-Local.assets/image-20250415140813682.png)
+![image-20250415140813682](./Mysql-Learning-Local.assets/image-20250415140813682.png)
 
-![image-20250415141212299](Mysql-Learning-Local.assets/image-20250415141212299.png)
+![image-20250415141212299](./Mysql-Learning-Local.assets/image-20250415141212299.png)
 
-![image-20250415141328922](Mysql-Learning-Local.assets/image-20250415141328922.png)
+![image-20250415141328922](./Mysql-Learning-Local.assets/image-20250415141328922.png)
 
-![image-20250415141632288](Mysql-Learning-Local.assets/image-20250415141632288.png)
+![image-20250415141632288](./Mysql-Learning-Local.assets/image-20250415141632288.png)
 
-![image-20250415141755092](Mysql-Learning-Local.assets/image-20250415141755092.png)
+![image-20250415141755092](./Mysql-Learning-Local.assets/image-20250415141755092.png)
 
 **剩下的以此类推**：
 
-![image-20250415141857264](Mysql-Learning-Local.assets/image-20250415141857264.png)
+![image-20250415141857264](./Mysql-Learning-Local.assets/image-20250415141857264.png)
 
 
 
@@ -4143,7 +4146,7 @@ B-Tree，B树是一种**多叉路衡查找树**，相对于二叉树，B树**每
 
 B+Tree是B-Tree的变种，我们以一颗最大度数（max-degree）为4（**4阶**）的b+tree为例（**==4阶 b+ tree 对应 3个key，4个指针==**），来看一 下其结构示意图：
 
-![image-20250415133144602](Mysql-Learning-Local.assets/image-20250415133144602.png)
+![image-20250415133144602](./Mysql-Learning-Local.assets/image-20250415133144602.png)
 
 我们可以看到，两部分：
 
@@ -4156,11 +4159,11 @@ B+Tree是B-Tree的变种，我们以一颗最大度数（max-degree）为4（**4
 
 我们可以通过一个数据结构可视化的网站来简单演示一下。 https://www.cs.usfca.edu/~galles/visualization/BPlusTree.html
 
-![image-20250415133240804](Mysql-Learning-Local.assets/image-20250415133240804.png)
+![image-20250415133240804](./Mysql-Learning-Local.assets/image-20250415133240804.png)
 
 插入一组数据： 100 65 169 368 900 556 780 35 215 1200 234 888 158 90 1000 88 120 268 250 。然后观察一些数据插入过程中，节点的变化情况。
 
-![image-20250415133259260](Mysql-Learning-Local.assets/image-20250415133259260.png)
+![image-20250415133259260](./Mysql-Learning-Local.assets/image-20250415133259260.png)
 
 最终我们看到，B+Tree与 B-Tree相比，主要有以下**三点区别**：
 
@@ -4177,13 +4180,13 @@ B+Tree是B-Tree的变种，我们以一颗最大度数（max-degree）为4（**4
 
 MySQL索引数据结构对经典的B+Tree进行了优化。在原B+Tree的基础上，**==增加一个指向相邻叶子节点链表指针==**，就形成了**==带有顺序指针的B+Tree==**，**提高区间访问的性能，利于排序**。
 
-![image-20250415133504338](Mysql-Learning-Local.assets/image-20250415133504338.png)
+![image-20250415133504338](./Mysql-Learning-Local.assets/image-20250415133504338.png)
 
 
 
 ### （5）Hash
 
-![image-20250415142755105](Mysql-Learning-Local.assets/image-20250415142755105.png)
+![image-20250415142755105](./Mysql-Learning-Local.assets/image-20250415142755105.png)
 
 MySQL中除了支持B+Tree索引，还支持一种索引类型---**Hash索引**。 
 
@@ -4192,11 +4195,11 @@ MySQL中除了支持B+Tree索引，还支持一种索引类型---**Hash索引**�
 哈希索引就是采用一定的hash算法，**将键值换算成新的hash值**，映射到对应的槽位上，然后存储在
 hash表中。
 
-![image-20250415133615758](Mysql-Learning-Local.assets/image-20250415133615758.png)
+![image-20250415133615758](./Mysql-Learning-Local.assets/image-20250415133615758.png)
 
 如果**两个(或多个)键值，映射到一个相同的槽位上**，他们就产生了**hash冲突**（也称为hash碰撞），可以**通过链表来解决**。
 
-![image-20250415133632053](Mysql-Learning-Local.assets/image-20250415133632053.png)
+![image-20250415133632053](./Mysql-Learning-Local.assets/image-20250415133632053.png)
 
 
 
@@ -4222,7 +4225,7 @@ hash表中。
 >
 > - C. **相对Hash索引**，B+tree支持**==范围匹配及排序操作==**；
 >
->   ![image-20250415133504338](Mysql-Learning-Local.assets/image-20250415133504338.png)
+>   ![image-20250415133504338](./Mysql-Learning-Local.assets/image-20250415133504338.png)
 
 
 
@@ -4232,19 +4235,19 @@ hash表中。
 
 在MySQL数据库，将索引的具体类型主要分为以下几类：**主键索引、唯一索引、常规索引、全文索引**。
 
-![image-20250415143250961](Mysql-Learning-Local.assets/image-20250415143250961.png)
+![image-20250415143250961](./Mysql-Learning-Local.assets/image-20250415143250961.png)
 
-![image-20250415134003736](Mysql-Learning-Local.assets/image-20250415134003736.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415134003736.png" alt="image-20250415134003736" style="zoom:80%;" />
 
 
 
 ### （2）🌟聚集索引&二级索引
 
-![image-20250415143555177](Mysql-Learning-Local.assets/image-20250415143555177.png)
+![image-20250415143555177](./Mysql-Learning-Local.assets/image-20250415143555177.png)
 
 而在在InnoDB存储引擎中，根据索引的存储形式，又可以分为以下两种：
 
-![image-20250415134022972](Mysql-Learning-Local.assets/image-20250415134022972.png)
+![image-20250415134022972](./Mysql-Learning-Local.assets/image-20250415134022972.png)
 
 
 
@@ -4258,7 +4261,7 @@ hash表中。
 
 #### ②聚集索引和二级索引的==具体结构==
 
-![image-20250415134212796](Mysql-Learning-Local.assets/image-20250415134212796.png)
+![image-20250415134212796](./Mysql-Learning-Local.assets/image-20250415134212796.png)
 
 
 
@@ -4281,7 +4284,7 @@ hash表中。
 
 接下来，我们来分析一下，当我们执行如下的SQL语句时，具体的查找过程是什么样子的。
 
-![image-20250415134242948](Mysql-Learning-Local.assets/image-20250415134242948.png)
+![image-20250415134242948](./Mysql-Learning-Local.assets/image-20250415134242948.png)
 
 **具体过程如下:**
 
@@ -4316,11 +4319,11 @@ hash表中。
 
 > **思考题**：
 >
-> ![image-20250415145642499](Mysql-Learning-Local.assets/image-20250415145642499.png)
+> ![image-20250415145642499](./Mysql-Learning-Local.assets/image-20250415145642499.png)
 >
 > **InnoDB==主键索引的B+tree高度为多高==呢**?
 >
-> ![image-20250415133504338](Mysql-Learning-Local.assets/image-20250415133504338.png)
+> ![image-20250415133504338](./Mysql-Learning-Local.assets/image-20250415133504338.png)
 >
 > 假设:
 >
@@ -4555,22 +4558,22 @@ VALUES ('姜子牙', '17799990023', '37483844@qq.com', '工程造价', 29, '1', 
 
 表结构中插入的数据如下：
 
-![image-20250415150604769](Mysql-Learning-Local.assets/image-20250415150604769.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415150604769.png" alt="image-20250415150604769" style="zoom: 67%;" />
 
-![image-20250415153026874](Mysql-Learning-Local.assets/image-20250415153026874.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415153026874.png" alt="image-20250415153026874" style="zoom: 67%;" />
 
 ```sql
 show index from tb_user;
 show index from tb_user\G; #美化输出
 ```
 
-![image-20250415153359543](Mysql-Learning-Local.assets/image-20250415153359543.png)
+![image-20250415153359543](./Mysql-Learning-Local.assets/image-20250415153359543.png)
 
 
 
 #### ②完成需求
 
-![image-20250415152812037](Mysql-Learning-Local.assets/image-20250415152812037.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415152812037.png" alt="image-20250415152812037" style="zoom: 80%;" />
 
 数据准备好了之后，接下来，我们就来完成如下需求：
 
@@ -4580,7 +4583,7 @@ show index from tb_user\G; #美化输出
 CREATE INDEX idx_user_name ON tb_user(name); 
 ```
 
-![image-20250415153627713](Mysql-Learning-Local.assets/image-20250415153627713.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415153627713.png" alt="image-20250415153627713" style="zoom:80%;" />
 
 ##### B. phone手机号字段的值，是非空，且唯一的，为该字段创建==唯一索引==。
 
@@ -4588,7 +4591,7 @@ CREATE INDEX idx_user_name ON tb_user(name);
 CREATE UNIQUE INDEX idx_user_phone ON tb_user(phone); 
 ```
 
-![image-20250415153706674](Mysql-Learning-Local.assets/image-20250415153706674.png)
+![image-20250415153706674](./Mysql-Learning-Local.assets/image-20250415153706674.png)
 
 ##### C. 为profession、age、status==创建联合索引==。
 
@@ -4596,7 +4599,7 @@ CREATE UNIQUE INDEX idx_user_phone ON tb_user(phone);
 CREATE INDEX idx_user_pro_age_sta ON tb_user(profession,age,status); 
 ```
 
-![image-20250415153807892](Mysql-Learning-Local.assets/image-20250415153807892.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415153807892.png" alt="image-20250415153807892" style="zoom: 80%;" />
 
 ##### D. 为email建立合适的索引（普通索引）来提升查询效率。
 
@@ -4604,7 +4607,7 @@ CREATE INDEX idx_user_pro_age_sta ON tb_user(profession,age,status);
 CREATE INDEX idx_email ON tb_user(email); 
 ```
 
-![image-20250415153915410](Mysql-Learning-Local.assets/image-20250415153915410.png)
+![image-20250415153915410](./Mysql-Learning-Local.assets/image-20250415153915410.png)
 
 ##### 完成上述的需求之后，我们再查看tb_user表的所有的索引数据。
 
@@ -4612,9 +4615,9 @@ CREATE INDEX idx_email ON tb_user(email);
 show index from tb_user;
 ```
 
-![image-20250415154009918](Mysql-Learning-Local.assets/image-20250415154009918.png)
+![image-20250415154009918](./Mysql-Learning-Local.assets/image-20250415154009918.png)
 
-![image-20250415150943997](Mysql-Learning-Local.assets/image-20250415150943997.png)
+![image-20250415150943997](./Mysql-Learning-Local.assets/image-20250415150943997.png)
 
 
 
@@ -4634,9 +4637,9 @@ SHOW GLOBAL STATUS LIKE 'Com_______';
 SHOW SESSION STATUS LIKE 'Com_______';
 ```
 
-![image-20250415151059539](Mysql-Learning-Local.assets/image-20250415151059539.png)
+![image-20250415151059539](./Mysql-Learning-Local.assets/image-20250415151059539.png)
 
-![image-20250415154524748](Mysql-Learning-Local.assets/image-20250415154524748.png)
+![image-20250415154524748](./Mysql-Learning-Local.assets/image-20250415154524748.png)
 
 - Com_delete: 删除次数
 - Com_insert: 插入次数
@@ -4657,7 +4660,7 @@ SHOW SESSION STATUS LIKE 'Com_______';
 
 #### ①概念
 
-![image-20250415155713055](Mysql-Learning-Local.assets/image-20250415155713055.png)
+![image-20250415155713055](./Mysql-Learning-Local.assets/image-20250415155713055.png)
 
 慢查询日志记录了**所有执行时间超过指定参数**（**==long_query_time==**，单位：秒，默认10秒）的**所有SQL语句的日志。**
 
@@ -4669,7 +4672,7 @@ MySQL的**慢查询日志默认没有开启**，我们可以查看一下系统�
 show variables like 'slow_query_log';
 ```
 
-![image-20250415154715240](Mysql-Learning-Local.assets/image-20250415154715240.png)
+![image-20250415154715240](./Mysql-Learning-Local.assets/image-20250415154715240.png)
 
 
 
@@ -4700,7 +4703,7 @@ systemctl restart mysqld
 
 然后，再次查看开关情况，慢查询日志就已经打开了。
 
-![image-20250415155053391](Mysql-Learning-Local.assets/image-20250415155053391.png)
+![image-20250415155053391](./Mysql-Learning-Local.assets/image-20250415155053391.png)
 
 
 
@@ -4741,7 +4744,7 @@ CREATE TABLE `tb_sku` (
 
 ```
 
-![image-20250415160544889](Mysql-Learning-Local.assets/image-20250415160544889.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415160544889.png" alt="image-20250415160544889" style="zoom: 80%;" />
 
 ```bash
 load data local infile '/root/sql/tb_sku1.sql' into table `tb_sku` fields terminated by ',' lines terminated by '\n';
@@ -4768,7 +4771,7 @@ mysql --local-infile=1 --enable-local-infile -u username -p
 SET GLOBAL local_infile = 1;
 ```
 
-![image-20250415160850985](Mysql-Learning-Local.assets/image-20250415160850985.png)
+![image-20250415160850985](./Mysql-Learning-Local.assets/image-20250415160850985.png)
 
 
 
@@ -4783,15 +4786,15 @@ select * from tb_user; -- 这条SQL执行效率比较高, 执行耗时 0.00sec
 select count(*) from tb_sku; -- 由于tb_sku表中, 预先存入了1000w的记录, count一次,耗时13.35sec
 ```
 
-![image-20250415160844552](Mysql-Learning-Local.assets/image-20250415160844552.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415160844552.png" alt="image-20250415160844552" style="zoom:67%;" />
 
 ###### B. 检查慢查询日志 ：
 
 最终我们发现，在慢查询日志中，只会记录执行时间超过我们预设时间（2s）的SQL，**执行较快的SQL**是不会记录的。
 
-![image-20250415161054785](Mysql-Learning-Local.assets/image-20250415161054785.png)
+![image-20250415161054785](./Mysql-Learning-Local.assets/image-20250415161054785.png)
 
-![image-20250415161129255](Mysql-Learning-Local.assets/image-20250415161129255.png)
+![image-20250415161129255](./Mysql-Learning-Local.assets/image-20250415161129255.png)
 
 那这样，通过慢查询日志，就可以**定位出执行效率比较低的SQL**，从而有针对性的进行优化。
 
@@ -4799,7 +4802,7 @@ select count(*) from tb_sku; -- 由于tb_sku表中, 预先存入了1000w的记�
 
 ### （3）profile详情
 
-![image-20250415161803597](Mysql-Learning-Local.assets/image-20250415161803597.png)
+![image-20250415161803597](./Mysql-Learning-Local.assets/image-20250415161803597.png)
 
 show profiles 能够在做SQL优化时帮助我们**了解==时间都耗费到哪里去==**了。通过**have_profiling参数**，能够看到当前MySQL是否支持profile操作：
 
@@ -4807,7 +4810,7 @@ show profiles 能够在做SQL优化时帮助我们**了解==时间都耗费到�
 SELECT @@have_profiling ;
 ```
 
-![image-20250415161250158](Mysql-Learning-Local.assets/image-20250415161250158.png)
+![image-20250415161250158](./Mysql-Learning-Local.assets/image-20250415161250158.png)
 
 可以看到，当前MySQL是支持 profile操作的，但是开关是关闭的。可以通过**set语句在session/global级别开启profiling**：
 
@@ -4841,21 +4844,21 @@ show profile cpu for query query_id;
 
 查看每一条SQL的耗时情况:
 
-![image-20250415161553673](Mysql-Learning-Local.assets/image-20250415161553673.png)
+![image-20250415161553673](./Mysql-Learning-Local.assets/image-20250415161553673.png)
 
 查看指定SQL各个阶段的耗时情况 :
 
-![image-20250415161636085](Mysql-Learning-Local.assets/image-20250415161636085.png)
+![image-20250415161636085](./Mysql-Learning-Local.assets/image-20250415161636085.png)
 
 **查看指定SQL-CPU的耗时情况**
 
-![image-20250415161749241](Mysql-Learning-Local.assets/image-20250415161749241.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415161749241.png" alt="image-20250415161749241" style="zoom:80%;" />
 
 
 
 ### （4）🌟 ==explain==
 
-![image-20250415162740030](Mysql-Learning-Local.assets/image-20250415162740030.png)
+![image-20250415162740030](./Mysql-Learning-Local.assets/image-20250415162740030.png)
 
 **EXPLAIN 或者 DESC命令**获取 MySQL **==如何执行 SELECT 语句的信息==**，包括在 SELECT 语句执行过程中**表如何连接和连接的顺序**。
 
@@ -4870,7 +4873,7 @@ EXPLAIN SELECT 字段列表 FROM 表名 WHERE 条件 ;
 
 #### ②Explain 执行计划中各个字段的==含义==
 
-![image-20250415152030804](Mysql-Learning-Local.assets/image-20250415152030804.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415152030804.png" alt="image-20250415152030804" style="zoom: 80%;" />
 
 
 
@@ -4917,11 +4920,11 @@ INSERT INTO student_course (studentid, courseid) VALUES (3, 4);
 Select * from student s , course c, student_course sc where s.id = sc.studentid and c.id = sc.courseid;
 ```
 
-![image-20250415163532781](Mysql-Learning-Local.assets/image-20250415163532781.png)
+![image-20250415163532781](./Mysql-Learning-Local.assets/image-20250415163532781.png)
 
-![image-20250415163509753](Mysql-Learning-Local.assets/image-20250415163509753.png)
+![image-20250415163509753](./Mysql-Learning-Local.assets/image-20250415163509753.png)
 
-![image-20250415163546066](Mysql-Learning-Local.assets/image-20250415163546066.png)
+![image-20250415163546066](./Mysql-Learning-Local.assets/image-20250415163546066.png)
 
 
 
@@ -4945,7 +4948,7 @@ where s.id in
 
 
 
-![image-20250415164815860](Mysql-Learning-Local.assets/image-20250415164815860.png)
+![image-20250415164815860](./Mysql-Learning-Local.assets/image-20250415164815860.png)
 
 
 
@@ -4953,7 +4956,7 @@ where s.id in
 
 当你使用 `EXPLAIN` 分析 SELECT 语句时，MySQL 会返回一个包含多列的结果集，每列都提供了查询执行计划的重要信息。以下是各列的详细解释：
 
-![image-20250415152030804](Mysql-Learning-Local.assets/image-20250415152030804.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415152030804.png" alt="image-20250415152030804" style="zoom: 80%;" />
 
 #### 核心列说明
 
@@ -5021,7 +5024,7 @@ where s.id in
 
 **业务SQL**几乎不可能出现**type=null**的情况，除非直接执行`select 'A'`。
 
-![image-20250415170218450](Mysql-Learning-Local.assets/image-20250415170218450.png)
+![image-20250415170218450](./Mysql-Learning-Local.assets/image-20250415170218450.png)
 
 
 
@@ -5103,13 +5106,13 @@ where s.id in
 
 ### （1）验证索引频率
 
-![image-20250415195742141](Mysql-Learning-Local.assets/image-20250415195742141.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415195742141.png" alt="image-20250415195742141" style="zoom:80%;" />
 
 在讲解索引的使用原则之前，先通过一个简单的案例，来验证一下索引，看看是否能够通过索引来提升数据查询性能。在演示的时候，我们还是使用之前准备的一张表 tb_sku , 在这张表中准备了1000w的记录。
 
 **为了方便只添加了400W**
 
-![image-20250415171956420](Mysql-Learning-Local.assets/image-20250415171956420.png)
+![image-20250415171956420](./Mysql-Learning-Local.assets/image-20250415171956420.png)
 
 这张表中id为主键，有主键索引，而其他字段是没有建立索引的。 我们先来查询其中的一条记录，看看里面的字段情况，执行如下SQL：
 
@@ -5117,7 +5120,7 @@ where s.id in
 select * from tb_sku where id = 1\G; # \G 表示 格式化输出
 ```
 
-![image-20250415172043986](Mysql-Learning-Local.assets/image-20250415172043986.png)
+![image-20250415172043986](./Mysql-Learning-Local.assets/image-20250415172043986.png)
 
 可以看到即使有1000w的数据,根据id进行数据查询,**性能依然很快**，因为主键id是有索引的。 那么接下来，我们再来根据 sn 字段进行查询，执行如下SQL：
 
@@ -5125,7 +5128,7 @@ select * from tb_sku where id = 1\G; # \G 表示 格式化输出
 SELECT * FROM tb_sku WHERE sn = '100000003145001';
 ```
 
-![image-20250415172240579](Mysql-Learning-Local.assets/image-20250415172240579.png)
+![image-20250415172240579](./Mysql-Learning-Local.assets/image-20250415172240579.png)
 
 我们可以看到根据sn字段进行查询，查询返回了一条数据，结果耗时 20.78sec，就是**因为sn没有索引，而造成查询效率很低**。
 
@@ -5137,9 +5140,9 @@ SELECT * FROM tb_sku WHERE sn = '100000003145001';
 create index idx_sku_sn on tb_sku(sn) ;
 ```
 
-![image-20250415172457818](Mysql-Learning-Local.assets/image-20250415172457818.png)
+![image-20250415172457818](./Mysql-Learning-Local.assets/image-20250415172457818.png)
 
-![image-20250415195639603](Mysql-Learning-Local.assets/image-20250415195639603.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415195639603.png" alt="image-20250415195639603" style="zoom:80%;" />
 
 然后再次执行相同的SQL语句，再次查看SQL的耗时。
 
@@ -5147,13 +5150,13 @@ create index idx_sku_sn on tb_sku(sn) ;
 SELECT * FROM tb_sku WHERE sn = '100000003145001';
 ```
 
-![image-20250415172511389](Mysql-Learning-Local.assets/image-20250415172511389.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415172511389.png" alt="image-20250415172511389" style="zoom:80%;" />
 
 我们明显会看到，sn字段建立了索引之后，查询性能大大提升。建立索引前后，查询耗时都不是一个数量级的。
 
 **explain分析：**
 
-![image-20250415200042256](Mysql-Learning-Local.assets/image-20250415200042256.png)
+![image-20250415200042256](./Mysql-Learning-Local.assets/image-20250415200042256.png)
 
 ```
 explain SELECT * FROM tb_sku WHERE sn = '100000003145001'\G;
@@ -5163,13 +5166,13 @@ explain SELECT * FROM tb_sku WHERE sn = '100000003145001'\G;
 
 ### （2）🌟 ==最左前缀法则==
 
-![image-20250415200503945](Mysql-Learning-Local.assets/image-20250415200503945.png)
+![image-20250415200503945](./Mysql-Learning-Local.assets/image-20250415200503945.png)
 
 如果索引了多列（**联合索引**），要**遵守最左前缀法则**。最左前缀法则指的是**查询从索引的最左列开始，并且不跳过索引中的列。 ** **如果跳跃某一列，索引将会==部分失效(后面的字段索引失效)==**。以 tb_user 表为例，我们先来查看一下之前 tb_user 表所创建的索引。
 
 以 tb_user 表为例，我们先来查看一下之前 tb_user 表所创建的索引。
 
-![image-20250415173329158](Mysql-Learning-Local.assets/image-20250415173329158.png)
+![image-20250415173329158](./Mysql-Learning-Local.assets/image-20250415173329158.png)
 
 在 tb_user 表中，有一个联合索引，这个联合索引涉及到三个字段，顺序分别为：profession，age，status。
 
@@ -5179,7 +5182,7 @@ explain SELECT * FROM tb_sku WHERE sn = '100000003145001'\G;
 explain select * from tb_user where profession = '软件工程' and age = 31 and status = '0';
 ```
 
-![image-20250415173453053](Mysql-Learning-Local.assets/image-20250415173453053.png)
+![image-20250415173453053](./Mysql-Learning-Local.assets/image-20250415173453053.png)
 
 
 
@@ -5187,7 +5190,7 @@ explain select * from tb_user where profession = '软件工程' and age = 31 and
 explain select * from tb_user where profession = '软件工程' and age = 31;
 ```
 
-![image-20250415173500883](Mysql-Learning-Local.assets/image-20250415173500883.png)
+![image-20250415173500883](./Mysql-Learning-Local.assets/image-20250415173500883.png)
 
 
 
@@ -5195,7 +5198,7 @@ explain select * from tb_user where profession = '软件工程' and age = 31;
 explain select * from tb_user where profession = '软件工程';
 ```
 
-![image-20250415173508735](Mysql-Learning-Local.assets/image-20250415173508735.png)
+![image-20250415173508735](./Mysql-Learning-Local.assets/image-20250415173508735.png)
 
 以上的这三组测试中，我们发现只要联合索引**最左边的字段 profession存在**，索引就会生效，只不过索引的长度不同。 而且由以上三组测试，我们也可以**==推测出profession字段索引长度为47、age字段索引长度为2、status字段索引长度为5==**。
 
@@ -5205,7 +5208,7 @@ explain select * from tb_user where profession = '软件工程';
 explain select * from tb_user where age = 31 and status = '0';
 ```
 
-![image-20250415201128618](Mysql-Learning-Local.assets/image-20250415201128618.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415201128618.png" alt="image-20250415201128618" style="zoom: 80%;" />
 
 
 
@@ -5213,7 +5216,7 @@ explain select * from tb_user where age = 31 and status = '0';
 explain select * from tb_user where status = '0';
 ```
 
-![image-20250415201156584](Mysql-Learning-Local.assets/image-20250415201156584.png)
+![image-20250415201156584](./Mysql-Learning-Local.assets/image-20250415201156584.png)
 
 
 
@@ -5223,7 +5226,7 @@ explain select * from tb_user where status = '0';
 explain select * from tb_user where profession = '软件工程' and status = '0';
 ```
 
-![image-20250415201539728](Mysql-Learning-Local.assets/image-20250415201539728.png)
+![image-20250415201539728](./Mysql-Learning-Local.assets/image-20250415201539728.png)
 
 上述的SQL查询时，存在profession字段，最左边的列是存在的，索引满足最左前缀法则的基本条件。但是查询时，**跳过了age这个列**，所以后面的列索引是不会使用的，也就是**索引部分生效**，所以**索引的长度就是47**（**相当于只有profession字段的索引**）
 
@@ -5235,7 +5238,7 @@ explain select * from tb_user where profession = '软件工程' and status = '0'
 >
 > 当执行SQL语句: explain select * from tb_user where age = 31 and status = '0' and profession = '软件工程'； 时，**是否满足最左前缀法则**，走不走上述的联合索引，索引长度？
 >
-> ![image-20250415202021028](Mysql-Learning-Local.assets/image-20250415202021028.png)
+> ![image-20250415202021028](./Mysql-Learning-Local.assets/image-20250415202021028.png)
 >
 > 可以看到，是完全满足最左前缀法则的，索引长度54，**联合索引是生效的**。
 >
@@ -5253,7 +5256,7 @@ explain select * from tb_user where profession = '软件工程' and status = '0'
 explain select * from tb_user where profession = '软件工程' and age > 30 and status = '0';
 ```
 
-![image-20250415202303931](Mysql-Learning-Local.assets/image-20250415202303931.png)
+![image-20250415202303931](./Mysql-Learning-Local.assets/image-20250415202303931.png)
 
 当范围查询使用> 或 < 时，走联合索引了，但是索引的长度为49，就说明**范围查询右边的status字段**是没有走索引的。
 
@@ -5263,11 +5266,11 @@ explain select * from tb_user where profession = '软件工程' and age > 30 and
 explain select * from tb_user where profession = '软件工程' and age >= 30 and status = '0';
 ```
 
-![image-20250415202441472](Mysql-Learning-Local.assets/image-20250415202441472.png)
+![image-20250415202441472](./Mysql-Learning-Local.assets/image-20250415202441472.png)
 
 当范围查询使用>= 或 <= 时，**走联合索引了，但是索引的长度为54，就说明所有的字段都是走索引的。**
 
-所以，**在业务允许的情况下**，==尽可能的使用类似于 **>= 或 `<=** 这类的范围查询==，而**避免使用 >` 或 <**。
+所以，**在业务允许的情况下**，==尽可能的使用类似于 **>= 或 <=** 这类的范围查询==，而**避免使用 > 或 <**。
 
 
 
@@ -5283,7 +5286,7 @@ explain select * from tb_user where profession = '软件工程' and age >= 30 an
 show index from tb_user\G;
 ```
 
-![image-20250415202704979](Mysql-Learning-Local.assets/image-20250415202704979.png)
+![image-20250415202704979](./Mysql-Learning-Local.assets/image-20250415202704979.png)
 
 ##### A. 当根据phone字段进行==等值匹配查询==时, 索引生效。
 
@@ -5291,7 +5294,7 @@ show index from tb_user\G;
 explain select * from tb_user where phone = '17799990015'; 
 ```
 
-![image-20250415202810833](Mysql-Learning-Local.assets/image-20250415202810833.png)
+![image-20250415202810833](./Mysql-Learning-Local.assets/image-20250415202810833.png)
 
 ##### B. 当根据phone字段进行==函数运算操作==之后，索引失效。
 
@@ -5299,7 +5302,7 @@ explain select * from tb_user where phone = '17799990015';
 explain select * from tb_user where substring(phone,10,2) = '15';
 ```
 
-![image-20250415203001650](Mysql-Learning-Local.assets/image-20250415203001650.png)
+![image-20250415203001650](./Mysql-Learning-Local.assets/image-20250415203001650.png)
 
 
 
@@ -5316,7 +5319,7 @@ explain select * from tb_user where profession = '软件工程' and age = 31 and
 explain select * from tb_user where profession = '软件工程' and age = 31 and status = 0;
 ```
 
-![image-20250415203458858](Mysql-Learning-Local.assets/image-20250415203458858.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415203458858.png" alt="image-20250415203458858" style="zoom:80%;" />
 
 
 
@@ -5325,7 +5328,7 @@ explain select * from tb_user where phone = '17799990015';
 explain select * from tb_user where phone = 17799990015;
 ```
 
-![image-20250415203538384](Mysql-Learning-Local.assets/image-20250415203538384.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415203538384.png" alt="image-20250415203538384" style="zoom:67%;" />
 
 经过上面两组示例，我们会明显的发现，**如果字符串不加单引号，对于查询结果，没什么影响，但是==数据库存在隐式类型转换==，索引将失效。**
 
@@ -5349,11 +5352,11 @@ explain select * from tb_user where profession like '%工程';
 explain select * from tb_user where profession like '%工%';
 ```
 
-![image-20250415203903583](Mysql-Learning-Local.assets/image-20250415203903583.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415203903583.png" alt="image-20250415203903583" style="zoom: 80%;" />
 
-![image-20250415203928994](Mysql-Learning-Local.assets/image-20250415203928994.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415203928994.png" alt="image-20250415203928994" style="zoom:80%;" />
 
-![image-20250415203950447](Mysql-Learning-Local.assets/image-20250415203950447.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415203950447.png" alt="image-20250415203950447" style="zoom: 80%;" />
 
 
 
@@ -5370,7 +5373,7 @@ explain select * from tb_user where id = 10 or age = 23;
 explain select * from tb_user where phone = '17799990017' or age = 23;
 ```
 
-![image-20250415204314861](Mysql-Learning-Local.assets/image-20250415204314861.png)
+![image-20250415204314861](./Mysql-Learning-Local.assets/image-20250415204314861.png)
 
 由于**age没有索引**，所以即使id、phone有索引，**索引也会失效**。所以需要针对于**age也要建立索引**。
 
@@ -5380,11 +5383,11 @@ explain select * from tb_user where phone = '17799990017' or age = 23;
 create index idx_user_age on tb_user(age);
 ```
 
-![image-20250415204410407](Mysql-Learning-Local.assets/image-20250415204410407.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415204410407.png" alt="image-20250415204410407"  />
 
 建立了索引之后，我们再次执行上述的SQL语句，看看前后执行计划的变化。
 
-![image-20250415204452509](Mysql-Learning-Local.assets/image-20250415204452509.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415204452509.png" alt="image-20250415204452509" style="zoom:80%;" />
 
 最终，我们发现，当or连接的条件，左右两侧字段都有索引时，索引才会生效。
 
@@ -5399,7 +5402,7 @@ explain select * from tb_user where phone >= '17799990005';
 explain select * from tb_user where phone >= '17799990015';
 ```
 
-![image-20250415205007418](Mysql-Learning-Local.assets/image-20250415205007418.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415205007418.png" alt="image-20250415205007418" style="zoom:80%;" />
 
 经过测试我们发现，相同的SQL语句，**只是传入的字段值不同**，最终的执行计划也完全不一样，这是为什么呢？
 
@@ -5414,7 +5417,7 @@ explain select * from tb_user where profession is null;
 explain select * from tb_user where profession is not null;
 ```
 
-![image-20250415205620709](Mysql-Learning-Local.assets/image-20250415205620709.png)
+![image-20250415205620709](./Mysql-Learning-Local.assets/image-20250415205620709.png)
 
 接下来，我们做一个操作**将profession字段值全部更新为null**
 
@@ -5422,11 +5425,11 @@ explain select * from tb_user where profession is not null;
 update tb_user set profession = null;
 ```
 
-![image-20250415205725965](Mysql-Learning-Local.assets/image-20250415205725965.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415205725965.png" alt="image-20250415205725965" style="zoom:67%;" />
 
 然后，再次执行上述的两条SQL，查看SQL语句的执行计划。
 
-![image-20250415205908417](Mysql-Learning-Local.assets/image-20250415205908417.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415205908417.png" alt="image-20250415205908417" style="zoom: 67%;" />
 
 最终我们看到，一模一样的SQL语句，先后执行了两次，结果查询计划是不一样的，为什么会出现这种现象，这是和**数据库的数据分布有关系**。查询时**MySQL会评估，走索引快，还是全表扫描快**，如果全表扫描更快，则放弃索引走全表扫描。 因此，is null 、is not null是否走索引，**得具体情况具体分析**，并不是固定的。
 
@@ -5438,23 +5441,23 @@ update tb_user set profession = null;
 
 ### （5）SQL提示
 
-![image-20250415211629620](Mysql-Learning-Local.assets/image-20250415211629620.png)
+![image-20250415211629620](./Mysql-Learning-Local.assets/image-20250415211629620.png)
 
 #### 场景引入
 
 目前tb_user表的数据情况如下:
 
-![image-20250415210413093](Mysql-Learning-Local.assets/image-20250415210413093.png)
+![image-20250415210413093](./Mysql-Learning-Local.assets/image-20250415210413093.png)
 
 
 
 索引情况如下:
 
-![image-20250415210625087](Mysql-Learning-Local.assets/image-20250415210625087.png)
+![image-20250415210625087](./Mysql-Learning-Local.assets/image-20250415210625087.png)
 
 把上述的 idx_user_age, idx_email 这两个之前测试使用过的索引**直接删除**。
 
-![image-20250415210706310](Mysql-Learning-Local.assets/image-20250415210706310.png)
+![image-20250415210706310](./Mysql-Learning-Local.assets/image-20250415210706310.png)
 
 ```sql
 drop index idx_user_age on tb_user;
@@ -5471,7 +5474,7 @@ explain select * from tb_user where profession = '软件工程';
 
 查询走了联合索引。
 
-![image-20250415210907304](Mysql-Learning-Local.assets/image-20250415210907304.png)
+![image-20250415210907304](./Mysql-Learning-Local.assets/image-20250415210907304.png)
 
 
 
@@ -5485,7 +5488,7 @@ create index idx_user_pro on tb_user(profession);
 
 **C. 创建单列索引后，再次执行A中的SQL语句，查看执行计划，看看到底走哪个索引。**
 
-![image-20250415210944132](Mysql-Learning-Local.assets/image-20250415210944132.png)
+<img src="./Mysql-Learning-Local.assets/image-20250415210944132.png" alt="image-20250415210944132" style="zoom:80%;" />
 
 测试结果，我们可以看到，possible_keys中 idx_user_pro_age_sta,idx_user_pro **这两个索引都可能用到**，最终**MySQL选择了idx_user_pro_age_sta索引**。这是**MySQL自动选择的结果**。
 
@@ -5525,7 +5528,7 @@ A. use index
 explain select * from tb_user use index(idx_user_pro) where profession = '软件工程';
 ```
 
-![image-20250415211230863](Mysql-Learning-Local.assets/image-20250415211230863.png)
+![image-20250415211230863](./Mysql-Learning-Local.assets/image-20250415211230863.png)
 
 B. ignore index
 
@@ -5533,7 +5536,7 @@ B. ignore index
 explain select * from tb_user ignore index(idx_user_pro) where profession = '软件工程';
 ```
 
-![image-20250415211254163](Mysql-Learning-Local.assets/image-20250415211254163.png)
+![image-20250415211254163](./Mysql-Learning-Local.assets/image-20250415211254163.png)
 
 C. force index
 
@@ -5541,7 +5544,7 @@ C. force index
 explain select * from tb_user force index(idx_user_pro_age_sta) where profession = '软件工程';
 ```
 
-![image-20250415211337575](Mysql-Learning-Local.assets/image-20250415211337575.png)
+![image-20250415211337575](./Mysql-Learning-Local.assets/image-20250415211337575.png)
 
 
 
@@ -5565,15 +5568,15 @@ explain select * from tb_user where profession = '软件工程' and age = 31 and
 
 上述这几条SQL的执行结果为:
 
-![image-20250415212838886](Mysql-Learning-Local.assets/image-20250415212838886.png)
+![image-20250415212838886](./Mysql-Learning-Local.assets/image-20250415212838886.png)
 
-![image-20250415212927502](Mysql-Learning-Local.assets/image-20250415212927502.png)
+![image-20250415212927502](./Mysql-Learning-Local.assets/image-20250415212927502.png)
 
 
 
 从上述的执行计划我们可以看到，这四条SQL语句的执行计划前面所有的指标都是一样的，看不出来差异。但是此时，我们主要关注的是后面的**==Extra==**，前面两条SQL的结果为 **Using where; UsingIndex** ; 而后面两条SQL的结果为: **Using index condition** 。
 
-![image-20250415192253342](Mysql-Learning-Local.assets/image-20250415192253342.png)
+![image-20250415192253342](./Mysql-Learning-Local.assets/image-20250415192253342.png)
 
 
 
@@ -5585,7 +5588,7 @@ explain select * from tb_user where profession = '软件工程' and age = 31 and
 
 **A. 表结构及索引示意图:**
 
-![image-20250415213944300](Mysql-Learning-Local.assets/image-20250415213944300.png)
+![image-20250415213944300](./Mysql-Learning-Local.assets/image-20250415213944300.png)
 
 id是主键，是一个**聚集索引**。 **name字段建立了普通索引**，是一个**二级索引（辅助索引）**。
 
@@ -5595,7 +5598,7 @@ id是主键，是一个**聚集索引**。 **name字段建立了普通索引**�
 
 根据id查询，直接走聚集索引查询，一次索引扫描，直接返回数据，性能高。
 
-![image-20250415213558596](Mysql-Learning-Local.assets/image-20250415213558596.png)
+![image-20250415213558596](./Mysql-Learning-Local.assets/image-20250415213558596.png)
 
 
 
@@ -5603,7 +5606,7 @@ id是主键，是一个**聚集索引**。 **name字段建立了普通索引**�
 
 虽然是根据name字段查询，**查询二级索引**，但是由于查询返回在字段为 id，name，**在name的二级索引中，这两个值都是可以直接获取到的**，因为覆盖索引，所以**不需要回表查询**，性能高。
 
-![image-20250415213851481](Mysql-Learning-Local.assets/image-20250415213851481.png)
+![image-20250415213851481](./Mysql-Learning-Local.assets/image-20250415213851481.png)
 
 
 
@@ -5611,7 +5614,7 @@ id是主键，是一个**聚集索引**。 **name字段建立了普通索引**�
 
 **D. 执行SQL：selet id,name,==gender== from tb_user where name = 'Arm';**
 
-![image-20250415213450425](Mysql-Learning-Local.assets/image-20250415213450425.png)
+![image-20250415213450425](./Mysql-Learning-Local.assets/image-20250415213450425.png)
 
 
 
@@ -5621,7 +5624,7 @@ id是主键，是一个**聚集索引**。 **name字段建立了普通索引**�
 
 > **==思考题==：**
 >
-> ![image-20250415214213813](Mysql-Learning-Local.assets/image-20250415214213813.png)
+> <img src="./Mysql-Learning-Local.assets/image-20250415214213813.png" alt="image-20250415214213813" style="zoom:80%;" />
 >
 > 一张表, 有四个字段(id, username, password, status), 由于数据量大, 需要对以下SQL语句进行优化, 该如何进行才是最优方案:
 >
@@ -5641,7 +5644,7 @@ id是主键，是一个**聚集索引**。 **name字段建立了普通索引**�
 
 ### （7）==前缀索引==
 
-![image-20250415214548331](Mysql-Learning-Local.assets/image-20250415214548331.png)
+![image-20250415214548331](./Mysql-Learning-Local.assets/image-20250415214548331.png)
 
 当字段类型为字符串（**varchar，text，longtext**等）时，有时候需要**索引很长的字符串**，这会让索引变得很大，查询时，浪费大量的磁盘IO， 影响查询效率。此时可以**只将字符串的一部分前缀，建立索引**，这样可以**大大==节约索引空间==，从而提高索引效率**。
 
@@ -5661,7 +5664,7 @@ create index idx_xxxx on table_name(column(n)) ;
 create index idx_email_5 on tb_user(email(5));
 ```
 
-![image-20250415214701185](Mysql-Learning-Local.assets/image-20250415214701185.png)
+![image-20250415214701185](./Mysql-Learning-Local.assets/image-20250415214701185.png)
 
 
 
@@ -5676,13 +5679,13 @@ select count(distinct email) / count(*) from tb_user ;
 select count(distinct substring(email,1,5)) / count(*) from tb_user ;
 ```
 
-![image-20250415215305323](Mysql-Learning-Local.assets/image-20250415215305323.png)
+![image-20250415215305323](./Mysql-Learning-Local.assets/image-20250415215305323.png)
 
 
 
 #### ③前缀索引的查询流程
 
-![image-20250415215455629](Mysql-Learning-Local.assets/image-20250415215455629.png)
+![image-20250415215455629](./Mysql-Learning-Local.assets/image-20250415215455629.png)
 
 
 
@@ -5692,7 +5695,7 @@ select count(distinct substring(email,1,5)) / count(*) from tb_user ;
 
 
 
-![image-20250415220717766](Mysql-Learning-Local.assets/image-20250415220717766.png)
+![image-20250415220717766](./Mysql-Learning-Local.assets/image-20250415220717766.png)
 
 
 
@@ -5707,7 +5710,7 @@ select count(distinct substring(email,1,5)) / count(*) from tb_user ;
 show index from tb_user;
 ```
 
-![image-20250415215749977](Mysql-Learning-Local.assets/image-20250415215749977.png)
+![image-20250415215749977](./Mysql-Learning-Local.assets/image-20250415215749977.png)
 
 在查询出来的索引中，既有**单列索引，又有联合索引**。
 
@@ -5719,7 +5722,7 @@ show index from tb_user;
 explain select id,phone,name from tb_user where phone = '17799990010' and name = '韩信';
 ```
 
-![image-20250415220146434](Mysql-Learning-Local.assets/image-20250415220146434.png)
+![image-20250415220146434](./Mysql-Learning-Local.assets/image-20250415220146434.png)
 
 通过上述执行计划我们可以看出来，在**and连接的两个字段 phone、name上都是有单列索引的**，但是最终**mysql==只会选择一个索引==**，也就是说，只能走一个字段的索引，此时是会**==回表查询==的**。
 
@@ -5740,7 +5743,7 @@ create unique index idx_user_phone_name on tb_user(phone,name);
 explain select id,phone,name from tb_user use index(idx_user_phone_name) where phone = '17799990010' and name = '韩信';
 ```
 
-![image-20250415220605380](Mysql-Learning-Local.assets/image-20250415220605380.png)
+![image-20250415220605380](./Mysql-Learning-Local.assets/image-20250415220605380.png)
 
 
 
@@ -5752,7 +5755,7 @@ explain select id,phone,name from tb_user use index(idx_user_phone_name) where p
 
 
 
-![image-20250415220902347](Mysql-Learning-Local.assets/image-20250415220902347.png)
+![image-20250415220902347](./Mysql-Learning-Local.assets/image-20250415220902347.png)
 
 
 
@@ -5760,7 +5763,7 @@ explain select id,phone,name from tb_user use index(idx_user_phone_name) where p
 
 ## 2.7 索引设计原则
 
-![image-20250415221346762](Mysql-Learning-Local.assets/image-20250415221346762.png)
+![image-20250415221346762](./Mysql-Learning-Local.assets/image-20250415221346762.png)
 
 - 1). 针对于数据量较大（**>100W**），且**查询比较频繁**的表建立索引。
 - 2). 针对于**常作为查询条件**（where）、排序（order by）、分组（group by）**操作的字段建立索引**。
@@ -5774,11 +5777,11 @@ explain select id,phone,name from tb_user use index(idx_user_phone_name) where p
 
 ## 2.8 小结
 
-![image-20250415221540478](Mysql-Learning-Local.assets/image-20250415221540478.png)
+![image-20250415221540478](./Mysql-Learning-Local.assets/image-20250415221540478.png)
 
 
 
-![image-20250415221840175](Mysql-Learning-Local.assets/image-20250415221840175.png)
+![image-20250415221840175](./Mysql-Learning-Local.assets/image-20250415221840175.png)
 
 
 
@@ -5788,7 +5791,7 @@ explain select id,phone,name from tb_user use index(idx_user_phone_name) where p
 
 ### （1）insert
 
-![image-20250416161441229](Mysql-Learning-Local.assets/image-20250416161441229.png)
+![image-20250416161441229](./Mysql-Learning-Local.assets/image-20250416161441229.png)
 
 如果我们需要一次性往数据库表中插入多条记录，可以从以下三个方面进行优化。
 
@@ -5836,7 +5839,7 @@ commit;
 
 ### （2）大批量插入数据-==load指令==
 
-![image-20250416162221957](Mysql-Learning-Local.assets/image-20250416162221957.png)
+![image-20250416162221957](./Mysql-Learning-Local.assets/image-20250416162221957.png)
 
 #### ①load指令插入
 
@@ -5903,7 +5906,7 @@ Select @@local_infile;
 set global local_infile = 1;
 ```
 
-![image-20250416161907516](Mysql-Learning-Local.assets/image-20250416161907516.png)
+![image-20250416161907516](./Mysql-Learning-Local.assets/image-20250416161907516.png)
 
 
 
@@ -5911,7 +5914,7 @@ set global local_infile = 1;
 
 **C. load加载数据**
 
-![image-20250416162429689](Mysql-Learning-Local.assets/image-20250416162429689.png)
+![image-20250416162429689](./Mysql-Learning-Local.assets/image-20250416162429689.png)
 
 ```sql
 # 上传sql脚本到Linux服务器
@@ -5925,7 +5928,7 @@ load data local infile '/root/load_user_100w_sort.sql' into table tb_user fields
 
 我们看到，插入100w的记录，17s就完成了，性能很好。
 
-![image-20250416162625767](Mysql-Learning-Local.assets/image-20250416162625767.png)
+![image-20250416162625767](./Mysql-Learning-Local.assets/image-20250416162625767.png)
 
 
 
@@ -5943,13 +5946,13 @@ load data local infile '/root/load_user_100w_sort.sql' into table tb_user fields
 
 在InnoDB存储引擎中，表数据都是根据**==主键顺序组织存放==**的，这种存储方式的表称为**索引组织表**(index organized table **IOT**)。
 
-![image-20250416163715035](Mysql-Learning-Local.assets/image-20250416163715035.png)
+![image-20250416163715035](./Mysql-Learning-Local.assets/image-20250416163715035.png)
 
 
 
 **行数据**，都是存储**在==聚集索引的叶子节点上==的**。**非叶子节点，存储的只是==起到索引数据的作用==**，而我们之前也讲解过InnoDB的**逻辑结构图**：
 
-![image-20250416163750342](Mysql-Learning-Local.assets/image-20250416163750342.png)
+![image-20250416163750342](./Mysql-Learning-Local.assets/image-20250416163750342.png)
 
 
 
@@ -5965,19 +5968,19 @@ load data local infile '/root/load_user_100w_sort.sql' into table tb_user fields
 
 **①. 从磁盘中==申请页==， 主键顺序插入**
 
-![image-20250416163941796](Mysql-Learning-Local.assets/image-20250416163941796.png)
+![image-20250416163941796](./Mysql-Learning-Local.assets/image-20250416163941796.png)
 
 **②. 第一个页没有满，继续往第一页插入**
 
-![image-20250416163951466](Mysql-Learning-Local.assets/image-20250416163951466.png)
+![image-20250416163951466](./Mysql-Learning-Local.assets/image-20250416163951466.png)
 
 **③. 当第一个也写满之后，再写入第二个页，页与页之间会通过指针连接**
 
-![image-20250416163959684](Mysql-Learning-Local.assets/image-20250416163959684.png)
+![image-20250416163959684](./Mysql-Learning-Local.assets/image-20250416163959684.png)
 
 **④. 当第二页写满了，再往第三页写入**
 
-![image-20250416164005769](Mysql-Learning-Local.assets/image-20250416164005769.png)
+![image-20250416164005769](./Mysql-Learning-Local.assets/image-20250416164005769.png)
 
 
 
@@ -5985,7 +5988,7 @@ load data local infile '/root/load_user_100w_sort.sql' into table tb_user fields
 
 **①. 加入1#,2#页都已经写满了，存放了如图所示的数据**
 
-![image-20250416164027268](Mysql-Learning-Local.assets/image-20250416164027268.png)
+![image-20250416164027268](./Mysql-Learning-Local.assets/image-20250416164027268.png)
 
 
 
@@ -5993,7 +5996,7 @@ load data local infile '/root/load_user_100w_sort.sql' into table tb_user fields
 
 会再次开启一个页，写入新的页中吗？
 
-![image-20250416164101094](Mysql-Learning-Local.assets/image-20250416164101094.png)
+![image-20250416164101094](./Mysql-Learning-Local.assets/image-20250416164101094.png)
 
 
 
@@ -6001,21 +6004,21 @@ load data local infile '/root/load_user_100w_sort.sql' into table tb_user fields
 
 不会。因为，**==索引结构的叶子节点是有顺序的==**。按照**顺序**，应该**存储在47之后**。
 
-![image-20250416164134506](Mysql-Learning-Local.assets/image-20250416164134506.png)
+![image-20250416164134506](./Mysql-Learning-Local.assets/image-20250416164134506.png)
 
 但是47所在的**1#页，已经写满了**，存储不了50对应的数据了。 那么此时会**开辟一个新的页 3#。**
 
-![image-20250416164148521](Mysql-Learning-Local.assets/image-20250416164148521.png)
+![image-20250416164148521](./Mysql-Learning-Local.assets/image-20250416164148521.png)
 
 但是**并不会直接将50存入3#页**，而是**会将1#页后一半的数据，移动到3#页**，然后**==在3#页，插入50==**。
 
-![image-20250416164202712](Mysql-Learning-Local.assets/image-20250416164202712.png)
+![image-20250416164202712](./Mysql-Learning-Local.assets/image-20250416164202712.png)
 
-![image-20250416164208130](Mysql-Learning-Local.assets/image-20250416164208130.png)
+![image-20250416164208130](./Mysql-Learning-Local.assets/image-20250416164208130.png)
 
 移动数据，并插入id为50的数据之后，那么此时，这三个页之间的**数据顺序**是有问题的。 1#的下一个页，应该是3#， 3#的下一个页是2#。 所以，此时，**需要重新设置链表指针**。
 
-![image-20250416164243644](Mysql-Learning-Local.assets/image-20250416164243644.png)
+![image-20250416164243644](./Mysql-Learning-Local.assets/image-20250416164243644.png)
 
 上述的这种现象，称之为 "页分裂"，是**==比较耗费性能的操作==**。
 
@@ -6023,31 +6026,31 @@ load data local infile '/root/load_user_100w_sort.sql' into table tb_user fields
 
 ### （3）页合并
 
-![image-20250416164604963](Mysql-Learning-Local.assets/image-20250416164604963.png)
+![image-20250416164604963](./Mysql-Learning-Local.assets/image-20250416164604963.png)
 
 目前表中已有数据的索引结构(叶子节点)如下：
 
-![image-20250416164334276](Mysql-Learning-Local.assets/image-20250416164334276.png)
+![image-20250416164334276](./Mysql-Learning-Local.assets/image-20250416164334276.png)
 
 当我们**对已有数据进行删除**时，具体的效果如下:
 
 当删除一行记录时，**实际上记录并没有被物理删除**，只是**记录==被标记（flaged）为删除==**并且**它的空间变得允许被其他记录声明使用**。
 
-![image-20250416164406947](Mysql-Learning-Local.assets/image-20250416164406947.png)
+![image-20250416164406947](./Mysql-Learning-Local.assets/image-20250416164406947.png)
 
 当我们继续删除2#的数据记录
 
-![image-20250416164419849](Mysql-Learning-Local.assets/image-20250416164419849.png)
+![image-20250416164419849](./Mysql-Learning-Local.assets/image-20250416164419849.png)
 
 当页中删除的记录**达到 MERGE_THRESHOLD（默认为==页的50%==）**，InnoDB会开始**寻找最靠近的页（前或后**）看看**是否可以将两个页==合并以优化空间使用==**。
 
-![image-20250416164457100](Mysql-Learning-Local.assets/image-20250416164457100.png)
+![image-20250416164457100](./Mysql-Learning-Local.assets/image-20250416164457100.png)
 
-![image-20250416164504470](Mysql-Learning-Local.assets/image-20250416164504470.png)
+![image-20250416164504470](./Mysql-Learning-Local.assets/image-20250416164504470.png)
 
 删除数据，并将页合并之后，**再次插入新的数据21**，则直接插入3#页
 
-![image-20250416164514397](Mysql-Learning-Local.assets/image-20250416164514397.png)
+![image-20250416164514397](./Mysql-Learning-Local.assets/image-20250416164514397.png)
 
 
 
@@ -6063,7 +6066,7 @@ load data local infile '/root/load_user_100w_sort.sql' into table tb_user fields
 
 ### （4）主键设计原则
 
-![image-20250416165433932](Mysql-Learning-Local.assets/image-20250416165433932.png)
+![image-20250416165433932](./Mysql-Learning-Local.assets/image-20250416165433932.png)
 
 - 满足业务需求的情况下，尽量**==降低主键的长度==**。
   - 由于**二级索引保存数据的是主键的id**，如果主键长度过大会导致，**占用大量的磁盘空间。**
@@ -6120,9 +6123,9 @@ drop index idx_user_phone_name on tb_user;
 drop index idx_user_name on tb_user;
 ```
 
-![image-20250416171144687](Mysql-Learning-Local.assets/image-20250416171144687.png)
+![image-20250416171144687](./Mysql-Learning-Local.assets/image-20250416171144687.png)
 
-![image-20250416171302562](Mysql-Learning-Local.assets/image-20250416171302562.png)
+![image-20250416171302562](./Mysql-Learning-Local.assets/image-20250416171302562.png)
 
 
 
@@ -6138,7 +6141,7 @@ explain select id,age,phone from tb_user order by age ;
 explain select id,age,phone from tb_user order by age, phone ; 
 ```
 
-![image-20250416171351789](Mysql-Learning-Local.assets/image-20250416171351789.png)
+![image-20250416171351789](./Mysql-Learning-Local.assets/image-20250416171351789.png)
 
 由于 **age, phone 都没有索引**，所以此时再排序时，出现**Using filesort， 排序性能较低**。
 
@@ -6152,7 +6155,7 @@ create index idx_user_age_phone_aa on tb_user(age,phone);
 # 这里索引名字命名中的 _aa 表示的是age和phone都是按照 升序排序 创建的索引
 ```
 
-![image-20250416171600235](Mysql-Learning-Local.assets/image-20250416171600235.png)
+![image-20250416171600235](./Mysql-Learning-Local.assets/image-20250416171600235.png)
 
 
 
@@ -6162,13 +6165,13 @@ create index idx_user_age_phone_aa on tb_user(age,phone);
 explain select id,age,phone from tb_user order by age; 
 ```
 
-![image-20250416171652850](Mysql-Learning-Local.assets/image-20250416171652850.png)
+![image-20250416171652850](./Mysql-Learning-Local.assets/image-20250416171652850.png)
 
 ```sql
 explain select id,age,phone from tb_user order by age , phone; 
 ```
 
-![image-20250416171704332](Mysql-Learning-Local.assets/image-20250416171704332.png)
+![image-20250416171704332](./Mysql-Learning-Local.assets/image-20250416171704332.png)
 
 建立索引之后，再次进行排序查询，就由**原来的Using filesort， 变为了 Using index**，性能就是比较高的了。
 
@@ -6178,7 +6181,7 @@ explain select id,age,phone from tb_user order by age , phone;
  explain select id , phone from tb_user order by phone;
 ```
 
-![image-20250416172201885](Mysql-Learning-Local.assets/image-20250416172201885.png)
+![image-20250416172201885](./Mysql-Learning-Local.assets/image-20250416172201885.png)
 
 
 
@@ -6188,7 +6191,7 @@ explain select id,age,phone from tb_user order by age , phone;
 explain select id,age,phone from tb_user order by age desc , phone desc; 
 ```
 
-![image-20250416172535693](Mysql-Learning-Local.assets/image-20250416172535693.png)
+![image-20250416172535693](./Mysql-Learning-Local.assets/image-20250416172535693.png)
 
 也出现 Using index， 但是此时Extra中出现了 **Backward index scan**，这个**代表反向扫描索引**，
 
@@ -6204,7 +6207,7 @@ explain select id,age,phone from tb_user order by age desc , phone desc;
 explain select id,age,phone from tb_user order by phone , age; 
 ```
 
-![image-20250416172602287](Mysql-Learning-Local.assets/image-20250416172602287.png)
+![image-20250416172602287](./Mysql-Learning-Local.assets/image-20250416172602287.png)
 
 排序时,也需要**满足==最左前缀法则==,否则也会出现 filesort**。
 
@@ -6218,7 +6221,7 @@ explain select id,age,phone from tb_user order by phone , age;
 explain select id,age,phone from tb_user order by age asc , phone desc ; 
 ```
 
-![image-20250416172631864](Mysql-Learning-Local.assets/image-20250416172631864.png)
+![image-20250416172631864](./Mysql-Learning-Local.assets/image-20250416172631864.png)
 
 因为创建索引时，**如果==未指定顺序==，默认都是按照升序排序的**，而查询时，**一个升序，一个降序，此时就会出现Using filesort**。
 
@@ -6235,7 +6238,7 @@ create index idx_user_age_phone_ad on tb_user(age asc ,phone desc);
 # 这里索引名字命名中的 _ad 表示的是 age 升序排序，phone 倒序排序 创建的索引
 ```
 
-![image-20250416172805864](Mysql-Learning-Local.assets/image-20250416172805864.png)
+![image-20250416172805864](./Mysql-Learning-Local.assets/image-20250416172805864.png)
 
 
 
@@ -6245,19 +6248,19 @@ create index idx_user_age_phone_ad on tb_user(age asc ,phone desc);
 explain select id,age,phone from tb_user order by age asc , phone desc ; 
 ```
 
-![image-20250416172836448](Mysql-Learning-Local.assets/image-20250416172836448.png)
+![image-20250416172836448](./Mysql-Learning-Local.assets/image-20250416172836448.png)
 
 
 
 升序/降序**联合索引结构图示**:
 
-![image-20250416173020989](Mysql-Learning-Local.assets/image-20250416173020989.png)
+![image-20250416173020989](./Mysql-Learning-Local.assets/image-20250416173020989.png)
 
 
 
 ### （3）==优化原则==
 
-![image-20250416173452795](Mysql-Learning-Local.assets/image-20250416173452795.png)
+![image-20250416173452795](./Mysql-Learning-Local.assets/image-20250416173452795.png)
 
 由上述的测试,我们得出**order by优化原则**:
 
@@ -6271,7 +6274,7 @@ explain select id,age,phone from tb_user order by age asc , phone desc ;
     explain select * from tb_user order by age asc , phone desc ; 
     ```
 
-  ![image-20250416173415968](Mysql-Learning-Local.assets/image-20250416173415968.png)
+  ![image-20250416173415968](./Mysql-Learning-Local.assets/image-20250416173415968.png)
 
   
 
@@ -6291,7 +6294,7 @@ explain select id,age,phone from tb_user order by age asc , phone desc ;
 
 分组操作，我们主要来看看**索引对于分组操作**的影响。
 
-![image-20250416174851892](Mysql-Learning-Local.assets/image-20250416174851892.png)
+![image-20250416174851892](./Mysql-Learning-Local.assets/image-20250416174851892.png)
 
 
 
@@ -6309,7 +6312,7 @@ drop index idx_user_age_phone_ad on tb_user;
 show index from tb_user;
 ```
 
-![image-20250416174247861](Mysql-Learning-Local.assets/image-20250416174247861.png)
+![image-20250416174247861](./Mysql-Learning-Local.assets/image-20250416174247861.png)
 
 
 
@@ -6319,7 +6322,7 @@ show index from tb_user;
 explain select profession , count(*) from tb_user group by profession ; 
 ```
 
-![image-20250416174333206](Mysql-Learning-Local.assets/image-20250416174333206.png)
+![image-20250416174333206](./Mysql-Learning-Local.assets/image-20250416174333206.png)
 
 **Using temporary，表示使用到了==临时表==**
 
@@ -6337,7 +6340,7 @@ create index idx_user_pro_age_sta on tb_user(profession , age , status);
 explain select profession , count(*) from tb_user group by profession ;
 ```
 
-![image-20250416174406134](Mysql-Learning-Local.assets/image-20250416174406134.png)
+![image-20250416174406134](./Mysql-Learning-Local.assets/image-20250416174406134.png)
 
 再执行如下的分组查询SQL，查看执行计划：
 
@@ -6345,7 +6348,7 @@ explain select profession , count(*) from tb_user group by profession ;
 explain select age ,count(*) from tb_user group by age;
 ```
 
-![image-20250416174604250](Mysql-Learning-Local.assets/image-20250416174604250.png)
+![image-20250416174604250](./Mysql-Learning-Local.assets/image-20250416174604250.png)
 
 我们发现，如果**仅仅根据age分组，就会出现 Using temporary** ；而如果是 **根据profession,age两个字段==同时分组==**，则不会出现 Using temporary。原因是因为对于分组操作，在联合索引中，**也是==符合最左前缀法则的==**。
 
@@ -6355,7 +6358,7 @@ explain select age ,count(*) from tb_user group by age;
 explain select age ,count(*) from tb_user where profession = '软件工程' group by age;
 ```
 
-![image-20250416174832045](Mysql-Learning-Local.assets/image-20250416174832045.png)
+![image-20250416174832045](./Mysql-Learning-Local.assets/image-20250416174832045.png)
 
 
 
@@ -6370,7 +6373,7 @@ explain select age ,count(*) from tb_user where profession = '软件工程' grou
 
 ## 3.5 limit优化
 
-![image-20250416190607098](Mysql-Learning-Local.assets/image-20250416190607098.png)
+![image-20250416190607098](./Mysql-Learning-Local.assets/image-20250416190607098.png)
 
 在数据量比较大时，如果进行limit分页查询，**在查询时，越往后，分页查询效率越低**。
 
@@ -6382,11 +6385,11 @@ select * from tb_sku limit 1000000,10;
 
 我们一起来看看执行limit分页查询耗时对比：
 
-![image-20250416185815279](Mysql-Learning-Local.assets/image-20250416185815279.png)
+<img src="./Mysql-Learning-Local.assets/image-20250416185815279.png" alt="image-20250416185815279" style="zoom: 67%;" />
 
-![image-20250416185846023](Mysql-Learning-Local.assets/image-20250416185846023.png)
+<img src="./Mysql-Learning-Local.assets/image-20250416185846023.png" alt="image-20250416185846023" style="zoom: 67%;" />
 
-![image-20250416185917595](Mysql-Learning-Local.assets/image-20250416185917595.png)
+<img src="./Mysql-Learning-Local.assets/image-20250416185917595.png" alt="image-20250416185917595" style="zoom:67%;" />
 
 
 
@@ -6401,7 +6404,7 @@ select * from tb_sku limit 1000000,10;
 select id from tb_sku order by id limit 2000000,10;
 ```
 
-![image-20250416190451623](Mysql-Learning-Local.assets/image-20250416190451623.png)
+![image-20250416190451623](./Mysql-Learning-Local.assets/image-20250416190451623.png)
 
 
 
@@ -6411,7 +6414,7 @@ select id from tb_sku order by id limit 2000000,10;
 select * from tb_sku t where t.id in (select id from tb_sku order by id limit 2000000,10);
 ```
 
-![image-20250416190829682](Mysql-Learning-Local.assets/image-20250416190829682.png)
+![image-20250416190829682](./Mysql-Learning-Local.assets/image-20250416190829682.png)
 
 
 
@@ -6420,11 +6423,11 @@ select * from tb_sku t where t.id in (select id from tb_sku order by id limit 20
 explain select * from tb_sku t , (select id from tb_sku order by id limit 2000000,10) a where t.id = a.id;
 ```
 
-![image-20250416190504809](Mysql-Learning-Local.assets/image-20250416190504809.png)
+![image-20250416190504809](./Mysql-Learning-Local.assets/image-20250416190504809.png)
 
-![image-20250416190524081](Mysql-Learning-Local.assets/image-20250416190524081.png)
+![image-20250416190524081](./Mysql-Learning-Local.assets/image-20250416190524081.png)
 
-![image-20250416190536349](Mysql-Learning-Local.assets/image-20250416190536349.png)
+![image-20250416190536349](./Mysql-Learning-Local.assets/image-20250416190536349.png)
 
 
 
@@ -6460,9 +6463,9 @@ count() 是一个聚合函数，对于返回的结果集，一行行地判断，
 
 用法：count（*）、count（主键）、count（字段）、count（数字）
 
-![image-20250416191624113](Mysql-Learning-Local.assets/image-20250416191624113.png)
+![image-20250416191624113](./Mysql-Learning-Local.assets/image-20250416191624113.png)
 
-![image-20250415230713795](Mysql-Learning-Local.assets/image-20250415230713795.png)
+![image-20250415230713795](./Mysql-Learning-Local.assets/image-20250415230713795.png)
 
 
 
@@ -6472,7 +6475,7 @@ count() 是一个聚合函数，对于返回的结果集，一行行地判断，
 
 ## 3.7  🌟update优化
 
-![image-20250416192633757](Mysql-Learning-Local.assets/image-20250416192633757.png)
+![image-20250416192633757](./Mysql-Learning-Local.assets/image-20250416192633757.png)
 
 我们主要需要注意一下update语句执行时的注意事项。
 
@@ -6510,7 +6513,7 @@ commit;
 
 ## 3.8 小结
 
-![image-20250416193541886](Mysql-Learning-Local.assets/image-20250416193541886.png)
+![image-20250416193541886](./Mysql-Learning-Local.assets/image-20250416193541886.png)
 
 
 
@@ -6530,7 +6533,7 @@ commit;
 
 ### （2）语法
 
-![image-20250416214806509](Mysql-Learning-Local.assets/image-20250416214806509.png)
+![image-20250416214806509](./Mysql-Learning-Local.assets/image-20250416214806509.png)
 
 #### ①创建
 
@@ -6603,7 +6606,7 @@ insert into stu_v_1 values(17,'Tom22');
 
 执行上述的SQL，我们会发现，id为6和17的数据**都是可以成功插入的**。 但是我们执行查询，查询出来的数据，**却没有id为17的记录**。
 
-![image-20250416215054282](Mysql-Learning-Local.assets/image-20250416215054282.png)
+<img src="./Mysql-Learning-Local.assets/image-20250416215054282.png" alt="image-20250416215054282" style="zoom:80%;" />
 
 
 
@@ -6633,7 +6636,7 @@ with [cascaded | local] check option;
 
 cascaded级联，会对加上了**该 检查选项 的视图v** 检查正在更改的操作是否符合视图的定义，并且**如果该视图v还有依赖其他视图，则还会级联检查该视图v依赖的所有视图**。
 
-![image-20250416220236875](Mysql-Learning-Local.assets/image-20250416220236875.png)
+![image-20250416220236875](./Mysql-Learning-Local.assets/image-20250416220236875.png)
 
 ```sql
 create or replace view stu_v_1 
@@ -6678,7 +6681,7 @@ insert into stu_v_3 values (28, 'Tom');
 
 使用local后，如果**当前加了 local检查选项 的视图v**，并且该视图还依赖了其他视图v' ，它会去检查它所依赖的视图v' 是否在创建视图时添加了检查选项，**如果添加了就一起判断**，**如==没有添加则只会判断视图v所定义的条件==**
 
- ![image-20250416222627166](Mysql-Learning-Local.assets/image-20250416222627166.png)
+ ![image-20250416222627166](./Mysql-Learning-Local.assets/image-20250416222627166.png)
 
 
 
@@ -6686,7 +6689,7 @@ insert into stu_v_3 values (28, 'Tom');
 
 #### ①概念
 
-![image-20250416222950695](Mysql-Learning-Local.assets/image-20250416222950695.png)
+![image-20250416222950695](./Mysql-Learning-Local.assets/image-20250416222950695.png)
 
 要使视图可更新，**视图中的行与==基础表中的行==之间必须存在==一对一==的关系**。如果视图包含以下任何一项，则**该视图不可更新**：
 
@@ -6710,13 +6713,13 @@ create view stu_v_count as select count(*) from student;
 
 上述的视图中，就**只有一个单行单列的数据**，如果我们**对这个视图进行更新或插入**的，将**会报错**。
 
-![image-20250416222902625](Mysql-Learning-Local.assets/image-20250416222902625.png)
+![image-20250416222902625](./Mysql-Learning-Local.assets/image-20250416222902625.png)
 
 ```sql
 insert into stu_v_count values(10); 
 ```
 
-![image-20250416222925441](Mysql-Learning-Local.assets/image-20250416222925441.png)
+![image-20250416222925441](./Mysql-Learning-Local.assets/image-20250416222925441.png)
 
 
 
@@ -6791,7 +6794,7 @@ select * from tb_stu_course_view;
 
 存储过程思想上很简单，就是数据库 SQL 语言层面的**代码封装与重用**。
 
-![image-20250417194543284](Mysql-Learning-Local.assets/image-20250417194543284.png)
+![image-20250417194543284](./Mysql-Learning-Local.assets/image-20250417194543284.png)
 
 #### **特点**
 
@@ -6809,7 +6812,7 @@ select * from tb_stu_course_view;
 
 ### （2）基本用法
 
-![image-20250417194456782](Mysql-Learning-Local.assets/image-20250417194456782.png)
+![image-20250417194456782](./Mysql-Learning-Local.assets/image-20250417194456782.png)
 
 #### ① 创建
 
@@ -6901,7 +6904,7 @@ drop procedure if exists p1;
 
 #### ①系统变量
 
-![image-20250417195354412](Mysql-Learning-Local.assets/image-20250417195354412.png)
+![image-20250417195354412](./Mysql-Learning-Local.assets/image-20250417195354412.png)
 
 系统变量 是MySQL服务器提供，不是用户定义的，属于服务器层面。分为**全局变量（GLOBAL）**、**会话变量（SESSION）**。**默认**查询的是session会话变量。
 
@@ -6963,7 +6966,7 @@ select @@global.autocommit;
 
 用户定义变量 是用户根据需要自己定义的变量，**用户变量不用提前声明**，在用的时候**直接用 "@变量名"** 使用就可以。其**作用域为当前连接**（只在当前会话有效）。
 
-![image-20250417195856244](Mysql-Learning-Local.assets/image-20250417195856244.png)
+![image-20250417195856244](./Mysql-Learning-Local.assets/image-20250417195856244.png)
 
 ##### 1). 赋值
 
@@ -6995,7 +6998,7 @@ SELECT @var_name ;
 
 > 注意: 用户定义的变量**无需对其进行声明或初始化**，**只不过==获取到的值为NULL==**。
 
-![image-20250417195653062](Mysql-Learning-Local.assets/image-20250417195653062.png)
+![image-20250417195653062](./Mysql-Learning-Local.assets/image-20250417195653062.png)
 
 
 
@@ -7024,7 +7027,7 @@ select @abc;
 
 局部变量 是根据需要定义的在局部生效的变量，访问之前，==需要**DECLARE声明**==。可用作存储过程内的局部变量和输入参数，**局部变量的==范围==是在其内声明的==BEGIN ... END块==**。
 
-![image-20250417200137491](Mysql-Learning-Local.assets/image-20250417200137491.png)
+![image-20250417200137491](./Mysql-Learning-Local.assets/image-20250417200137491.png)
 
 ##### 1). 声明
 
@@ -7138,7 +7141,7 @@ call p3();
 
 参数的类型，主要分为以下三种：IN、OUT、INOUT。 具体的含义如下：
 
-![image-20250417200551022](Mysql-Learning-Local.assets/image-20250417200551022.png)
+![image-20250417200551022](./Mysql-Learning-Local.assets/image-20250417200551022.png)
 
 用法：
 
@@ -7290,7 +7293,7 @@ call p6(16);
 
 #### ①介绍
 
-![image-20250417201655039](Mysql-Learning-Local.assets/image-20250417201655039.png)
+![image-20250417201655039](./Mysql-Learning-Local.assets/image-20250417201655039.png)
 
 while 循环是**有条件的循环控制语句**。满足条件后，再执行循环体中的SQL语句。具体语法为：
 
@@ -7332,7 +7335,7 @@ call p7(100);
 
 #### ① 介绍
 
-![image-20250417202027825](Mysql-Learning-Local.assets/image-20250417202027825.png)
+![image-20250417202027825](./Mysql-Learning-Local.assets/image-20250417202027825.png)
 
 repeat是有条件的循环控制语句, **当满足until声明的条件的时候，则==退出循环==** 。具体语法为：
 
@@ -7554,11 +7557,11 @@ call p11(30);
 
 上述的存储过程，最终我们在调用的过程中，会报错，之所以报错是因为**上面的while循环中，并没有退出条件。**当游标的数据集**获取完毕之后，再次获取数据，就会报错，**从而终止了程序的执行。
 
-![image-20250417203906594](Mysql-Learning-Local.assets/image-20250417203906594.png)
+![image-20250417203906594](./Mysql-Learning-Local.assets/image-20250417203906594.png)
 
 但是此时，tb_user_pro表结构及**其数据都已经插入成功了**，我们可以直接刷新表结构，检查表结构中的数据。
 
-![image-20250417203947881](Mysql-Learning-Local.assets/image-20250417203947881.png)
+![image-20250417203947881](./Mysql-Learning-Local.assets/image-20250417203947881.png)
 
 上述的功能，虽然我们实现了，但是逻辑并不完善，而且程序执行完毕，获取不到数据，数据库还报错。 接下来，我们就需要来完成这个存储过程，并且解决这个问题。
 
@@ -7570,7 +7573,7 @@ call p11(30);
 
 #### ① 介绍
 
-![image-20250417204446613](Mysql-Learning-Local.assets/image-20250417204446613.png)
+![image-20250417204446613](./Mysql-Learning-Local.assets/image-20250417204446613.png)
 
 条件处理程序（Handler）可以用来定义**在流程控制结构执行过程中遇到问题时相应的处理步骤**。具体语法为：
 
@@ -7734,9 +7737,9 @@ select fun1(50);
 
 在mysql8.0版本中**binlog（二进制日志）默认是开启的**，**一旦开启了**，mysql就要求在定义存储过程时，==**需要指定characteristic特性**==，**否则就会报如下错误**：
 
-![image-20250417205056469](Mysql-Learning-Local.assets/image-20250417205056469.png)
+![image-20250417205056469](./Mysql-Learning-Local.assets/image-20250417205056469.png)
 
-![image-20250417205133058](Mysql-Learning-Local.assets/image-20250417205133058.png)
+![image-20250417205133058](./Mysql-Learning-Local.assets/image-20250417205133058.png)
 
 
 
@@ -7746,7 +7749,7 @@ select fun1(50);
 
 ### （1）介绍
 
-![image-20250417211400006](Mysql-Learning-Local.assets/image-20250417211400006.png)
+![image-20250417211400006](./Mysql-Learning-Local.assets/image-20250417211400006.png)
 
 触发器是与表有关的数据库对象，指在**insert/update/delete==之前(BEFORE)或之后(AFTER)==**，触发并**执行触发器中定义的SQL语句集合**。触发器的这种特性可以协助应用在数据库端确保数据的**完整性, 日志记录 , 数据校验等操作 。**
 
@@ -7757,13 +7760,13 @@ select fun1(50);
 - **语句级触发**
   - 比如执行update语句，影响了5行，**触发器只会执行1次**
 
-![image-20250416212257370](Mysql-Learning-Local.assets/image-20250416212257370.png)
+![image-20250416212257370](./Mysql-Learning-Local.assets/image-20250416212257370.png)
 
 
 
 ### （2）语法
 
-![image-20250417212032956](Mysql-Learning-Local.assets/image-20250417212032956.png)
+![image-20250417212032956](./Mysql-Learning-Local.assets/image-20250417212032956.png)
 
 #### ①创建
 
@@ -7914,7 +7917,7 @@ delete from tb_user where id = 26;
 
 
 
-![image-20250417220016823](Mysql-Learning-Local.assets/image-20250417220016823.png)
+![image-20250417220016823](./Mysql-Learning-Local.assets/image-20250417220016823.png)
 
 
 
@@ -7952,7 +7955,7 @@ MySQL中的锁，按照**锁的粒度分**，分为以下三类：
 
 假设在数据库中存在这样三张表: tb_stock 库存表，tb_order 订单表，tb_orderlog 订单日志表。
 
-![image-20250417220831903](Mysql-Learning-Local.assets/image-20250417220831903.png)
+![image-20250417220831903](./Mysql-Learning-Local.assets/image-20250417220831903.png)
 
 - 在进行数据备份时，**先备份了tb_stock库存表**。
 - 然后接下来，在业务系统中，**执行了下单操作**，扣减库存，生成订单（更新tb_stock表，插入tb_order表）。
@@ -7970,7 +7973,7 @@ MySQL中的锁，按照**锁的粒度分**，分为以下三类：
 
 ##### **B. 再来分析一下加了全局锁后的情况**
 
-![image-20250417220959936](Mysql-Learning-Local.assets/image-20250417220959936.png)
+![image-20250417220959936](./Mysql-Learning-Local.assets/image-20250417220959936.png)
 
 对数据库进行进行逻辑备份之前，先**对整个数据库加上全局锁**，一旦加了全局锁之后，其他的DDL、DML全部都**处于阻塞状态**，但是**可以执行DQL语句，也就是==处于只读状态==**，而**数据备份就是查询操作**。那么数据在进行逻辑备份的过程中，数据库中的数据就是不会发生变化的，这样就**保证了数据的一致性和完整性**。
 
@@ -7978,7 +7981,7 @@ MySQL中的锁，按照**锁的粒度分**，分为以下三类：
 
 ### （3）语法
 
-![image-20250417221329655](Mysql-Learning-Local.assets/image-20250417221329655.png)
+![image-20250417221329655](./Mysql-Learning-Local.assets/image-20250417221329655.png)
 
 #### ①加全局锁
 
@@ -8004,7 +8007,7 @@ unlock tables ;
 
 ### （4）🌟 ==特点==
 
-![image-20250417222056002](Mysql-Learning-Local.assets/image-20250417222056002.png)
+![image-20250417222056002](./Mysql-Learning-Local.assets/image-20250417222056002.png)
 
 数据库中加全局锁，是一个比较重的操作，存在以下问题：
 
@@ -8040,7 +8043,7 @@ mysqldump --single-transaction [-h 192.168.200.202] -uroot –p123456 itcast > i
 
 ### （2）🌟 ==表锁==
 
-![image-20250417223630891](Mysql-Learning-Local.assets/image-20250417223630891.png)
+![image-20250417223630891](./Mysql-Learning-Local.assets/image-20250417223630891.png)
 
 #### ①==分类==
 
@@ -8080,19 +8083,19 @@ unlock tables
 
 ##### A. 读锁
 
-![image-20250417222550874](Mysql-Learning-Local.assets/image-20250417222550874.png)
+![image-20250417222550874](./Mysql-Learning-Local.assets/image-20250417222550874.png)
 
 ​	左侧为客户端一，对指定表加了读锁，**不会影响右侧客户端二的读**，但是会**阻塞右侧客户端的写**。
 
 **测试:**
 
-![image-20250417222627290](Mysql-Learning-Local.assets/image-20250417222627290.png)
+![image-20250417222627290](./Mysql-Learning-Local.assets/image-20250417222627290.png)
 
 
 
 ##### B. 写锁
 
-![image-20250417222703508](Mysql-Learning-Local.assets/image-20250417222703508.png)
+![image-20250417222703508](./Mysql-Learning-Local.assets/image-20250417222703508.png)
 
 ​	左侧为客户端一，对指定表加了写锁，**会阻塞右侧客户端的读和写**。
 
@@ -8100,7 +8103,7 @@ unlock tables
 
 **测试:**
 
-![image-20250417223602566](Mysql-Learning-Local.assets/image-20250417223602566.png)
+![image-20250417223602566](./Mysql-Learning-Local.assets/image-20250417223602566.png)
 
 
 
@@ -8115,14 +8118,14 @@ unlock tables
 >   - 当前客户端和其他客户端**都可以读**
 >   - 当前客户端和其他客户端**都不可以写**
 >
->   ![image-20250417222550874](Mysql-Learning-Local.assets/image-20250417222550874.png)
+>   ![image-20250417222550874](./Mysql-Learning-Local.assets/image-20250417222550874.png)
 >
 > - 写锁**既会阻塞==其他客户端==的读，又会阻塞==其他客户端==的写**。
 >
 >   - 注意 这里阻塞的`读和写`都指的是**其他客户端**
 >   - **==当前客户端的读和写不会被阻塞==**
 >
-> ![image-20250417222703508](Mysql-Learning-Local.assets/image-20250417222703508.png)
+> ![image-20250417222703508](./Mysql-Learning-Local.assets/image-20250417222703508.png)
 
 
 
@@ -8130,7 +8133,7 @@ unlock tables
 
 #### ①概述
 
-![image-20250417233151833](Mysql-Learning-Local.assets/image-20250417233151833.png)
+![image-20250417233151833](./Mysql-Learning-Local.assets/image-20250417233151833.png)
 
 meta data lock , 元数据锁，简写MDL。
 
@@ -8153,7 +8156,7 @@ MDL锁主要作用是**维护表元数据的数据一致性**，在表上有活�
 
 常见的SQL操作时，所添加的元数据锁：
 
-![image-20250417224140352](Mysql-Learning-Local.assets/image-20250417224140352.png)
+<img src="./Mysql-Learning-Local.assets/image-20250417224140352.png" alt="image-20250417224140352" style="zoom:80%;" />
 
 
 
@@ -8197,17 +8200,17 @@ begin;
 commit;
 ```
 
-![image-20250417231150088](Mysql-Learning-Local.assets/image-20250417231150088.png)
+![image-20250417231150088](./Mysql-Learning-Local.assets/image-20250417231150088.png)
 
 
 
-![image-20250417230805332](Mysql-Learning-Local.assets/image-20250417230805332.png)
+![image-20250417230805332](./Mysql-Learning-Local.assets/image-20250417230805332.png)
 
 
 
 **注意：==当事务提交后，之前给表添加的元数据锁都会消失==，也就是说，元数据锁的添加和消失，是==动态的==**
 
-![image-20250417231437866](Mysql-Learning-Local.assets/image-20250417231437866.png)
+![image-20250417231437866](./Mysql-Learning-Local.assets/image-20250417231437866.png)
 
 
 
@@ -8241,21 +8244,21 @@ commit;
 
 **客户端一，执行select操作，添加元数据共享锁**
 
-![image-20250417232831464](Mysql-Learning-Local.assets/image-20250417232831464.png)
+![image-20250417232831464](./Mysql-Learning-Local.assets/image-20250417232831464.png)
 
 
 
 **客户端二，被阻塞**
 
-![image-20250417232650390](Mysql-Learning-Local.assets/image-20250417232650390.png)
+![image-20250417232650390](./Mysql-Learning-Local.assets/image-20250417232650390.png)
 
-![image-20250417233019379](Mysql-Learning-Local.assets/image-20250417233019379.png)
+![image-20250417233019379](./Mysql-Learning-Local.assets/image-20250417233019379.png)
 
 
 
 **tb_user表，执行前后的==元数据锁的信息==**
 
-![image-20250417232312551](Mysql-Learning-Local.assets/image-20250417232312551.png)
+![image-20250417232312551](./Mysql-Learning-Local.assets/image-20250417232312551.png)
 
 
 
@@ -8273,11 +8276,11 @@ commit;
 
 首先客户端一，开启一个事务，然后执行DML操作，在**执行DML语句**时，**会==对涉及到的行加行锁==**。
 
-![image-20250417233416617](Mysql-Learning-Local.assets/image-20250417233416617.png)
+![image-20250417233416617](./Mysql-Learning-Local.assets/image-20250417233416617.png)
 
 当客户端二，**想对这张表加表锁时**，**会检查当前表是否有对应的行锁**，如果没有，则添加表锁，**此时就会从第一行数据，检查到最后一行数据，==效率较低==**。
 
-![image-20250417233511896](Mysql-Learning-Local.assets/image-20250417233511896.png)
+![image-20250417233511896](./Mysql-Learning-Local.assets/image-20250417233511896.png)
 
 
 
@@ -8285,19 +8288,19 @@ commit;
 
 客户端一，在执行DML操作时，会对涉及的行**加行锁**，同时也会==**对该表加上意向锁**==。
 
-![image-20250417233534456](Mysql-Learning-Local.assets/image-20250417233534456.png)
+![image-20250417233534456](./Mysql-Learning-Local.assets/image-20250417233534456.png)
 
 而其他客户端，在对这张表加表锁的时候，会根据该表上**所加的意向锁来判定是否可以成功加表锁**，(==判断当前所加的意向锁和将要添加的表锁是否是兼容的==)，而不用逐行判断行锁情况了。
 
 
 
-![image-20250417233620257](Mysql-Learning-Local.assets/image-20250417233620257.png)
+![image-20250417233620257](./Mysql-Learning-Local.assets/image-20250417233620257.png)
 
 
 
 #### ②==分类==
 
-![image-20250417234341556](Mysql-Learning-Local.assets/image-20250417234341556.png)
+![image-20250417234341556](./Mysql-Learning-Local.assets/image-20250417234341556.png)
 
 - **意向共享锁(IS)**: 由语句select ... **lock in share mode**添加 。 ==与 表锁共享锁(read)兼容，与表锁排他锁(write)互斥==。
 - **意向排他锁(IX)**: 由insert、update、delete、**==select...for update==**添加 。==与表锁共享锁(read)及排他锁(write)**都互斥**==，**意向锁之间不会互斥**。
@@ -8351,17 +8354,17 @@ commit;
 
 
 
-![image-20250418000100020](Mysql-Learning-Local.assets/image-20250418000100020.png)
+![image-20250418000100020](./Mysql-Learning-Local.assets/image-20250418000100020.png)
 
 
 
-![image-20250417235756276](Mysql-Learning-Local.assets/image-20250417235756276.png)
+![image-20250417235756276](./Mysql-Learning-Local.assets/image-20250417235756276.png)
 
-![image-20250417235932044](Mysql-Learning-Local.assets/image-20250417235932044.png)
+![image-20250417235932044](./Mysql-Learning-Local.assets/image-20250417235932044.png)
 
-![image-20250418000329865](Mysql-Learning-Local.assets/image-20250418000329865.png)
+![image-20250418000329865](./Mysql-Learning-Local.assets/image-20250418000329865.png)
 
-![image-20250417235543361](Mysql-Learning-Local.assets/image-20250417235543361.png)
+![image-20250417235543361](./Mysql-Learning-Local.assets/image-20250417235543361.png)
 
 
 
@@ -8393,11 +8396,11 @@ unlock tables;
 commit;
 ```
 
-![image-20250418001028722](Mysql-Learning-Local.assets/image-20250418001028722.png)
+![image-20250418001028722](./Mysql-Learning-Local.assets/image-20250418001028722.png)
 
-![image-20250418001322623](Mysql-Learning-Local.assets/image-20250418001322623.png)
+![image-20250418001322623](./Mysql-Learning-Local.assets/image-20250418001322623.png)
 
-![image-20250418001412780](Mysql-Learning-Local.assets/image-20250418001412780.png)
+![image-20250418001412780](./Mysql-Learning-Local.assets/image-20250418001412780.png)
 
 
 
@@ -8411,15 +8414,15 @@ InnoDB的**数据是基于索引（聚集索引和二级索引）组织的**，�
 
 - **行锁（Record Lock）**：**锁定单个行记录的锁**，防止其他事务对此行进行**update和delete**。在**RC（read commit 读已提交）、RR（repeat read 可重复读）隔离级**别下都支持。
 
-![image-20250418153238344](Mysql-Learning-Local.assets/image-20250418153238344.png)
+![image-20250418153238344](./Mysql-Learning-Local.assets/image-20250418153238344.png)
 
 - **间隙锁（Gap Lock）**：锁定**索引记录间隙（不含该记录）**，**==确保索引记录间隙不变==，防止其他事务在这个间隙进行insert**，==产生幻读==。在**RR隔离级别下都支持**。
 
-![image-20250418153243896](Mysql-Learning-Local.assets/image-20250418153243896.png)
+![image-20250418153243896](./Mysql-Learning-Local.assets/image-20250418153243896.png)
 
 - **临键锁（Next-Key Lock）**：**行锁和间隙锁组合**，同时锁住数据，并**锁住==数据前面的间隙Gap==**。在RR隔离级别下支持。
 
-![image-20250418153249001](Mysql-Learning-Local.assets/image-20250418153249001.png)
+![image-20250418153249001](./Mysql-Learning-Local.assets/image-20250418153249001.png)
 
 
 
@@ -8452,19 +8455,19 @@ InnoDB实现了以下两种类型的行锁：
 >
 > ​	这里的兼容和冲突判断的前提，是在**对同一个数据集而言的**，比如操作的都是id为1的数据行
 
-![image-20250418153804951](Mysql-Learning-Local.assets/image-20250418153804951.png)
+![image-20250418153804951](./Mysql-Learning-Local.assets/image-20250418153804951.png)
 
 
 
 两种**行锁的兼容情况**如下:
 
-![image-20250418153837860](Mysql-Learning-Local.assets/image-20250418153837860.png)
+![image-20250418153837860](./Mysql-Learning-Local.assets/image-20250418153837860.png)
 
 
 
 常见的SQL语句，在执行时，所加的行锁如下：
 
-![image-20250418154130041](Mysql-Learning-Local.assets/image-20250418154130041.png)
+![image-20250418154130041](./Mysql-Learning-Local.assets/image-20250418154130041.png)
 
 
 
@@ -8508,7 +8511,7 @@ select * from stu;
 
 演示行锁的时候，我们就通过上面这张表来演示一下。
 
-![image-20250418160020435](Mysql-Learning-Local.assets/image-20250418160020435.png)
+<img src="./Mysql-Learning-Local.assets/image-20250418160020435.png" alt="image-20250418160020435" style="zoom: 80%;" />
 
 
 
@@ -8529,9 +8532,9 @@ commit;
 select object_schema,object_name,index_name,lock_type,lock_mode,lock_data from performance_schema.data_locks;
 ```
 
-![image-20250418160956572](Mysql-Learning-Local.assets/image-20250418160956572.png)
+<img src="./Mysql-Learning-Local.assets/image-20250418160956572.png" alt="image-20250418160956572" style="zoom:80%;" />
 
-![image-20250418160923222](Mysql-Learning-Local.assets/image-20250418160923222.png)
+![image-20250418160923222](./Mysql-Learning-Local.assets/image-20250418160923222.png)
 
 
 
@@ -8549,17 +8552,17 @@ begin;
 commit;
 ```
 
-![image-20250418161446922](Mysql-Learning-Local.assets/image-20250418161446922.png)
+<img src="./Mysql-Learning-Local.assets/image-20250418161446922.png" alt="image-20250418161446922" style="zoom:80%;" />
 
 
 
-![image-20250418161327214](Mysql-Learning-Local.assets/image-20250418161327214.png)
+![image-20250418161327214](./Mysql-Learning-Local.assets/image-20250418161327214.png)
 
-![image-20250418161720723](Mysql-Learning-Local.assets/image-20250418161720723.png)
+<img src="./Mysql-Learning-Local.assets/image-20250418161720723.png" alt="image-20250418161720723" style="zoom:80%;" />
 
 
 
-![image-20250418161837288](Mysql-Learning-Local.assets/image-20250418161837288.png)
+![image-20250418161837288](./Mysql-Learning-Local.assets/image-20250418161837288.png)
 
 
 
@@ -8593,25 +8596,25 @@ commit;
 
 客户端一**获取的是id为1这行的共享锁**
 
-![image-20250418162624538](Mysql-Learning-Local.assets/image-20250418162624538.png)
+<img src="./Mysql-Learning-Local.assets/image-20250418162624538.png" alt="image-20250418162624538" style="zoom:67%;" />
 
 
 
 客户端二是可以获取id为3这行的排它锁的，**因为不是同一行数据**，所以客户端二执行id=3的语句时，不会被阻塞。
 
-![image-20250418162747031](Mysql-Learning-Local.assets/image-20250418162747031.png)
+![image-20250418162747031](./Mysql-Learning-Local.assets/image-20250418162747031.png)
 
-![image-20250418162925566](Mysql-Learning-Local.assets/image-20250418162925566.png)
+![image-20250418162925566](./Mysql-Learning-Local.assets/image-20250418162925566.png)
 
 
 
  而如果客户端二想获取id为1这行的排他锁，会处于阻塞状态，因为**共享锁与排他锁之间互斥**。
 
-![image-20250418163012704](Mysql-Learning-Local.assets/image-20250418163012704.png)
+![image-20250418163012704](./Mysql-Learning-Local.assets/image-20250418163012704.png)
 
 
 
-![image-20250418163155784](Mysql-Learning-Local.assets/image-20250418163155784.png)
+![image-20250418163155784](./Mysql-Learning-Local.assets/image-20250418163155784.png)
 
 
 
@@ -8629,7 +8632,7 @@ begin;
 end;
 ```
 
-![image-20250418163528115](Mysql-Learning-Local.assets/image-20250418163528115.png)
+<img src="./Mysql-Learning-Local.assets/image-20250418163528115.png" alt="image-20250418163528115" style="zoom:80%;" />
 
 **对于客户端二，**如果也执行update语句更新id为1的数据，也要为id为1的数据加排他锁
 
@@ -8639,9 +8642,9 @@ begin;
 end;
 ```
 
-![image-20250418163634638](Mysql-Learning-Local.assets/image-20250418163634638.png)
+![image-20250418163634638](./Mysql-Learning-Local.assets/image-20250418163634638.png)
 
-![image-20250418163750481](Mysql-Learning-Local.assets/image-20250418163750481.png)
+![image-20250418163750481](./Mysql-Learning-Local.assets/image-20250418163750481.png)
 
 
 
@@ -8657,7 +8660,7 @@ end;
 select * from stu;
 ```
 
-![image-20250418165017445](Mysql-Learning-Local.assets/image-20250418165017445.png)
+<img src="./Mysql-Learning-Local.assets/image-20250418165017445.png" alt="image-20250418165017445" style="zoom:80%;" />
 
 **我们在两个客户端中执行如下操作:**
 
@@ -8675,9 +8678,9 @@ begin;
 end;
 ```
 
-![image-20250418165503408](Mysql-Learning-Local.assets/image-20250418165503408.png)
+<img src="./Mysql-Learning-Local.assets/image-20250418165503408.png" alt="image-20250418165503408" style="zoom:80%;" />
 
-![image-20250418165627547](Mysql-Learning-Local.assets/image-20250418165627547.png)
+![image-20250418165627547](./Mysql-Learning-Local.assets/image-20250418165627547.png)
 
 
 
@@ -8689,7 +8692,7 @@ begin;
 end;
 ```
 
-![image-20250418165816618](Mysql-Learning-Local.assets/image-20250418165816618.png)
+<img src="./Mysql-Learning-Local.assets/image-20250418165816618.png" alt="image-20250418165816618" style="zoom:80%;" />
 
 
 
@@ -8699,21 +8702,21 @@ end;
 create index idx_stu_name on stu(name);
 ```
 
-![image-20250418165916823](Mysql-Learning-Local.assets/image-20250418165916823.png)
+<img src="./Mysql-Learning-Local.assets/image-20250418165916823.png" alt="image-20250418165916823" style="zoom:67%;" />
 
 
 
 此时我们可以看到，客户端一，开启事务，然后依然是根据name进行更新。而客户端二，在更新id为3的数据时，**==更新成功，并未进入阻塞状态==。** 这样就说明，我们**==根据索引字段进行更新操作==，就可以避免行锁升级为表锁的情况。**
 
-![image-20250418170418914](Mysql-Learning-Local.assets/image-20250418170418914.png)
+<img src="./Mysql-Learning-Local.assets/image-20250418170418914.png" alt="image-20250418170418914" style="zoom:67%;" />
 
-![image-20250418170355080](Mysql-Learning-Local.assets/image-20250418170355080.png)
+![image-20250418170355080](./Mysql-Learning-Local.assets/image-20250418170355080.png)
 
-![image-20250418170522111](Mysql-Learning-Local.assets/image-20250418170522111.png)
+<img src="./Mysql-Learning-Local.assets/image-20250418170522111.png" alt="image-20250418170522111" style="zoom:80%;" />
 
 
 
-![image-20250418170743076](Mysql-Learning-Local.assets/image-20250418170743076.png)
+![image-20250418170743076](./Mysql-Learning-Local.assets/image-20250418170743076.png)
 
 
 
@@ -8750,9 +8753,9 @@ create index idx_stu_name on stu(name);
 
 ### （4）🚀间隙锁/临键锁-演示
 
-![image-20250418172507512](Mysql-Learning-Local.assets/image-20250418172507512.png)
+![image-20250418172507512](./Mysql-Learning-Local.assets/image-20250418172507512.png)
 
-![image-20250418173909355](Mysql-Learning-Local.assets/image-20250418173909355.png)
+![image-20250418173909355](./Mysql-Learning-Local.assets/image-20250418173909355.png)
 
 #### ①等值查询-==唯一索引==
 
@@ -8770,7 +8773,7 @@ begin;
 end;
 ```
 
-![image-20250418173528961](Mysql-Learning-Local.assets/image-20250418173528961.png)
+<img src="./Mysql-Learning-Local.assets/image-20250418173528961.png" alt="image-20250418173528961" style="zoom:80%;" />
 
 **客户端二**
 
@@ -8780,13 +8783,13 @@ begin;
 end;
 ```
 
-![image-20250418173742984](Mysql-Learning-Local.assets/image-20250418173742984.png)
+<img src="./Mysql-Learning-Local.assets/image-20250418173742984.png" alt="image-20250418173742984" style="zoom:80%;" />
 
 
 
 
 
-![image-20250418174707053](Mysql-Learning-Local.assets/image-20250418174707053.png)
+![image-20250418174707053](./Mysql-Learning-Local.assets/image-20250418174707053.png)
 
 
 
@@ -8818,7 +8821,7 @@ end;
 
 
 
-![image-20250419175839860](Mysql-Learning-Local.assets/image-20250419175839860.png)
+![image-20250419175839860](./Mysql-Learning-Local.assets/image-20250419175839860.png)
 
 
 
@@ -8848,13 +8851,13 @@ select * from stu where age = 18 lock in share mode;
 
 
 
-![image-20250419180352713](Mysql-Learning-Local.assets/image-20250419180352713.png)
+<img src="./Mysql-Learning-Local.assets/image-20250419180352713.png" alt="image-20250419180352713" style="zoom:80%;" />
 
-![image-20250419180338507](Mysql-Learning-Local.assets/image-20250419180338507.png)
+![image-20250419180338507](./Mysql-Learning-Local.assets/image-20250419180338507.png)
 
 
 
-![image-20250419180727875](Mysql-Learning-Local.assets/image-20250419180727875.png)
+![image-20250419180727875](./Mysql-Learning-Local.assets/image-20250419180727875.png)
 
 锁信息解读
 
@@ -8888,7 +8891,7 @@ select * from stu where age = 18 lock in share mode;
 - 但是**在==insert操作==时**，对于**边界情况age = 14 和age = 21时会出现被阻塞的情况**。
 - 在**==update操作==时**，**除了当前行age =18 被锁住**，**其他的age都可以执行通过，不会被阻塞**
 
-![image-20250419180436950](Mysql-Learning-Local.assets/image-20250419180436950.png)
+![image-20250419180436950](./Mysql-Learning-Local.assets/image-20250419180436950.png)
 
 ```sql
 -- 客户端二 进行下列操作时出现的特殊情况
@@ -9025,9 +9028,9 @@ InnoDB 在执行 `INSERT` 时，会==先检查**插入意向锁（Insert Intenti
 select * from stu where id >=19 lock in share mode;
 ```
 
-![image-20250419180540219](Mysql-Learning-Local.assets/image-20250419180540219.png)
+<img src="./Mysql-Learning-Local.assets/image-20250419180540219.png" alt="image-20250419180540219" style="zoom:80%;" />
 
-![image-20250419180457279](Mysql-Learning-Local.assets/image-20250419180457279.png)
+![image-20250419180457279](./Mysql-Learning-Local.assets/image-20250419180457279.png)
 
 查询的条件为id>=19，并添加共享锁。 此时我们可以根据数据库表中现有的数据，将数据分为三个部分：
 
@@ -9049,7 +9052,7 @@ select * from stu where id >=19 lock in share mode;
 
 ## 5.5 小结
 
-![image-20250419180518765](Mysql-Learning-Local.assets/image-20250419180518765.png)
+![image-20250419180518765](./Mysql-Learning-Local.assets/image-20250419180518765.png)
 
 
 
@@ -9061,9 +9064,9 @@ select * from stu where id >=19 lock in share mode;
 
 InnoDB的逻辑存储结构如下图所示:
 
-![image-20250419201127103](Mysql-Learning-Local.assets/image-20250419201127103.png)
+![image-20250419201127103](./Mysql-Learning-Local.assets/image-20250419201127103.png)
 
-![image-20250419202038539](Mysql-Learning-Local.assets/image-20250419202038539.png)
+![image-20250419202038539](./Mysql-Learning-Local.assets/image-20250419202038539.png)
 
 #### ① 表空间-Tablespace
 
@@ -9110,7 +9113,7 @@ MySQL5.5 版本开始，默认使用InnoDB存储引擎，它擅长**事务处理
 
 中使用非常广泛。下面是InnoDB架构图，**左侧为内存结构，右侧为磁盘结构**。
 
-![image-20250419202148484](Mysql-Learning-Local.assets/image-20250419202148484.png)
+![image-20250419202148484](./Mysql-Learning-Local.assets/image-20250419202148484.png)
 
 
 
@@ -9120,13 +9123,13 @@ MySQL5.5 版本开始，默认使用InnoDB存储引擎，它擅长**事务处理
 
 Buffer Pool、Change Buffer、Adaptive Hash Index、Log Buffer。 接下来介绍一下这四个部分。
 
-![image-20250419202909129](Mysql-Learning-Local.assets/image-20250419202909129.png)
+<img src="./Mysql-Learning-Local.assets/image-20250419202909129.png" alt="image-20250419202909129" style="zoom:80%;" />
 
 
 
 #### ①Buffer Pool-==缓冲池==
 
-![image-20250419202800043](Mysql-Learning-Local.assets/image-20250419202800043.png)
+![image-20250419202800043](./Mysql-Learning-Local.assets/image-20250419202800043.png)
 
 InnoDB存储引擎基于==磁盘文件存储==，访问**物理硬盘和在内存中**进行访问，速度相差很大，为了尽可能弥补这两者之间的I/O效率的差值，就需要**把经常使用的数据加载到缓冲池中，避免每次访问都进行磁盘I/O**。
 
@@ -9139,10 +9142,14 @@ InnoDB存储引擎基于==磁盘文件存储==，访问**物理硬盘和在内�
 缓冲池**以Page页为单位，底层采用链表数据结构管理Page**。根据状态，将Page分为三种类型：
 
 - **free page**：空闲page，未被使用。
+
 - **clean page**：被使用page，数据没有被修改过。
+
 - **dirty page**：脏页，被使用page，数据被修改过，也中**数据与磁盘的数据产生了不一致**。
 
+  
 
+<span id = 'Buffer Pool缓存池' > </span>
 
 在专用服务器上，**通常将多达80％的物理内存分配给缓冲池** 。参数设置： 
 
@@ -9151,7 +9158,7 @@ InnoDB存储引擎基于==磁盘文件存储==，访问**物理硬盘和在内�
 show variables like 'innodb_buffer_pool_size';
 ```
 
-![image-20250419202949404](Mysql-Learning-Local.assets/image-20250419202949404.png)
+![image-20250419202949404](./Mysql-Learning-Local.assets/image-20250419202949404.png)
 
 
 
@@ -9159,7 +9166,7 @@ show variables like 'innodb_buffer_pool_size';
 
 #### ②Change Buffer-更改缓冲区
 
-![image-20250419203632465](Mysql-Learning-Local.assets/image-20250419203632465.png)
+![image-20250419203632465](./Mysql-Learning-Local.assets/image-20250419203632465.png)
 
 Change Buffer，**更改缓冲区**（针对于==非唯一二级索引页==），在执行DML语句时，如果这些数据Page没有在Buffer Pool中，不会直接操作磁盘，而会**将数据变更先存储在更改缓冲区 Change Buffer**中，==在未来数据被读取时，再**将数据合并恢复到Buffer Pool中**==，**再将合并后的数据刷新到磁盘中**。
 
@@ -9169,7 +9176,7 @@ Change Buffer的意义是什么呢?
 
 先来看一幅图，这个是二级索引的结构图：
 
-![image-20250419203643784](Mysql-Learning-Local.assets/image-20250419203643784.png)
+![image-20250419203643784](./Mysql-Learning-Local.assets/image-20250419203643784.png)
 
 与聚集索引不同，二级索引通常是非唯一的，并且以**相对随机的顺序插入二级索引**。同样，删除和更新可能会影响索引树中不相邻的二级索引页，如果每一次都操作磁盘，会造成大量的磁盘IO。有了ChangeBuffer之后，我们可以在缓冲池中进行合并处理，减少磁盘IO。
 
@@ -9179,7 +9186,7 @@ Change Buffer的意义是什么呢?
 
 #### ③Adaptive Hash Index-==自适应hash索引==
 
-![image-20250419204141709](Mysql-Learning-Local.assets/image-20250419204141709.png)
+![image-20250419204141709](./Mysql-Learning-Local.assets/image-20250419204141709.png)
 
 自适应hash索引，用于**优化对Buffer Pool数据的查询**。MySQL的innoDB引擎中虽然**没有直接支持hash索引**，但是给我们提供了一个功能就是这个自适应hash索引。因为前面我们讲到过，hash索引在进行等值匹配时，一般性能是要高于B+树的，**因为hash索引一般只需要一次IO即可（在不发生hash冲突的前提下）**，而B+树，可能需要几次匹配，所以hash索引的效率要高，**但是hash索引又不适合做范围查询、模糊匹配等**，==只适合等值匹配==。
 
@@ -9194,13 +9201,13 @@ InnoDB存储引擎会监控对表上各索引页的查询，如果观察到在�
 show variables like '%hash_index%';
 ```
 
-![image-20250419204124032](Mysql-Learning-Local.assets/image-20250419204124032.png)
+![image-20250419204124032](./Mysql-Learning-Local.assets/image-20250419204124032.png)
 
 
 
 #### ④Log Buffer-日志缓冲区
 
-![image-20250419204556969](Mysql-Learning-Local.assets/image-20250419204556969.png)
+![image-20250419204556969](./Mysql-Learning-Local.assets/image-20250419204556969.png)
 
 Log Buffer：日志缓冲区，用来保存**要写入到磁盘中的log日志数据（redo log 、undo log）**，默认大小为 16MB，日志缓冲区的**日志会定期刷新到磁盘中**。如果需要更新、插入或删除许多行的事务，**增加日志缓冲区的大小可以节省磁盘 I/O**。
 
@@ -9213,7 +9220,7 @@ Log Buffer：日志缓冲区，用来保存**要写入到磁盘中的log日志�
 show variables like '%log_buffer_size%';
 ```
 
-![image-20250419204331047](Mysql-Learning-Local.assets/image-20250419204331047.png)
+![image-20250419204331047](./Mysql-Learning-Local.assets/image-20250419204331047.png)
 
 
 
@@ -9236,7 +9243,7 @@ show variables like '%flush_log%';
 
 #### ①System Tablespace-系统表空间
 
-![image-20250419205549208](Mysql-Learning-Local.assets/image-20250419205549208.png)
+![image-20250419205549208](./Mysql-Learning-Local.assets/image-20250419205549208.png)
 
 系统表空间**==是更改缓冲区的存储区域==**。如果表是在系统表空间而不是每个表文件或通用表空间中创建的，它也可能包含表和索引数据。(在MySQL5.x版本中还包含InnoDB数据字典、undolog等)
 
@@ -9248,19 +9255,19 @@ show variables like '%flush_log%';
 show variables like '%data_file_path%';
 ```
 
-![image-20250419204958820](Mysql-Learning-Local.assets/image-20250419204958820.png)
+![image-20250419204958820](./Mysql-Learning-Local.assets/image-20250419204958820.png)
 
 ```bash
 cd /var/lib/mysql
 ```
 
-![image-20250419210220969](Mysql-Learning-Local.assets/image-20250419210220969.png)
+![image-20250419210220969](./Mysql-Learning-Local.assets/image-20250419210220969.png)
 
 
 
 #### ②File-Per-Table Tablespaces-文件表空间
 
-![image-20250419205553841](Mysql-Learning-Local.assets/image-20250419205553841.png)
+![image-20250419205553841](./Mysql-Learning-Local.assets/image-20250419205553841.png)
 
 如果开启了innodb_file_per_table开关 ，则**每个表的==文件表空间==包含单个InnoDB表的数据和索引** ，并存储在文件系统上的单个数据文件中。该**文件表空间** =》**==包含该表的数据、索引、结构==**
 
@@ -9272,17 +9279,17 @@ cd /var/lib/mysql
 show variables like '%file_per_table%';
 ```
 
-![image-20250419205634184](Mysql-Learning-Local.assets/image-20250419205634184.png)
+![image-20250419205634184](./Mysql-Learning-Local.assets/image-20250419205634184.png)
 
 那也就是说，我们**每创建一个表，都会产生一个对应的表空间文件**，如图：
 
-![image-20250419210256312](Mysql-Learning-Local.assets/image-20250419210256312.png)
+![image-20250419210256312](./Mysql-Learning-Local.assets/image-20250419210256312.png)
 
 
 
 #### ③General Tablespaces-通用表空间
 
-![image-20250419211312610](Mysql-Learning-Local.assets/image-20250419211312610.png)
+![image-20250419211312610](./Mysql-Learning-Local.assets/image-20250419211312610.png)
 
 通用表空间，**需要手动**通过 **CREATE TABLESPACE 语法创建通用表空间**，在**创建表时，可以指定该表空间**。
 
@@ -9317,7 +9324,7 @@ create table test_a(
 
 - **undo_001和 undo_002**
 
-![image-20250419211206961](Mysql-Learning-Local.assets/image-20250419211206961.png)
+<img src="./Mysql-Learning-Local.assets/image-20250419211206961.png" alt="image-20250419211206961" style="zoom:67%;" />
 
 
 
@@ -9329,11 +9336,11 @@ InnoDB 使用会话临时表空间和全局临时表空间。**存储用户创�
 
 #### ⑥Doublewrite Buffer Files-==双写缓冲区==
 
-![image-20250419211815326](Mysql-Learning-Local.assets/image-20250419211815326.png)
+![image-20250419211815326](./Mysql-Learning-Local.assets/image-20250419211815326.png)
 
 双写缓冲区，innoDB引擎**将数据页从Buffer Pool刷新到磁盘==前==**，**先将数据页写入双写缓冲区文件中，便于系统异常时恢复数据。**
 
-![image-20250419211517050](Mysql-Learning-Local.assets/image-20250419211517050.png)
+![image-20250419211517050](./Mysql-Learning-Local.assets/image-20250419211517050.png)
 
 
 
@@ -9347,11 +9354,11 @@ InnoDB 使用会话临时表空间和全局临时表空间。**存储用户创�
 
 以**循环方式写入重做日志文件**，涉及两个文件：
 
-![image-20250419211525205](Mysql-Learning-Local.assets/image-20250419211525205.png)
+![image-20250419211525205](./Mysql-Learning-Local.assets/image-20250419211525205.png)
 
 前面我们介绍了InnoDB的内存结构，以及磁盘结构，那么**内存中我们所更新的数据，又是如何到磁盘中的呢？** 此时，就涉及到一组后台线程，接下来，就来介绍一些InnoDB中涉及到的后台线程。
 
-![image-20250419211829731](Mysql-Learning-Local.assets/image-20250419211829731.png)
+![image-20250419211829731](./Mysql-Learning-Local.assets/image-20250419211829731.png)
 
 
 
@@ -9361,7 +9368,7 @@ InnoDB 使用会话临时表空间和全局临时表空间。**存储用户创�
 
 分别是：Master Thread 、IO Thread、Purge Thread、Page Cleaner Thread。
 
-![image-20250419212353191](Mysql-Learning-Local.assets/image-20250419212353191.png)
+![image-20250419212353191](./Mysql-Learning-Local.assets/image-20250419212353191.png)
 
 #### ①Master Thread
 
@@ -9373,7 +9380,7 @@ InnoDB 使用会话临时表空间和全局临时表空间。**存储用户创�
 
 在InnoDB存储引擎中大量使用了**AIO（异步非阻塞IO）**来处理IO请求, 这样可以极大地**提高数据库的性能**，而IOThread主要负责这些IO请求的回调。
 
-![image-20250419194605485](Mysql-Learning-Local.assets/image-20250419194605485.png)
+![image-20250419194605485](./Mysql-Learning-Local.assets/image-20250419194605485.png)
 
 我们可以通过以下的这条指令，查看到InnoDB的状态信息，其中就包含IO Thread信息。
 
@@ -9381,7 +9388,7 @@ InnoDB 使用会话临时表空间和全局临时表空间。**存储用户创�
 show engine innodb status \G;
 ```
 
-![image-20250419212612210](Mysql-Learning-Local.assets/image-20250419212612210.png)
+![image-20250419212612210](./Mysql-Learning-Local.assets/image-20250419212612210.png)
 
 
 
@@ -9397,7 +9404,7 @@ show engine innodb status \G;
 
 
 
-![image-20250419212711051](Mysql-Learning-Local.assets/image-20250419212711051.png)
+![image-20250419212711051](./Mysql-Learning-Local.assets/image-20250419212711051.png)
 
 
 
@@ -9405,7 +9412,7 @@ show engine innodb status \G;
 
 ### （1）事务基础
 
-![image-20250419213023879](Mysql-Learning-Local.assets/image-20250419213023879.png)
+![image-20250419213023879](./Mysql-Learning-Local.assets/image-20250419213023879.png)
 
 #### ①事务
 
@@ -9417,7 +9424,7 @@ show engine innodb status \G;
 
 #### ②特性
 
-![image-20250419213126572](Mysql-Learning-Local.assets/image-20250419213126572.png)
+![image-20250419213126572](./Mysql-Learning-Local.assets/image-20250419213126572.png)
 
 - 原子性（Atomicity）：事务是不可分割的最小操作单元，**要么全部成功，要么全部失败**。
 - 一致性（Consistency）：事务完成时，必须使**所有的数据都保持一致状态**。
@@ -9436,7 +9443,7 @@ show engine innodb status \G;
   - 一份是**redo log日志，一份是undo log日志**。 
 -  而**持久性是通过数据库的==锁==，加上==MVCC==来保证的**。
 
-![image-20250419213159055](Mysql-Learning-Local.assets/image-20250419213159055.png)
+![image-20250419213159055](./Mysql-Learning-Local.assets/image-20250419213159055.png)
 
 
 
@@ -9446,7 +9453,7 @@ show engine innodb status \G;
 
 ### （2）🚀 redo log
 
-![image-20250419214618137](Mysql-Learning-Local.assets/image-20250419214618137.png)
+![image-20250419214618137](./Mysql-Learning-Local.assets/image-20250419214618137.png)
 
 #### ①概念
 
@@ -9466,7 +9473,7 @@ show engine innodb status \G;
 
 **如果没有redolog**，可能会存在什么问题的？ 我们一起来分析一下。
 
-![image-20250419213704596](Mysql-Learning-Local.assets/image-20250419213704596.png)
+![image-20250419213704596](./Mysql-Learning-Local.assets/image-20250419213704596.png)
 
 我们知道，在InnoDB引擎中的内存结构中，主要的**内存区域就是缓冲池**，在缓冲池中缓存了很多的数据页。 当我们在一个事务中，执行多个增删改的操作时，InnoDB引擎会先操作缓冲池中的数据，如果缓冲区没有对应的数据，会通过后台线程将磁盘中的数据加载出来，存放在缓冲区中，然后将缓冲池中的数据修改，修改后的数据页我们称为脏页。 **而脏页则会在一定的时机，通过后台线程刷新到磁盘中**，从而保证缓冲区与磁盘的数据一致。 而缓冲区的**脏页数据并不是实时刷新的**，而是一段时间之后将缓冲区的数据刷新到磁盘中，**==假如刷新到磁盘的过程出错了==**，而**提示给用户事务提交成功，而数据却没有持久化下来**，这就出现问题了，**没有保证事务的持久性。**
 
@@ -9476,7 +9483,7 @@ show engine innodb status \G;
 
 那么，如何解决上述的问题呢？ 在InnoDB中提供了一份**日志 redo log**，接下来我们再来分析一下，通过redolog如何解决这个问题。
 
-![image-20250419213955467](Mysql-Learning-Local.assets/image-20250419213955467.png)
+![image-20250419213955467](./Mysql-Learning-Local.assets/image-20250419213955467.png)
 
 有了redolog之后，当对缓冲区的数据进行增删改之后，**会首先==将操作的数据页的变化，记录在redolog buffer中==。**在事务提交时，**会将redo log buffer中的数据刷新到redo log磁盘文件中**。过一段时间之后，如果刷新缓冲区的**脏页到磁盘时，发生错误**，此时就可以**借助于redo log进行数据恢复，这样就保证了事务的持久性**。 而**如果脏页成功刷新到磁盘** 或 或者涉及到的数据已经落盘，此时**redolog就没有作用了，就可以删除了**，所以存在的两个redolog文件是**循环写的**，不会永久的保存。
 
@@ -9490,7 +9497,7 @@ show engine innodb status \G;
 
 ### （3）🚀 undo log
 
-![image-20250419214942366](Mysql-Learning-Local.assets/image-20250419214942366.png)
+![image-20250419214942366](./Mysql-Learning-Local.assets/image-20250419214942366.png)
 
 回滚日志，用于**==记录数据被修改前的信息==** , 作用包含两个 : 
 
@@ -9519,7 +9526,7 @@ undo log和redo log记录物理日志不一样，**它是==逻辑日志==**。
 
 ### （1）🚀 ==基本概念==
 
-![image-20250419221109619](Mysql-Learning-Local.assets/image-20250419221109619.png)
+![image-20250419221109619](./Mysql-Learning-Local.assets/image-20250419221109619.png)
 
 
 
@@ -9555,9 +9562,9 @@ begin;
 commit;
 ```
 
-![image-20250419220221367](Mysql-Learning-Local.assets/image-20250419220221367.png)
+<img src="./Mysql-Learning-Local.assets/image-20250419220221367.png" alt="image-20250419220221367" style="zoom:80%;" />
 
-![image-20250419220629880](Mysql-Learning-Local.assets/image-20250419220629880.png)
+<img src="./Mysql-Learning-Local.assets/image-20250419220629880.png" alt="image-20250419220629880" style="zoom: 80%;" />
 
 
 
@@ -9585,7 +9592,7 @@ commit;
 
 测试：
 
-![image-20250419221225061](Mysql-Learning-Local.assets/image-20250419221225061.png)
+<img src="./Mysql-Learning-Local.assets/image-20250419221225061.png" alt="image-20250419221225061" style="zoom:67%;" />
 
 在测试中,我们看到即使**事务B提交了数据,事务A中也查询不到**。 原因就是因为**普通的select是快照读**，而在当前默认的RR隔离级别下，开启事务后第一个select语句才是快照读的地方，**后面执行相同的select语句都是从快照中获取数据，可能不是当前的最新数据，这样也就保证了可重复读**。
 
@@ -9609,11 +9616,11 @@ MVCC的具体实现，还需要依赖于**数据库记录中的三个隐式字�
 
 #### ①介绍
 
-![image-20250419221634176](Mysql-Learning-Local.assets/image-20250419221634176.png)
+![image-20250419221634176](./Mysql-Learning-Local.assets/image-20250419221634176.png)
 
 当我们创建了上面的这张表，我们在查看表结构的时候，就可以显式的看到这三个字段。 实际上除了这三个字段以外，InnoDB还会自动的给我们添加三个隐藏字段及其含义分别是：
 
-![image-20250419195316088](Mysql-Learning-Local.assets/image-20250419195316088.png)
+![image-20250419195316088](./Mysql-Learning-Local.assets/image-20250419195316088.png)
 
 而上述的前两个字段是肯定会添加的， 是否添加最后一个字段**DB_ROW_ID，得看当前表有没有主键，如果有主键，则不会添加该隐藏字段。**
 
@@ -9632,9 +9639,9 @@ ibd2sdi stu.ibd
 
 查看到的表结构信息中，**有一栏 columns**，在其中我们会看到处理我们建表时指定的字段以外，还有额外的两个字段 分别是：DB_TRX_ID 、 DB_ROLL_PTR ，**因为该表有主键，所以没有DB_ROW_ID隐藏字段**。
 
-![image-20250419221829755](Mysql-Learning-Local.assets/image-20250419221829755.png)
+<img src="./Mysql-Learning-Local.assets/image-20250419221829755.png" alt="image-20250419221829755" style="zoom: 67%;" />
 
-![image-20250419221848819](Mysql-Learning-Local.assets/image-20250419221848819.png)
+<img src="./Mysql-Learning-Local.assets/image-20250419221848819.png" alt="image-20250419221848819" style="zoom: 80%;" />
 
 
 
@@ -9654,7 +9661,7 @@ ibd2sdi employee.ibd
 
 查看到的表结构信息中，有一栏 columns，在其中我们会看到处理我们建表时指定的字段以外，还有额外的三个字段 分别是：DB_TRX_ID 、 DB_ROLL_PTR 、DB_ROW_ID，**因为employee表是没有指定主键的**。
 
-![image-20250419222230464](Mysql-Learning-Local.assets/image-20250419222230464.png)
+<img src="./Mysql-Learning-Local.assets/image-20250419222230464.png" alt="image-20250419222230464" style="zoom:67%;" />
 
 
 
@@ -9673,7 +9680,7 @@ ibd2sdi employee.ibd
 
 有一张表**原始数据**为：
 
-![image-20250419222449579](Mysql-Learning-Local.assets/image-20250419222449579.png)
+![image-20250419222449579](./Mysql-Learning-Local.assets/image-20250419222449579.png)
 
 
 
@@ -9685,37 +9692,37 @@ ibd2sdi employee.ibd
 
 然后，有**四个并发事务同时在访问这张表**。
 
-![image-20250419223133785](Mysql-Learning-Local.assets/image-20250419223133785.png)
+![image-20250419223133785](./Mysql-Learning-Local.assets/image-20250419223133785.png)
 
 ##### A. 第一步
 
-![image-20250419222630818](Mysql-Learning-Local.assets/image-20250419222630818.png)
+![image-20250419222630818](./Mysql-Learning-Local.assets/image-20250419222630818.png)
 
 当**事务2执行第一条修改语句时，会记录undo log日志**，记录数据变更之前的样子; 然后更新记录，并且记录本次操作的事务ID，回滚指针，回滚指针用来指定如果发生回滚，回滚到哪一个版本。
 
-![image-20250419222641261](Mysql-Learning-Local.assets/image-20250419222641261.png)
+![image-20250419222641261](./Mysql-Learning-Local.assets/image-20250419222641261.png)
 
 
 
 ##### B.第二步
 
-![image-20250419222647748](Mysql-Learning-Local.assets/image-20250419222647748.png)
+![image-20250419222647748](./Mysql-Learning-Local.assets/image-20250419222647748.png)
 
 当事务3执行第一条修改语句时，也会记录undo log日志，记录数据变更之前的样子; 然后更新记录，并且记录本次操作的事务ID，回滚指针，回滚指针用来指定如果发生回滚，回滚到哪一个版本。
 
 **==注意==，这里事务3执行修改操作后就直接提交了事务，但是此时==undo log不会立马删除==，因为此时真正在有活动事务在使用undo log，所以即使提交了事务也不会删除undo log日志**
 
-![image-20250419222701198](Mysql-Learning-Local.assets/image-20250419222701198.png)
+![image-20250419222701198](./Mysql-Learning-Local.assets/image-20250419222701198.png)
 
 
 
 ##### C. 第三步
 
-![image-20250419222918353](Mysql-Learning-Local.assets/image-20250419222918353.png)
+![image-20250419222918353](./Mysql-Learning-Local.assets/image-20250419222918353.png)
 
 当事务4执行第一条修改语句时，也会记录undo log日志，记录数据变更之前的样子; 然后更新记录，并且记录本次操作的事务ID，回滚指针，回滚指针用来指定如果发生回滚，回滚到哪一个版本。
 
-![image-20250419222931152](Mysql-Learning-Local.assets/image-20250419222931152.png)
+![image-20250419222931152](./Mysql-Learning-Local.assets/image-20250419222931152.png)
 
 
 
@@ -9731,7 +9738,7 @@ ibd2sdi employee.ibd
 
 #### ①概念
 
-![image-20250419223359936](Mysql-Learning-Local.assets/image-20250419223359936.png)
+![image-20250419223359936](./Mysql-Learning-Local.assets/image-20250419223359936.png)
 
 **ReadView（读视图）**
 
@@ -9742,7 +9749,7 @@ ibd2sdi employee.ibd
 
 ReadView中包含了四个核心字段：
 
-![image-20250419195802835](Mysql-Learning-Local.assets/image-20250419195802835.png)
+![image-20250419195802835](./Mysql-Learning-Local.assets/image-20250419195802835.png)
 
 
 
@@ -9752,9 +9759,9 @@ ReadView中包含了四个核心字段：
 
 ==trx_id==代表**当前==undolog版本链对应事务ID==**。
 
-![image-20250419225104769](Mysql-Learning-Local.assets/image-20250419225104769.png)
+![image-20250419225104769](./Mysql-Learning-Local.assets/image-20250419225104769.png)
 
-![image-20250419195816560](Mysql-Learning-Local.assets/image-20250419195816560.png)
+![image-20250419195816560](./Mysql-Learning-Local.assets/image-20250419195816560.png)
 
 不同的隔离级别，生成ReadView的时机不同：
 
@@ -9773,9 +9780,9 @@ RC隔离级别下，在事务中**每一次执行快照读时生成ReadView**。
 
 在事务5中，查询了两次id为30的记录，由于隔离级别为Read Committed，所以每一次进行快照读都会生成一个ReadView，那么两次生成的ReadView如下。
 
-![image-20250419224824790](Mysql-Learning-Local.assets/image-20250419224824790.png)
+![image-20250419224824790](./Mysql-Learning-Local.assets/image-20250419224824790.png)
 
-![image-20250419195802835](Mysql-Learning-Local.assets/image-20250419195802835.png)
+![image-20250419195802835](./Mysql-Learning-Local.assets/image-20250419195802835.png)
 
 
 
@@ -9789,13 +9796,13 @@ RC隔离级别下，在事务中**每一次执行快照读时生成ReadView**。
 
 第一次快照读时，对应的**undo log 的版本链的信息，creator_trx_id等信息：**
 
-![image-20250419225152508](Mysql-Learning-Local.assets/image-20250419225152508.png)
+![image-20250419225152508](./Mysql-Learning-Local.assets/image-20250419225152508.png)
 
 在进行匹配时，会**从undo log的版本链，从上到下进行挨个匹配**：
 
 ###### 先匹配 这条记录
 
-![image-20250419225207890](Mysql-Learning-Local.assets/image-20250419225207890.png)
+![image-20250419225207890](./Mysql-Learning-Local.assets/image-20250419225207890.png)
 
 
 
@@ -9807,7 +9814,7 @@ RC隔离级别下，在事务中**每一次执行快照读时生成ReadView**。
 
 ###### 再匹配第二条 
 
-![image-20250419225239041](Mysql-Learning-Local.assets/image-20250419225239041.png)
+![image-20250419225239041](./Mysql-Learning-Local.assets/image-20250419225239041.png)
 
 这条记录对应的**trx_id为3**，也就是将3带入右侧的匹配规则中。
 
@@ -9817,7 +9824,7 @@ RC隔离级别下，在事务中**每一次执行快照读时生成ReadView**。
 
 ###### 再匹配第三条 
 
-![image-20250419225253560](Mysql-Learning-Local.assets/image-20250419225253560.png)
+![image-20250419225253560](./Mysql-Learning-Local.assets/image-20250419225253560.png)
 
 这条记录对应的**trx_id为2**，也就是将2带入右侧的匹配规则中。
 
@@ -9829,15 +9836,15 @@ RC隔离级别下，在事务中**每一次执行快照读时生成ReadView**。
 
 ##### B. 再来看==第二次快照==读具体的读取过程
 
-![image-20250419225338480](Mysql-Learning-Local.assets/image-20250419225338480.png)
+![image-20250419225338480](./Mysql-Learning-Local.assets/image-20250419225338480.png)
 
-![image-20250419225343605](Mysql-Learning-Local.assets/image-20250419225343605.png)
+![image-20250419225343605](./Mysql-Learning-Local.assets/image-20250419225343605.png)
 
 在进行匹配时，会**从undo log的版本链，从上到下进行挨个匹配**：
 
 ###### 先匹配 
 
-![image-20250419225606129](Mysql-Learning-Local.assets/image-20250419225606129.png)
+![image-20250419225606129](./Mysql-Learning-Local.assets/image-20250419225606129.png)
 
 这条记录，这条记录对应的**trx_id为4**，也就是将4带入右侧的匹配规则中。
 
@@ -9847,7 +9854,7 @@ RC隔离级别下，在事务中**每一次执行快照读时生成ReadView**。
 
 ###### 再匹配第二条 
 
-![image-20250419225617332](Mysql-Learning-Local.assets/image-20250419225617332.png)
+![image-20250419225617332](./Mysql-Learning-Local.assets/image-20250419225617332.png)
 
 这条记录对应的**trx_id为3**，也就是将3带入右侧的匹配规则中。
 
@@ -9863,13 +9870,13 @@ RR隔离级别下，**仅在事务中第一次执行快照读时生成ReadView�
 
 那MySQL是如何做到可重复读的呢? 我们简单分析一下就知道了
 
-![image-20250419225916426](Mysql-Learning-Local.assets/image-20250419225916426.png)
+![image-20250419225916426](./Mysql-Learning-Local.assets/image-20250419225916426.png)
 
 我们看到，在RR隔离级别下，只是在事务中第一次快照读时生成ReadView，**后续都是复用该ReadView**，那么既然ReadView都一样， ReadView的版本链匹配规则也一样， 那么**最终快照读返回的结果也是一样的**，==进而保证RR隔离级别可重复读==。
 
 
 
-> ![image-20250419230319339](Mysql-Learning-Local.assets/image-20250419230319339.png)
+> ![image-20250419230319339](./Mysql-Learning-Local.assets/image-20250419230319339.png)
 >
 > 所以呢：
 >
@@ -9883,7 +9890,7 @@ RR隔离级别下，**仅在事务中第一次执行快照读时生成ReadView�
 
 ## 6.5 小结
 
-![image-20250419230514317](Mysql-Learning-Local.assets/image-20250419230514317.png)
+![image-20250419230514317](./Mysql-Learning-Local.assets/image-20250419230514317.png)
 
 
 
@@ -9893,13 +9900,15 @@ RR隔离级别下，**仅在事务中第一次执行快照读时生成ReadView�
 
 Mysql数据库安装完成后，自带了一下四个数据库，具体作用如下：
 
-![image-20250419200214184](Mysql-Learning-Local.assets/image-20250419200214184.png)
+![image-20250419200214184](./Mysql-Learning-Local.assets/image-20250419200214184.png)
 
 
 
 ## 7.2 常用工具
 
-### （1）mysql
+### （1）mysql-客户端工具
+
+![image-20250420133549189](./Mysql-Learning-Local.assets/image-20250420133549189.png)
 
 **该mysql不是指mysql服务**，而是指mysql的**客户端工具**。
 
@@ -9908,33 +9917,37 @@ Mysql数据库安装完成后，自带了一下四个数据库，具体作用如
     mysql [options] [database]
 
 -- 选项 ：
-    -u, --user=name #指定用户名
-    -p, --password[=name] #指定密码
-    -h, --host=name #指定服务器IP或域名
-    -P, --port=port #指定连接端口
-    -e, --execute=name #执行SQL语句并退出
+    -u, --user=name 	#指定用户名
+    -p, --password[=name] 	#指定密码
+    -h, --host=name 	#指定服务器IP或域名
+    -P, --port=port	 	#大写字母P =》指定连接端口
+    -e, --execute=name 	#执行SQL语句并退出
 ```
 
--e选项可以在Mysql客户端执行SQL语句，而不用连接到MySQL数据库再执行，对于一些批处理脚本，这种方式尤其方便。
+**-e选项可以在Mysql客户端执行SQL语句**，而不用连接到MySQL数据库再执行，对于一些**批处理脚本**，这种方式尤其方便。
 
 示例：
 
 ```sql
-mysql -uroot –p123456 db01 -e "select * from stu"; 
+mysql -h192.168.88.129 -P3306 -uroot -p1234 itcast -e "select * from stu"; 
+
+mysql -h192.168.88.129 -P3306 -uroot -p1234 itcast -e "show databases;"; 
 ```
 
+![image-20250420134548726](./Mysql-Learning-Local.assets/image-20250420134548726.png)
 
 
-### （2）mysqladmin
 
-mysqladmin 是一个执行管理操作的客户端程序。可以用它来检查服务器的配置和当前状态、创建并删除数据库等。
+### （2）mysqladmin-执行管理操作
+
+mysqladmin 是一个**执行管理操作的客户端程序**。可以用它来**检查服务器的配置和当前状态、创建并删除数据库等。**
 
 ```sql
 -- 通过帮助文档查看选项：
 	mysqladmin --help
 ```
 
-
+![image-20250420135805300](./Mysql-Learning-Local.assets/image-20250420135805300.png)
 
 ```sql
 -- 语法:
@@ -9950,92 +9963,139 @@ mysqladmin 是一个执行管理操作的客户端程序。可以用它来检查
 示例：
 
 ```sql
-mysqladmin -uroot –p1234 drop 'test01';
-mysqladmin -uroot –p1234 version;
+mysqladmin -uroot -p1234 create 'test01'; -- 创建指定数据库
+mysqladmin -uroot -p1234 drop 'test01'; -- 删除指定数据库
+mysqladmin -uroot -p1234 version; -- 查看当前数据库的版本
 ```
 
+![image-20250420135153853](./Mysql-Learning-Local.assets/image-20250420135153853.png)
 
 
-### （3）mysqlbinlog
 
-由于服务器生成的二进制日志文件以二进制格式保存，所以如果想要检查这些文本的文本格式，就会使用到mysqlbinlog 日志管理工具。
+### （3）mysqlbinlog-二进制日志文件
+
+由于服务器生成的**二进制日志文件**以二进制格式保存，所以如果想要检查这些文本的文本格式，就会使用到**mysqlbinlog 日志管理工具**。
 
 ```sql
 -- 语法 ：
 	mysqlbinlog [options] log-files1 log-files2 ...
 
 -- 选项 ：
-    -d, --database=name 指定数据库名称，只列出指定的数据库相关操作。
-    -o, --offset=# 忽略掉日志中的前n行命令。
-    -r,--result-file=name 将输出的文本格式日志输出到指定文件。
-    -s, --short-form 显示简单格式， 省略掉一些信息。
-    --start-datatime=date1 --stop-datetime=date2 指定日期间隔内的所有日志。
-    --start-position=pos1 --stop-position=pos2 指定位置间隔内的所有日志。
+    -d, --database=name 	-- 指定数据库名称，只列出指定的数据库相关操作。
+    -o, --offset=#   	-- 忽略掉日志中的前n行命令。
+    -r,--result-file=name 	-- 将输出的文本格式日志输出到指定文件。
+    -s, --short-form 	-- 显示简单格式， 省略掉一些信息。
+    --start-datatime=date1 --stop-datetime=date2 	-- 指定日期间隔内的所有日志。
+    --start-position=pos1 --stop-position=pos2 		-- 指定位置间隔内的所有日志。
 ```
 
 示例:
 
-A. 查看 binlog.000008这个二进制文件中的数据信息
+A. 查看 binlog.000006这个二进制文件中的数据信息
+
+```sql
+cd /var/lib/mysql -- 查看Mysql的目录文件
+```
+
+![image-20250420140209995](./Mysql-Learning-Local.assets/image-20250420140209995.png)
 
 
 
 上述查看到的二进制日志文件数据信息量太多了，不方便查询。 我们可以加上一个参数 -s 来显示简单格式。
 
+```sql
+mysqlbinlog binlog.000006
+mysqlbinlog -s binlog.000006 -- 精简查询后的信息
+```
 
 
-### （4）mysqlshow
 
-mysqlshow 客户端对象查找工具，用来很快地查找存在哪些数据库、数据库中的表、表中的列或者索引。
+### （4）mysqlshow-对象查找
+
+![image-20250420141055030](./Mysql-Learning-Local.assets/image-20250420141055030.png)
+
+mysqlshow **客户端对象查找工具**，用来很快地**查找存在哪些数据库、数据库中的表、表中的列或者索引**。
 
 ```sql
 -- 语法 ：
     mysqlshow [options] [db_name [table_name [col_name]]]
 
 -- 选项 ：
-    --count 显示数据库及表的统计信息（数据库，表 均可以不指定）
-    -i 显示指定数据库或者指定表的状态信息
+    --count 	-- 显示数据库及表的统计信息（数据库，表 均可以不指定）
+    -i 		-- 显示指定数据库或者指定表的状态信息
 
 -- 示例：
-    #查询test库中每个表中的字段书，及行数
-    mysqlshow -uroot -p2143 test --count
-    #查询test库中book表的详细情况
-    mysqlshow -uroot -p2143 test book --count
+    #查询itcast库中每个表中的统计信息：字段书，及行数
+    mysqlshow -uroot -p1234 itcast --count
+    #查询itcast库中book表的详细情况
+    mysqlshow -uroot -p1234 itcast stu --count
 ```
+
+**`-i`查看指定数据库或者指定表/字段的状态信息**
+
+```sql
+mysqlshow -uroot -p1234 itcast stu -i
+mysqlshow -uroot -p1234 itcast stu id -i
+```
+
+
 
 示例：
 
-A. 查询每个数据库的表的数量及表中记录的数量
+**A. 查询每个数据库的表的数量及表中记录的数量**
 
 ```sql
 mysqlshow -uroot -p1234 --count
 ```
 
-B. 查看数据库db01的统计信息
+![image-20250420140912222](./Mysql-Learning-Local.assets/image-20250420140912222.png)
+
+**B. 查看数据库itcast的统计信息**
 
 ```sql
-mysqlshow -uroot -p1234 db01 --count
+mysqlshow -uroot -p1234 itcast --count
 ```
 
-C. 查看数据库db01中的course表的信息
+![image-20250420140938132](./Mysql-Learning-Local.assets/image-20250420140938132.png)
+
+**C. 查看数据库itcast中的stu表的信息**
 
 ```sql
-mysqlshow -uroot -p1234 db01 course --count
+mysqlshow -uroot -p1234 itcast stu --count
 ```
 
-D. 查看数据库db01中的course表的id字段的信息
+![image-20250420141014722](./Mysql-Learning-Local.assets/image-20250420141014722.png)
+
+**D. 查看数据库itcast中的course表的id字段的信息**
 
 ```sql
-mysqlshow -uroot -p1234 db01 course id --count
+mysqlshow -uroot -p1234 itcast stu id --count
 ```
 
+![image-20250420141026812](./Mysql-Learning-Local.assets/image-20250420141026812.png)
+
+**E.`-i`查看指定数据库或者指定表/字段的状态信息**
+
+```sql
+mysqlshow -uroot -p1234 itcast stu -i
+mysqlshow -uroot -p1234 itcast stu id -i
+```
+
+![image-20250420141417967](./Mysql-Learning-Local.assets/image-20250420141417967.png)
+
+![image-20250420141443311](./Mysql-Learning-Local.assets/image-20250420141443311.png)
 
 
-### （5）mysqldump
 
-mysqldump 客户端工具用来备份数据库或在不同数据库之间进行数据迁移。备份内容包含创建表，及插入表的SQL语句。
+### （5）mysqldump-数据备份和迁移
+
+![image-20250420143539539](./Mysql-Learning-Local.assets/image-20250420143539539.png)
+
+mysqldump 客户端工具用来**备份数据库或在不同数据库之间进行数据迁移**。备份内容**包含创建表，及插入表的SQL语句。**
 
 ```sql
 -- 语法 ：
+	mysqldump --help -- 查看更多的指令选项
     mysqldump [options] db_name [tables]
     mysqldump [options] --database/-B db1 [db2 db3...]
     mysqldump [options] --all-databases/-A
@@ -10047,178 +10107,3624 @@ mysqldump 客户端工具用来备份数据库或在不同数据库之间进行�
     -P, --port=#   	-- 指定连接端口
 
 -- 输出选项：
-    --add-drop-database 在每个数据库创建语句前加上 drop database 语句
-    --add-drop-table 在每个表创建语句前加上 drop table 语句 , 默认开启 ; 不
-        -- 开启 (--skip-add-drop-table)
+    --add-drop-database 	-- 在每个数据库创建语句前加上 drop database 语句
+    --add-drop-table 	-- 在每个表创建语句前加上 drop table 语句 , 默认开启 ;
+        				-- 不开启 (--skip-add-drop-table)
+	-R, --routines -- 转存存储例程（函数和程序）。
 
-    -n, --no-create-db -- 不包含数据库的创建语句
-    -t, --no-create-info -- 不包含数据表的创建语句
-    -d --no-data -- 不包含数据
+    -n, --no-create-db 		-- 不包含数据库的创建语句
+    -t, --no-create-info 	-- 不包含数据表的创建语句
+    -d --no-data 	-- 不包含数据
     -T, --tab=name -- 自动生成两个文件：一个.sql文件，创建表结构的语句；一个.txt文件，数据文件
 ```
 
-
+  
 
 示例:
 
-A. 备份db01数据库
+A. **备份itcast数据库**
 
 ```sql
-mysqldump -uroot -p1234 db01 > db01.sql
+mysqldump -uroot -p1234 itcast > itcast.sql
 ```
 
-可以直接打开db01.sql，来查看备份出来的数据到底什么样。
+可以直接打开itcast.sql，来查看备份出来的数据到底什么样。
+
+<img src="./Mysql-Learning-Local.assets/image-20250420142442036.png" alt="image-20250420142442036" style="zoom:80%;" />
+
+<img src="./Mysql-Learning-Local.assets/image-20250420142541521.png" alt="image-20250420142541521" style="zoom:67%;" />
 
 
 
 备份出来的数据包含：
 
-- 删除表的语句
-- 创建表的语句
-- 数据插入语句
+- **删除表的语句**
+- **创建表的语句**
+- **数据插入语句**
 
 
 
-如果我们在数据备份时，不需要创建表，或者不需要备份数据，只需要备份表结构，都可以通过对应的参数来实现。
+如果我们在数据备份时，不需要创建表，或者不需要备份数据，**只需要备份表结构**，都可以通过对应的参数来实现。
 
-
-
-B. 备份db01数据库中的表数据，不备份表结构(-t)
+B. 备份db01数据库中的表数据，**==不备份表结构(-t)==**
 
 ```sql
-mysqldump -uroot -p1234 -t db01 > db01.sql
+mysqldump -uroot -p1234 -t itcast > itcast2.sql
 ```
 
-
-
-打开 db02.sql ，来查看备份的数据，只有insert语句，没有备份表结构。
+![image-20250420142719036](./Mysql-Learning-Local.assets/image-20250420142719036.png)
 
 
 
-C. 将db01数据库的表的表结构与数据分开备份(-T)
+打开 itcast2.sql ，来查看备份的数据，**只有insert语句，没有备份表结构**。
+
+
+
+**C. 将itcast数据库的表stu的表结构与数据分开备份(-T)**
+
+```bash
+mysqldump -uroot -p1234 -T /root itcast stu
+```
+
+执行上述指令，会出错，数据不能完成备份，原因是因为我们所**指定的数据存放目录/root**，**MySQL认为是不安全的，需要存储在MySQL信任的目录下**。那么，哪个目录才是MySQL信任的目录呢，可以**查看一下系统变量 secure_file_priv** 。执行结果如下：
+
+![image-20250420143103335](./Mysql-Learning-Local.assets/image-20250420143103335.png)
 
 ```sql
-mysqldump -uroot -p1234 -T /root db01 score
+show variables like '%secure_file_priv%';
 ```
 
-执行上述指令，会出错，数据不能完成备份，原因是因为我们所指定的数据存放目录/root，MySQL认为是不安全的，需要存储在MySQL信任的目录下。那么，哪个目录才是MySQL信任的目录呢，可以查看一下系统变量 secure_file_priv 。执行结果如下：
+![image-20250420143235755](./Mysql-Learning-Local.assets/image-20250420143235755.png)
+
+```bash
+mysqldump -uroot -p1234 -T /var/lib/mysql-files/ itcast stu
+```
+
+<img src="./Mysql-Learning-Local.assets/image-20250420143435370.png" alt="image-20250420143435370" style="zoom:67%;" />
+
+上述的两个文件 stu.sql 中记录的就是**表结构文件**，而 stu.txt 就是**表数据文件**，但是需要注意表数据文件，并**不是记录一条条的insert语句**，而是**按照一定的格式记录表结构中的数据**。如下：
+
+![image-20250420143500129](./Mysql-Learning-Local.assets/image-20250420143500129.png)
 
 
 
-上述的两个文件 score.sql 中记录的就是表结构文件，而 score.txt 就是表数据文件，但是需要注意表数据文件，并不是记录一条条的insert语句，而是按照一定的格式记录表结构中的数据。如下：
-
-
-
-### （6）mysqlimport/source
+### （6）mysqlimport/source-导入数据
 
 #### ①mysqlimport
 
-mysqlimport 是客户端数据导入工具，用来导入mysqldump 加 -T 参数后导出的文本文件。
+mysqlimport 是客户端**数据导入工具**，用来**导入mysqldump 加 -T 参数后导出的文本文件**。
 
 ```sql
 -- 语法 ：
 	mysqlimport [options] db_name textfile1 [textfile2...]
 
 -- 示例 ：
-	mysqlimport -uroot -p2143 test /tmp/city.txt
+	mysqlimport -uroot -p1234 itcast /tmp/itcast.txt
 ```
 
-
+![image-20250420144437676](./Mysql-Learning-Local.assets/image-20250420144437676.png)
 
 #### ②source
 
-如果需要导入sql文件,可以使用mysql中的source 指令 :
+如果需要**导入sql文件**,可以使用mysql中的source 指令 :
 
 ```sql
 -- 语法 ：
-source /root/xxxxx.sql
+source /root/xxxxx.sql -- 执行sql脚本-insert语句，在mysql命令行中执行
+```
+
+ 
+
+## 7.3 小结
+
+<img src="./Mysql-Learning-Local.assets/image-20250420144507615.png" alt="image-20250420144507615" style="zoom:67%;" />
+
+
+
+# ----------------------------
+
+------
+
+
+
+# 三、运维篇
+
+# 1、🌟 ==日志==
+
+## 1.1 错误日志
+
+错误日志是 MySQL 中最重要的日志之一，它记录了**当 mysqld 启动和停止时，以及服务器在运行过程中发生任何严重错误时的相关信息**。当数据库出现任何故障导致无法正常使用时，建议首先查看此日志。
+
+该日志是**默认开启**的，**默认存放目录 /var/log/**，默认的日志文件名为 **mysqld.log** 。查看日志位置：
+
+```SQL
+-- 查看日志文件所在位置
+show variables like '%log_error%'; 
+```
+
+![image-20250420172511157](./Mysql-Learning-Local.assets/image-20250420172511157.png)
+
+
+
+```bash
+tail -50 /var/log/mysqld.log #查看错误日志文件最后50行的信息
+tail -f /var/log/mysqld.log #实时查看日志信息
+```
+
+
+
+## 1.2 🌟 ==二进制日志==
+
+### （1）介绍
+
+![image-20250420173409250](./Mysql-Learning-Local.assets/image-20250420173409250.png)
+
+二进制日志（BINLOG）记录了所有的 **DDL（数据定义语言）**语句和 **DML（数据操纵语言）**语句，但**不包括数据查询（SELECT、SHOW）语句**。
+
+作用：
+
+- ① 灾难时的**==数据恢复==**；
+- ② MySQL的**==主从复制==**，主从复制的底层原理就是基于binlog的。
+
+在MySQL8版本中，默认**二进制日志是==开启==着的**，涉及到的参数如下：
+
+```sql
+show variables like '%log_bin%'; 
+```
+
+![image-20250420173229155](./Mysql-Learning-Local.assets/image-20250420173229155.png)
+
+**参数说明：**
+
+- loh_bin = on ,表示二进制日志是开启的。
+- log_bin_basename：当前数据库服务器的**binlog日志的基础名称(前缀)**，具体的binlog文件名需要再该basename的基础上**加上编号(编号从000001开始)**。
+- log_bin_index：binlog的**索引文件**，里面记录了当前服务器关联的binlog文件有哪些。
+
+<img src="./Mysql-Learning-Local.assets/image-20250420173321313.png" alt="image-20250420173321313" style="zoom:67%;" />
+
+![image-20250420173350086](./Mysql-Learning-Local.assets/image-20250420173350086.png)
+
+
+
+### （2）格式
+
+MySQL服务器中提供了**多种格式来记录二进制日志**，具体格式及特点如下：
+
+![image-20250420150344386](./Mysql-Learning-Local.assets/image-20250420150344386.png)
+
+**==注意==**
+
+- 查询是不会记录在二进制文件中的，只会记录了所有的 **DDL（数据定义语言）**语句和 **DML（数据操纵语言）**语句，但**不包括数据查询（SELECT、SHOW）语句**。
+- STATEMENT的日志格式，通过mysqlbinlog binlog.00003时不需要添加-v选项，因为该日志格式**保存的就是sql语句**。
+- 对于ROW的日志格式，需要通过mysqlbinlog **-v** binlog.00003指令，**将行事件(数据变更)重构为SQL语句**
+
+
+
+```sql
+show variables like '%binlog_format%';  -- 查看当前Mysql的记录日志的格式
+```
+
+![image-20250420173521155](./Mysql-Learning-Local.assets/image-20250420173521155.png)
+
+如果我们需要配置二进制日志的格式，只需要**在 /etc/my.cnf 中配置 binlog_format 参数**即可。
+
+```bash
+vim  /etc/my.cnf
+
+#在该文件的最后添加
+binlog_format = STATEMENT
+
+# 重新启动MySQL服务
+systemctl restart mysqld
+```
+
+
+
+### （3）查看
+
+由于日志是以二进制方式存储的，不能直接读取，需要通过**二进制日志查询工具 mysqlbinlog 来查看**，具体语法：
+
+```sql
+	mysqlbinlog [ 参数选项 ] logfilename
+
+-- 参数选项：
+    -d -- 指定数据库名称，只列出指定的数据库相关操作。
+    -o -- 忽略掉日志中的前n行命令。
+    -v -- 将行事件(数据变更)重构为SQL语句
+    -vv -- 将行事件(数据变更)重构为SQL语句，并输出注释信息，注意这里是两个v
+```
+
+
+
+### （4）删除
+
+对于比较繁忙的业务系统，每天生成的binlog数据巨大，**如果长时间不清除，将会占用大量磁盘空间**。可以通过以下几种方式清理日志：
+
+![image-20250420150602442](./Mysql-Learning-Local.assets/image-20250420150602442.png)
+
+#### ①日志过期时间
+
+也可以在mysql的**配置文件中配置二进制日志的过期时间**，设置了之后，**二进制日志过期会自动删除**。
+
+```sql
+-- 查看二进制日志文件的过期时间
+show variables like '%binlog_expire_logs_seconds%'; -- 默认为30天
+```
+
+<img src="./Mysql-Learning-Local.assets/image-20250420213540958.png" alt="image-20250420213540958" style="zoom:80%;" />
+
+
+
+#### **②删除指定编码之前的所有日志**
+
+```sql
+purge master logs to 'binlog.000002';
+```
+
+![image-20250420213930569](./Mysql-Learning-Local.assets/image-20250420213930569.png)
+
+
+
+#### ③删除全部binlog日志
+
+**删除全部binlog日志，删除之后，日志编号，将从 binlog.000001重新开始**
+
+```sql
+reset master;
+```
+
+
+
+#### ④删除指定日期之前的日志
+
+```sql
+purge master logs before '2025-04-20 21:42:00';
+```
+
+
+
+## 1.3 查询日志
+
+![image-20250420215222971](./Mysql-Learning-Local.assets/image-20250420215222971.png)
+
+查询日志中**记录了客户端的==所有操作语句==**，而**二进制日志不包含查询数据的SQL语句**。
+
+**默认**情况下，**查询日志是==未开启==的**。
+
+```sql
+show variables like '%general%'; -- 查询日志的开关状态和查询日志所在文件目录
+```
+
+<img src="./Mysql-Learning-Local.assets/image-20250420214551431.png" alt="image-20250420214551431" style="zoom:80%;" />
+
+
+
+如果**需要开启查询日志**，可以**修改MySQL的配置文件 /etc/my.cnf 文件**，添加如下内容：
+
+```bash
+#该选项用来开启查询日志 ， 可选值 ： 0 或者 1 ； 0 代表关闭， 1 代表开启
+general_log=1
+#设置日志的文件名，如果没有指定， 默认的文件名为 host_name.log
+general_log_file=mysql_query.log
+```
+
+![image-20250420215942627](./Mysql-Learning-Local.assets/image-20250420215942627.png)
+
+
+
+```sql
+-- 配置完成后，重启mysql服务
+systemctl restart mysqld
+```
+
+![image-20250420215010055](./Mysql-Learning-Local.assets/image-20250420215010055.png)
+
+![image-20250420220234253](./Mysql-Learning-Local.assets/image-20250420220234253.png)
+
+开启了查询日志之后，在**MySQL的数据存放目录**，也就是 **/var/lib/mysql/ 目录下就会出现mysql_query.log 文件**。之后**所有的客户端的增删改查操作都会记录在该日志文件之中**，长时间运行后，该日志文件将会非常大。如果不需要用到这个文件可以`关闭查询日志`。
+
+
+
+## 1.4 🌟 ==慢查询日志==
+
+![image-20250420221656704](./Mysql-Learning-Local.assets/image-20250420221656704.png)
+
+慢查询日志记录了所有**执行时间超过参数 long_query_time 设置值**并且**扫描记录数不小于min_examined_row_limit** 的所有的SQL语句的日志，**默认未开启**。long_query_time **默认为10 秒**，最小为 0， **精度可以到微秒**。
+
+**默认文件名为**：localhost-slow.log ，所在文件目录：/var/lib/mysql
+
+![image-20250420220017355](./Mysql-Learning-Local.assets/image-20250420220017355.png)
+
+如果需要开启慢查询日志，需要**在MySQL的配置文件 /etc/my.cnf 中配置**如下参数：
+
+```bash
+#慢查询日志
+slow_query_log=1  # 1表示开启慢查询日志
+#执行时间参数
+long_query_time=2  # 设置慢查询时间标准线为 2s
+```
+
+![image-20250420215923839](./Mysql-Learning-Local.assets/image-20250420215923839.png)
+
+
+
+**测试：**
+
+```sql
+select * from tb_sku limit 0,10;  -- 用时0.01s
+select * from tb_sku limit 2000000,10; -- 执行时间较长 => 4.79s
+```
+
+![image-20250420223611874](./Mysql-Learning-Local.assets/image-20250420223611874.png)
+
+![image-20250420223602982](./Mysql-Learning-Local.assets/image-20250420223602982.png)
+
+```sql
+-- 使用 EXPLAIN ANALYZE（MySQL 8.0+）
+-- 这会返回 实际执行计划+时间统计，比慢查询日志更精确。
+EXPLAIN ANALYZE SELECT * FROM `tb_sku` limit 2000000,10;
+```
+
+![image-20250420223727040](./Mysql-Learning-Local.assets/image-20250420223727040.png)
+
+
+
+```sql
+select count(*) from tb_sku;
+```
+
+![image-20250420222217483](./Mysql-Learning-Local.assets/image-20250420222217483.png)
+
+
+
+默认情况下，**不会记录管理语句，也不会记录不使用索引进行查找的查询**。可以使用log_slow_admin_statements和 更改此行为 log_queries_not_using_indexes，如下所述。
+
+```bash
+#记录执行较慢的管理语句
+log_slow_admin_statements = 1
+
+#记录执行较慢的未使用索引的语句
+log_queries_not_using_indexes = 1
+```
+
+
+
+> 上述所有的参数配置完成之后，都需要**重新启动MySQL服务器**才可以生效。
+>
+> ```bash
+> -- 配置完成后，重启mysql服务
+> systemctl restart mysqld
+> ```
+
+
+
+------
+
+
+
+# 2、==主从复制==
+
+## 2.1 概述
+
+![image-20250420224309413](./Mysql-Learning-Local.assets/image-20250420224309413.png)
+
+主从复制是指**将主数据库的 DDL 和 DML 操作==通过二进制日志传到从库服务器==中**，然后在从库上对这些日志重新执行（也叫重做），从而使得**从库和主库的数据保持同步**。
+
+MySQL支持一台主库同时向多台从库进行复制， 从库同时也可以作为其他从服务器的主库，**实现==链状复制==**。
+
+
+
+MySQL 复制的**优点**主要包含以下三个方面：
+
+- 主库出现问题，可以**快速切换到从库提供服务**。
+- 实现**==读写分离==，降低主库的访问压力**。
+- 可以在**==从库中执行备份==，以避免备份期间影响主库服务**。
+  - （因为备份需要**添加全局锁**，会影响业务操作）
+
+
+
+
+## 2.2 ==原理==
+
+MySQL主从复制的核心就是 **==二进制日志==**，具体的过程如下：
+
+![image-20250420224401343](./Mysql-Learning-Local.assets/image-20250420224401343.png)
+
+
+
+从上图来看，**复制分成三步**：
+
+1. Master 主库在**事务提交**时，会**把数据变更记录在二进制日志文件 Binlog 中**。
+
+2. 从库读取主库的二进制日志文件 Binlog ，写入到从库的**中继日志 Relay Log** 。 =》 IOthread
+
+3. slave**重做**中继日志中的事件，将改变反映它自己的数据。 =》 SQLthread
+
+
+
+**MySQL复制详细过程分成三步：**
+
+- **master将改变记录到==二进制日志（binarylog)==**
+- **slave将master的binarylog拷贝到它的==中继日志（relaylog）==**
+  1. **通过开启I/O thread 线程从master主库中读取binlog，在写入slave从库的中继日志relaylog。**
+  2. **在从库中在通过SQL thread线程解析日志，执行和主库一样的sql操作**
+- **slave重做中继日志中的事件，将改变应用到自己的数据库中**
+
+
+
+## 2.3 搭建
+
+<span id = '主从复制的搭建' > </span>
+
+### （1）准备
+
+![image-20250420230053577](./Mysql-Learning-Local.assets/image-20250420230053577.png)
+
+准备好两台服务器之后，在上述的两台服务器中分别安装好MySQL，并完成基础的初始化准备(安装、密码配置等操作)工作。 其中：
+
+192.168.200.200 作为主服务器master = 》 	192.168.88.130 （自己的服务器ip）
+
+192.168.200.201 作为从服务器slave  =》 		192.168.88.131
+
+```bash
+# 开放指定端口
+firewall-cmd --zone=public --add-port=3306/tcp --permanent
+
+# 立即生效
+firewall-cmd --reload
+
+#查看开放的端口
+firewall-cmd --zone=public --list-ports
+```
+
+
+
+### （2）主库配置
+
+#### ①修改配置文件 /etc/my.cnf
+
+**前置条件**
+
+```bash
+#查找my.conf文件
+find / -name "my.cnf"
+```
+
+<img src="./Mysql-Learning-Local.assets/image-20250420230327113.png" alt="image-20250420230327113" style="zoom: 80%;" />
+
+
+
+```bash
+log_bin = binlog # 启用二进制日志（Binary Log）并指定日志文件的基础名称
+#mysql 服务ID，保证整个集群环境中唯一，取值范围：1 – (2的32次方-1)， 默认为1
+server-id=1  #[必须]服务器唯一ID
+
+#是否只读,1 代表只读, 0 代表读写
+read-only=0    #主库设置为0，表示可以读写
+#设置read-only = 1的 只读 只针对普通用户，若想设置超级管理员的权限因为只读：
+#super-read-only=1
+
+#忽略的数据, 指不需要同步的数据库
+#binlog-ignore-db=mysql
+
+#指定同步的数据库
+#binlog-do-db=db01
+```
+
+![image-20250420230506965](./Mysql-Learning-Local.assets/image-20250420230506965.png)
+
+
+
+#### ②重启MySQL服务器
+
+```bash
+systemctl restart mysqld 
+```
+
+
+
+#### ③登录mysql，创建远程连接的账号，并授予主从复制权限
+
+**登录Mysql客户端**
+
+```bash
+mysql -uroot -proot
+```
+
+****
+
+```sql
+#创建itcast用户，并设置密码，该用户可在任意主机连接该MySQL服务
+CREATE USER 'itcast'@'%' IDENTIFIED WITH mysql_native_password BY 'Root@123456';
+-- 这里的%表示itcast用户可以在任意主机上进行访问该数据库 
+-- Root@123456 表示该用户的密码
+
+#为 'itcast'@'%' 用户分配主从复制权限
+GRANT REPLICATION SLAVE ON *.* TO 'itcast'@'%';
+```
+
+
+
+#### ④通过指令，查看二进制日志坐标
+
+```sql
+show master status ; 
+-- 8.40版本的使用新的指令SHOW BINARY LOG STATUS.
+```
+
+![image-20250420234611819](./Mysql-Learning-Local.assets/image-20250420234611819.png)
+
+字段含义说明：
+
+-  file : **从哪个日志文件==开始推送日志文件==**，注意这里的**文件名前缀**，后续从库和主库进行关联时会使用到
+   -  文件名前缀，通过log_bin = binlog 设置：**启用二进制日志（Binary Log）并指定日志文件的基础名称**
+
+-  position ： **从哪个位置开始推送日志**
+-  binlog_ignore_db : 指定不需要同步的数据库
+
+
+
+> **==注意==：**
+>
+> 由于主从复制是通过二进制日志文件进行同步的，但是只能选择从某个日志文件的某个位置开始进行推送并同步。
+>
+> 如果此时主库在`该推送日志文件`已经有了数据，直接通过主从复制是不能同步这些`日志文件`之前的数据，可以采用根据主库的结构和数据，生成sql语句，**先在从库中执行该生成的sql后，保证主从的初始数据一致，再来进行主从复制的配置**。
+
+
+
+**如果遇到返回的是空集合：**
+
+<img src="./Mysql-Learning-Local.assets/image-20250420233752874.png" alt="image-20250420233752874" style="zoom:80%;" />
+
+
+
+```sql
+SHOW VARIABLES LIKE 'log_bin';  -- 如果返回 OFF，说明二进制日志未启用。
+```
+
+修改 MySQL 配置文件（`my.cnf` 或 `my.ini`）：
+
+```bash
+[mysqld]
+log_bin = binlog # 启用二进制日志（Binary Log）并指定日志文件的基础名称
+server_id = 1  # 主从复制必须设置 server_id（唯一值）
+```
+
+重启 MySQL：
+
+```bash
+sudo systemctl restart mysqld  # 或 mysql（取决于系统）
+```
+
+
+
+### （3）从库配置
+
+#### ①修改配置文件 /etc/my.cnf
+
+```bash
+#mysql 服务ID，保证整个集群环境中唯一，取值范围：1 到 2^32-1，和主库不一样即可
+server-id=2  #和主库不一样即可
+
+#是否只读,1 代表只读, 0 代表读写
+read-only=1  # 只针对普通管理员有效
+#设置read-only = 1的 只读 只针对普通用户，若想设置超级管理员的权限因为只读：
+#super-read-only=1
+```
+
+
+
+#### ②重新启动MySQL服务
+
+```bash
+systemctl restart mysqld
+```
+
+
+
+#### ③登录mysql，设置主库配置
+
+![image-20250420232315054](./Mysql-Learning-Local.assets/image-20250420232315054.png)
+
+##### 1）通过指令，查看二进制日志坐标
+
+```sql
+show master status ; 
+-- 8.40版本的使用新的指令SHOW BINARY LOG STATUS.
+```
+
+![image-20250420234605471](./Mysql-Learning-Local.assets/image-20250420234605471.png)
+
+字段含义说明：
+
+-  file : **从哪个日志文件==开始推送日志文件==**
+-  position ： **从哪个位置开始推送日志**
+-  binlog_ignore_db : 指定不需要同步的数据库
+
+
+
+##### 2）从库关联主库
+
+```sql
+-- 登录Mysql
+mysql -uroot -proot
+
+CHANGE REPLICATION SOURCE TO SOURCE_HOST='192.168.88.130',SOURCE_USER='itcast',SOURCE_PASSWORD='Root@123456', SOURCE_LOG_FILE='binlog.000001',SOURCE_LOG_POS=154;
+```
+
+上述是8.0.23中的语法。如果**mysql是 8.0.23 之前的版本**，执行如下SQL：
+
+```sql
+CHANGE MASTER TO MASTER_HOST='192.168.88.130', MASTER_USER='itcast',
+MASTER_PASSWORD='Root@123456', MASTER_LOG_FILE='binlog.000001',
+MASTER_LOG_POS=154;
+```
+
+![image-20250420233514878](./Mysql-Learning-Local.assets/image-20250420233514878.png)
+
+![image-20250420232825533](./Mysql-Learning-Local.assets/image-20250420232825533.png)
+
+![image-20250420151654229](./Mysql-Learning-Local.assets/image-20250420151654229.png)
+
+
+
+#### ④开启同步操作
+
+```sql
+start replica ; #8.0.22之后
+
+start slave ; #8.0.22之前
+```
+
+
+
+#### ⑤查看主从同步状态
+
+```sql
+show replica status ; #8.0.22之后
+
+show slave status\G; #8.0.22之前
+```
+
+**当IO_Running和SQL_Running都显示为yes时，说明配置成功**
+
+![image-20250420235029710](./Mysql-Learning-Local.assets/image-20250420235029710.png)
+
+
+
+### （4）测试
+
+#### ①主库
+
+在**主库** 192.168.88.130 上**创建数据库、表，并插入数据**
+
+```sql
+create database db01;
+
+use db01;
+
+create table tb_user(
+    id int(11) primary key not null auto_increment,
+    name varchar(50) not null,
+    sex varchar(1)
+)engine=innodb default charset=utf8mb4;
+
+insert into tb_user(id,name,sex) 
+    values
+    (null,'Tom', '1'),
+    (null,'Trigger','0'),
+    (null,'Dawn','1');
+```
+
+
+
+#### ②从库
+
+在**从库** 192.168.88.131 中**查询数据，验证主从是否同步**
+
+
+
+
+
+## 2.4 小结
+
+![image-20250421000217678](./Mysql-Learning-Local.assets/image-20250421000217678.png)
+
+
+
+------
+
+
+
+# 3、🚀 ==分库分表==
+
+## 3.1 介绍
+
+### （1）问题分析
+
+![image-20250421000528943](./Mysql-Learning-Local.assets/image-20250421000528943.png)
+
+随着互联网及移动互联网的发展，应用系统的数据量也是成指数式增长，若采用单数据库进行数据存储，存在以下性能瓶颈：
+
+1. **IO瓶颈**：热点数据太多，数据库缓存不足（数据库缓存需要占用内存），**产生大量磁盘IO**，效率较低。 请求数据太多，**带宽不够，网络IO瓶颈**。
+   1. 结合InnoDB的存储结构来阐述：在InnoDB存储引擎当中，有很大一部分的存储内存都分配给了数据库的缓存区，如果热点数据过多，会导致服务器的内存不足，进而导致数据库分配到的缓冲区也不足=》**缓冲区内缓存的数据的能力降低，进而会导致产生大量的磁盘IO**。
+   2. [跳转到 =》Buffer Pool缓存池](#Buffer Pool缓存池)
+
+2. **CPU瓶颈**：排序、分组、连接查询、聚合统计等**SQL会耗费大量的CPU资源**，请求数太多，CPU出现瓶颈。
+
+
+
+为了解决上述问题，我们需要对数据库进行**分库分表处理**。
+
+
+
+> 分库分表的中心思想都是**将数据分散存储**，使得单一数据库/表的数据量变小来缓解单一数据库的性能问题，从而达到提升数据库性能的目的。
+
+
+
+
+
+### （2）拆分策略
+
+分库分表的形式，主要是两种：垂直拆分和水平拆分。
+
+- 按照拆分的**力度不同**可分为：**分库和分表**
+- 按照拆分的**维度不同**可分为：**垂直拆分和水平拆分**
+
+而**==拆分的粒度==**，一般又分为**分库和分表**，所以组成的拆分策略最终如下：
+
+![image-20250421125306844](./Mysql-Learning-Local.assets/image-20250421125306844.png)
+
+
+
+### （3）==垂直拆分==
+
+![image-20250421125824281](./Mysql-Learning-Local.assets/image-20250421125824281.png)
+
+#### ①垂直分库
+
+![image-20250421125607719](./Mysql-Learning-Local.assets/image-20250421125607719.png)
+
+垂直分库：**以==表==为依据，根据==业务将不同表拆分到不同库中==**。
+
+
+
+**特点：**
+
+- 每个库的表结构都不一样。
+- 每个库的数据也不一样。
+- **所有库的并集是全量数据**。
+
+
+
+#### ②垂直分表
+
+<img src="./Mysql-Learning-Local.assets/image-20250421125807607.png" alt="image-20250421125807607" style="zoom:80%;" />
+
+垂直分表：**以==字段==为依据**，根据**字段属性将==不同字段拆分到不同表==中**。
+
+​	拆分依据  =》可以按照**冷热数据分离**的思想去拆分
+
+
+
+**特点：**
+
+- 每个表的结构都不一样。
+- 每个表的数据也不一样，一般**通过一列（主键/外键）关联**。
+- **所有表的并集是全量数据**。
+
+
+
+### （4）==水平拆分==
+
+![image-20250421130405425](./Mysql-Learning-Local.assets/image-20250421130405425.png)
+
+#### ①水平分库
+
+<img src="./Mysql-Learning-Local.assets/image-20250421130312719.png" alt="image-20250421130312719" style="zoom:80%;" />
+
+水平分库：**以字段为依据**，按照一定策略，**将==一个库的数据==拆分到多个库中**。= 》 类似于 `分页的思想`
+
+
+
+特点：
+
+- 每个库的**表结构都一样**。
+
+- 每个**库**的**数据都不一样**。
+- 所有库的并集是全量数据。
+
+
+
+####  ②水平分表
+
+<img src="./Mysql-Learning-Local.assets/image-20250421130320877.png" alt="image-20250421130320877" style="zoom:80%;" />
+
+水平分表：以字段为依据，按照一定策略，**将==一个表的数据==拆分到多个表中**。
+
+特点：
+
+- 每个表的表结构都一样。
+- **每个表的数据都不一样**。
+- 所有表的并集是全量数据。
+
+
+
+> 在业务系统中，为了缓解磁盘IO及CPU的性能瓶颈，到底是垂直拆分，还是水平拆分；具体是分库，还是分表，都需要**根据具体的业务需求**具体分析。
+
+
+
+### （5）实现技术
+
+![image-20250421130628119](./Mysql-Learning-Local.assets/image-20250421130628119.png)
+
+
+
+- shardingJDBC：**基于==AOP原理==**，在应用程序中对本地执行的SQL进行拦截，解析、改写、路由处理。需要自行编码配置实现，只支持java语言，**性能较高**。
+- MyCat：数据库**分库分表中间件**，**不用调整代码即可实现分库分表**，支持多种语言，性能不及前者。
+  - 不需要对应用程序做任何的配置和导入任何的依赖
+
+
+
+
+本次课程，我们选择了是**MyCat数据库中间件**，通过MyCat中间件来完成分库分表操作。
+
+
+
+## 3.2 MyCat概述
+
+### （1）介绍
+
+Mycat是开源的、活跃的、**基于Java语言编写的MySQL数据库中间件**。可以像使用mysql一样来使用mycat，对于开发人员来说根本感觉不到mycat的存在。= 》 MyCat 进行了 "伪装协议"
+
+开发人员**只需要连接MyCat即可**，而具体底层用到几台数据库，每一台数据库服务器里面存储了什么数据，都无需关心。 具体的分库分表的策略，只需要**在MyCat中配置**即可。
+
+<img src="./Mysql-Learning-Local.assets/image-20250421131045597.png" alt="image-20250421131045597" style="zoom:80%;" />
+
+优势：
+
+- 性能可靠稳定
+- 强大的技术团队
+- 体系完善
+- 社区活跃
+
+
+
+### （2）下载
+
+下载地址：**http://mycat.org.cn/**
+
+**本次课，使用1.6.7.3-release版本**
+
+![image-20250421131055378](./Mysql-Learning-Local.assets/image-20250421131055378.png)
+
+
+
+### （3）安装
+
+Mycat是采用**java语言开发**的开源的数据库中间件，**支持Windows和Linux运行环境**，下面介绍MyCat的Linux中的环境搭建。我们需要在准备好的服务器中安装如下软件。
+
+- **MySQL**
+- **JDK**
+- **Mycat**
+
+![image-20250420153053631](./Mysql-Learning-Local.assets/image-20250420153053631.png)
+
+**我的服务器分配方案：**
+
+- 192.168.88.130 =》JDK、MyCat
+- 192.168.88.130 =》 Mysql 分片服务器一 , 同时也是之前学习的主库
+- 192.168.88.131 =》 Mysql 分片服务器二，同时也是之前学习的从库
+- 192.168.88.129 =》 Mysql 分片服务器三
+
+![image-20250421144733511](./Mysql-Learning-Local.assets/image-20250421144733511.png)
+
+具体的安装步骤： 参考资料中提供的 《MyCat安装文档》即可，里面有详细的安装及配置步骤。
+
+
+
+#### ①JDK安装并配置环境变量
+
+JDK具体安装步骤如下： 
+
+##### 1. 上传安装包
+
+使用FinalShell自带的上传工具将jdk的二进制发布包上传到Linux 
+
+由于上述在进行文件上传时，选择的上传目录为根目录 /，上传完毕后，我们执行指令 cd / 切换到根目录下，查看上传的安装包。
+
+![image-20210814180702071](./Mysql-Learning-Local.assets/image-20210814180702071.png) 
+
+
+
+##### 2. 解压安装包
+
+执行如下指令，将上传上来的压缩包进行解压，并通过-C参数指定解压文件存放目录为 /usr/local。
+
+```
+tar -zxvf jdk-8u171-linux-x64.tar.gz -C /usr/local
+```
+
+![image-20210814181014481](./Mysql-Learning-Local.assets/image-20210814181014481.png) 
+
+
+
+##### 3. 配置环境变量
+
+使用vim命令修改/etc/profile文件，在文件末尾加入如下配置
+
+```
+JAVA_HOME=/usr/local/jdk1.8.0_171
+PATH=$JAVA_HOME/bin:$PATH
+```
+
+具体操作指令如下: 
+
+```
+1). 编辑/etc/profile文件，进入命令模式
+	vim /etc/profile
+
+2). 在命令模式中，输入指令 G ， 切换到文件最后
+	G
+
+3). 在命令模式中输入 i/a/o 进入插入模式，然后切换到文件最后一行
+	i
+
+4). 将上述的配置拷贝到文件中
+	export JAVA_HOME=/usr/local/jdk1.8.0_171
+	export PATH=$JAVA_HOME/bin:$PATH
+	
+5). 从插入模式，切换到指令模式
+	ESC
+	
+6). 按:进入底行模式，然后输入wq，回车保存
+	:wq
+```
+
+
+
+##### 4. 重新加载profile文件
+
+为了使更改的配置立即生效，需要重新加载profile文件，执行命令:
+
+```
+source /etc/profile
+```
+
+
+
+##### 5. 检查安装是否成功
+
+```
+java -version
+```
+
+![image-20210814182327675](./Mysql-Learning-Local.assets/image-20210814182327675.png) 
+
+
+
+#### ②MyCat安装
+
+##### 1. 上传Mycat压缩包到服务器
+
+Mycat-server-1.6.7.3-release-20210913163959-linux.tar.gz 
+
+
+
+##### 2. 解压MyCat的压缩包
+
+```bash
+tar -zxvf Mycat-server-1.6.7.3-release-20210913163959-linux.tar.gz -C /usr/local/
+```
+
+<img src="./Mysql-Learning-Local.assets/image-20250421142355296.png" alt="image-20250421142355296" style="zoom:80%;" />
+
+
+
+### （4）目录结构
+
+- bin : 存放可执行文件，用于启动停止mycat
+- conf：存放mycat的配置文件
+- lib：存放mycat的项目依赖包（jar）
+- logs：存放mycat的日志文件
+
+![image-20250421142550041](./Mysql-Learning-Local.assets/image-20250421142550041.png)
+
+```bash
+cd lib/ # 查看mycat的项目依赖包
+```
+
+![image-20250421142953194](./Mysql-Learning-Local.assets/image-20250421142953194.png)
+
+```bash
+rm -rf mysql-connector-java-5.1.35.jar
+
+chmod 777 mysql-connector-java-8.0.22.jar
+```
+
+![image-20250421143225917](./Mysql-Learning-Local.assets/image-20250421143225917.png)
+
+![image-20250421143333110](./Mysql-Learning-Local.assets/image-20250421143333110.png)
+
+
+
+### （5）概念介绍
+
+在MyCat的整体结构中，分为两个部分：上面的**逻辑结构**、下面的**物理结构**。
+
+![image-20250421143432824](./Mysql-Learning-Local.assets/image-20250421143432824.png)
+
+在MyCat的逻辑结构主要负责**逻辑库、逻辑表、分片规则、分片节点等逻辑结构的处理**，而具体的数据存储还是在物理结构，也就是数据库服务器中存储的。
+
+在后面讲解MyCat入门以及MyCat分片时，还会讲到上面所提到的概念。
+
+
+
+## 3.3 ==MyCat入门==
+
+### （1）需求
+
+由于 tb_order 表中数据量很大，磁盘IO及容量都到达了瓶颈，现在需要对 tb_order 表进行数据分片，**分为三个数据节点**，每一个节点主机位于不同的服务器上, 具体的结构，参考下图：
+
+![image-20250421143635462](./Mysql-Learning-Local.assets/image-20250421143635462.png)
+
+**对应水平拆分中的：水平分表**
+
+特点：
+
+- 每个表的表结构都一样。
+- **每个表的数据都不一样**。
+- 所有表的并集是全量数据。
+
+
+
+### （2）环境配置
+
+<img src="./Mysql-Learning-Local.assets/image-20250421144030655.png" alt="image-20250421144030655" style="zoom: 67%;" />
+
+准备3台服务器：
+
+- 192.168.200.210：MyCat中间件服务器，同时也是**第一个分片服务器**。
+
+- 192.168.200.213：**第二个分片服务器**。
+
+- 192.168.200.214：**第三个分片服务器**。并且在上述3台数据库中创建数据库 db01 。
+
+  
+
+**我的服务器分配方案：**
+
+- 192.168.88.130 =》JDK、MyCat
+- 192.168.88.130 =》 Mysql 分片服务器一 , 同时也是之前学习的主库
+- 192.168.88.131 =》 Mysql 分片服务器二，同时也是之前学习的从库
+- 192.168.88.129 =》 Mysql 分片服务器三
+
+![image-20250421144733511](./Mysql-Learning-Local.assets/image-20250421144733511.png)
+
+并且在上述3台数据库中**创建数据库 db01** 。
+
+
+
+### （3）==配置==
+
+```bash
+cd /usr/local/mycat/conf
+```
+
+#### ①schema.xml
+
+![image-20250421145729895](./Mysql-Learning-Local.assets/image-20250421145729895.png)
+
+在schema.xml中配置**逻辑库、分片规则、逻辑表、数据节点、节点主机**等相关信息。具体的配置如下：
+
+```xml
+<?xml version="1.0"?>
+<!DOCTYPE mycat:schema SYSTEM "schema.dtd">
+<mycat:schema xmlns:mycat="http://io.mycat/">
+    <schema name="DB01" checkSQLschema="true" sqlMaxLimit="100">
+        <table name="TB_ORDER" dataNode="dn1,dn2,dn3" rule="auto-sharding-long"
+               />
+    </schema>
+    <dataNode name="dn1" dataHost="dhost1" database="db01" />
+    <dataNode name="dn2" dataHost="dhost2" database="db01" />
+    <dataNode name="dn3" dataHost="dhost3" database="db01" />
+    <dataHost name="dhost1" maxCon="1000" minCon="10" balance="0"
+              writeType="0" dbType="mysql" dbDriver="jdbc" switchType="1"
+              slaveThreshold="100">
+        <heartbeat>select user()</heartbeat>
+        <writeHost host="master" url="jdbc:mysql://192.168.88.130:3306?useSSL=false&amp;serverTimezone=Asia/Shanghai&amp;characterEncoding=utf8"
+                   user="root" password="root" />
+    </dataHost>
+    <dataHost name="dhost2" maxCon="1000" minCon="10" balance="0"
+              writeType="0" dbType="mysql" dbDriver="jdbc" switchType="1"
+              slaveThreshold="100">
+        <heartbeat>select user()</heartbeat>
+        <writeHost host="master" url="jdbc:mysql://192.168.88.131:3306?useSSL=false&amp;serverTimezone=Asia/Shanghai&amp;characterEncoding=utf8"
+                   user="root" password="root" />
+    </dataHost>
+    <dataHost name="dhost3" maxCon="1000" minCon="10" balance="0"
+              writeType="0" dbType="mysql" dbDriver="jdbc" switchType="1"
+              slaveThreshold="100">
+        <heartbeat>select user()</heartbeat>
+        <writeHost host="master" url="jdbc:mysql://192.168.88.129:3306?useSSL=false&amp;serverTimezone=Asia/Shanghai&amp;characterEncoding=utf8"
+                   user="root" password="1234" />
+    </dataHost>
+</mycat:schema>
+```
+
+
+
+#### ②server.xml
+
+![image-20250421145714382](./Mysql-Learning-Local.assets/image-20250421145714382.png)
+
+需要在server.xml中配置用户名、密码，以及用户的访问权限信息，具体的配置如下：
+
+```xml
+<user name="root" defaultAccount="true">
+    <property name="password">123456</property>
+    <property name="schemas">DB01</property>
+    <!-- 表级 DML 权限设置 -->
+    <!--
+<privileges check="true">
+<schema name="DB01" dml="0110" >
+<table name="TB_ORDER" dml="1110"></table>
+</schema>
+</privileges>
+-->
+</user>
+<user name="user">
+    <property name="password">123456</property>
+    <property name="schemas">DB01</property>
+    <property name="readOnly">true</property>
+</user>
+```
+
+上述的配置表示，定义了**两个用户 root 和 user** ，这两个用户都可以访问 **DB01 这个逻辑库**，访问密码都是123456，但是root用户访问DB01逻辑库，既可以读，又可以写，但是 user用户访问DB01逻辑库是只读的。
+
+
+
+
+
+### （4）==测试==
+
+#### ①启动
+
+配置完毕后，先启动涉及到的3台分片服务器，然后启动MyCat服务器。切换到Mycat的安装目录，执行如下指令，启动Mycat：
+
+```bash
+#启动
+bin/mycat start
+
+#停止
+bin/mycat stop
+```
+
+![image-20250421145952527](./Mysql-Learning-Local.assets/image-20250421145952527.png)
+
+Mycat启动之后，**占用端口号 8066。**
+
+启动完毕之后，可以**查看logs目录下的启动日志**，查看Mycat是否启动完成。
+
+```bash
+tail -f logs/wrapper.log
+```
+
+![image-20250421150028290](./Mysql-Learning-Local.assets/image-20250421150028290.png)
+
+
+
+#### ②测试
+
+#### ①连接MyCat
+
+通过如下指令，就可以连接并登陆MyCat。
+
+```bash
+mysql -h 192.168.200.210 -P 8066 -uroot -p123456
+
+mysql -h 192.168.88.130 -P 8066 -uroot -p123456
+```
+
+我们看到我们是通过MySQL的指令来连接的MyCat，因为MyCat在底层实际上是模拟了MySQL的协议。
+
+![image-20250421150339609](./Mysql-Learning-Local.assets/image-20250421150339609.png)
+
+ ![image-20250421150641697](./Mysql-Learning-Local.assets/image-20250421150641697.png)
+
+
+
+#### ②数据测试
+
+然后就可以在MyCat中来创建表，并**往表结构中插入数据**，查看数据在MySQL中的分布情况。
+
+在Mycat中创建了tb_order表，**==关联的三个数据节点会自动同步创建==**
+
+```sql
+CREATE TABLE TB_ORDER (
+    id BIGINT(20) NOT NULL,
+    title VARCHAR(100) NOT NULL ,
+    PRIMARY KEY (id)
+) ENGINE=INNODB DEFAULT CHARSET=utf8 ;
+
+INSERT INTO TB_ORDER(id,title) VALUES(1,'goods1');
+INSERT INTO TB_ORDER(id,title) VALUES(2,'goods2');
+INSERT INTO TB_ORDER(id,title) VALUES(3,'goods3');
+INSERT INTO TB_ORDER(id,title) VALUES(1,'goods1');
+INSERT INTO TB_ORDER(id,title) VALUES(2,'goods2');
+INSERT INTO TB_ORDER(id,title) VALUES(3,'goods3');
+INSERT INTO TB_ORDER(id,title) VALUES(5000000,'goods5000000');
+INSERT INTO TB_ORDER(id,title) VALUES(10000000,'goods10000000');
+INSERT INTO TB_ORDER(id,title) VALUES(10000001,'goods10000001');
+INSERT INTO TB_ORDER(id,title) VALUES(15000000,'goods15000000');
+INSERT INTO TB_ORDER(id,title) VALUES(15000001,'goods15000001');
+```
+
+
+
+经过测试，我们发现，在往 TB_ORDER 表中插入数据时：
+
+- 如果**id的值在1-500w之间**，数据将会存储在**第一个分片数据库**中。
+- 如果id的值在**500w-1000w之间**，数据将会存储在**第二个分片数据库**中。
+- 如果id的值在**1000w-1500w之间**，数据将会存储在**第三个分片数据库**中。
+- 如果id的值超出1500w，在插入数据时，将会报错。
+
+[对应-范围分片规则](#范围分片规则)
+
+为什么会出现这种现象，数据到底落在哪一个分片服务器到底是如何决定的呢？ 这是由逻辑表配置时的一个参数 rule 决定的，而这个**参数配置的就是分片规则**，关于分片规则的配置，在后面的课程中会详细讲解。
+
+
+
+## 3.4 ==MyCat配置==
+
+### （1）schema.xml
+
+schema.xml 作为MyCat中最重要的配置文件之一 , 涵盖了MyCat的**逻辑库 、 逻辑表 、 分片规则、分片节点及数据源的配置**。
+
+![image-20250421194221976](./Mysql-Learning-Local.assets/image-20250421194221976.png)
+
+主要包含以下三组标签：
+
+- schema标签
+- datanode标签
+- datahost标签
+
+
+
+#### ①schema标签
+
+##### 1). schema 定义==逻辑库==
+
+![image-20250421194229014](./Mysql-Learning-Local.assets/image-20250421194229014.png)
+
+schema 标签用于定义 MyCat实例中的逻辑库 , **一个MyCat实例中, 可以有多个逻辑库** , 可以通过 schema 标签来划分不同的逻辑库。MyCat中的逻辑库的概念，**等同于MySQL中的database概念**, 需要操作某个逻辑库下的表时, 也需要**切换逻辑库(use xxx)**。
+
+
+
+核心属性：
+
+- name：指定自定义的**逻辑库库名** ，注意大小写问题
+- checkSQLschema：在SQL语句操作时指定了数据库名称，执行时是否自动去除；true：自动去除，false：不自动去除
+  - 若checkSQLschema = true，表示可以直接通过select * from **DB01.TB_ORDER**进行查询，不用先使用use xx，进行切换，再进行查询
+
+- sqlMaxLimit：如果未指定limit进行查询，列表查询模式**最多查询多少条记录**
+
+
+
+##### 2). schema 中的table定义==逻辑表==
+
+![image-20250421194246543](./Mysql-Learning-Local.assets/image-20250421194246543.png)
+
+table 标签定义了MyCat中逻辑库schema下的逻辑表 , **所有需要拆分的表都需要在table标签中定义** 。
+
+核心属性：
+
+- name：定义逻辑表表名，在该逻辑库下唯一
+- dataNode：定义逻辑表所属的dataNode，**该属性需要与dataNode标签中name对应**；多个dataNode逗号分隔
+- rule：分片规则的名字，**分片规则名字是在rule.xml中定义的**
+- primaryKey：逻辑表对应真实表的主键
+- type：逻辑表的类型，目前逻辑表只有全局表和普通表，**如果未配置，就是普通表**；全局表，配置为 global
+
+
+
+#### ②datanode标签
+
+![image-20250421194434132](./Mysql-Learning-Local.assets/image-20250421194434132.png)
+
+核心属性：
+
+- name：定义数据节点名称
+- dataHost：**数据库实例主机名称**，引用自 dataHost 标签中name属性
+- database：定义分片**所属数据库**
+
+
+
+#### ③datahost标签
+
+![image-20250421194521482](./Mysql-Learning-Local.assets/image-20250421194521482.png)
+
+该标签在MyCat逻辑库中作为**底层标签存在**, 直接定义了**具体的数据库实例、读写分离、心跳语句**。
+
+核心属性：
+
+- name：唯一标识，供上层标签使用
+- maxCon/minCon：最大连接数/最小连接数
+- balance：**负载均衡策略**，取值 0,1,2,3
+- writeType：**写操作分发方式**
+  - 0：写操作转发到第一个writeHost，第一个挂了，切换到第二个；
+  - 1：写操作随机分发到配置的writeHost
+
+- dbDriver：**数据库驱动**，支持 native、jdbc
+
+
+
+### （2）rule.xml
+
+rule.xml中**定义所有拆分表的规则**, 在使用过程中可以灵活的使用分片算法, 或者对同一个分片算法使用不同的参数, 它**让分片过程可配置化**。主要包含两类标签：**tableRule、Function**。
+
+ ![image-20250421194852181](./Mysql-Learning-Local.assets/image-20250421194852181.png)
+
+
+
+### （3）server.xml
+
+server.xml配置文件包含了**MyCat的系统配置信息**，主要有两个重要的标签：**system、user**。
+
+#### ① system标签
+
+<img src="./Mysql-Learning-Local.assets/image-20250421195021824.png" alt="image-20250421195021824" style="zoom:80%;" />
+
+主要配置MyCat中的系统配置信息，对应的系统配置项及其含义，如下：
+
+![image-20250420154432101](./Mysql-Learning-Local.assets/image-20250420154432101.png)
+
+
+
+![image-20250420154450239](./Mysql-Learning-Local.assets/image-20250420154450239.png)
+
+
+
+![image-20250420154502890](./Mysql-Learning-Local.assets/image-20250420154502890.png)
+
+
+
+#### ② user标签
+
+配置MyCat中的用户、访问密码，以及用户针对于逻辑库、逻辑表的**权限信息**，具体的权限描述方式及配置说明如下：
+
+![image-20250421195035542](./Mysql-Learning-Local.assets/image-20250421195035542.png)
+
+在测试权限操作时，我们只需要将 privileges 标签的注释放开。
+
+1.  在 privileges 下的**schema标签**中**配置的dml属性配置的是逻辑库的权限**。
+2.  在privileges的schema下的**table标签**的dml属性中**配置逻辑表的权限**。
+3.  dml => 对应4位二进制数，分别**对应IUSD（增、改、查、删）的权限**。
+
+
+
+
+
+## 3.5 🚀 ==MyCat分片==-分库/分表
+
+这里的分片指的就是分库分表
+
+### （1）垂直拆分
+
+#### ①场景
+
+在业务系统中, 涉及以下表结构 ,但是由于用户与订单每天都会产生大量的数据, 单台服务器的数据存储及处理能力是有限的, 可以对**数据库表进行拆分**, 原有的数据库表如下。
+
+<img src="./Mysql-Learning-Local.assets/image-20250421195819684.png" alt="image-20250421195819684" style="zoom: 80%;" />
+
+现在考虑将其进行**垂直分库操作**，将商品相关的表拆分到一个数据库服务器，订单表拆分的一个数据库服务器，用户及省市区表拆分到一个服务器。最终结构如下：
+
+<img src="./Mysql-Learning-Local.assets/image-20250421195853304.png" alt="image-20250421195853304" style="zoom:80%;" />
+
+
+
+#### ②准备
+
+准备三台服务器，IP地址如图所示：
+
+<img src="./Mysql-Learning-Local.assets/image-20250421200056668.png" alt="image-20250421200056668" style="zoom: 67%;" />
+
+并且在192.168.200.210，192.168.200.213, 192.168.200.214上面**手动先创建数据库shopping**。
+
+<img src="./Mysql-Learning-Local.assets/image-20250421200413381.png" alt="image-20250421200413381" style="zoom: 80%;" />
+
+
+
+#### ③配置
+
+##### 1). schema.xml
+
+```bash
+cd /usr/local/mycat/conf
+```
+
+```xml
+<?xml version="1.0"?>
+<!DOCTYPE mycat:schema SYSTEM "schema.dtd">
+<mycat:schema xmlns:mycat="http://io.mycat/">
+    <schema name="SHOPPING" checkSQLschema="true" sqlMaxLimit="100">
+        <table name="tb_goods_base" dataNode="dn1" primaryKey="id" />
+        <table name="tb_goods_brand" dataNode="dn1" primaryKey="id" />
+        <table name="tb_goods_cat" dataNode="dn1" primaryKey="id" />
+        <table name="tb_goods_desc" dataNode="dn1" primaryKey="goods_id" />
+        <table name="tb_goods_item" dataNode="dn1" primaryKey="id" />
+
+        <table name="tb_order_item" dataNode="dn2" primaryKey="id" />
+        <table name="tb_order_master" dataNode="dn2" primaryKey="order_id" />
+        <table name="tb_order_pay_log" dataNode="dn2" primaryKey="out_trade_no" />
+
+        <table name="tb_user" dataNode="dn3" primaryKey="id" />
+        <table name="tb_user_address" dataNode="dn3" primaryKey="id" />
+        <table name="tb_areas_provinces" dataNode="dn3" primaryKey="id"/>
+        <table name="tb_areas_city" dataNode="dn3" primaryKey="id"/>
+        <table name="tb_areas_region" dataNode="dn3" primaryKey="id"/>
+    </schema>
+
+    <dataNode name="dn1" dataHost="dhost1" database="shopping" />
+    <dataNode name="dn2" dataHost="dhost2" database="shopping" />
+    <dataNode name="dn3" dataHost="dhost3" database="shopping" />
+
+    <dataHost name="dhost1" maxCon="1000" minCon="10" balance="0"
+              writeType="0" dbType="mysql" dbDriver="jdbc" switchType="1"
+              slaveThreshold="100">
+        <heartbeat>select user()</heartbeat>
+        <writeHost host="master" url="jdbc:mysql://192.168.88.130:3306?useSSL=false&amp;serverTimezone=Asia/Shanghai&amp;characterEncoding=utf8"
+                   user="root" password="root" />
+    </dataHost>
+
+    <dataHost name="dhost2" maxCon="1000" minCon="10" balance="0"
+              writeType="0" dbType="mysql" dbDriver="jdbc" switchType="1"
+              slaveThreshold="100">
+        <heartbeat>select user()</heartbeat>
+        <writeHost host="master" url="jdbc:mysql://192.168.88.131:3306?useSSL=false&amp;serverTimezone=Asia/Shanghai&amp;characterEncoding=utf8"
+                   user="root" password="root" />
+    </dataHost>
+
+    <dataHost name="dhost3" maxCon="1000" minCon="10" balance="0"
+              writeType="0" dbType="mysql" dbDriver="jdbc" switchType="1"
+              slaveThreshold="100">
+        <heartbeat>select user()</heartbeat>
+        <writeHost host="master" url="jdbc:mysql://192.168.88.129:3306?useSSL=false&amp;serverTimezone=Asia/Shanghai&amp;characterEncoding=utf8"
+                   user="root" password="1234" />
+    </dataHost>
+</mycat:schema>
+```
+
+
+
+##### 2). server.xml
+
+```xml
+<user name="root" defaultAccount="true">
+    <property name="password">123456</property>
+    <property name="schemas">SHOPPING</property>
+    <!-- 表级 DML 权限设置 -->
+    <!--
+<privileges check="true">
+<schema name="DB01" dml="0110" >
+<table name="TB_ORDER" dml="1110"></table>
+</schema>
+</privileges>
+-->
+</user>
+<user name="user">
+    <property name="password">123456</property>
+    <property name="schemas">SHOPPING</property>
+    <property name="readOnly">true</property>
+</user>
+```
+
+
+
+配置完毕后，**重新启动MyCat**。
+
+```bash
+#启动
+bin/mycat start
+
+#停止
+bin/mycat stop
 ```
 
 
 
 
 
+#### ④测试
 
+![image-20250421201910524](./Mysql-Learning-Local.assets/image-20250421201910524.png)
 
+##### 1). 上传测试SQL脚本到服务器的/root目录
 
+![image-20250421200951043](./Mysql-Learning-Local.assets/image-20250421200951043.png)
 
+**登录Mycat**
 
+```bash
+mysql -h 192.168.200.210 -P 8066 -uroot -p123456
+```
 
 
 
+**具体的脚本可在`运维篇的SQL脚本的垂直拆分`中找到**
 
+```sql
+source /root/shopping-table.sql;
+source /root/shopping-insert.sql;
+```
 
 
 
+##### 2). 执行指令导入测试数据
 
+重新启动MyCat后，在mycat的命令行中，**通过source指令导入表结构，以及对应的数据**，查看数据分布情况。
 
+```sql
+source /root/shopping-table.sql
 
+source /root/shopping-insert.sql
+```
 
+将表结构及对应的测试数据导入之后，可以检查一下**各个数据库服务器中的表结构分布情况**。 检查是否和我们准备工作中规划的服务器一致。
 
+![image-20250421201418015](./Mysql-Learning-Local.assets/image-20250421201418015.png)
 
 
 
 
 
+##### 3). 查询用户的收件人及收件人地址信息(包含省、市、区)。
 
+在**MyCat的命令行**中，当我们**执行以下==多表联查==的SQL语句**时，可以正常查询出数据。
 
+```sql
+select ua.user_id, ua.contact, p.province, c.city, r.area , ua.address 
+from
+tb_user_address ua ,tb_areas_city c , tb_areas_provinces p ,tb_areas_region r
+where ua.province_id = p.provinceid and ua.city_id = c.cityid and ua.town_id =
+r.areaid ;
+```
 
+<img src="./Mysql-Learning-Local.assets/image-20250421211014536.png" alt="image-20250421211014536" style="zoom:67%;" />
 
 
 
+##### 4). 查询每一笔订单及订单的收件地址信息(包含省、市、区)。
 
+实现该需求对应的SQL语句如下：
 
+```sql
+SELECT order_id , payment ,receiver, province , city , area 
+FROM tb_order_master o
+, tb_areas_provinces p , tb_areas_city c , tb_areas_region r 
+WHERE o.receiver_province = p.provinceid AND o.receiver_city = c.cityid AND
+o.receiver_region = r.areaid;
+```
 
+但是现在存在一个问题，订单相关的表结构是在 192.168.200.213 数据库服务器中，而省市区的数据库表是在 192.168.200.214 数据库服务器中。那么在MyCat中执行是否可以成功呢？
 
 
 
+经过测试，我们看到，SQL语句执行报错。原因就是因为MyCat在执行该SQL语句时，需要往具体的数据库服务器中路由，而当前没有一个数据库服务器完全包含了订单以及省市区的表结构，**造成SQL语句失败，报错**。
 
 
 
+对于上述的这种现象，我们如何来解决呢？ 下面我们介绍的**全局表**，就可以轻松解决这个问题。
 
 
 
+#### ⑤==全局表==
 
+对于省、市、区/县表tb_areas_provinces , tb_areas_city , tb_areas_region，是属于数据字典表，在多个业务模块中都可能会遇到，可以**将其设置为全局表，利于业务操作**。
 
+修改schema.xml中的逻辑表的配置，修改 tb_areas_provinces、tb_areas_city、tb_areas_region 三个逻辑表，**==添加关联的dataNode，并增加 type 属性，配置为global==**，就代表该表是全局表，就会在所涉及到的dataNode中创建该表。对于当前配置来说，也就意味着**所有的节点中都有该表**了。
 
+```xml
+<table name="tb_areas_provinces" dataNode="dn1,dn2,dn3" primaryKey="id" type="global"/>
+<table name="tb_areas_city" dataNode="dn1,dn2,dn3" primaryKey="id" type="global"/>
+<table name="tb_areas_region" dataNode="dn1,dn2,dn3" primaryKey="id" type="global"/>
+```
 
+<img src="./Mysql-Learning-Local.assets/image-20250421201952688.png" alt="image-20250421201952688" style="zoom: 67%;" />
 
+配置完毕后，**重新启动MyCat**。
 
+```bash
+#启动
+bin/mycat start
 
+#停止
+bin/mycat stop
+```
 
 
 
+**1). 删除原来每一个数据库服务器中的所有表结构**
 
+**2). 通过source指令，导入表及数据**
 
+```sql
+source /root/shopping-table.sql
 
+source /root/shopping-insert.sql
+```
 
+**3). 检查每一个数据库服务器中的表及数据分布，看到三个节点中都有这三张全局表**
 
+**4). 然后再次执行上面的多表联查的SQL语句**
 
+```sql
+SELECT order_id , payment ,receiver, province , city , area FROM tb_order_master o
+, tb_areas_provinces p , tb_areas_city c , tb_areas_region r WHERE
+o.receiver_province = p.provinceid AND o.receiver_city = c.cityid AND
+o.receiver_region = r.areaid ;
+```
 
+<img src="./Mysql-Learning-Local.assets/image-20250421210840765.png" alt="image-20250421210840765" style="zoom:80%;" />
 
+是可以正常执行成功的。
 
+**5). 当在MyCat中更新全局表的时候，我们可以看到，所有分片节点中的数据都发生了变化，每个节点的全局表数据时刻保持一致。**
 
 
 
+### （2）水平拆分
 
+#### ①场景
 
+在业务系统中, 有一张表(日志表), 业务系统每天都会产生大量的**日志数据** , 单台服务器的数据存储及处理能力是有限的, 可以对**数据库表进行拆分**。
 
+![image-20250421211034417](./Mysql-Learning-Local.assets/image-20250421211034417.png)
 
+#### ②准备
 
+准备三台服务器，具体的结构如下：
 
+<img src="./Mysql-Learning-Local.assets/image-20250421211054718.png" alt="image-20250421211054718" style="zoom: 50%;" />
 
+并且，在三台数据库服务器中**分别创建一个数据库itcast**。
 
 
 
+#### ③配置
 
+##### 1). schema.xml
 
+```xml
+<schema name="ITCAST" checkSQLschema="true" sqlMaxLimit="100">
+    <table name="tb_log" dataNode="dn4,dn5,dn6" primaryKey="id" rule="mod-long" />
+</schema>
 
+<dataNode name="dn4" dataHost="dhost1" database="itcast" />
+<dataNode name="dn5" dataHost="dhost2" database="itcast" />
+<dataNode name="dn6" dataHost="dhost3" database="itcast" />
+```
 
+tb_log表最终落在3个节点中，分别是 dn4、dn5、dn6 ，而具体的数据分别存储在 dhost1、dhost2、dhost3的itcast数据库中。
 
+**分片规则为：mod-long**，取模分片，默认mod 3
 
 
 
+##### 2). server.xml
 
+配置root用户既可以访问 SHOPPING 逻辑库，又可以访问ITCAST逻辑库。
 
+```xml
+<user name="root" defaultAccount="true">
+    <property name="password">123456</property>
+    <property name="schemas">SHOPPING,ITCAST</property>
+    <!-- 表级 DML 权限设置 -->
+    <!--
+		<privileges check="true">
+		<schema name="DB01" dml="0110" >
+		<table name="TB_ORDER" dml="1110"></table>
+		</schema>
+		</privileges>
+	-->
+</user>
+```
 
+
+
+#### ④测试
+
+配置完毕后，重新启动MyCat，然后在mycat的命令行中，执行如下SQL创建表、并插入数据，查看数据分布情况。
+
+```sql
+CREATE TABLE tb_log (
+    id bigint(20) NOT NULL COMMENT 'ID',
+    model_name varchar(200) DEFAULT NULL COMMENT '模块名',
+    model_value varchar(200) DEFAULT NULL COMMENT '模块值',
+    return_value varchar(200) DEFAULT NULL COMMENT '返回值',
+    return_class varchar(200) DEFAULT NULL COMMENT '返回值类型',
+    operate_user varchar(20) DEFAULT NULL COMMENT '操作用户',
+    operate_time varchar(20) DEFAULT NULL COMMENT '操作时间',
+    param_and_value varchar(500) DEFAULT NULL COMMENT '请求参数名及参数值',
+    operate_class varchar(200) DEFAULT NULL COMMENT '操作类',
+    operate_method varchar(200) DEFAULT NULL COMMENT '操作方法',
+    cost_time bigint(20) DEFAULT NULL COMMENT '执行方法耗时, 单位 ms',
+    source int(1) DEFAULT NULL COMMENT '来源 : 1 PC , 2 Android , 3 IOS',
+    PRIMARY KEY (id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+```
+
+**Insert语句**
+
+```sql
+    INSERT INTO tb_log (id, model_name, model_value, return_value, return_class, operate_user, operate_time, param_and_value, operate_class, operate_method, cost_time，source) VALUES('1','user','insert','success','java.lang.String','10001','2022-01-06 18:12:28','{\"age\":\"20\",\"name\":\"Tom\",\"gender\":\"1\"}','cn.itcast.controller.UserController','insert','10',1);
+    INSERT INTO tb_log (id, model_name, model_value, return_value, return_class, operate_user, operate_time, param_and_value, operate_class, operate_method, cost_time，source) VALUES('2','user','insert','success','java.lang.String','10001','2022-01-06 18:12:27','{\"age\":\"20\",\"name\":\"Tom\",\"gender\":\"1\"}','cn.itcast.controller.UserController','insert','23',1);
+    INSERT INTO tb_log (id, model_name, model_value, return_value, return_class, operate_user, operate_time, param_and_value, operate_class, operate_method, cost_time，source) VALUES('3','user','update','success','java.lang.String','10001','2022-01-06 18:16:45','{\"age\":\"20\",\"name\":\"Tom\",\"gender\":\"1\"}','cn.itcast.controller.UserController','update','34',1);
+    INSERT INTO tb_log (id, model_name, model_value, return_value, return_class, operate_user, operate_time, param_and_value, operate_class, operate_method, cost_time，source) VALUES('4','user','update','success','java.lang.String','10001','2022-01-06 18:16:45','{\"age\":\"20\",\"name\":\"Tom\",\"gender\":\"1\"}','cn.itcast.controller.UserController','update','13',2);
+    INSERT INTO tb_log (id, model_name, model_value, return_value, return_class, operate_user, operate_time, param_and_value, operate_class, operate_method, cost_time，source) VALUES('5','user','insert','success','java.lang.String','10001','2022-01-06 18:30:31','{\"age\":\"200\",\"name\":\"TomCat\",\"gender\":\"0\"}','cn.itcast.controller.UserController','insert','29',3);
+    INSERT INTO tb_log (id, model_name, model_value, return_value, return_class, operate_user, operate_time, param_and_value, operate_class, operate_method, cost_time，source) VALUES('6','user','find','success','java.lang.String','10001','2022-01-06 18:30:31','{\"age\":\"200\",\"name\":\"TomCat\",\"gender\":\"0\"}','cn.itcast.controller.UserController','find','29',2);
+```
+
+
+
+### （3）==分片规则==
+
+#### ①范围分片
+
+<span id = "范围分片规则" > </span>
+
+##### 1). 介绍
+
+根据**指定的字段及其配置的范围**与数据节点的对应情况， 来决定该数据属于哪一个分片。
+
+<img src="./Mysql-Learning-Local.assets/image-20250421212247311.png" alt="image-20250421212247311" style="zoom:67%;" />
+
+##### 2). 配置
+
+![image-20250421212427081](./Mysql-Learning-Local.assets/image-20250421212427081.png)
+
+schema.xml逻辑表配置：
+
+```xml
+<table name="TB_ORDER" dataNode="dn1,dn2,dn3" rule="auto-sharding-long" />
+```
+
+schema.xml数据节点配置：
+
+```xml
+<dataNode name="dn1" dataHost="dhost1" database="db01" />
+<dataNode name="dn2" dataHost="dhost2" database="db01" />
+<dataNode name="dn3" dataHost="dhost3" database="db01" />
+```
+
+rule.xml分片规则配置：
+
+```xml
+<tableRule name="auto-sharding-long">
+    <rule>
+        <columns>id</columns>
+        <algorithm>rang-long</algorithm>
+    </rule>
+</tableRule>
+
+<function name="rang-long" class="io.mycat.route.function.AutoPartitionByLong">
+    <property name="mapFile">autopartition-long.txt</property>
+    <property name="defaultNode">0</property>
+</function>
+```
+
+分片规则配置属性含义：
+
+![image-20250420160936630](./Mysql-Learning-Local.assets/image-20250420160936630.png)
+
+在rule.xml中配置分片规则时，关联了一个映射配置文件 autopartition-long.txt，该配置文件的配置如下：
+
+```bash
+# range start-end ,data node index
+# K=1000,M=10000.
+0-500M=0
+500M-1000M=1
+1000M-1500M=2
+```
+
+含义：0-500万之间的值，存储在0号数据节点(数据节点的索引从0开始) ； 500万-1000万之间的数据存储在1号数据节点 ； 1000万-1500万的数据节点存储在2号节点 ；
+
+如果**超出了1500w**，比如1500w 01，则会报错，需要添加新的数据节点
+
+![image-20250421151802849](./Mysql-Learning-Local.assets/image-20250421151802849.png)
+
+
+
+该分片规则，主要是针对于数字类型的字段适用。 在MyCat的入门程序中，我们使用的就是该分片规则。
+
+
+
+#### ②取模分片
+
+##### 1). 介绍
+
+根据**指定的字段值与==节点数量进行求模==运算**，根据运算结果， 来决定该数据属于哪一个分片。
+
+<img src="./Mysql-Learning-Local.assets/image-20250421212459138.png" alt="image-20250421212459138" style="zoom:67%;" />
+
+##### 2). 配置
+
+![image-20250421212625728](./Mysql-Learning-Local.assets/image-20250421212625728.png)
+
+schema.xml逻辑表配置：
+
+```xml
+<!-- 取模分片 -->
+<table name="tb_log" dataNode="dn4,dn5,dn6" primaryKey="id" rule="mod-long" />
+```
+
+schema.xml数据节点配置：
+
+```xml
+<dataNode name="dn4" dataHost="dhost1" database="itcast" />
+<dataNode name="dn5" dataHost="dhost2" database="itcast" />
+<dataNode name="dn6" dataHost="dhost3" database="itcast" />
+```
+
+rule.xml分片规则配置：
+
+```xml
+<tableRule name="mod-long">
+    <rule>
+        <columns>id</columns>
+        <algorithm>mod-long</algorithm>
+    </rule>
+</tableRule>
+<function name="mod-long" class="io.mycat.route.function.PartitionByMod">
+    <property name="count">3</property>
+</function>
+```
+
+分片规则属性说明如下：
+
+![image-20250420161501109](./Mysql-Learning-Local.assets/image-20250420161501109.png)
+
+该分片规则，主要是针对于数字类型的字段适用。 在前面水平拆分的演示中，我们选择的就是取模分片。
+
+
+
+##### 3). 测试
+
+配置完毕后，重新启动MyCat，然后在mycat的命令行中，执行如下SQL创建表、并插入数据，查看数据分布情况。
+
+
+
+#### ③一致性hash分片
+
+##### 1). 介绍
+
+所谓一致性哈希，**==相同的哈希因子计算值==总是被划分到相同的分区表中**，不会因为分区节点的增加而改变原来数据的分区位置，有效的解决了分布式数据的拓容问题。
+
+- 一致hash说的是**节点增加不影响hash算法值**
+
+<img src="./Mysql-Learning-Local.assets/image-20250421212656441.png" alt="image-20250421212656441" style="zoom: 80%;" />
+
+
+
+##### 2). 配置
+
+![image-20250421212825170](./Mysql-Learning-Local.assets/image-20250421212825170.png)
+
+schema.xml中逻辑表配置：
+
+```xml
+<!-- 一致性hash -->
+<table name="tb_order" dataNode="dn4,dn5,dn6" rule="sharding-by-murmur" />
+```
+
+schema.xml中数据节点配置：
+
+```xml
+<dataNode name="dn4" dataHost="dhost1" database="itcast" />
+<dataNode name="dn5" dataHost="dhost2" database="itcast" />
+<dataNode name="dn6" dataHost="dhost3" database="itcast" />
+```
+
+rule.xml中分片规则配置：
+
+```xml
+<tableRule name="sharding-by-murmur">
+    <rule>
+        <columns>id</columns>
+        <algorithm>murmur</algorithm>
+    </rule>
+</tableRule>
+<function name="murmur" class="io.mycat.route.function.PartitionByMurmurHash">
+    <property name="seed">0</property><!-- 默认是0 -->
+    <property name="count">3</property>
+    <property name="virtualBucketTimes">160</property>
+</function>
+```
+
+分片规则属性含义：
+
+![image-20250420161703182](./Mysql-Learning-Local.assets/image-20250420161703182.png)
+
+
+
+##### 3). 测试
+
+配置完毕后，重新启动MyCat，然后在mycat的命令行中，执行如下SQL创建表、并插入数据，查看数据分布情况。
+
+```sql
+create table tb_order(
+    id  varchar(100) not null primary key,
+    money   int null,
+    content varchar(200) null
+);
+
+INSERT INTO tb_order (id, money, content) VALUES ('b92fdaaf-6fc4-11ec-b831-482ae33c4a2d', 10, 'b92fdaf8-6fc4-11ec-b831-482ae33c4a2d');
+INSERT INTO tb_order (id, money, content) VALUES ('b93482b6-6fc4-11ec-b831-482ae33c4a2d', 20, 'b93482d5-6fc4-11ec-b831-482ae33c4a2d');
+INSERT INTO tb_order (id, money, content) VALUES ('b937e246-6fc4-11ec-b831-482ae33c4a2d', 50, 'b937e25d-6fc4-11ec-b831-482ae33c4a2d');
+INSERT INTO tb_order (id, money, content) VALUES ('b93be2dd-6fc4-11ec-b831-482ae33c4a2d', 100, 'b93be2f9-6fc4-11ec-b831-482ae33c4a2d');
+INSERT INTO tb_order (id, money, content) VALUES ('b93f2d68-6fc4-11ec-b831-482ae33c4a2d', 130, 'b93f2d7d-6fc4-11ec-b831-482ae33c4a2d');
+INSERT INTO tb_order (id, money, content) VALUES ('b9451b98-6fc4-11ec-b831-482ae33c4a2d', 30, 'b9451bcc-6fc4-11ec-b831-482ae33c4a2d');
+INSERT INTO tb_order (id, money, content) VALUES ('b9488ec1-6fc4-11ec-b831-482ae33c4a2d', 560, 'b9488edb-6fc4-11ec-b831-482ae33c4a2d');
+INSERT INTO tb_order (id, money, content) VALUES ('b94be6e6-6fc4-11ec-b831-482ae33c4a2d', 10, 'b94be6ff-6fc4-11ec-b831-482ae33c4a2d');
+INSERT INTO tb_order (id, money, content) VALUES ('b94ee10d-6fc4-11ec-b831-482ae33c4a2d', 123, 'b94ee12c-6fc4-11ec-b831-482ae33c4a2d');
+INSERT INTO tb_order (id, money, content) VALUES ('b952492a-6fc4-11ec-b831-482ae33c4a2d', 145, 'b9524945-6fc4-11ec-b831-482ae33c4a2d');
+INSERT INTO tb_order (id, money, content) VALUES ('b95553ac-6fc4-11ec-b831-482ae33c4a2d', 543, 'b95553c8-6fc4-11ec-b831-482ae33c4a2d');
+INSERT INTO tb_order (id, money, content) VALUES ('b9581cdd-6fc4-11ec-b831-482ae33c4a2d', 17, 'b9581cfa-6fc4-11ec-b831-482ae33c4a2d');
+INSERT INTO tb_order (id, money, content) VALUES ('b95afc0f-6fc4-11ec-b831-482ae33c4a2d', 18, 'b95afc2a-6fc4-11ec-b831-482ae33c4a2d');
+INSERT INTO tb_order (id, money, content) VALUES ('b95daa99-6fc4-11ec-b831-482ae33c4a2d', 134, 'b95daab2-6fc4-11ec-b831-482ae33c4a2d');
+INSERT INTO tb_order (id, money, content) VALUES ('b9667e3c-6fc4-11ec-b831-482ae33c4a2d', 156, 'b9667e60-6fc4-11ec-b831-482ae33c4a2d');
+INSERT INTO tb_order (id, money, content) VALUES ('b96ab489-6fc4-11ec-b831-482ae33c4a2d', 175, 'b96ab4a5-6fc4-11ec-b831-482ae33c4a2d');
+INSERT INTO tb_order (id, money, content) VALUES ('b96e2942-6fc4-11ec-b831-482ae33c4a2d', 180, 'b96e295b-6fc4-11ec-b831-482ae33c4a2d');
+INSERT INTO tb_order (id, money, content) VALUES ('b97092ec-6fc4-11ec-b831-482ae33c4a2d', 123, 'b9709306-6fc4-11ec-b831-482ae33c4a2d');
+INSERT INTO tb_order (id, money, content) VALUES ('b973727a-6fc4-11ec-b831-482ae33c4a2d', 230, 'b9737293-6fc4-11ec-b831-482ae33c4a2d');
+INSERT INTO tb_order (id, money, content) VALUES ('b978840f-6fc4-11ec-b831-482ae33c4a2d', 560, 'b978843c-6fc4-11ec-b831-482ae33c4a2d');
+```
+
+
+
+#### ④枚举分片
+
+##### 1). 介绍
+
+通过在配置文件中**配置可能的枚举值**, 指定数据分布到不同数据节点上, 本规则适用于**按照省份、性别、状态拆分数据**等业务 。
+
+<img src="./Mysql-Learning-Local.assets/image-20250422144941855.png" alt="image-20250422144941855" style="zoom:67%;" />
+
+##### 2). 配置
+
+![image-20250422145040200](./Mysql-Learning-Local.assets/image-20250422145040200.png)
+
+**这里按照tb_user表的 status字段 进行枚举分片，该status对应三个状态1,2,3**
+
+schema.xml中逻辑表配置：
+
+```xml
+<!-- 枚举 -->
+        <table name="tb_user" dataNode="dn4,dn5,dn6" rule="sharding-by-intfile-enumstatus"/>
+        <!-- 自己增加 tableRule: "sharding-by-intfile-enumstatus" -->
+```
+
+schema.xml中数据节点配置：
+
+```xml
+<dataNode name="dn4" dataHost="dhost1" database="itcast" />
+<dataNode name="dn5" dataHost="dhost2" database="itcast" />
+<dataNode name="dn6" dataHost="dhost3" database="itcast" />
+```
+
+rule.xml中分片规则配置：
+
+```xml
+<tableRule name="sharding-by-intfile">
+    <rule>
+        <columns>sharding_id</columns>
+        <algorithm>hash-int</algorithm>
+    </rule>
+</tableRule>
+<!-- 自己增加 tableRule -->
+<tableRule name="sharding-by-intfile-enumstatus">
+    <rule>
+        <columns>status</columns>
+        <algorithm>hash-int</algorithm>
+    </rule>
+</tableRule>
+
+<function name="hash-int" class="io.mycat.route.function.PartitionByFileMap">
+    <!-- defaultNode表示，若没有找到对应匹配的枚举，则使用默认配置的数据节点 -->
+    <property name="defaultNode">2</property>
+    <property name="mapFile">partition-hash-int.txt</property>
+</function>
+```
+
+partition-hash-int.txt ，内容如下 :
+
+```bash
+1=0
+2=1
+3=2
+```
+
+分片规则属性含义：
+
+![image-20250420162034067](./Mysql-Learning-Local.assets/image-20250420162034067.png)
+
+##### 3). 测试
+
+配置完毕后，重新启动MyCat，然后在mycat的命令行中，执行如下SQL创建表、并插入数据，**查看数据分布情况。**
+
+```sql
+CREATE TABLE tb_user (
+    id bigint(20) NOT NULL COMMENT 'ID',
+    username varchar(200) DEFAULT NULL COMMENT '姓名',
+    status int(2) DEFAULT '1' COMMENT '1: 未启用, 2: 已启用, 3: 已关闭',
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+insert into tb_user (id,username ,status) values(1,'Tom',1);
+insert into tb_user (id,username ,status) values(2,'Cat',2);
+insert into tb_user (id,username ,status) values(3,'Rose',3);
+insert into tb_user (id,username ,status) values(4,'Coco',2);
+insert into tb_user (id,username ,status) values(5,'Lily',1);
+insert into tb_user (id,username ,status) values(6,'Tom',1);
+insert into tb_user (id,username ,status) values(7,'Cat',2);
+insert into tb_user (id,username ,status) values(8,'Rose',3);
+insert into tb_user (id,username ,status) values(9,'Coco',2);
+insert into tb_user (id,username ,status) values(10,'Lily',1);
+```
+
+
+
+#### ⑤应用指定算法
+
+##### 1). 介绍
+
+运行阶段由应用自主决定路由到那个分片 , **直接根据字符子串（必须是数字）计算分片号**。
+
+<img src="./Mysql-Learning-Local.assets/image-20250422150321510.png" alt="image-20250422150321510" style="zoom:67%;" />
+
+##### 2). 配置
+
+![image-20250422150708305](./Mysql-Learning-Local.assets/image-20250422150708305.png)
+
+schema.xml中逻辑表配置：
+
+```xml
+<!-- 应用指定算法 -->
+<table name="tb_app" dataNode="dn4,dn5,dn6" rule="sharding-by-substring" />
+```
+
+schema.xml中数据节点配置：
+
+```xml
+<dataNode name="dn4" dataHost="dhost1" database="itcast" />
+<dataNode name="dn5" dataHost="dhost2" database="itcast" />
+<dataNode name="dn6" dataHost="dhost3" database="itcast" />
+```
+
+rule.xml中分片规则配置：
+
+```xml
+<tableRule name="sharding-by-substring">
+    <rule>
+        <columns>id</columns>
+        <algorithm>sharding-by-substring</algorithm>
+    </rule>
+</tableRule>
+
+<function name="sharding-by-substring"
+          class="io.mycat.route.function.PartitionDirectBySubString">
+    <property name="startIndex">0</property> <!-- zero-based -->
+    <property name="size">2</property>
+    <property name="partitionCount">3</property>
+    <property name="defaultPartition">0</property>
+</function>
+```
+
+分片规则属性含义：
+
+![image-20250420162353834](./Mysql-Learning-Local.assets/image-20250420162353834.png)
+
+示例说明 :
+
+id=05-100000002 , 在此配置中代表根据id中从 startIndex=0，开始，截取siz=2位数字即05，05就是获取的分区，**如果没找到对应的分片则默认分配到defaultPartition** 。
+
+
+
+##### 3). 测试
+
+配置完毕后，重新启动MyCat，然后在mycat的命令行中，执行如下SQL创建表、并插入数据，查看数据分布情况。
+
+```sql
+CREATE TABLE tb_app (
+    id varchar(10) NOT NULL COMMENT 'ID',
+    name varchar(200) DEFAULT NULL COMMENT '名称',
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+insert into tb_app (id,name) values('0000001','Testx00001');
+insert into tb_app (id,name) values('0100001','Test100001');
+insert into tb_app (id,name) values('0100002','Test200001');
+insert into tb_app (id,name) values('0200001','Test300001');
+insert into tb_app (id,name) values('0200002','TesT400001');
+```
+
+
+
+
+
+#### ⑥固定分片hash算法
+
+##### 1). 介绍
+
+该算法类似于十进制的求模运算，但是为二进制的操作。
+
+例如，**取 id 的二进制低 10 位 与1111111111 进行位 & 运算**
+
+- 位与运算最小值为 0000000000，最大值为1111111111，转换为十进制，也就是位于**0-1023之间**。
+
+![image-20250422151259810](./Mysql-Learning-Local.assets/image-20250422151259810.png)
+
+特点：
+
+- 如果是求模，连续的值，分别分配到各个不同的分片；但是此算法**==会将连续的值可能分配到相同的分片，降低事务处理的难度==。**
+- 可以均匀分配，也可以非均匀分配。
+- **分片字段必须为数字类型**。
+
+
+
+##### 2). 配置
+
+![image-20250422151530296](./Mysql-Learning-Local.assets/image-20250422151530296.png)
+
+schema.xml中逻辑表配置：
+
+```xml
+<!-- 固定分片hash算法 -->
+<table name="tb_longhash" dataNode="dn4,dn5,dn6" rule="sharding-by-long-hash" />
+```
+
+schema.xml中数据节点配置：
+
+```xml
+<dataNode name="dn4" dataHost="dhost1" database="itcast" />
+<dataNode name="dn5" dataHost="dhost2" database="itcast" />
+<dataNode name="dn6" dataHost="dhost3" database="itcast" />
+```
+
+rule.xml中分片规则配置：
+
+```xml
+<tableRule name="sharding-by-long-hash">
+    <rule>
+        <columns>id</columns>
+        <algorithm>sharding-by-long-hash</algorithm>
+    </rule>
+</tableRule>
+
+<!-- 分片总长度为1024，count与length数组长度必须一致； -->
+<function name="sharding-by-long-hash"
+          class="io.mycat.route.function.PartitionByLong">
+    <property name="partitionCount">2,1</property>
+    <property name="partitionLength">256,512</property>
+</function>
+```
+
+分片规则属性含义：
+
+![image-20250420162636313](./Mysql-Learning-Local.assets/image-20250420162636313.png)
+
+约束 :
+
+- 1). 分片长度 : 默认最大2^10 , 为 1024 ;
+- 2). count, length的数组长度必须是一致的 ;
+
+以上**分为三个分区:0-255,256-511,512-1023**
+
+
+
+示例说明 :
+
+![image-20250422151546846](./Mysql-Learning-Local.assets/image-20250422151546846.png)
+
+
+
+##### 3). 测试
+
+配置完毕后，重新启动MyCat，然后在mycat的命令行中，执行如下SQL创建表、并插入数据，查看数据分布情况。
+
+```sql
+CREATE TABLE tb_longhash (
+    id int(11) NOT NULL COMMENT 'ID',
+    name varchar(200) DEFAULT NULL COMMENT '名称',
+    firstChar char(1) COMMENT '首字母',
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+insert into tb_longhash (id,name,firstChar) values(1,'七匹狼','Q');
+insert into tb_longhash (id,name,firstChar) values(2,'八匹狼','B');
+insert into tb_longhash (id,name,firstChar) values(3,'九匹狼','J');
+insert into tb_longhash (id,name,firstChar) values(4,'十匹狼','S');
+insert into tb_longhash (id,name,firstChar) values(5,'六匹狼','L');
+insert into tb_longhash (id,name,firstChar) values(6,'五匹狼','W');
+insert into tb_longhash (id,name,firstChar) values(7,'四匹狼','S');
+insert into tb_longhash (id,name,firstChar) values(8,'三匹狼','S');
+insert into tb_longhash (id,name,firstChar) values(9,'两匹狼','L');
+```
+
+
+
+#### ⑦字符串hash解析算法
+
+##### 1). 介绍
+
+**截取字符串中的指定位置的子字符串, 进行hash算法**， 算出分片。
+
+![image-20250422152153707](./Mysql-Learning-Local.assets/image-20250422152153707.png)
+
+##### 2). 配置
+
+![image-20250422152506430](./Mysql-Learning-Local.assets/image-20250422152506430.png)
+
+schema.xml中逻辑表配置：
+
+```xml
+<!-- 字符串hash解析算法 -->
+<table name="tb_strhash" dataNode="dn4,dn5" rule="sharding-by-stringhash" />
+```
+
+schema.xml中数据节点配置：
+
+```xml
+<dataNode name="dn4" dataHost="dhost1" database="itcast" />
+<dataNode name="dn5" dataHost="dhost2" database="itcast" />
+```
+
+rule.xml中分片规则配置：
+
+```xml
+<tableRule name="sharding-by-stringhash">
+    <rule>
+        <columns>name</columns>
+        <algorithm>sharding-by-stringhash</algorithm>
+    </rule>
+</tableRule>
+
+<function name="sharding-by-stringhash"
+          class="io.mycat.route.function.PartitionByString">
+    <property name="partitionLength">512</property> <!-- zero-based -->
+    <property name="partitionCount">2</property>
+    <property name="hashSlice">0:2</property>
+</function>
+```
+
+分片规则属性含义：
+
+![image-20250420162916474](./Mysql-Learning-Local.assets/image-20250420162916474.png)
+
+示例说明：
+
+![image-20250422152857435](./Mysql-Learning-Local.assets/image-20250422152857435.png)
+
+##### 3). 测试
+
+配置完毕后，重新启动MyCat，然后在mycat的命令行中，执行如下SQL创建表、并插入数据，查看数据分布情况。
+
+```sql
+create table tb_strhash(
+    name varchar(20) primary key,
+    content varchar(100)
+)engine=InnoDB DEFAULT CHARSET=utf8mb4;
+
+INSERT INTO tb_strhash (name,content) VALUES('T1001', UUID());
+INSERT INTO tb_strhash (name,content) VALUES('ROSE', UUID());
+INSERT INTO tb_strhash (name,content) VALUES('JERRY', UUID());
+INSERT INTO tb_strhash (name,content) VALUES('CRISTINA', UUID());
+INSERT INTO tb_strhash (name,content) VALUES('TOMCAT', UUID());
+```
+
+
+
+#### ⑧按天分片算法
+
+##### 1). 介绍
+
+按照**日期及对应的时间周期**来分片。
+
+![image-20250422152913057](./Mysql-Learning-Local.assets/image-20250422152913057.png)
+
+##### 2). 配置
+
+![image-20250422153250429](./Mysql-Learning-Local.assets/image-20250422153250429.png)
+
+schema.xml中逻辑表配置：
+
+```xml
+<!-- 按天分片 -->
+<table name="tb_datepart" dataNode="dn4,dn5,dn6" rule="sharding-by-date" />
+```
+
+schema.xml中数据节点配置：
+
+```xml
+<dataNode name="dn4" dataHost="dhost1" database="itcast" />
+<dataNode name="dn5" dataHost="dhost2" database="itcast" />
+<dataNode name="dn6" dataHost="dhost3" database="itcast" /
+```
+
+rule.xml中分片规则配置：
+
+```xml
+<tableRule name="sharding-by-date">
+    <rule>
+        <columns>create_time</columns>
+        <algorithm>sharding-by-date</algorithm>
+    </rule>
+</tableRule>
+
+<function name="sharding-by-date"
+          class="io.mycat.route.function.PartitionByDate">
+    <property name="dateFormat">yyyy-MM-dd</property>
+    <property name="sBeginDate">2022-01-01</property>
+    <property name="sEndDate">2022-01-30</property>
+    <property name="sPartionDay">10</property>
+</function>
+	<!--
+		从开始时间开始，每10天为一个分片，到达结束时间之后，会重复开始分片插入。
+		配置表的 dataNode 的分片，必须和分片规则数量一致，
+		例如 2022-01-01 到 2022-12-31 ，每10天一个分片，一共需要37个分片。
+	-->
+```
+
+分片规则属性含义：
+
+![image-20250420163104665](./Mysql-Learning-Local.assets/image-20250420163104665.png)
+
+
+
+##### 3). 测试
+
+配置完毕后，重新启动MyCat，然后在mycat的命令行中，执行如下SQL创建表、并插入数据，查看数据分布情况。
+
+```sql
+create table tb_datepart(
+    id bigint not null comment 'ID' primary key,
+    name varchar(100) null comment '姓名',
+    create_time date null
+)engine=InnoDB DEFAULT CHARSET=utf8mb4;
+
+insert into tb_datepart(id,name ,create_time) values(1,'Tom','2022-01-01');
+insert into tb_datepart(id,name ,create_time) values(2,'Cat','2022-01-10');
+insert into tb_datepart(id,name ,create_time) values(3,'Rose','2022-01-11');
+insert into tb_datepart(id,name ,create_time) values(4,'Coco','2022-01-20');
+insert into tb_datepart(id,name ,create_time) values(5,'Rose2','2022-01-21');
+insert into tb_datepart(id,name ,create_time) values(6,'Coco2','2022-01-30');
+insert into tb_datepart(id,name ,create_time) values(7,'Coco3','2022-01-31');
+```
+
+
+
+#### ⑨自然月分片
+
+##### 1). 介绍
+
+使用场景为**按照月份来分片**, 每个自然月为一个分片。
+
+<img src="./Mysql-Learning-Local.assets/image-20250422154053125.png" alt="image-20250422154053125" style="zoom:67%;" />
+
+##### 2). 配置
+
+![image-20250422154629732](./Mysql-Learning-Local.assets/image-20250422154629732.png)
+
+schema.xml中逻辑表配置：
+
+```xml
+<!-- 按自然月分片 -->
+<table name="tb_monthpart" dataNode="dn4,dn5,dn6" rule="sharding-by-month" />
+```
+
+schema.xml中数据节点配置：
+
+```xml
+<dataNode name="dn4" dataHost="dhost1" database="itcast" />
+<dataNode name="dn5" dataHost="dhost2" database="itcast" />
+<dataNode name="dn6" dataHost="dhost3" database="itcast" />
+```
+
+rule.xml中分片规则配置：
+
+```xml
+<tableRule name="sharding-by-month">
+    <rule>
+        <columns>create_time</columns>
+        <algorithm>partbymonth</algorithm>
+    </rule>
+</tableRule>
+
+<function name="partbymonth" class="io.mycat.route.function.PartitionByMonth">
+    <property name="dateFormat">yyyy-MM-dd</property>
+    <property name="sBeginDate">2022-01-01</property>
+    <property name="sEndDate">2022-03-31</property>
+</function>
+	<!--
+		从开始时间开始，一个月为一个分片，到达结束时间之后，会重复开始分片插入
+		配置表的 dataNode 的分片，必须和分片规则数量一致，例如 2022-01-01 到 2022-12-31 ，一
+		共需要12个分片。
+
+		这里就是说分片的段数一定不能少于时间的间隔，但是时间的间隔可以大于分片的长度
+	-->
+```
+
+分片规则属性含义：
+
+![image-20250420163310864](./Mysql-Learning-Local.assets/image-20250420163310864.png)
+
+
+
+##### 3). 测试
+
+配置完毕后，重新启动MyCat，然后在mycat的命令行中，执行如下SQL创建表、并插入数据，查看数据分布情况。
+
+```sql
+create table tb_monthpart(
+    id bigint not null comment 'ID' primary key,
+    name varchar(100) null comment '姓名',
+    create_time date null
+)engine=InnoDB DEFAULT CHARSET=utf8mb4;
+
+insert into tb_monthpart(id,name ,create_time) values(1,'Tom','2022-01-01');
+insert into tb_monthpart(id,name ,create_time) values(2,'Cat','2022-01-10');
+insert into tb_monthpart(id,name ,create_time) values(3,'Rose','2022-01-31');
+insert into tb_monthpart(id,name ,create_time) values(4,'Coco','2022-02-20');
+insert into tb_monthpart(id,name ,create_time) values(5,'Rose2','2022-02-25');
+insert into tb_monthpart(id,name ,create_time) values(6,'Coco2','2022-03-10');
+insert into tb_monthpart(id,name ,create_time) values(7,'Coco3','2022-03-31');
+insert into tb_monthpart(id,name ,create_time) values(8,'Coco4','2022-04-10');
+insert into tb_monthpart(id,name ,create_time) values(9,'Coco5','2022-04-30');
+```
+
+
+
+### （4）最终配置文件案例
+
+#### ①schema.xml
+
+```xml
+<?xml version="1.0"?>
+<!DOCTYPE mycat:schema SYSTEM "schema.dtd">
+<mycat:schema xmlns:mycat="http://io.mycat/">
+    <schema name="SHOPPING" checkSQLschema="true" sqlMaxLimit="100">
+        <table name="tb_goods_base" dataNode="dn1" primaryKey="id" />
+        <table name="tb_goods_brand" dataNode="dn1" primaryKey="id" />
+        <table name="tb_goods_cat" dataNode="dn1" primaryKey="id" />
+        <table name="tb_goods_desc" dataNode="dn1" primaryKey="goods_id" />
+        <table name="tb_goods_item" dataNode="dn1" primaryKey="id" />
+        
+        <table name="tb_order_item" dataNode="dn2" primaryKey="id" />
+        <table name="tb_order_master" dataNode="dn2" primaryKey="order_id" />
+        <table name="tb_order_pay_log" dataNode="dn2" primaryKey="out_trade_no" />
+        
+        <table name="tb_user" dataNode="dn3" primaryKey="id" />
+        <table name="tb_user_address" dataNode="dn3" primaryKey="id" />
+     
+        <table name="tb_areas_provinces" dataNode="dn1,dn2,dn3" primaryKey="id" type="global"/>
+        <table name="tb_areas_city" dataNode="dn1,dn2,dn3" primaryKey="id" type="global"/>
+        <table name="tb_areas_region" dataNode="dn1,dn2,dn3" primaryKey="id" type="global"/>
+    </schema>
+
+    <schema name="ITCAST" checkSQLschema="true" sqlMaxLimit="100">
+        <!-- 取模分片 -->
+        <table name="tb_log" dataNode="dn4,dn5,dn6" primaryKey="id" rule="mod-long" />
+        <!-- 一致性hash -->
+        <table name="tb_order" dataNode="dn4,dn5,dn6" rule="sharding-by-murmur" />
+
+        <!-- 枚举 -->
+        <table name="tb_user" dataNode="dn4,dn5,dn6" rule="sharding-by-intfile-enumstatus"/>
+        <!-- 自己增加 tableRule: "sharding-by-intfile-enumstatus" -->
+
+        <!-- 应用指定算法 -->
+        <table name="tb_app" dataNode="dn4,dn5,dn6" rule="sharding-by-substring" />
+
+        <!-- 固定分片hash算法 -->
+        <table name="tb_longhash" dataNode="dn4,dn5,dn6" rule="sharding-by-long-hash" />
+
+        <!-- 字符串hash解析算法 -->
+        <table name="tb_strhash" dataNode="dn4,dn5" rule="sharding-by-stringhash" />
+
+        <!-- 按天分片 -->
+        <table name="tb_datepart" dataNode="dn4,dn5,dn6" rule="sharding-by-date" />
+
+
+        <!-- 按自然月分片 -->
+        <table name="tb_monthpart" dataNode="dn4,dn5,dn6" rule="sharding-by-month" />
+        
+    </schema>
+
+    <dataNode name="dn1" dataHost="dhost1" database="shopping" />
+    <dataNode name="dn2" dataHost="dhost2" database="shopping" />
+    <dataNode name="dn3" dataHost="dhost3" database="shopping" />
+
+    <dataNode name="dn4" dataHost="dhost1" database="itcast" />
+    <dataNode name="dn5" dataHost="dhost2" database="itcast" />
+    <dataNode name="dn6" dataHost="dhost3" database="itcast" />
+    
+    <dataHost name="dhost1" maxCon="1000" minCon="10" balance="0"
+              writeType="0" dbType="mysql" dbDriver="jdbc" switchType="1"
+              slaveThreshold="100">
+        <heartbeat>select user()</heartbeat>
+        <writeHost host="master" url="jdbc:mysql://192.168.88.130:3306?useSSL=false&amp;serverTimezone=Asia/Shanghai&amp;characterEncoding=utf8"
+                   user="root" password="root" />
+    </dataHost>
+    
+    <dataHost name="dhost2" maxCon="1000" minCon="10" balance="0"
+              writeType="0" dbType="mysql" dbDriver="jdbc" switchType="1"
+              slaveThreshold="100">
+        <heartbeat>select user()</heartbeat>
+        <writeHost host="master" url="jdbc:mysql://192.168.88.131:3306?useSSL=false&amp;serverTimezone=Asia/Shanghai&amp;characterEncoding=utf8"
+                   user="root" password="root" />
+    </dataHost>
+    
+    <dataHost name="dhost3" maxCon="1000" minCon="10" balance="0"
+              writeType="0" dbType="mysql" dbDriver="jdbc" switchType="1"
+              slaveThreshold="100">
+        <heartbeat>select user()</heartbeat>
+        <writeHost host="master" url="jdbc:mysql://192.168.88.129:3306?useSSL=false&amp;serverTimezone=Asia/Shanghai&amp;characterEncoding=utf8"
+                   user="root" password="1234" />
+    </dataHost>
+</mycat:schema>
+```
+
+
+
+#### ②rule.xml
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- - - Licensed under the Apache License, Version 2.0 (the "License"); 
+	- you may not use this file except in compliance with the License. - You 
+	may obtain a copy of the License at - - http://www.apache.org/licenses/LICENSE-2.0 
+	- - Unless required by applicable law or agreed to in writing, software - 
+	distributed under the License is distributed on an "AS IS" BASIS, - WITHOUT 
+	WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. - See the 
+	License for the specific language governing permissions and - limitations 
+	under the License. -->
+<!DOCTYPE mycat:rule SYSTEM "rule.dtd">
+<mycat:rule xmlns:mycat="http://io.mycat/">
+	<tableRule name="rule1">
+		<rule>
+			<columns>id</columns>
+			<algorithm>func1</algorithm>
+		</rule>
+	</tableRule>
+
+	<tableRule name="rule2">
+		<rule>
+			<columns>user_id</columns>
+			<algorithm>func1</algorithm>
+		</rule>
+	</tableRule>
+
+	<tableRule name="sharding-by-intfile">
+		<rule>
+			<columns>sharding_id</columns>
+			<algorithm>hash-int</algorithm>
+		</rule>
+	</tableRule>
+
+	<!-- 自己增加 tableRule -->
+	<tableRule name="sharding-by-intfile-enumstatus">
+		<rule>
+			<columns>status</columns>
+			<algorithm>hash-int</algorithm>
+		</rule>
+	</tableRule>
+
+	<tableRule name="auto-sharding-long">
+		<rule>
+			<columns>id</columns>
+			<algorithm>rang-long</algorithm>
+		</rule>
+	</tableRule>
+	<tableRule name="mod-long">
+		<rule>
+			<columns>id</columns>
+			<algorithm>mod-long</algorithm>
+		</rule>
+	</tableRule>
+	<tableRule name="sharding-by-murmur">
+		<rule>
+			<columns>id</columns>
+			<algorithm>murmur</algorithm>
+		</rule>
+	</tableRule>
+	<tableRule name="crc32slot">
+		<rule>
+			<columns>id</columns>
+			<algorithm>crc32slot</algorithm>
+		</rule>
+	</tableRule>
+
+	<tableRule name="sharding-by-month">
+		<rule>
+			<columns>create_time</columns>
+			<algorithm>partbymonth</algorithm>
+		</rule>
+	</tableRule>
+
+	<tableRule name="latest-month-calldate">
+		<rule>
+			<columns>calldate</columns>
+			<algorithm>latestMonth</algorithm>
+		</rule>
+	</tableRule>
+	
+	<tableRule name="auto-sharding-rang-mod">
+		<rule>
+			<columns>id</columns>
+			<algorithm>rang-mod</algorithm>
+		</rule>
+	</tableRule>
+	
+	<tableRule name="jch">
+		<rule>
+			<columns>id</columns>
+			<algorithm>jump-consistent-hash</algorithm>
+		</rule>
+	</tableRule>
+
+
+	<tableRule name="sharding-by-substring">
+		<rule>
+			<columns>id</columns>
+			<algorithm>sharding-by-substring</algorithm>
+		</rule>
+	</tableRule>
+
+	<tableRule name="sharding-by-long-hash">
+		<rule>
+			<columns>id</columns>
+			<algorithm>sharding-by-long-hash</algorithm>
+		</rule>
+	</tableRule>
+
+	<tableRule name="sharding-by-stringhash">
+		<rule>
+			<columns>name</columns>
+			<algorithm>sharding-by-stringhash</algorithm>
+		</rule>
+	</tableRule>
+
+	<tableRule name="sharding-by-date">
+		<rule>
+			<columns>create_time</columns>
+			<algorithm>sharding-by-date</algorithm>
+		</rule>
+	</tableRule>
+
+	<function name="murmur"
+		class="io.mycat.route.function.PartitionByMurmurHash">
+		<property name="seed">0</property><!-- 默认是0 -->
+		<property name="count">2</property><!-- 要分片的数据库节点数量，必须指定，否则没法分片 -->
+		<property name="virtualBucketTimes">160</property><!-- 一个实际的数据库节点被映射为这么多虚拟节点，默认是160倍，也就是虚拟节点数是物理节点数的160倍 -->
+		<!-- <property name="weightMapFile">weightMapFile</property> 节点的权重，没有指定权重的节点默认是1。以properties文件的格式填写，以从0开始到count-1的整数值也就是节点索引为key，以节点权重值为值。所有权重值必须是正整数，否则以1代替 -->
+		<!-- <property name="bucketMapPath">/etc/mycat/bucketMapPath</property> 
+			用于测试时观察各物理节点与虚拟节点的分布情况，如果指定了这个属性，会把虚拟节点的murmur hash值与物理节点的映射按行输出到这个文件，没有默认值，如果不指定，就不会输出任何东西 -->
+	</function>
+
+	<function name="crc32slot"
+			  class="io.mycat.route.function.PartitionByCRC32PreSlot">
+	</function>
+
+	<function name="hash-int" class="io.mycat.route.function.PartitionByFileMap">
+		<!-- defaultNode表示，若没有找到对应匹配的枚举，则使用默认配置的数据节点 -->
+		<property name="defaultNode">2</property>
+		<property name="mapFile">partition-hash-int.txt</property>
+	</function>
+
+	<function name="rang-long"
+		class="io.mycat.route.function.AutoPartitionByLong">
+		<property name="mapFile">autopartition-long.txt</property>
+	</function>
+	<function name="mod-long" class="io.mycat.route.function.PartitionByMod">
+		<!-- how many data nodes -->
+		<property name="count">3</property>
+	</function>
+
+	<function name="func1" class="io.mycat.route.function.PartitionByLong">
+		<property name="partitionCount">8</property>
+		<property name="partitionLength">128</property>
+	</function>
+	<function name="latestMonth"
+		class="io.mycat.route.function.LatestMonthPartion">
+		<property name="splitOneDay">24</property>
+	</function>
+
+	
+	<function name="rang-mod" class="io.mycat.route.function.PartitionByRangeMod">
+        	<property name="mapFile">partition-range-mod.txt</property>
+	</function>
+	
+	<function name="jump-consistent-hash" class="io.mycat.route.function.PartitionByJumpConsistentHash">
+		<property name="totalBuckets">3</property>
+	</function>
+
+
+	<function name="sharding-by-substring" class="io.mycat.route.function.PartitionDirectBySubString">
+		<property name="startIndex">0</property> <!-- zero-based -->
+		<property name="size">2</property>
+		<property name="partitionCount">3</property>
+		<property name="defaultPartition">0</property>
+	</function>
+	
+	<!-- 分片总长度为1024，count与length数组长度必须一致； -->
+	<function name="sharding-by-long-hash" class="io.mycat.route.function.PartitionByLong">
+		<property name="partitionCount">2,1</property>
+		<property name="partitionLength">256,512</property>
+	</function>
+
+	<function name="sharding-by-stringhash" class="io.mycat.route.function.PartitionByString">
+    	<property name="partitionLength">512</property> <!-- zero-based -->
+   	 	<property name="partitionCount">2</property>
+    	<property name="hashSlice">0:2</property>
+	</function>
+
+
+	<function name="sharding-by-date" class="io.mycat.route.function.PartitionByDate">
+		<property name="dateFormat">yyyy-MM-dd</property>
+		<property name="sBeginDate">2022-01-01</property>
+		<property name="sEndDate">2022-01-30</property>
+		<property name="sPartionDay">10</property>
+	</function>
+		<!--
+			从开始时间开始，每10天为一个分片，到达结束时间之后，会重复开始分片插入。
+			配置表的 dataNode 的分片，必须和分片规则数量一致，
+			例如 2022-01-01 到 2022-12-31 ，每10天一个分片，一共需要37个分片。
+		-->
+
+
+	<function name="partbymonth" class="io.mycat.route.function.PartitionByMonth">
+		<property name="dateFormat">yyyy-MM-dd</property>
+		<property name="sBeginDate">2022-01-01</property>
+		<property name="sEndDate">2022-03-31</property>
+	</function>
+		<!--
+			从开始时间开始，一个月为一个分片，到达结束时间之后，会重复开始分片插入
+			配置表的 dataNode 的分片，必须和分片规则数量一致，例如 2022-01-01 到 2022-12-31 ，一
+			共需要12个分片。
+	
+			这里就是说分片的段数一定不能少于时间的间隔，但是时间的间隔可以大于分片的长度
+		-->
+
+</mycat:rule>
+```
+
+
+
+#### ③server.xml
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- - - Licensed under the Apache License, Version 2.0 (the "License"); 
+	- you may not use this file except in compliance with the License. - You 
+	may obtain a copy of the License at - - http://www.apache.org/licenses/LICENSE-2.0 
+	- - Unless required by applicable law or agreed to in writing, software - 
+	distributed under the License is distributed on an "AS IS" BASIS, - WITHOUT 
+	WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. - See the 
+	License for the specific language governing permissions and - limitations 
+	under the License. -->
+<!DOCTYPE mycat:server SYSTEM "server.dtd">
+<mycat:server xmlns:mycat="http://io.mycat/">
+	<system>
+	<property name="nonePasswordLogin">0</property> <!-- 0为需要密码登陆、1为不需要密码登陆 ,默认为0，设置为1则需要指定默认账户-->
+	<property name="useHandshakeV10">1</property>
+	<property name="useSqlStat">1</property>  <!-- 1为开启实时统计、0为关闭 -->
+	<property name="useGlobleTableCheck">0</property>  <!-- 1为开启全加班一致性检测、0为关闭 -->
+		<property name="sqlExecuteTimeout">300</property>  <!-- SQL 执行超时 单位:秒-->
+		<property name="sequnceHandlerType">2</property>
+		<!--<property name="sequnceHandlerPattern">(?:(\s*next\s+value\s+for\s*MYCATSEQ_(\w+))(,|\)|\s)*)+</property>-->
+		<!--必须带有MYCATSEQ_或者 mycatseq_进入序列匹配流程 注意MYCATSEQ_有空格的情况-->
+		<property name="sequnceHandlerPattern">(?:(\s*next\s+value\s+for\s*MYCATSEQ_(\w+))(,|\)|\s)*)+</property>
+	<property name="subqueryRelationshipCheck">false</property> <!-- 子查询中存在关联查询的情况下,检查关联字段中是否有分片字段 .默认 false -->
+      <!--  <property name="useCompression">1</property>--> <!--1为开启mysql压缩协议-->
+        <!--  <property name="fakeMySQLVersion">5.6.20</property>--> <!--设置模拟的MySQL版本号-->
+	<!-- <property name="processorBufferChunk">40960</property> -->
+	<!-- 
+	<property name="processors">1</property> 
+	<property name="processorExecutor">32</property> 
+	 -->
+        <!--默认为type 0: DirectByteBufferPool | type 1 ByteBufferArena | type 2 NettyBufferPool -->
+		<property name="processorBufferPoolType">0</property>
+		<!--默认是65535 64K 用于sql解析时最大文本长度 -->
+		<!--<property name="maxStringLiteralLength">65535</property>-->
+		<!--<property name="sequnceHandlerType">0</property>-->
+		<!--<property name="backSocketNoDelay">1</property>-->
+		<!--<property name="frontSocketNoDelay">1</property>-->
+		<!--<property name="processorExecutor">16</property>-->
+		<!--
+			<property name="serverPort">8066</property> <property name="managerPort">9066</property> 
+			<property name="idleTimeout">300000</property> <property name="bindIp">0.0.0.0</property>
+			<property name="dataNodeIdleCheckPeriod">300000</property> 5 * 60 * 1000L; //连接空闲检查
+			<property name="frontWriteQueueSize">4096</property> <property name="processors">32</property> -->
+		<!--分布式事务开关，0为不过滤分布式事务，1为过滤分布式事务（如果分布式事务内只涉及全局表，则不过滤），2为不过滤分布式事务,但是记录分布式事务日志-->
+		<property name="handleDistributedTransactions">0</property>
+		
+			<!--
+			off heap for merge/order/group/limit      1开启   0关闭
+		-->
+		<property name="useOffHeapForMerge">0</property>
+
+		<!--
+			单位为m
+		-->
+        <property name="memoryPageSize">64k</property>
+
+		<!--
+			单位为k
+		-->
+		<property name="spillsFileBufferSize">1k</property>
+
+		<property name="useStreamOutput">0</property>
+
+		<!--
+			单位为m
+		-->
+		<property name="systemReserveMemorySize">384m</property>
+
+
+		<!--是否采用zookeeper协调切换  -->
+		<property name="useZKSwitch">false</property>
+
+		<!-- XA Recovery Log日志路径 -->
+		<!--<property name="XARecoveryLogBaseDir">./</property>-->
+
+		<!-- XA Recovery Log日志名称 -->
+		<!--<property name="XARecoveryLogBaseName">tmlog</property>-->
+		<!--如果为 true的话 严格遵守隔离级别,不会在仅仅只有select语句的时候在事务中切换连接-->
+		<property name="strictTxIsolation">false</property>
+		
+		<property name="useZKSwitch">true</property>
+		
+
+	</system>
+	
+	<!-- 全局SQL防火墙设置 -->
+	<!--白名单可以使用通配符%或着*-->
+	<!--例如<host host="127.0.0.*" user="root"/>-->
+	<!--例如<host host="127.0.*" user="root"/>-->
+	<!--例如<host host="127.*" user="root"/>-->
+	<!--例如<host host="1*7.*" user="root"/>-->
+	<!--这些配置情况下对于127.0.0.1都能以root账户登录-->
+	<!--
+	<firewall>
+	   <whitehost>
+	      <host host="1*7.0.0.*" user="root"/>
+	   </whitehost>
+       <blacklist check="false">
+       </blacklist>
+	</firewall>
+	-->
+
+	<user name="root" defaultAccount="true">
+		<property name="password">123456</property>
+		<property name="schemas">SHOPPING,ITCAST</property>
+		<!-- 表级 DML 权限设置 -->
+		<!--
+	<privileges check="true">
+	<schema name="DB01" dml="0110" >
+	<table name="TB_ORDER" dml="1110"></table>
+	</schema>
+	</privileges>
+	-->
+	</user>
+	<user name="user">
+		<property name="password">123456</property>
+		<property name="schemas">SHOPPING</property>
+		<property name="readOnly">true</property>
+	</user>
+
+</mycat:server>
+```
+
+
+
+## 3.6 MyCat管理及监控
+
+### （1）MyCat原理
+
+![image-20250422155430952](./Mysql-Learning-Local.assets/image-20250422155430952.png)
+
+在MyCat中，当执行一条SQL语句时，MyCat需要进行**SQL解析、分片分析、路由分析、读写分离分析**等操作，最终经过一系列的分析决定将当前的SQL语句到底路由到那几个(或哪一个)节点数据库，数据库将数据执行完毕后，如果有返回的结果，则将结果返回给MyCat，最终还需要在MyCat中进行**结果合并、聚合处理、排序处理、分页处理等操作**，最终再将结果返回给客户端。
+
+而在MyCat的使用过程中，MyCat官方也提供了一个**管理监控平台MyCat-Web（MyCat-eye）**。Mycat-web 是 Mycat 可视化运维的管理和监控平台，弥补了 Mycat 在监控上的空白。帮 Mycat分担统计任务和配置管理任务。Mycat-web 引入了 **==ZooKeeper 作为配置中心==，可以管理多个节点**。
+
+Mycat-web 主要管理和监控 Mycat 的流量、连接、活动线程和内存等，具备 IP 白名单、邮件告警等模块，还可以**统计 SQL 并分析慢 SQL 和高频 SQL** 等。为优化 SQL 提供依据。
+
+
+
+### （2）MyCat管理
+
+Mycat默认开通2个端口，可以在server.xml中进行修改。
+
+- **8066 数据访问端口**，即进行 DML 和 DDL 操作。
+- **9066 数据库管理端口**，即 mycat 服务管理控制功能，用于管理mycat的整个集群状态
+
+连接MyCat的管理控制台：
+
+```bash
+mysql -h 192.168.200.210 -p 9066 -uroot -p123456 
+
+mysql -h 192.168.88.130 -p 9066 -uroot -p123456 
+```
+
+![image-20250420163547918](./Mysql-Learning-Local.assets/image-20250420163547918.png)
+
+
+
+### （3）==MyCat-eye==
+
+#### ①介绍
+
+Mycat-web(Mycat-eye)是对mycat-server**提供监控服务**，功能不局限于对mycat-server使用。他通过JDBC连接对Mycat、Mysql监控，监控远程服务器(目前仅限于linux系统)的cpu、内存、网络、磁盘。
+
+Mycat-eye运行过程中**需要依赖zookeeper**，因此需要先安装zookeeper。
+
+
+
+#### ②安装
+
+##### 1). zookeeper安装
+
+**A. 上传安装包** 
+
+```bash
+zookeeper-3.4.6.tar.gz
+```
+
+​	
+
+ **B. 解压**
+
+```bash
+tar -zxvf zookeeper-3.4.6.tar.gz -C /usr/local/
+```
+
+
+
+**C. 创建数据存放目录**
+
+```bash
+cd /usr/local/zookeeper-3.4.6/
+mkdir data
+
+cd data
+pwd #复制data的文件夹路径
+```
+
+​	
+
+**D. 修改配置文件名称并配置**
+
+```bash
+cd conf
+mv zoo_sample.cfg zoo.cfg  # 重命名
+```
+
+​	
+
+**E. 配置数据存放目录**
+
+```bash
+vim zoo.cfg
+dataDir=/usr/local/zookeeper-3.4.6/data
+```
+
+
+​	**F. 启动Zookeeper**
+
+```bash
+bin/zkServer.sh start
+bin/zkServer.sh status
+```
+
+
+
+
+##### 2). Mycat-web安装
+
+**A. 上传安装包** 
+
+- ​	Mycat-web.tar.gz
+
+​	
+
+**B. 解压**
+
+```bash
+tar -zxvf Mycat-web.tar.gz -C /usr/local/
+```
+
+​	
+
+**C. 目录介绍**
+
+- ​    etc         ----> jetty配置文件
+- ​    lib         ----> 依赖jar包
+- ​    mycat-web   ----> mycat-web项目
+- ​    readme.txt
+- ​    start.jar   ----> 启动jar
+- ​    start.sh    ----> linux启动脚本
+
+​	
+
+**D. 启动**
+
+```bash
+cd /usr/local/mycat-web
+sh start.sh
+```
+
+​	**开放端口：**
+
+- **==开放指定==端口(firewall-cmd --zone=public --add-port=8080/tcp --permanent)**
+- **关闭指定端口(firewall-cmd --zone=public --remove-port=8080/tcp --permanent)**
+
+- **==立即生效==(firewall-cmd --reload)，==开放或者关闭端口后==需要执行立即生效命令**
+- **查看开放的端口(firewall-cmd --zone=public --list-ports)**
+
+
+
+**E. 访问**
+	
+
+```bash
+# 开放8082端口
+firewall-cmd --zone=public --add-port=8082/tcp --permanent
+firewall-cmd --reload
+```
+
+​	
+
+> 备注: 
+>
+> ​	如果Zookeeper与Mycat-web不在同一台服务器上 , **需要设置Zookeeper的地址** ; 在/usr/local/mycat-web/mycat-web/WEB-INF/classes/mycat.properties文件中配置 : 
+>
+> ​	![image-20220105003433870](./Mysql-Learning-Local.assets/image-20220105003433870.png)
+
+具体的安装步骤，请参考资料中提供的《MyCat-Web安装文档》
+
+
+
+#### ③访问
+
+**http://192.168.88.130:8082/mycat**
+
+
+
+<img src="./Mysql-Learning-Local.assets/image-20250422162028801.png" alt="image-20250422162028801" style="zoom:80%;" />
+
+
+
+#### ④配置
+
+##### 1). 开启MyCat的实时统计功能(server.xml)
+
+```xml
+<property name="useSqlStat">1</property> <!-- 1为开启实时统计、0为关闭 -->
+```
+
+
+
+##### 2). 在Mycat监控界面配置服务地址
+
+<img src="./Mysql-Learning-Local.assets/image-20250422162105865.png" alt="image-20250422162105865" style="zoom:67%;" />
+
+<img src="./Mysql-Learning-Local.assets/image-20250422162011638.png" alt="image-20250422162011638" style="zoom: 67%;" />
+
+
+
+#### ⑤测试
+
+配置好了之后，我们可以通过MyCat执行一系列的增删改查的测试，然后过一段时间之后，打开mycat-eye的管理界面，查看mycat-eye监控到的数据信息。
+
+##### A. 性能监控
+
+<img src="./Mysql-Learning-Local.assets/image-20250422162510986.png" alt="image-20250422162510986" style="zoom:80%;" />
+
+##### B. 物理节点
+
+![image-20250422162456969](./Mysql-Learning-Local.assets/image-20250422162456969.png)
+
+##### C. SQL统计
+
+<img src="./Mysql-Learning-Local.assets/image-20250422162534286.png" alt="image-20250422162534286" style="zoom:80%;" />
+
+##### D. SQL表分析
+
+<img src="./Mysql-Learning-Local.assets/image-20250422162600515.png" alt="image-20250422162600515" style="zoom: 67%;" />
+
+##### E. SQL监控
+
+![image-20250422162631551](./Mysql-Learning-Local.assets/image-20250422162631551.png)
+
+##### F. 高频SQL
+
+![image-20250422162653461](./Mysql-Learning-Local.assets/image-20250422162653461.png)
+
+**G.SQL解析**
+
+<img src="./Mysql-Learning-Local.assets/image-20250422163230277.png" alt="image-20250422163230277" style="zoom:67%;" />
+
+<img src="./Mysql-Learning-Local.assets/image-20250422163301828.png" alt="image-20250422163301828" style="zoom:67%;" />
+
+------
+
+
+
+## 3.7 小结
+
+![image-20250422163706967](./Mysql-Learning-Local.assets/image-20250422163706967.png)
+
+
+
+# 4、读写分离
+
+## 4.1 介绍
+
+读写分离,简单地说是把对数据库的读和写操作分开,以对应不同的数据库服务器。主数据库提供写操作，从数据库提供读操作，这样能有效地减轻单台数据库的压力。
+
+通过MyCat即可轻易实现上述功能，不仅**可以支持MySQL，也可以支持Oracle和SQL Server**。
+
+![image-20250422163732693](./Mysql-Learning-Local.assets/image-20250422163732693.png)
+
+## 4.2 一主一从
+
+### （1）原理
+
+MySQL的**主从复制，是基于==二进制日志（binlog）==实现的**。
+
+![image-20250422164539450](./Mysql-Learning-Local.assets/image-20250422164539450.png)
+
+### （2）准备
+
+![image-20250420164119339](./Mysql-Learning-Local.assets/image-20250420164119339.png)
+
+> 备注：**主从复制的搭建**，可以参考前面课程中 **主从复制** 章节讲解的步骤操作。
+
+**[主从复制的搭建](#主从复制的搭建)**
+
+
+
+## 4.3 一主一从读写分离
+
+MyCat控制后台数据库的读写分离和负载均衡由schema.xml文件datahost标签的balance属性控制。
+
+### （1）schema.xml配置
+
+![image-20250422165744291](./Mysql-Learning-Local.assets/image-20250422165744291.png)
+
+![image-20250422165723964](./Mysql-Learning-Local.assets/image-20250422165723964.png)
+
+```xml
+<!-- 配置逻辑库 -->
+<schema name="ITCAST_RW" checkSQLschema="true" sqlMaxLimit="100" dataNode="dn7">
+	<!-- 会自动加载对应数据节点的数据库，然后再自动生成逻辑表 -->
+</schema>
+
+<dataNode name="dn7" dataHost="dhost7" database="itcast" />
+
+<dataHost name="dhost7" maxCon="1000" minCon="10" balance="1" writeType="0" dbType="mysql" dbDriver="jdbc" switchType="1" slaveThreshold="100">
+    <heartbeat>select user()</heartbeat>
+    <writeHost host="master1" url="jdbc:mysql://192.168.200.211:3306?useSSL=false&amp;serverTimezone=Asia/Shanghai&amp;characterEncoding=utf8" user="root" password="1234" >
+        <readHost host="slave1" url="jdbc:mysql://192.168.200.212:3306? useSSL=false&amp;serverTimezone=Asia/Shanghai&amp;characterEncoding=utf8" user="root" password="1234" />
+    </writeHost>
+</dataHost>
+```
+
+上述配置的具体关联对应情况如下：
+
+
+
+**writeHost代表的是写操作对应的数据库，readHost代表的是读操作对应的数据库。**
+
+ 所以我们要想实现读写分离，就得配置writeHost关联的是主库，readHost关联的是从库。而仅仅配置好了writeHost以及readHost还不能完成读写分离，还需要配置一个非常重要的**==负责均衡的参数 balance==**，取值有4种，具体含义如下：
+
+![image-20250420164249035](./Mysql-Learning-Local.assets/image-20250420164249035.png)
+
+所以，在一主一从模式的读写分离中，**balance配置1或3都是可以完成读写分离的**。
+
+
+
+### （2）server.xml配置
+
+**配置root用户可以访问**SHOPPING、ITCAST 以及 **ITCAST_RW逻辑库**。
+
+```xml
+<user name="root" defaultAccount="true">
+    <property name="password">123456</property>
+    <property name="schemas">SHOPPING,ITCAST,ITCAST_RW</property>
+    <!-- 表级 DML 权限设置 -->
+    <!--
+    <privileges check="true">
+    <schema name="DB01" dml="0110" >
+    <table name="TB_ORDER" dml="1110"></table>
+    </schema>
+    </privileges>
+	-->
+</user>
+```
+
+
+
+### （3）测试
+
+配置完毕MyCat后，重新启动MyCat。
+
+```bash
+bin/mycat stop
+
+bin/mycat start
+```
+
+然后观察，在执行增删改操作时，对应的主库及从库的数据变化。 在执行查询操作时，检查主库及从库对应的数据变化。
+
+在测试中，我们可以发现**当主节点Master宕机之后，业务系统就只能够读，而不能写入数据了**。
+
+![image-20250422165947510](./Mysql-Learning-Local.assets/image-20250422165947510.png)
+
+那如何解决这个问题呢？这个时候我们就得通过另外一种主从复制结构来解决了，也就是我们接下来讲解的**双主双从**。
+
+
+
+## 4.4 ==双主双从==
+
+### （1）介绍
+
+一个主机 Master1 用于处理所有写请求，它的从机 Slave1 和另一台主机 Master2 还有它的从机 Slave2 负责所有读请求。**当 Master1 主机宕机后，Master2 主机负责写请求**，Master1 、Master2 **互为备机**。架构图如下:
+
+![image-20250422165958548](./Mysql-Learning-Local.assets/image-20250422165958548.png)
+
+### （2）准备
+
+我们需要准备5台服务器，具体的服务器及软件安装情况如下：
+
+![image-20250420164606902](./Mysql-Learning-Local.assets/image-20250420164606902.png)
+
+
+
+> **关闭以上所有服务器的防火墙**或者**开放3306的端口**：
+>
+> - systemctl stop firewalld
+>
+> - systemctl disable firewalld
+
+
+
+### （3）搭建
+
+#### ①主库配置
+
+##### 1). Master1(192.168.200.211)
+
+<img src="./Mysql-Learning-Local.assets/image-20250422170317277.png" alt="image-20250422170317277" style="zoom:67%;" />
+
+A. 修改配置文件 /etc/my.cnf
+
+```bash
+#mysql 服务ID，保证整个集群环境中唯一，取值范围：1 – 2^32-1，默认为1
+server-id=1
+#只同步指定的数据库
+binlog-do-db=db01
+binlog-do-db=db02
+binlog-do-db=db03
+# 在作为从数据库的时候，有写入操作也要更新二进制日志文件
+log-slave-updates
+```
+
+B. 重启MySQL服务器
+
+```bash
+systemctl restart mysqld
+```
+
+C. 创建账户并授权
+
+```sql
+#创建itcast用户，并设置密码，该用户可在任意主机连接该MySQL服务
+CREATE USER 'itcast'@'%' IDENTIFIED WITH mysql_native_password BY 'Root@123456';
+
+#为 'itcast'@'%' 用户分配主从复制权限
+GRANT REPLICATION SLAVE ON *.* TO 'itcast'@'%';
+```
+
+通过指令，查看两台主库的二进制日志坐标
+
+```sql
+show master status ;
+```
+
+
+
+
+
+##### **2). Master2(192.168.200.213)**
+
+<img src="./Mysql-Learning-Local.assets/image-20250422170741971.png" alt="image-20250422170741971" style="zoom:67%;" />
+
+A. 修改配置文件 /etc/my.cnf
+
+```bash
+#mysql 服务ID，保证整个集群环境中唯一，取值范围：1 – 2^32-1，默认为1
+server-id=3
+#指定同步的数据库
+binlog-do-db=db01
+binlog-do-db=db02
+binlog-do-db=db03
+# 在作为从数据库的时候，有写入操作也要更新二进制日志文件
+log-slave-updates
+```
+
+B. 重启MySQL服务器
+
+```bash
+systemctl restart mysqld
+```
+
+C. 创建账户并授权
+
+```sql
+#创建itcast用户，并设置密码，该用户可在任意主机连接该MySQL服务
+CREATE USER 'itcast'@'%' IDENTIFIED WITH mysql_native_password BY 'Root@123456';
+#为 'itcast'@'%' 用户分配主从复制权限
+GRANT REPLICATION SLAVE ON *.* TO 'itcast'@'%';
+```
+
+通过指令，查看两台主库的二进制日志坐标
+
+```sql
+show master status ;
+```
+
+
+
+#### ②从库配置
+
+##### **1). Slave1(192.168.200.212)**
+
+<img src="./Mysql-Learning-Local.assets/image-20250422170751107.png" alt="image-20250422170751107" style="zoom:67%;" />
+
+A. 修改配置文件 /etc/my.cnf
+
+```bash
+#mysql 服务ID，保证整个集群环境中唯一，取值范围：1 – 232-1，默认为1
+server-id=2
+```
+
+B. 重新启动MySQL服务器
+
+```bash
+systemctl restart mysqld
+```
+
+
+
+##### **2). Slave2(192.168.200.214)**
+
+<img src="./Mysql-Learning-Local.assets/image-20250422170758508.png" alt="image-20250422170758508" style="zoom:67%;" />
+
+A. 修改配置文件 /etc/my.cnf
+
+```bash
+#mysql 服务ID，保证整个集群环境中唯一，取值范围：1 – 232-1，默认为1
+server-id=4
+```
+
+B. 重新启动MySQL服务器
+
+```bash
+systemctl restart mysqld
+```
+
+
+
+#### ③从库关联主库
+
+##### 1). 两台从库配置关联的主库
+
+> 需要注意**slave1对应的是master1**，**slave2对应的是master2**。
+
+<img src="./Mysql-Learning-Local.assets/image-20250422170806712.png" alt="image-20250422170806712" style="zoom:67%;" />
+
+A. 在 slave1(192.168.200.212)上执行
+
+```sql
+CHANGE MASTER TO MASTER_HOST='192.168.200.211', MASTER_USER='itcast',
+MASTER_PASSWORD='Root@123456', MASTER_LOG_FILE='binlog.000002',
+MASTER_LOG_POS=663;
+```
+
+B. 在 slave2(192.168.200.214)上执行
+
+```sql
+CHANGE MASTER TO MASTER_HOST='192.168.200.213', MASTER_USER='itcast',
+MASTER_PASSWORD='Root@123456', MASTER_LOG_FILE='binlog.000002',
+MASTER_LOG_POS=663;
+```
+
+C. 启动两台从库主从复制，查看从库状态
+
+```sql
+start slave;
+show slave status \G;
+```
+
+<img src="./Mysql-Learning-Local.assets/image-20250422170911279.png" alt="image-20250422170911279" style="zoom: 80%;" />
+
+
+
+##### 2). ==两台主库相互复制==
+
+<img src="./Mysql-Learning-Local.assets/image-20250422171002922.png" alt="image-20250422171002922" style="zoom:67%;" />
+
+```txt
+Master2 复制 Master1，Master1 复制 Master2。 
+```
+
+A. 在 Master1(192.168.200.211)上执行
+
+```sql
+CHANGE MASTER TO MASTER_HOST='192.168.200.213', MASTER_USER='itcast',
+MASTER_PASSWORD='Root@123456', MASTER_LOG_FILE='binlog.000002',
+MASTER_LOG_POS=663;
+```
+
+B. 在 Master2(192.168.200.213)上执行
+
+```sql
+CHANGE MASTER TO MASTER_HOST='192.168.200.211', MASTER_USER='itcast',
+MASTER_PASSWORD='Root@123456', MASTER_LOG_FILE='binlog.000002',
+MASTER_LOG_POS=663;
+```
+
+C. 启动两台从库主从复制，查看从库状态
+
+```sql
+start slave;
+show slave status \G;
+```
+
+
+
+经过上述的三步配置之后，双主双从的复制结构就已经搭建完成了。 接下来，我们可以来测试验证一下。
+
+
+
+### （4）测试
+
+分别在两台主库Master1、Master2上执行DDL、DML语句，查看涉及到的数据库服务器的数据同步情况。
+
+```sql
+create database db01;
+use db01;
+create table tb_user(
+    id int(11) not null primary key ,
+    name varchar(50) not null,
+    sex varchar(1)
+)engine=innodb default charset=utf8mb4;
+insert into tb_user(id,name,sex) values(1,'Tom','1');
+insert into tb_user(id,name,sex) values(2,'Trigger','0');
+insert into tb_user(id,name,sex) values(3,'Dawn','1');
+insert into tb_user(id,name,sex) values(4,'Jack Ma','1');
+insert into tb_user(id,name,sex) values(5,'Coco','0');
+insert into tb_user(id,name,sex) values(6,'Jerry','1');
+```
+
+- 在Master1中执行DML、DDL操作，看看数据是否可以同步到另外的三台数据库中。
+- 在Master2中执行DML、DDL操作，看看数据是否可以同步到另外的三台数据库中。
+
+完成了上述双主双从的结构搭建之后，接下来，我们再来看看如何完成这种**双主双从的读写分离**。
+
+
+
+## 4.5 双主双从==读写分离==
+
+### （1）配置
+
+MyCat控制后台数据库的读写分离和负载均衡由schema.xml文件datahost标签的balance属性控制，通过writeType及switchType来完成失败自动切换的。
+
+#### ①schema.xml
+
+![image-20250422171917666](./Mysql-Learning-Local.assets/image-20250422171917666.png)
+
+配置逻辑库：
+
+```xml
+<schema name="ITCAST_RW2" checkSQLschema="true" sqlMaxLimit="100" dataNode="dn7">
+</schema>
+```
+
+配置数据节点：
+
+```xml
+<dataNode name="dn7" dataHost="dhost7" database="db01" />
+```
+
+配置节点主机：
+
+```xml
+<dataHost name="dhost7" maxCon="1000" minCon="10" balance="1" writeType="0"
+          dbType="mysql" dbDriver="jdbc" switchType="1" slaveThreshold="100">
+    <heartbeat>select user()</heartbeat>
+    <writeHost host="master1" url="jdbc:mysql://192.168.200.211:3306?  useSSL=false&amp;serverTimezone=Asia/Shanghai&amp;characterEncoding=utf8"
+               user="root" password="1234" >
+        <readHost host="slave1" url="jdbc:mysql://192.168.200.212:3306?useSSL=false&amp;serverTimezone=Asia/Shanghai&amp;characterEncoding=utf8"
+                  user="root" password="1234" />
+    </writeHost>
+    <writeHost host="master2" url="jdbc:mysql://192.168.200.213:3306?useSSL=false&amp;serverTimezone=Asia/Shanghai&amp;characterEncoding=utf8"
+               user="root" password="1234" >
+        <readHost host="slave2" url="jdbc:mysql://192.168.200.214:3306?useSSL=false&amp;serverTimezone=Asia/Shanghai&amp;characterEncoding=utf8"
+                  user="root" password="1234" />
+    </writeHost>
+</dataHost>
+```
+
+具体的对应情况如下：
+
+![image-20250422171413578](./Mysql-Learning-Local.assets/image-20250422171413578.png)
+
+属性说明：
+
+![image-20250422171839245](./Mysql-Learning-Local.assets/image-20250422171839245.png)
+
+> **balance="1"**
+>
+> 代表全部的 readHost 与 stand by writeHost 参与 select 语句的负载均衡，简单的说，**当双主双从模式(M1->S1，M2->S2，并且 M1 与 M2 互为主备)，正常情况下，M2,S1,S2 都参与 select 语句的负载均衡** 	
+>
+> **writeType**
+>
+> ​	0 : 写操作都转发到第1台writeHost, writeHost1挂了, 会切换到writeHost2上;
+>
+> ​	1 : 所有的写操作都随机地发送到配置的writeHost上 ;
+>
+> **switchType**
+>
+> ​	-1 : 不自动切换
+>
+> ​	1 : 自动切换，当第1台writeHost宕机后，会不会自动切换到writeHost2上
+
+
+
+
+
+#### ②server.xml
+
+配置root用户也可以访问到**逻辑库 ITCAST_RW2**。
+
+```xml
+<user name="root" defaultAccount="true">
+    <property name="password">123456</property>
+    <property name="schemas">SHOPPING,ITCAST,ITCAST_RW2</property>
+    <!-- 表级 DML 权限设置 -->
+    <!--
+		<privileges check="true">
+		<schema name="DB01" dml="0110" >
+		<table name="TB_ORDER" dml="1110"></table>
+		</schema>
+		</privileges>
+	-->
+</user>
+```
+
+
+
+
+
+### （2）测试
+
+登录MyCat，测试查询及更新操作，判定是否能够进行读写分离，以及读写分离的策略是否正确。
+
+**当主库挂掉一个之后，是否能够自动切换**。
+
+
+
+## 4.6 小结
+
+![image-20250422172432219](./Mysql-Learning-Local.assets/image-20250422172432219.png)
 
