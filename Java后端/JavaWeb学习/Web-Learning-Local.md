@@ -2783,7 +2783,7 @@ spring.servlet.multipart.max-request-size=100MB
 #阿里云OSS配置
 aliyun.oss.endpoint = https://oss-cn-chengdu.aliyuncs.com
 aliyun.oss.accessKeyId = xxx
-aliyun.oss.accessKeySecret = 4kr7BLZBAopplxYS4lnXux6Kt6surm
+aliyun.oss.accessKeySecret = xxx
 aliyun.oss.bucketName = springboot-web-tlias-test1
 
 ```
@@ -2816,7 +2816,7 @@ public class AliOSSUtils {
     String endpoint = "https://oss-cn-chengdu.aliyuncs.com";
     // 阿里云账号AccessKey拥有所有API的访问权限，风险很高。强烈建议您创建并使用RAM用户进行API访问或日常运维，请登录RAM控制台创建RAM用户。
     String accessKeyId = "xx";
-    String accessKeySecret = "4kr7BLZBAopplxYS4lnXux6Kt6surm";
+    String accessKeySecret = "xxx";
     // 填写Bucket名称，例如examplebucket。
     String bucketName = "springboot-web-tlias-test1";*/
 
@@ -2972,8 +2972,8 @@ mybatis:
 aliyun:
   oss:
     endpoint: https://oss-cn-hangzhou.aliyuncs.com
-    accessKeyId: LTAI4GCH1vX6DKqJWxd6nEuW
-    accessKeySecret: yBshYweHOpqDuhCArrVHwIiBKpyqSL
+    accessKeyId: xxx
+    accessKeySecret: xxx
     bucketName: web-tlias
 
 ```
@@ -3035,7 +3035,7 @@ public class AliOSSUtils {
     String endpoint = "https://oss-cn-chengdu.aliyuncs.com";
     // 阿里云账号AccessKey拥有所有API的访问权限，风险很高。强烈建议您创建并使用RAM用户进行API访问或日常运维，请登录RAM控制台创建RAM用户。
     String accessKeyId = "xxx";
-    String accessKeySecret = "4kr7BLZBAopplxYS4lnXux6Kt6surm";
+    String accessKeySecret = "xxx";
     // 填写Bucket名称，例如examplebucket。
     String bucketName = "springboot-web-tlias-test1";*/
 
@@ -6597,8 +6597,8 @@ public class HeaderConfig {
 aliyun:
   oss:
     endpoint: https://oss-cn-hangzhou.aliyuncs.com
-    accessKeyId: LTAI4GCH1vX6DKqJWxd6nEuW
-    accessKeySecret: yBshYweHOpqDuhCArrVHwIiBKpyqSL
+    accessKeyId: xx
+    accessKeySecret: xxx
     bucketName: web-tlias
 ```
 
@@ -6633,7 +6633,7 @@ public class AliOSSUtils {
     String endpoint = "https://oss-cn-chengdu.aliyuncs.com";
     // 阿里云账号AccessKey拥有所有API的访问权限，风险很高。强烈建议您创建并使用RAM用户进行API访问或日常运维，请登录RAM控制台创建RAM用户。
     String accessKeyId = "xxx";
-    String accessKeySecret = "4kr7BLZBAopplxYS4lnXux6Kt6surm";
+    String accessKeySecret = "xxx";
     // 填写Bucket名称，例如examplebucket。
     String bucketName = "springboot-web-tlias-test1";*/
 
