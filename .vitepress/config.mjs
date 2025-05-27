@@ -332,7 +332,7 @@ export default defineConfig({
         text: `${iconMap.database}数据库学习`,
         collapsed: true, // true默认折叠,false:展开
         items: [{
-          text: `${iconMap.mysql} Mysql学习`,
+          text: `${iconMap.mysql} Mysql学习-汇总`,
           link: '/数据库学习/Mysql/Mysql-Learning-Local.md'
         }, {
           text: `${iconMap.mysql} Mysql学习-基础篇`,
