@@ -329,11 +329,20 @@ export default defineConfig({
         }]
       },
       {
-        text: '数据库学习',
+        text: `${iconMap.database}数据库学习`,
         collapsed: true, // true默认折叠,false:展开
         items: [{
           text: `${iconMap.mysql} Mysql学习`,
           link: '/数据库学习/Mysql/Mysql-Learning-Local.md'
+        }, {
+          text: `${iconMap.mysql} Mysql学习-基础篇`,
+          link: '/数据库学习/Mysql/Mysql-Learning-基础篇.md'
+        }, {
+          text: `${iconMap.mysql} Mysql学习-高级篇`,
+          link: '/数据库学习/Mysql/Mysql-Learning-高级篇.md'
+        }, {
+          text: `${iconMap.mysql} Mysql学习-运维篇`,
+          link: '/数据库学习/Mysql/Mysql-Learning-运维篇.md'
         }, {
           text: `${iconMap.middleware} 中间件学习`,
           collapsed: true, // true默认折叠,false:展开
