@@ -159,6 +159,10 @@ export default defineConfig({
         link: 'https://wordpress.xiaopeng.online/碎碎念/'
       },
       {
+        text: `${iconMap.java_doc} 八股`,
+        link: 'https://heuqqdmbyk.feishu.cn/wiki/RymLwLLWfieibHkjf17cKhY4nlf'
+      },
+      {
         text: `${iconMap.tools} 工具`,
         items: [{
             text: `${iconMap.tool_snipaste} 电脑截屏工具Snipaste`,
