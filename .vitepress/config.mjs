@@ -15,6 +15,13 @@ import {
   iconMap
 } from './theme/utils/iconMap.ts'
 
+import { loadEnv } from 'vite'
+
+// 加载环境变量
+const env = loadEnv('', process.cwd(), '')
+process.env = { ...process.env, ...env }
+
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // 语言
@@ -32,6 +39,10 @@ export default defineConfig({
 
   lastUpdated: true, //首次配置不会立即生效，需git提交后爬取时间戳
 
+
+  define: {
+    'import.meta.env.VITE_SITE_PASSWORD': JSON.stringify(process.env.VITE_SITE_PASSWORD)
+  },
 
   // vite: {
   //   vue: {

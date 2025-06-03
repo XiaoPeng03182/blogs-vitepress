@@ -14,7 +14,9 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
+    "@types/bcryptjs": "^3.0.0",
     "@vitejs/plugin-vue": "^5.2.3",
+    "bcryptjs": "^3.0.2",
     "medium-zoom": "^1.1.0",
     "nprogress-v2": "^1.1.10"
   }
