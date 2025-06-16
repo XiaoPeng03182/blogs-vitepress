@@ -15,11 +15,16 @@ import {
   iconMap
 } from './theme/utils/iconMap.ts'
 
-import { loadEnv } from 'vite'
+import {
+  loadEnv
+} from 'vite'
 
 // 加载环境变量
 const env = loadEnv('', process.cwd(), '')
-process.env = { ...process.env, ...env }
+process.env = {
+  ...process.env,
+  ...env
+}
 
 
 // https://vitepress.dev/reference/site-config
@@ -160,7 +165,15 @@ export default defineConfig({
       },
       {
         text: `${iconMap.java_doc} 八股`,
-        link: 'https://heuqqdmbyk.feishu.cn/wiki/RymLwLLWfieibHkjf17cKhY4nlf'
+        items: [{
+            text: `${iconMap.java_doc} 黑马八股`,
+            link: 'https://heuqqdmbyk.feishu.cn/wiki/RymLwLLWfieibHkjf17cKhY4nlf'
+          },
+          {
+            text: `${iconMap.coding} 小林Coding`,
+            link: 'https://xiaolincoding.com/'
+          },
+        ]
       },
       {
         text: `${iconMap.tools} 工具`,
