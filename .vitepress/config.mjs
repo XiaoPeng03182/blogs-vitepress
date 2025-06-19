@@ -178,6 +178,9 @@ export default defineConfig({
       {
         text: `${iconMap.tools} 工具`,
         items: [{
+            text: `${iconMap.guide_web} 导航网站`,
+            link: 'https://dnkh.mwks77.cn/'
+          }, {
             text: `${iconMap.tool_snipaste} 电脑截屏工具Snipaste`,
             link: 'https://wwsd.lanzouw.com/iupCX2tlx0ta'
           },
