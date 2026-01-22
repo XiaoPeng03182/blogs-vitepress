@@ -55,13 +55,13 @@ export default {
 
 
   //添加自定义布局组件
-  Layout: () => {
-    return h(MyLayout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
-      'aside-outline-before': () => h(TocAutoScroll)
-    })
-    // return h(MyLayout) 
-  },
+  // Layout: () => {
+  //   return h(MyLayout, null, {
+  //     // https://vitepress.dev/guide/extending-default-theme#layout-slots
+  //     'aside-outline-before': () => h(TocAutoScroll)
+  //   })
+  //   // return h(MyLayout) 
+  // },
 
   setup() {
     const route = useRoute()
